@@ -168,7 +168,7 @@ doi:10.1007/s40806-016-0048-6 .
  
 [18.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcwNTllNDMwZGNlMTM4NDk) Herberich, E., Hothorn, T., Nettle, D. & **Pollet, T.V.** (2010), A re-evaluation of the model selection procedure in Pollet & Nettle (2009). _Evolution and Human Behavior, 31,_ 150-151.
 
-##**2009**
+## **2009**
 
 [17.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjI4OGFlYjZkMjJiMjk5OQ) Buunk, A.P., **Pollet, T.V.,** Klavina, L., Figueredo, A.J. & Dijkstra, P. (2009), Height is curvilinearly related to women’s life history strategies. _Evolutionary Psychology, 7,_ 545-559. open access
 
