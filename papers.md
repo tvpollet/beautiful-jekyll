@@ -20,20 +20,20 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [83.](http://www.sciencedirect.com/science/article/pii/S0003347217300362 ) McFarland, R., Murphy, D., Lusseau, D., Henzi, S.P., Parker, J.L., **Pollet, T.V.** & Barrett, L. (2017), The "strength of weak ties" among female baboons: fitness-related benefits of social bonds. _Animal Behaviour, 126,_ 101-106.
 
-[82](http://onlinelibrary.wiley.com/doi/10.1002/ajhb.22917/abstract#) Stulp, G., Simons, M.J.P., Grasman, S. & **Pollet, T.V.** (2017), Assortative mating for human height: a meta-analysis. _American Journal of Human Biology, 29,_ e22917
+[82.](http://onlinelibrary.wiley.com/doi/10.1002/ajhb.22917/abstract#) Stulp, G., Simons, M.J.P., Grasman, S. & **Pollet, T.V.** (2017), Assortative mating for human height: a meta-analysis. _American Journal of Human Biology, 29,_ e22917
 
-[81](https://link.springer.com/article/10.1007/s40750-016-0050-z?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst) **Pollet, T.V.** & van der Meij L. (2017), To remove or not to remove: the impact of outlier handling on significance testing in testosterone data. _Adaptive Human Behavior and Physiology, 3,_ 43-60.
+[81.](https://link.springer.com/article/10.1007/s40750-016-0050-z?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst) **Pollet, T.V.** & van der Meij L. (2017), To remove or not to remove: the impact of outlier handling on significance testing in testosterone data. _Adaptive Human Behavior and Physiology, 3,_ 43-60.
 
 ## **2016**
 
 
 [80.]( http://journals.sagepub.com/doi/full/10.1177/1474704916673841) Peperkoorn, L.S., Roberts, S.C. & **Pollet, T.V.** (2016), Revisiting the Red Effect on Attractiveness and Sexual Receptivity: No Effect of the Color Red on Human Mate Preferences. _Evolutionary Psychology, 14,_  doi:10.1177/1474704916673841
 
-[79](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjRjYWIzZTNiN2RmMzNjZTc) Morina, N., Koerssen, R. & **Pollet, T.V.** (2016), Interventions for children and adolescents with posttraumatic stress disorder: a meta-analysis of comparative outcome studies. _Clinical Psychology Review, 47,_ 41-54.
+[79.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjRjYWIzZTNiN2RmMzNjZTc) Morina, N., Koerssen, R. & **Pollet, T.V.** (2016), Interventions for children and adolescents with posttraumatic stress disorder: a meta-analysis of comparative outcome studies. _Clinical Psychology Review, 47,_ 41-54.
 
-[78](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjM5MDliNGJjYzRmNGNmZDY) Molho, C., Roberts, S.G.B., de Vries, R.E. & **Pollet, T.V.**  (2016), The Six Dimensions of Personality (HEXACO) and their Association with Network Layer Size and Emotional Closeness to Network Members. _Personality and Individual Differences, 99,_ 144-148.
+[78.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjM5MDliNGJjYzRmNGNmZDY) Molho, C., Roberts, S.G.B., de Vries, R.E. & **Pollet, T.V.**  (2016), The Six Dimensions of Personality (HEXACO) and their Association with Network Layer Size and Emotional Closeness to Network Members. _Personality and Individual Differences, 99,_ 144-148.
 
-[77](https://www.researchgate.net/publication/300425911_Evolution_situational_affordances_and_the_HEXACO_model_of_personality) de Vries, R.E., Tybur, J.M., **Pollet, T.V.** & van Vugt, M. (2016), Evolution, Situational Affordances, and the HEXACO Model of Personality. _Evolution and Human Behavior. 37,_ 407-421. doi: 10.1016/j.evolhumbehav.2016.04.001
+[77.](https://www.researchgate.net/publication/300425911_Evolution_situational_affordances_and_the_HEXACO_model_of_personality) de Vries, R.E., Tybur, J.M., **Pollet, T.V.** & van Vugt, M. (2016), Evolution, Situational Affordances, and the HEXACO Model of Personality. _Evolution and Human Behavior. 37,_ 407-421. doi: 10.1016/j.evolhumbehav.2016.04.001
 
 [76.](http://journals.sagepub.com/doi/full/10.1177/1474704916640780) Manesi, Z., van Lange, P.A.M. & **Pollet, T.V.** (2016), Eyes Wide Open: Only Eyes That Pay Attention Promote Prosocial Behavior. _Evolutionary Psychology, 14,_ doi: 10.1177/1474704916640780.
 
@@ -210,11 +210,11 @@ doi:10.1007/s40806-016-0048-6 .
  
 # **Book chapters**
  
-3.Buunk, A.P., Massar, K., **Pollet, T.V.** & Dijkstra, P. (2011), Intrasexual competition within organizations. In: Saad, G. (ed.). _Evolutionary Psychology in the Business Sciences_ (pp. 41-70). New York: Springer.
+3. Buunk, A.P., Massar, K., **Pollet, T.V.** & Dijkstra, P. (2011), Intrasexual competition within organizations. In: Saad, G. (ed.). _Evolutionary Psychology in the Business Sciences_ (pp. 41-70). New York: Springer.
  
-2.**Pollet, T.V.** & Hoben A.D. (2011), An evolutionary perspective on siblings: rivals and resources. In: Salmon C.A. & Shackelford T. K. (eds.). _Handbook of Evolutionary Family Psychology (pp. 128-148)._ Oxford: Oxford University Press.
+2. **Pollet, T.V.** & Hoben A.D. (2011), An evolutionary perspective on siblings: rivals and resources. In: Salmon C.A. & Shackelford T. K. (eds.). _Handbook of Evolutionary Family Psychology (pp. 128-148)._ Oxford: Oxford University Press.
  
-1.Buunk, A.P., & **Pollet, T.V.** (2009), Evolutionaire Sociale Psychologie. In Tiemeyer, W., Thomas, C.A. & Prast, H. (Eds.). _De menselijke beslisser: over de psychologie van keuze en gedrag (pp. 239-267)._ Amsterdam: Amsterdam University Press.
+1. Buunk, A.P., & **Pollet, T.V.** (2009), Evolutionaire Sociale Psychologie. In Tiemeyer, W., Thomas, C.A. & Prast, H. (Eds.). _De menselijke beslisser: over de psychologie van keuze en gedrag (pp. 239-267)._ Amsterdam: Amsterdam University Press.
 
 
 
