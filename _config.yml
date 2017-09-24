@@ -32,9 +32,9 @@ description: This is my personal website.
 navbar-links:
   About Me: "aboutme"
   Academic work:
-    - Papers: "https://sites.google.com/site/thomasvpollet/home/papers"
     - Presentations: "http://prezi.com/user/tvpollet/"
     - Papers List: "example-papers-website"
+    - PY0782: "PY0782.md"
   Author's home: "https://sites.google.com/site/thomasvpollet/"
   Disclaimer: "https://sites.google.com/site/thomasvpollet/disclaimer"
 
