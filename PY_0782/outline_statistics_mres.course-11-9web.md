@@ -97,7 +97,7 @@ Similarly, I will not cover other software packages (e.g., MLWin, Gephi, JASP) b
 
 I typically reply within max. 2 business days (unless you receive an out of office).
 
-##Resources.
+## Resources.
 Check the [RStudio website](https://www.rstudio.com/). 
 
 I have compiled a (non-definitive) [reading list](http://readinglists.northumbria.ac.uk/lists/02F41246-E258-26ED-8B9C-963FD7A06F7D.html)
