@@ -15,7 +15,7 @@ Dr. Thomas Pollet obtained his Ph.D. at Newcastle University (UK). He has since 
 
 ### Collaborators.
 
-No man is an island. Honestly, I would not have made it were it not for my great colleagues.
+No man is an island. Honestly, I would not have made it this far were it not for my great colleagues.
 
 Here are some people I have collaborated / am collaborating with (links to be added soon)
 
