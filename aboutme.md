@@ -9,13 +9,13 @@ I am Dr. Thomas Pollet.
 
 I rock a great beard. What else do you **really** need?
 
-### my short bio.
+### my short (academic) bio.
 
 Dr. Thomas Pollet obtained his Ph.D. at Newcastle University (UK). He has since worked as Assistant professor at the University of Groningen (the Netherlands) in the department of Evolutionary Social Psychology where he taught several courses on evolution and human behavior. He was also employed as Assistant Professor at the VU University Amsterdam (Social and Organizational Psychology) where he carried out teaching and research using an evolutionary framework. From November 2016 to July 2017 he worked for Universiteit Leiden. In July 2017, he took up a post as Associate Professor (Reader) with Northumbria University.
 
 ### Collaborators.
 
-No man is an island.
+No man is an island. Honestly, I would not have made it were it not for my great colleagues.
 
 Here are some people I have collaborated / am collaborating with (links to be added soon)
 
