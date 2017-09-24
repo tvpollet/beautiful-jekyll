@@ -12,7 +12,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 ## **2017/Accepted/in Press**
 
 
-[86.](http://rstb.royalsocietypublishing.org/content/372/1729/20160317) **Pollet, T.V.,** Stoevenbelt, A.H., & Kuppens, T. (2017), The potential pitfalls of studying adult sex ratios at aggregate levels in humans. *Philosophical Transactions of the Royal Society B, 372* 20160317.
+[86.](http://rstb.royalsocietypublishing.org/content/372/1729/20160317) **Pollet, T.V.,** Stoevenbelt, A.H., & Kuppens, T. (2017), The potential pitfalls of studying adult sex ratios at aggregate levels in humans. *Philosophical Transactions of the Royal Society B, 372,* 20160317.
 
 [85.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2017.56/176) Manesi, Z. & **Pollet, T.V.** (2017), No Support for the Watching Eyes Effect Across Three “Lost Letter” Field Experiments. _Letters on Evolutionary Behavioral Science, 8,_ 12-15. [open access](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2017.56/176) 
 
@@ -46,7 +46,7 @@ doi:10.1007/s40806-016-0048-6 .
 
 [73.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2015.39/133) Demetriou, A.M. & **Pollet T.V.** (2015), Age differences between U.S. Politicians and Their Spouses: Similar to the Super Rich or more like your average Joe? _Letters on Evolutionary Behavioral Science, 6,_ 29-32.
 
-[72.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141433) Manesi, Z., van Lange, P.A.M. & **Pollet, T.V.** (2015), The Potential Role of Eyespots for Aesthetic Preferences and Conservation Attitudes towards Butterflies. _PLoS ONE, 10,_e0141433.
+[72.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141433) Manesi, Z., van Lange, P.A.M. & **Pollet, T.V.** (2015), The Potential Role of Eyespots for Aesthetic Preferences and Conservation Attitudes towards Butterflies. _PLoS ONE, 10,_ e0141433.
 
 [71.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.01169/full) **Pollet, T.V.** (2015), Grounding the data. A response to: Population finiteness is not a concern for null hypothesis significance testing when studying human behavior. _Frontiers in Psychology, 6,_ 1169.
 
