@@ -12,7 +12,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 ## **2017/Accepted/in Press**
 
 
-[86.]( ) **Pollet, T.V.,** Stoevenbelt, A.H., & Kuppens, T. (accepted), The potential pitfalls of studying adult sex ratios at aggregate levels in humans. Philosophical Transactions of the Royal Society B.
+[86.](http://rstb.royalsocietypublishing.org/content/372/1729/20160317) **Pollet, T.V.,** Stoevenbelt, A.H., & Kuppens, T. (2017), The potential pitfalls of studying adult sex ratios at aggregate levels in humans. *Philosophical Transactions of the Royal Society B, 372* 20160317.
 
 [85.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2017.56/176) Manesi, Z. & **Pollet, T.V.** (2017), No Support for the Watching Eyes Effect Across Three “Lost Letter” Field Experiments. _Letters on Evolutionary Behavioral Science, 8,_ 12-15. [open access](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2017.56/176) 
 
