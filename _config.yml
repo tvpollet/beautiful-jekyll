@@ -36,7 +36,7 @@ navbar-links:
     - Papers List: "example-papers-website"
     - PY0782: "PY0782"
   Author's home: "https://sites.google.com/site/thomasvpollet/"
-  Disclaimer: "https://sites.google.com/site/thomasvpollet/disclaimer"
+  Disclaimer: "disclaimer"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
