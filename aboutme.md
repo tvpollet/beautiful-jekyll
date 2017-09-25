@@ -5,7 +5,7 @@ subtitle: barba tenus sapientes
 published: true
 ---
 
-I am Dr. Thomas Pollet.
+I am Dr. Thomas Pollet. Occasionally, I'll include my middle initial V. to differentiate from other Thomas Pollet's (e.g., [this one](https://www.linkedin.com/in/thomaspollet/?ppe=1))
 
 I rock a great beard. What else do you **really** need?
 
