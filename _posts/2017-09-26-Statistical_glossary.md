@@ -2,7 +2,7 @@
 layout: post
 title:  PY0782
 image: /img/yay-statistics.gif
-  credit: giphy.com
+             credit: giphy.com
 tags:
   - teaching
   - exciting-stuff
