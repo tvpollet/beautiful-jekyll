@@ -42,31 +42,31 @@ doi:10.1007/s40806-016-0048-6 .
 
 [74.](http://www.sciencedirect.com/science/article/pii/S0747563216300097) Noë, N., Whitaker, R.M., Chorley, M.J. & **Pollet, T.V.** (2016), Birds of a Feather Locate Together? Foursquare Checkins and Personality Homophily. _Computers in Human Behavior, 58,_ 343-353.
 
+[73.](http://tvpollet.github.io/pdfs/tifferet2016.pdf) Tifferet, S., **Pollet, T.V.,** Bar, A & Efrati, H. (in press), Predicting Sibling Investment by Perceived Sibling Resemblance. _Evolutionary Behavioral Sciences.,10,_ 64-70. 
+
 ## **2015** 
 
-[73.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2015.39/133) Demetriou, A.M. & **Pollet T.V.** (2015), Age differences between U.S. Politicians and Their Spouses: Similar to the Super Rich or more like your average Joe? _Letters on Evolutionary Behavioral Science, 6,_ 29-32.
+[72.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2015.39/133) Demetriou, A.M. & **Pollet T.V.** (2015), Age differences between U.S. Politicians and Their Spouses: Similar to the Super Rich or more like your average Joe? _Letters on Evolutionary Behavioral Science, 6,_ 29-32.
 
-[72.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141433) Manesi, Z., van Lange, P.A.M. & **Pollet, T.V.** (2015), The Potential Role of Eyespots for Aesthetic Preferences and Conservation Attitudes towards Butterflies. _PLoS ONE, 10,_ e0141433.
+[71.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141433) Manesi, Z., van Lange, P.A.M. & **Pollet, T.V.** (2015), The Potential Role of Eyespots for Aesthetic Preferences and Conservation Attitudes towards Butterflies. _PLoS ONE, 10,_ e0141433.
 
-[71.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.01169/full) **Pollet, T.V.** (2015), Grounding the data. A response to: Population finiteness is not a concern for null hypothesis significance testing when studying human behavior. _Frontiers in Psychology, 6,_ 1169.
+[70.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.01169/full) **Pollet, T.V.** (2015), Grounding the data. A response to: Population finiteness is not a concern for null hypothesis significance testing when studying human behavior. _Frontiers in Psychology, 6,_ 1169.
 
-[70.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.01047/full)  Barrett, L., Stulp, G. & **Pollet, T.V.** (2015), Evolved Biocultural Beings (who Invented Computers). _Frontiers in Psychology, 6,_ 1047.
+[69.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.01047/full)  Barrett, L., Stulp, G. & **Pollet, T.V.** (2015), Evolved Biocultural Beings (who Invented Computers). _Frontiers in Psychology, 6,_ 1047.
 
-[69.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjQ2Yzc5MmUxOTBkNzM4MjU) Kuppens, T. & **Pollet, T.V.** (2015), Gender Equality Probably Does Not Affect Performance at the Olympic Games: A Comment on Berdahl, Uhlmann, and Bai (2015). _Journal of Experimental Social Psychology, 61,_ 144-147.  [additional comments](https://drive.google.com/file/d/0B0LnnuCPhsQwWkV4ZFdJd3lLd0U/view) and [additional analyses](https://drive.google.com/file/d/0Bw-5pwTzGZ7ZT2g0YWg0Z1dDVUE/view?usp=sharing)
+[68.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjQ2Yzc5MmUxOTBkNzM4MjU) Kuppens, T. & **Pollet, T.V.** (2015), Gender Equality Probably Does Not Affect Performance at the Olympic Games: A Comment on Berdahl, Uhlmann, and Bai (2015). _Journal of Experimental Social Psychology, 61,_ 144-147.  [additional comments](https://drive.google.com/file/d/0B0LnnuCPhsQwWkV4ZFdJd3lLd0U/view) and [additional analyses](https://drive.google.com/file/d/0Bw-5pwTzGZ7ZT2g0YWg0Z1dDVUE/view?usp=sharing)
 
-[68.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjdlNDY2ZTViYmUxYmE3NTg) Conway, J.R.*, Noë, N.*, Stulp, G. & **Pollet, T.V.** (2015), Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. _Personal Relationships, 22,_ 666-678. (*Authors contributed equally) 
+[67.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjdlNDY2ZTViYmUxYmE3NTg) Conway, J.R.*, Noë, N.*, Stulp, G. & **Pollet, T.V.** (2015), Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. _Personal Relationships, 22,_ 666-678. (*Authors contributed equally) 
 
-[67.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00419/full) Stulp, G., **Pollet, T.V.** & Barrett, L. (2015),  The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. _Frontiers in Psychology, 6,_ 419.
+[66.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00419/full) Stulp, G., **Pollet, T.V.** & Barrett, L. (2015),  The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. _Frontiers in Psychology, 6,_ 419.
 
-[66.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjZiYTlhZDg1YTZhNzU0OWY) **Pollet, T.V.,** Stulp, G., Henzi, S.P. & Barrett, L., (2015), Taking the aggravation out of data aggregation: a conceptual guide to dealing with statistical issues related to the pooling of individual-level observational data. _American Journal of Primatology, 77,_ 727-740. 
+[65.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjZiYTlhZDg1YTZhNzU0OWY) **Pollet, T.V.,** Stulp, G., Henzi, S.P. & Barrett, L., (2015), Taking the aggravation out of data aggregation: a conceptual guide to dealing with statistical issues related to the pooling of individual-level observational data. _American Journal of Primatology, 77,_ 727-740. 
 
-[65.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117860) Stulp, G., Buunk, A.P., Verhulst, S. & **Pollet, T.V.** (2015), Height Is Positively Related to Interpersonal Dominance in Dyadic Interactions. _PLoS ONE, 10,_ e0117860.
+[64.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117860) Stulp, G., Buunk, A.P., Verhulst, S. & **Pollet, T.V.** (2015), Height Is Positively Related to Interpersonal Dominance in Dyadic Interactions. _PLoS ONE, 10,_ e0117860.
 
-[64.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMyNGU5ZmExOGQ2MDc1Y2M) Van Toorenburg, M., Oostrom, J.K. & **Pollet, T.V.** (2015), What a Difference Your Email Makes: Effects of Informal E-mail Addresses in Online Résumé Screening. _Cyberpsychology, Behavior and Social Networking, 18,_ 135-140.
+[63.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMyNGU5ZmExOGQ2MDc1Y2M) Van Toorenburg, M., Oostrom, J.K. & **Pollet, T.V.** (2015), What a Difference Your Email Makes: Effects of Informal E-mail Addresses in Online Résumé Screening. _Cyberpsychology, Behavior and Social Networking, 18,_ 135-140.
 
-[63.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjQxMjBjZjZjN2Y5NjFjNjI) Van Prooijen, J-W., Krouwel, A.P.M. & **Pollet, T.V.** (2015), Political Extremism Predicts Belief in Conspiracy Theories. _Social Psychological and Personality Science, 6,_ 570-578.
-
-[62.](/pdfs/tifferet2016.pdf) Tifferet, S., **Pollet, T.V.,** Bar, A & Efrati, H. (in press), Predicting Sibling Investment by Perceived Sibling Resemblance. _Evolutionary Behavioral Sciences._ doi:10.1037/ebs0000035
+[62.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjQxMjBjZjZjN2Y5NjFjNjI) Van Prooijen, J-W., Krouwel, A.P.M. & **Pollet, T.V.** (2015), Political Extremism Predicts Belief in Conspiracy Theories. _Social Psychological and Personality Science, 6,_ 570-578.
 
 ## **2014**
 
