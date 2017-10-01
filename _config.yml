@@ -31,12 +31,13 @@ description: This is my personal website.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Academic work:
+  Research:
     - Presentations: "http://prezi.com/user/tvpollet/"
     - Papers List: "papers"
+    - Open Science Framework: "https://osf.io/v6cn3/"
+  Teaching:
     - PY0782: "PY0782"
     - Open Science Framework: "https://osf.io/v6cn3/"
-  Author's home: "https://sites.google.com/site/thomasvpollet/"
   Disclaimer: "disclaimer"
 
 # Image to show in the navigation bar - image must be a square (width = height)
