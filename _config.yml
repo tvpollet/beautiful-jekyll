@@ -36,6 +36,7 @@ navbar-links:
     - Papers List: "papers"
     - Open Science Framework: "https://osf.io/v6cn3/"
   Teaching:
+    - Courses taught: "courses_taught" 
     - PY0782: "PY0782"
     - Open Science Framework: "https://osf.io/v6cn3/"
   Disclaimer: "disclaimer"
