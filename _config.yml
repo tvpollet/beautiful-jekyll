@@ -30,13 +30,15 @@ description: This is my personal website.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me:
+    - Short bio: "aboutme"
+    - Contact: "contact"
   Research:
     - Presentations: "http://prezi.com/user/tvpollet/"
     - Papers List: "papers"
     - Open Science Framework: "https://osf.io/v6cn3/"
   Teaching:
-    - Courses taught: "courses_taught" 
+    - Courses taught: "courses_taught"
     - PY0782: "PY0782"
     - Open Science Framework: "https://osf.io/v6cn3/"
   Disclaimer: "disclaimer"
