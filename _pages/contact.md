@@ -5,12 +5,18 @@ subtitle: verba volant, scripta manent
 published: true
 ---
 
+### E-mail
+
 You can reach me via [email](mailto:thomas.pollet@northumbria.ac.uk)
 
 ---
+### Twitter
+
 Twitter: @tvpollet
 
 ---
+### Physical address
+
 Address:
 
 Dr. Thomas V. Pollet
