@@ -7,7 +7,9 @@ published: true
 
 I am Dr. Thomas Pollet. Occasionally, I'll include my middle initial V. to differentiate from other Thomas Pollet's (e.g., [this one](https://www.linkedin.com/in/thomaspollet/?ppe=1))
 
-I rock a great beard. What else do you **really** need? What else I am up to, you can find out on this site or on twitter <a href="https://twitter.com/tvpollet?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tvpollet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+I rock a great beard. What else do you **really** need to know? 
+
+Apart from beard related stuff you can find out more about me on this site or on twitter <a href="https://twitter.com/tvpollet?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tvpollet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### my short (academic) bio.
 
