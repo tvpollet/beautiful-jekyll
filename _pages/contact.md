@@ -12,7 +12,7 @@ You can reach me via [email](mailto:thomas.pollet@northumbria.ac.uk)
 ---
 ### Twitter
 
-Twitter: @tvpollet
+Twitter: [@tvpollet](https://twitter.com/tvpollet)  <a href="https://twitter.com/tvpollet?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @tvpollet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 ### Physical address
