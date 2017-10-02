@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Courses Taught
-subtitle: List of courses.
+subtitle: multum in parvo 
 published: true
 ---
 
@@ -19,7 +19,7 @@ Here I provide a list of courses I have taught.
 
 - Evolution and Social Behavior (lecturer/coordinator,  Research Masters. in Psychology, 2012-2015)
 
-- Group Dynamics (lecturer, BSc. Psychology, year 3, 2014-2015).
+- Group Dynamics (lecturer, BSc. Psychology, year 3, 2014-2015)
 
 - Methods III in Psychology (co-coordinator, BSc. Psychology, year 3; 2014-2015).
 
@@ -43,5 +43,5 @@ Here I provide a list of courses I have taught.
 
 - Honours student projects and Traineeships.
 
+- Miscellaneous guest lectures for courses at all levels on statistical methods, leadership, behavioural biology, interpersonal communication.  You can find some sample lectures [here](https://prezi.com/user/tvpollet/).
 
-[disclaimer](tvpollet.github.io/disclaimer)
