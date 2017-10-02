@@ -1,7 +1,7 @@
 ---
 title: 'Lecture 2: PY 0782 - Advanced Quantitative Research Methods'
 author: "Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)"
-date: '`r format(Sys.Date())` | [disclaimer](http://sites.google.com/site/thomasvpollet/disclaimer)'
+date: '`r format(Sys.Date())` | [disclaimer](http://tvpollet.github.io/disclaimer)'
 output:
   ioslides_presentation: default
   widescreen: yes
