@@ -42,7 +42,7 @@ doi:10.1007/s40806-016-0048-6 .
 
 [74.](http://www.sciencedirect.com/science/article/pii/S0747563216300097) Noë, N., Whitaker, R.M., Chorley, M.J. & **Pollet, T.V.** (2016), Birds of a Feather Locate Together? Foursquare Checkins and Personality Homophily. _Computers in Human Behavior, 58,_ 343-353.
 
-[73.](http://tvpollet.github.io/pdfs/tifferet2016.pdf) Tifferet, S., **Pollet, T.V.,** Bar, A & Efrati, H. (in press), Predicting Sibling Investment by Perceived Sibling Resemblance. _Evolutionary Behavioral Sciences.,10,_ 64-70. 
+[73.](http://tvpollet.github.io/pdfs/tifferet2016.pdf) Tifferet, S., **Pollet, T.V.,** Bar, A & Efrati, H. (2016), Predicting Sibling Investment by Perceived Sibling Resemblance. _Evolutionary Behavioral Sciences., 10,_ 64-70. 
 
 ## **2015** 
 
