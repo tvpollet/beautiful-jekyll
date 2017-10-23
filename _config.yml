@@ -40,6 +40,7 @@ navbar-links:
   Teaching:
     - Courses taught: "courses_taught"
     - PY0782: "PY0782"
+    - Calendar: "calendar"
     - Open Science Framework: "https://osf.io/v6cn3/"
   Disclaimer: "disclaimer"
 
