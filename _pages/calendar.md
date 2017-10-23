@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Calendar of Availability
+subtitle: aut viam inveniam, aut faciam.
 permalink: /calendar/
 type: info
 header_text: Availability Calendar
