@@ -10,6 +10,6 @@ calendar: true
 <div class="span3">
 	<h3> Availability for thesis and other students. <br> Biweekly updated. <br> Check regularly as it might change, when I book in people.  <br> Slots are typically 30 mins. </h3>
 <div class="span9">
-	<iframe src="https://calendar.google.com/calendar/embed?src=3stv1olfiheb8gl4to58u4ocmg%40group.calendar.google.com&ctz=Europe/Amsterdam" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+	<iframe src="https://calendar.google.com/calendar/embed?src=3stv1olfiheb8gl4to58u4ocmg%40group.calendar.google.com&ctz=Europe/London" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 
