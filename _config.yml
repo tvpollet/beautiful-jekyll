@@ -33,6 +33,7 @@ navbar-links:
   About Me:
     - Short bio: "aboutme"
     - Contact: "contact"
+    - Twitter: "twitter"
   Research:
     - Presentations: "http://prezi.com/user/tvpollet/"
     - Papers List: "papers"
