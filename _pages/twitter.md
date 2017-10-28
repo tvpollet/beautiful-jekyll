@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Twitter
-subtitle: verba volant, scripta manent ?
+subtitle: verba volant, tweets manent ?
 published: true
 ---
 
