@@ -32,6 +32,7 @@ description: This is my personal website.
 navbar-links:
   About Me:
     - Short bio: "aboutme"
+    - CV: "http://tvpollet.github.io/CV.pdf"
     - Contact: "contact"
     - Twitter: "twitter"
   Research:
