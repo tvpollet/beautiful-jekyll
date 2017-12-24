@@ -11,7 +11,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2017/Accepted/in Press**
 
-[87.](http://plosone.org) Knapen, J.E.P, Blaker, N.M., & **Pollet, T.V.,**  (accepted),  Size, Skills, and Suffrage: Motivated Distortions in Perceived Formidability of Political Leaders. *PLoS ONE*
+[87.](https://doi.org/10.1371/journal.pone.0188485) Knapen, J.E.P, Blaker, N.M., & **Pollet, T.V.,**  (2017),  Size, Skills, and Suffrage: Motivated Distortions in Perceived Formidability of Political Leaders. *PLoS ONE 12(12)*, e0188485.
 
 [86.](http://tvpollet.github.io/pdfs/Pollet_Kuppens_Stoevenbelt_PTRSB.pdf) **Pollet, T.V.**, Stoevenbelt, A.H., & Kuppens, T. (2017), The potential pitfalls of studying adult sex ratios at aggregate levels in humans. *Philosophical Transactions of the Royal Society B, 372,* 20160317.
 
