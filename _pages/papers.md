@@ -9,11 +9,15 @@ published: true
 
 Click the number for the corresponding paper to download a copy (it will open in a new window), if available. You will need adobe acrobat reader to read these papers. These papers are for reference only i.e. personal, educational, non-commercial use (also see the disclaimer). 
 
-## **2017/Accepted/in Press**
+## **2018/Accepted/in Press**
 
-[87.](https://doi.org/10.1371/journal.pone.0188485) Knapen, J.E.P, Blaker, N.M., & **Pollet, T.V.,**  (2017),  Size, Skills, and Suffrage: Motivated Distortions in Perceived Formidability of Political Leaders. *PLoS ONE 12(12)*, e0188485.
+[88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L.,  Oostrom, J.K. & **Pollet, T.V.,**  (accepted), No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioural Neuroscience* doi: 10.3389/fnbeh.2018.00030
 
-[86.](http://tvpollet.github.io/pdfs/Pollet_Kuppens_Stoevenbelt_PTRSB.pdf) **Pollet, T.V.**, Stoevenbelt, A.H., & Kuppens, T. (2017), The potential pitfalls of studying adult sex ratios at aggregate levels in humans. *Philosophical Transactions of the Royal Society B, 372,* 20160317.
+## **2017**
+
+[87.](https://doi.org/10.1371/journal.pone.0188485) Knapen, J.E.P, Blaker, N.M. & **Pollet, T.V.,**  (2017),  Size, Skills, and Suffrage: Motivated Distortions in Perceived Formidability of Political Leaders. *PLoS ONE 12(12)*, e0188485.
+
+[86.](http://tvpollet.github.io/pdfs/Pollet_Kuppens_Stoevenbelt_PTRSB.pdf) **Pollet, T.V.**, Stoevenbelt, A.H. & Kuppens, T. (2017), The potential pitfalls of studying adult sex ratios at aggregate levels in humans. *Philosophical Transactions of the Royal Society B, 372,* 20160317.
 
 [85.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2017.56/176) Manesi, Z. & **Pollet, T.V.** (2017), No Support for the Watching Eyes Effect Across Three “Lost Letter” Field Experiments. _Letters on Evolutionary Behavioral Science, 8,_ 12-15. 
 
