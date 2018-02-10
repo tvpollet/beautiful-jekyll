@@ -11,7 +11,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2018/Accepted/in Press**
 
-[88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L.,  Oostrom, J.K. & **Pollet, T.V.,**  (accepted), No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioural Neuroscience* doi: 10.3389/fnbeh.2018.00030
+[88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L.,  Oostrom, J.K. & **Pollet, T.V.,**  (accepted), No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioral Neuroscience* doi: 10.3389/fnbeh.2018.00030
 
 ## **2017**
 
