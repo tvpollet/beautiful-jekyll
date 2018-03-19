@@ -11,7 +11,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2018/Accepted/in Press**
 
-[88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L.,  Oostrom, J.K. & **Pollet, T.V.,**  (accepted), No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioral Neuroscience* doi: 10.3389/fnbeh.2018.00030
+[89.](https://doi.org/https://doi.org/10.1016/j.paid.2018.03.024) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
+
+[88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L.,  Oostrom, J.K. & **Pollet, T.V.,**  (2018), No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioral Neuroscience, 12,* 30.
 
 ## **2017**
 
@@ -61,7 +63,7 @@ doi:10.1007/s40806-016-0048-6 .
 
 [68.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjQ2Yzc5MmUxOTBkNzM4MjU) Kuppens, T. & **Pollet, T.V.** (2015), Gender Equality Probably Does Not Affect Performance at the Olympic Games: A Comment on Berdahl, Uhlmann, and Bai (2015). _Journal of Experimental Social Psychology, 61,_ 144-147.  [additional comments](https://drive.google.com/file/d/0B0LnnuCPhsQwWkV4ZFdJd3lLd0U/view) and [additional analyses](https://drive.google.com/file/d/0Bw-5pwTzGZ7ZT2g0YWg0Z1dDVUE/view?usp=sharing)
 
-[67.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjdlNDY2ZTViYmUxYmE3NTg) Conway, J.R.*, Noë, N.*, Stulp, G. & **Pollet, T.V.** (2015), Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. _Personal Relationships, 22,_ 666-678. (*Authors contributed equally) 
+[67.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjdlNDY2ZTViYmUxYmE3NTg) Conway, J.R. \*, Noë, N. \*, Stulp, G. & **Pollet, T.V.** (2015), Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. _Personal Relationships, 22,_ 666-678. (*Authors contributed equally) 
 
 [66.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00419/full) Stulp, G., **Pollet, T.V.** & Barrett, L. (2015),  The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. _Frontiers in Psychology, 6,_ 419.
 
