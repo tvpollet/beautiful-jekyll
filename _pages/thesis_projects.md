@@ -9,16 +9,18 @@ header_text: Availability Calendar
 # Thesis.
 
 Hurray! You have embarked on that on this page I will provide some links and tips. This is still in progress, all feedback welcome.
-Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics), [SPSS](./#some-tips-for-spss), and [writing](./#writing).
+Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics), [SPSS](./#some-tips-for-spss), and [writing](./#writing). I even explain how you can get a [meeting](#./ help-I-need-a-meeting).
 
-# Help I need a meeting.
-<div style="text-align:center" markdown="1">
+# Help, I need a meeting.
+
 ![Image help](https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif){: .center-image }
-<div>
 
-You can find my availability [here](https://tvpollet.github.io){:target="_blank"}
+
+You can find my availability [here](https://tvpollet.github.io/calendar){:target="_blank"}
 
 # Open Science Framework.
+
+![Image science](https://media.giphy.com/media/VVgRNcBKp64NO/giphy.gif){: .center-image }
 
 If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/){:target="_blank"} exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
 
@@ -43,6 +45,8 @@ Have a look [here](http://help.osf.io/m/registrations){:target="_blank"}. You ca
 At the end of the project we might want to make it public. Information on how to do that [here](http://help.osf.io/m/sharing){:target="_blank"}.
 
 # Some tips for Qualtrics.
+
+![Image Qualtrics](https://media.giphy.com/media/WIKGaYN8iqWv6/giphy.gif){: .center-image }
 
 Qualtrics has an extensive [help file](https://www.qualtrics.com/support/){:target="_blank"} for your projects. I list some tips and tricks here.
 
