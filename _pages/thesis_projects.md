@@ -6,12 +6,12 @@ type: info
 header_text: Availability Calendar
 ---
 
-#Thesis.
+# Thesis.
 
 Hurray! You have embarked on that on this page I will provide some links and tips. This is still in progress, all feedback welcome.
 Specifically, I cover the [Open Science Framework](#open-science-framework.), [Qualtrics](#some-tips-for-qualtrics.), [SPSS](#some-tips-for-spss.), and [writing](#writing.).
 
-#Open Science Framework.
+# Open Science Framework.
 
 If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/) exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
 
@@ -19,15 +19,15 @@ In time I will post more example projects, but here are already some examples to
 
 * Lotte Groeneboom & Joanne Costello's [Thesis Project](https://osf.io/sdjxm/) on 'Red laptops'. Check the [draft paper](https://psyarxiv.com/3bfwh/) also.
 
-##How to set up your account.
+## How to set up your account.
 
 Have a look [here](http://georgiasouthern.libguides.com/c.php?g=653428&p=4585485).
 
-##Creating a project.
+## Creating a project.
 
 Have a look [here](http://help.osf.io/m/projects)
 
-##Setting up a registration.
+## Setting up a registration.
 
 Have a look [here](http://help.osf.io/m/registrations). You can see some examples by browsing the Open Science Framework. Multiple options for registations exist. If your project is a replication project, then we would follow the 'replication recipe'. Follow the details in [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2283856).
 
@@ -35,7 +35,7 @@ Have a look [here](http://help.osf.io/m/registrations). You can see some example
 
 At the end of the project we might want to make it public. Information on how to do that [here](http://help.osf.io/m/sharing)
 
-#Some tips for Qualtrics.
+# Some tips for Qualtrics.
 
 Qualtrics has an extensive [help file](https://www.qualtrics.com/support/) for your projects. I list some tips and tricks here.
 
@@ -49,7 +49,7 @@ Before starting check out these [writing mistakes](https://www.qualtrics.com/blo
 * [Randomize your questions](https://www.qualtrics.com/support/survey-platform/survey-module/block-options/question-randomization/). [Check this video](https://www.youtube.com/watch?v=45F3pliI8HY). Note that it might disrupt your page breaks. When in doubt make separate blocks.
 * When you are making your survey, I will require full access to it. [Here](https://www.qualtrics.com/support/survey-platform/my-projects/sharing-a-project/) you find explained how to share it. Make sure I have full rights!
 
-#Some tips for SPSS.
+# Some tips for SPSS.
 
 There are a lot of useful SPSS tutorials. For example, look at the one from [Kent State University](https://libguides.library.kent.edu/SPSS) or this [one](https://www.spss-tutorials.com/basics/). If you get stuck, do not forget that google is your friend. If you run into problems, I expect that you have *at minimum* googled the problem. In the future, I'll post common issues listed here.
 
