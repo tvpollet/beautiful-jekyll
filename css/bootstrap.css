@@ -6563,4 +6563,10 @@ button.close {
     display: none !important;
   }
 }
+
+.center-image
+  {
+    margin: 0 auto;
+    display: block;
+  }
 /*# sourceMappingURL=bootstrap.css.map */
