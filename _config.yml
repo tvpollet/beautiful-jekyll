@@ -228,5 +228,13 @@ gems:
   - jekyll-paginate
   - jekyll-twitter-plugin
 
+#Centering images.
+.center-image
+  {
+    margin: 0 auto;
+    display: block;
+  }
+
+
 # Beautiful Jekyll / HUGE THANKS to Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
