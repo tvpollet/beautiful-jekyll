@@ -9,7 +9,7 @@ header_text: Availability Calendar
 # Thesis.
 
 Hurray! You have embarked on that on this page I will provide some links and tips. This is still in progress, all feedback welcome.
-Specifically, I cover the [Open Science Framework](./thesis_projects#open-science-framework), [Qualtrics](./thesis_projects#some-tips-for-qualtrics.), [SPSS](#some-tips-for-spss.), and [writing](./thesis_projects#writing.).
+Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics.), [SPSS](#some-tips-for-spss.), and [writing](./#writing.).
 
 # Open Science Framework.
 
