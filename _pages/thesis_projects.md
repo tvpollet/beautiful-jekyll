@@ -12,8 +12,9 @@ Hurray! You have embarked on that on this page I will provide some links and tip
 Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics), [SPSS](./#some-tips-for-spss), and [writing](./#writing).
 
 # Help I need a meeting.
-
+<div style="text-align:center" markdown="1">
 ![Image help](https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif){: .center-image }
+<div>
 
 You can find my availability [here](https://tvpollet.github.io){:target="_blank"}
 
