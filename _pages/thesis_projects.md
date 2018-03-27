@@ -9,9 +9,9 @@ header_text: Availability Calendar
 # Thesis.
 
 Hurray! You have embarked on that on this page I will provide some links and tips. This is still in progress, all feedback welcome.
-Specifically, I cover the [Open Science Framework](#open-science-framework.), [Qualtrics](#some-tips-for-qualtrics.), [SPSS](#some-tips-for-spss.), and [writing](#writing.).
+Specifically, I cover the [Open Science Framework](./thesis_projects#open-science-framework), [Qualtrics](./thesis_projects#some-tips-for-qualtrics.), [SPSS](#some-tips-for-spss.), and [writing](./thesis_projects#writing.).
 
-# Open Science Framework. {#open-science-framework.}
+# Open Science Framework.
 
 If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/){:target="_blank"} exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
 
