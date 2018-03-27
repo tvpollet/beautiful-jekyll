@@ -9,7 +9,7 @@ header_text: Availability Calendar
 # Thesis.
 
 Hurray! You have embarked on that on this page I will provide some links and tips. This is still in progress, all feedback welcome.
-Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics.), [SPSS](#some-tips-for-spss.), and [writing](./#writing.).
+Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics.), [SPSS](./#some-tips-for-spss.), and [writing](./#writing.).
 
 # Open Science Framework.
 
@@ -35,7 +35,7 @@ Have a look [here](http://help.osf.io/m/registrations). You can see some example
 
 At the end of the project we might want to make it public. Information on how to do that [here](http://help.osf.io/m/sharing)
 
-# Some tips for Qualtrics. {#some-tips-for-qualtrics.}
+# Some tips for Qualtrics.
 
 Qualtrics has an extensive [help file](https://www.qualtrics.com/support/) for your projects. I list some tips and tricks here.
 
