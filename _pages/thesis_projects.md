@@ -15,29 +15,29 @@ Specifically, I cover the [Open Science Framework](./#open-science-framework), [
 
 If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/){:target="_blank"} exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
 
-In time I will post more example projects, but here are already some examples to look at. All my OSF projects are [here](https://osf.io/v6cn3/).
+In time I will post more example projects, but here are already some examples to look at. All my OSF projects are [here](https://osf.io/v6cn3/){:target="_blank"}.
 
-* Lotte Groeneboom & Joanne Costello's [Thesis Project](https://osf.io/sdjxm/) on 'Red laptops'. Check the [draft paper](https://psyarxiv.com/3bfwh/) also.
+* Lotte Groeneboom & Joanne Costello's [Thesis Project](https://osf.io/sdjxm/){:target="_blank"} on 'Red laptops'. Check the [draft paper](https://psyarxiv.com/3bfwh/){:target="_blank"} also.
 
 ## How to set up your account.
 
-Have a look [here](http://georgiasouthern.libguides.com/c.php?g=653428&p=4585485).
+Have a look [here](http://georgiasouthern.libguides.com/c.php?g=653428&p=4585485){:target="_blank"}.
 
 ## Creating a project.
 
-Have a look [here](http://help.osf.io/m/projects)
+Have a look [here](http://help.osf.io/m/projects){:target="_blank"}.
 
 ## Setting up a registration.
 
-Have a look [here](http://help.osf.io/m/registrations). You can see some examples by browsing the Open Science Framework. Multiple options for registations exist. If your project is a replication project, then we would follow the 'replication recipe'. Follow the details in [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2283856).
+Have a look [here](http://help.osf.io/m/registrations){:target="_blank"}. You can see some examples by browsing the Open Science Framework. Multiple options for registations exist. If your project is a replication project, then we would follow the 'replication recipe'. Follow the details in [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2283856){:target="_blank"}.
 
-##Sharing a project
+## Sharing a project
 
-At the end of the project we might want to make it public. Information on how to do that [here](http://help.osf.io/m/sharing)
+At the end of the project we might want to make it public. Information on how to do that [here](http://help.osf.io/m/sharing){:target="_blank"}.
 
 # Some tips for Qualtrics.
 
-Qualtrics has an extensive [help file](https://www.qualtrics.com/support/) for your projects. I list some tips and tricks here.
+Qualtrics has an extensive [help file](https://www.qualtrics.com/support/){:target="_blank"} for your projects. I list some tips and tricks here.
 
 If you have never made a Qualtrics survey, have a look at [this video](https://www.youtube.com/watch?v=xkSUKTdD1Hs), [this one](http://csulb.libguides.com/c.php?g=39320&p=250415) or [this one](https://www.youtube.com/watch?v=_hSo-ldj19k). Kent state also has an [excellent tutorial](https://libguides.library.kent.edu/qualtrics), if you don't want to watch videos. This [tutorial](https://erc.barnard.edu/qualtrics) by Barnard College (Columbia) is also useful
 
@@ -53,33 +53,33 @@ Before starting check out these [writing mistakes](https://www.qualtrics.com/blo
 
 There are a lot of useful SPSS tutorials. For example, look at the one from [Kent State University](https://libguides.library.kent.edu/SPSS) or this [one](https://www.spss-tutorials.com/basics/). If you get stuck, do not forget that google is your friend. If you run into problems, I expect that you have *at minimum* googled the problem. In the future, I'll post common issues listed here.
 
-##Graph and table misery.
+## Graph and table misery.
 
 As discussed in my [post](https://tvpollet.github.io/2018-02-19-SPSS/), I often see terribly formatted graphs (and actually I have been [guilty](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcxZTcxYjRjYmFkZmIxNDM) of myself. There thus are no longer any excuses for terribly formatted figures and tables.
 
-##Recoding variables.
+## Recoding variables.
 
 Have a look [here](https://libguides.library.kent.edu/SPSS/RecodeVariables)
 
-##Recoding missing with value.
+## Recoding missing with value.
 If you did not manage to put a 'force' choice in Qualtrics, you'll end up with the rare missings. Often you'll want to replace a few missing cases with the means. have a look [here](http://www.unige.ch/ses/sococ/cl/spss/trans/recodem.html)
 
-##Missings.
+## Missings.
 Have a look [here](https://www.spss-tutorials.com/spss-missing-values-tutorial/). Note that summing across missings will create problems, look at [this](https://www.spss-tutorials.com/spss-sum-cautionary-note/).
 
-##Conduct a one-way ANOVA.
+## Conduct a one-way ANOVA.
 
-Check [this video](https://www.youtube.com/watch?v=jYn5Jv7Gh4s)
+Check [this video](https://www.youtube.com/watch?v=jYn5Jv7Gh4s){:target="_blank"}
 
-##More advanced SPSS madness.
+## More advanced SPSS madness.
 
-###Logistic regression.
+### Logistic regression.
 
-If you are unlucky enough to have to run a logistic regression, then we often want [information criteria](https://en.wikipedia.org/wiki/Model_selection#Criteria) and/or [likelihood ratio tests](https://en.wikipedia.org/wiki/Likelihood-ratio_test). I had to find out how to get those. It turns out that the binomial logistic regression module in SPSS does not provide this, but the multinomial logistic regression module does (see [this](http://www-01.ibm.com/support/docview.wss?uid=swg21478171).
+If you are unlucky enough to have to run a logistic regression, then we often want [information criteria](https://en.wikipedia.org/wiki/Model_selection#Criteria){:target="_blank"} and/or [likelihood ratio tests](https://en.wikipedia.org/wiki/Likelihood-ratio_test){:target="_blank"}. I had to find out how to get those. It turns out that the binomial logistic regression module in SPSS does not provide this, but the multinomial logistic regression module does (see [this](http://www-01.ibm.com/support/docview.wss?uid=swg21478171){:target="_blank"}.
 
-##Writing.
+## Writing.
 
-###Scientific writing.
+### Scientific writing.
 I will list some resources on how to become a better writer. To be honest, I am a terrible writer and thus not the best placed to offer you advice. The best advice is to write often and rewrite. In the beginning do not waste a lot of time on formatting, save that for the end. Set yourself targets (e.g., 200-500 words for a day) and once you have a terrible first draft, flesh it out. Especially at the start of your project force yourself to write chunks often and then rewrite.
 
 Some further tips:
@@ -92,7 +92,7 @@ Some further tips:
 
 If you are struggling with writing and starting your essay/thesis also consider [booking a session](https://cragside.northumbria.ac.uk/Everyone/skillsplus/database_uploads/55389339.pdf?) in the library.
 
-###Reporting statistics.
+### Reporting statistics.
 APA style is the standard for your report, for most statistics standardized formats exist. Go back to your statistics notes. Still confused, look at these resources:
 
 * [Reporting Statistics in APA Format](https://production.wordpress.uconn.edu/writingcenterwp1/wp-content/uploads/sites/593/2014/06/Reporting_Statistics1.pdf), University of Connecticut.
@@ -101,10 +101,10 @@ APA style is the standard for your report, for most statistics standardized form
 
 As always google is your friend, and you are not the first one wondering how to write up your results in APA style.
 
-###Software.
+### Software.
 I have also moved away from MS word and towards writing first draft in [Markdown](https://guides.github.com/features/mastering-markdown/), I am still oscillating between [RStudio](www.rstudio.com), [Macdown](https://macdown.uranusjr.com/) and [Atom](http://atom.io). I also have looked at [Scrivener](https://www.literatureandlatte.com/scrivener/overview) but that's perhaps more suitable for much longer pieces. If I ever find the optimal solution I will let you know.
 
-###References.
+### References.
 
 Use referencing software! Do not waste your time on editing references manually. This is error prone and takes up a lot of your time - which you could spend writing! No excuse not to use one!
 
@@ -116,7 +116,7 @@ Northumbria university offers [Endnote](https://onsizzle.com/i/does-referencing-
 
 If you are using RStudio, it is [easy to cite](https://www.r-bloggers.com/writing-manuscripts-in-rstudio-easy-citations/) or have a look at [papaja](https://github.com/crsh/papaja).
 
-#Key resources used for this page.
+# Key resources used for this page.
 
 This is an incomplete list. All the sources are also linked.
 
