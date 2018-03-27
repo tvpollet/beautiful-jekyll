@@ -13,7 +13,7 @@ Specifically, I cover the [Open Science Framework](#open-science-framework.), [Q
 
 # Open Science Framework.
 
-If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/) exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
+If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/){:target="_blank"} exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
 
 In time I will post more example projects, but here are already some examples to look at. All my OSF projects are [here](https://osf.io/v6cn3/).
 
