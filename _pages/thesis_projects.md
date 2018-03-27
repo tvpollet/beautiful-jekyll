@@ -11,6 +11,12 @@ header_text: Availability Calendar
 Hurray! You have embarked on that on this page I will provide some links and tips. This is still in progress, all feedback welcome.
 Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics), [SPSS](./#some-tips-for-spss), and [writing](./#writing).
 
+# Help I need a meeting.
+
+![Image help](https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif){: .center-image }
+
+You can find my availability [here](https://tvpollet.github.io){:target="_blank"}
+
 # Open Science Framework.
 
 If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/){:target="_blank"} exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
@@ -29,7 +35,7 @@ Have a look [here](http://help.osf.io/m/projects){:target="_blank"}.
 
 ## Setting up a registration.
 
-Have a look [here](http://help.osf.io/m/registrations){:target="_blank"}. You can see some examples by browsing the Open Science Framework. Multiple options for registations exist. If your project is a replication project, then we would follow the 'replication recipe'. Follow the details in [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2283856){:target="_blank"}.
+Have a look [here](http://help.osf.io/m/registrations){:target="_blank"}. You can see some examples by browsing the Open Science Framework. Multiple options for registrations exist. If your project is a replication project, then we would follow the 'replication recipe'. Follow the details in [this paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2283856){:target="_blank"}.
 
 ## Sharing a project
 
@@ -39,15 +45,15 @@ At the end of the project we might want to make it public. Information on how to
 
 Qualtrics has an extensive [help file](https://www.qualtrics.com/support/){:target="_blank"} for your projects. I list some tips and tricks here.
 
-If you have never made a Qualtrics survey, have a look at [this video](https://www.youtube.com/watch?v=xkSUKTdD1Hs), [this one](http://csulb.libguides.com/c.php?g=39320&p=250415) or [this one](https://www.youtube.com/watch?v=_hSo-ldj19k). Kent state also has an [excellent tutorial](https://libguides.library.kent.edu/qualtrics), if you don't want to watch videos. This [tutorial](https://erc.barnard.edu/qualtrics) by Barnard College (Columbia) is also useful
+If you have never made a Qualtrics survey, have a look at [this video](https://www.youtube.com/watch?v=xkSUKTdD1Hs){:target="_blank"}, [this one](http://csulb.libguides.com/c.php?g=39320&p=250415){:target="_blank"} or [this one](https://www.youtube.com/watch?v=_hSo-ldj19k){:target="_blank"}. Kent state also has an [excellent tutorial](https://libguides.library.kent.edu/qualtrics){:target="_blank"}, if you don't want to watch videos. This [tutorial](https://erc.barnard.edu/qualtrics){:target="_blank"} by Barnard College (Columbia) is also useful
 
-Before starting check out these [writing mistakes](https://www.qualtrics.com/blog/writing-survey-questions/) when making your survey.
+Before starting check out these [writing mistakes](https://www.qualtrics.com/blog/writing-survey-questions/){:target="_blank"} when making your survey.
 
-* Unless there are reasons not to **force participants to respond**. If you want to still have the option for sensitive questions that participants are able to skip it, add “Prefer Not to Answer” as an option. [Here](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/validation/) you can see how to do that. Also look at [this video](https://www.youtube.com/watch?v=a6ZwKGBm1bQ).
+* Unless there are reasons not to **force participants to respond**. If you want to still have the option for sensitive questions that participants are able to skip it, add “Prefer Not to Answer” as an option. [Here](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/validation/){:target="_blank"} you can see how to do that. Also look at [this video](https://www.youtube.com/watch?v=a6ZwKGBm1bQ){:target="_blank"}.
 * **Avoid open questions** for questions like age, nationality, etc. You would end up having to do a lot of post-hoc recoding otherwise. For example, some participants will put in '30', while others will put in '30 years'. Have a long think, does that question really have to be open and how will you deal with the variety of responses which you will inevitably get.
-* Make sure participants do not have to scroll endlessly. Use [page breaks](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/add-page-break/) . Check [this video](https://www.youtube.com/watch?v=PibtvW9mFP8)
-* [Randomize your questions](https://www.qualtrics.com/support/survey-platform/survey-module/block-options/question-randomization/). [Check this video](https://www.youtube.com/watch?v=45F3pliI8HY). Note that it might disrupt your page breaks. When in doubt make separate blocks.
-* When you are making your survey, I will require full access to it. [Here](https://www.qualtrics.com/support/survey-platform/my-projects/sharing-a-project/) you find explained how to share it. Make sure I have full rights!
+* Make sure participants do not have to scroll endlessly. Use [page breaks](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/add-page-break/) {:target="_blank"}. Check [this video](https://www.youtube.com/watch?v=PibtvW9mFP8){:target="_blank"}
+* [Randomize your questions](https://www.qualtrics.com/support/survey-platform/survey-module/block-options/question-randomization/). [Check this video](https://www.youtube.com/watch?v=45F3pliI8HY){:target="_blank"}. Note that it might disrupt your page breaks. When in doubt make separate blocks.
+* When you are making your survey, I will require full access to it. [Here](https://www.qualtrics.com/support/survey-platform/my-projects/sharing-a-project/){:target="_blank"} you find explained how to share it. Make sure I have full rights!
 
 # Some tips for SPSS.
 
