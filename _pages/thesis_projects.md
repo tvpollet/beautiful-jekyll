@@ -11,7 +11,7 @@ header_text: Availability Calendar
 Hurray! You have embarked on that on this page I will provide some links and tips. This is still in progress, all feedback welcome.
 Specifically, I cover the [Open Science Framework](#open-science-framework.), [Qualtrics](#some-tips-for-qualtrics.), [SPSS](#some-tips-for-spss.), and [writing](#writing.).
 
-# Open Science Framework. {: #open-science-framework.}
+# Open Science Framework.{: #open-science-framework.}
 
 If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/){:target="_blank"} exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one.
 
@@ -35,7 +35,7 @@ Have a look [here](http://help.osf.io/m/registrations). You can see some example
 
 At the end of the project we might want to make it public. Information on how to do that [here](http://help.osf.io/m/sharing)
 
-# Some tips for Qualtrics. {: #some-tips-for-qualtrics.}
+# Some tips for Qualtrics.{: #some-tips-for-qualtrics.}
 
 Qualtrics has an extensive [help file](https://www.qualtrics.com/support/) for your projects. I list some tips and tricks here.
 
