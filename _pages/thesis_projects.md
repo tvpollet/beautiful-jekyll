@@ -90,6 +90,8 @@ If you are unlucky enough to have to run a logistic regression, then we often wa
 
 ## Writing.
 
+![Image Bojack](https://media.giphy.com/media/CQDF0q4pffDW0/giphy.gif){: .center-image }
+
 ### Scientific writing.
 I will list some resources on how to become a better writer. To be honest, I am a terrible writer and thus not the best placed to offer you advice. The best advice is to write often and rewrite. In the beginning do not waste a lot of time on formatting, save that for the end. Set yourself targets (e.g., 200-500 words for a day) and once you have a terrible first draft, flesh it out. Especially at the start of your project force yourself to write chunks often and then rewrite.
 
