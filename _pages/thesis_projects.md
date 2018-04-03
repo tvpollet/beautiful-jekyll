@@ -76,32 +76,32 @@ Before starting check out these [writing mistakes](https://www.qualtrics.com/blo
 
 # Some tips for SPSS.
 
-There are a lot of useful SPSS tutorials. For example, look at the one from [Kent State University](https://libguides.library.kent.edu/SPSS) or this [one](https://www.spss-tutorials.com/basics/). If you get stuck, do not forget that google is your friend. If you run into problems, I expect that you have *at minimum* googled the problem. In the future, I'll post common issues listed here.
+There are a lot of useful SPSS tutorials. For example, look at the one from [Kent State University](https://libguides.library.kent.edu/SPSS){:target="_blank"} or this [one](https://www.spss-tutorials.com/basics/){:target="_blank"}. If you get stuck, do not forget that google is your friend. If you run into problems, I expect that you have *at minimum* googled the problem. In the future, I'll post common issues listed here.
 
 And if you want a free alternative to SPSS, why not use [JASP](www.jasp-stats.org){:target="_blank"}. A bonus is that the tables are formatted appropriately for your report! 
 
 ## Graph and table misery.
 
-As discussed in my [post](https://tvpollet.github.io/2018-02-19-SPSS/):target="_blank"}, I often see terribly formatted graphs (and actually I have been [guilty](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcxZTcxYjRjYmFkZmIxNDM):target="_blank"} of myself. There thus are no longer any excuses for terribly formatted figures and tables.
+As discussed in my [post](https://tvpollet.github.io/2018-02-19-SPSS/){:target="_blank"}, I often see terribly formatted graphs (and actually I have been [guilty](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcxZTcxYjRjYmFkZmIxNDM){:target="_blank"} of myself. There thus are no longer any excuses for terribly formatted figures and tables.
 
 ## Recoding variables.
 
-Have a look [here](https://libguides.library.kent.edu/SPSS/RecodeVariables){:target="_blank"}
+Have a look [here](https://libguides.library.kent.edu/SPSS/RecodeVariables){:target="_blank"}.
 
 ## Recoding missing with value.
-If you did not manage to put a 'force' choice in Qualtrics, you'll end up with the rare missings. Often you'll want to replace a few missing cases with the means. have a look [here](http://www.unige.ch/ses/sococ/cl/spss/trans/recodem.html):target="_blank"}
+If you did not manage to put a 'force' choice in Qualtrics, you'll end up with the rare missings. Often you'll want to replace a few missing cases with the means. have a look [here](http://www.unige.ch/ses/sococ/cl/spss/trans/recodem.html){:target="_blank"}.
 
 ## Missings.
 Have a look [here](https://www.spss-tutorials.com/spss-missing-values-tutorial/). Note that summing across missings will create problems, look at [this](https://www.spss-tutorials.com/spss-sum-cautionary-note/).
 
 ## Conduct a one-way ANOVA.
 
-Check [this video](https://www.youtube.com/watch?v=jYn5Jv7Gh4s){:target="_blank"}
+Check [this video](https://www.youtube.com/watch?v=jYn5Jv7Gh4s){:target="_blank"}.
 
 ## Conduct a MANOVA
 
-Check [this video](https://www.youtube.com/watch?v=m0zV_wFGA1I).
-Also look at [this video](https://www.youtube.com/watch?v=3pzCa4Whv74){:target="_blank"}  and the videos following that. This could also be of [use](https://www.youtube.com/watch?v=rCgeWeXRtDs)
+Check [this video](https://www.youtube.com/watch?v=m0zV_wFGA1I){:target="_blank"}.
+Also look at [this video](https://www.youtube.com/watch?v=3pzCa4Whv74){:target="_blank"}  and the videos following that. This could also be of [use](https://www.youtube.com/watch?v=rCgeWeXRtDs){:target="_blank"}
 
 ## More advanced SPSS madness.
 
@@ -152,6 +152,6 @@ If you are using RStudio, it is [easy to cite](https://www.r-bloggers.com/writin
 
 # Key resources used for this page.
 
-This is an incomplete list. All the sources are also linked in text.
+This is an incomplete list. More to be linked in the future. All the sources are also linked in text.
 
 Kent State University Libraries. (2017, May 15). *Qualtrics tutorials* Retrieved March 27, 2018, from [https://libguides.library.kent.edu/qualtrics](https://libguides.library.kent.edu/qualtrics).
