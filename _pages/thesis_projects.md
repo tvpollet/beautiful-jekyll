@@ -4,7 +4,6 @@ title: Thesis projects
 permalink: /thesis_projects/
 type: info
 header_text: Thesis projects
-toc: true
 ---
 
 # Thesis.
