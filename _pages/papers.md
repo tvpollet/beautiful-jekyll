@@ -11,7 +11,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2018/Accepted/in Press**
 
-[91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & Pollet, T.V. (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
+[91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
 
 [90.](https://doi.org/10.1016/j.ssresearch.2018.04.004) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (in press). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research*  [https://doi.org/10.1016/j.ssresearch.2018.04.004](https://doi.org/10.1016/j.ssresearch.2018.04.004)
 
