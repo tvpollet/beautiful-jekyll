@@ -119,7 +119,7 @@ doi:10.1007/s40806-016-0048-6 .
 
 [44.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0060018) **Pollet, T.V.,** Cobey, K.D. & van der Meij, L. (2013), Testosterone levels are negatively associated with fatherhood in males, but positively related to offspring count in fathers. _PLoS ONE, 8,_ e60018.
 
-[43.](http://journals.sagepub.com/doi/pdf/10.1177/147470491301100206) Cobey, K.D.*, Stulp, G.*, Laan, F., Buunk, A.P. & **Pollet, T.V.** (2013), Sex differences in risk taking behavior among Dutch cyclists. _Evolutionary Psychology, 11,_ 350-364. (*Authors contributed equally) 
+[43.](http://journals.sagepub.com/doi/pdf/10.1177/147470491301100206) Cobey, K.D.\*, Stulp, G.\*, Laan, F., Buunk, A.P. & **Pollet, T.V.** (2013), Sex differences in risk taking behavior among Dutch cyclists. _Evolutionary Psychology, 11,_ 350-364. (\*Authors contributed equally) 
 
 [42.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4Ojc5NWU4OWE0YzgxNmY5ZTg) Stulp, G., Buunk, A.P. & **Pollet, T.V.** (2013), Women want taller men more than men want shorter women. _Personality and Individual Differences, 54,_ 877-883.
 
