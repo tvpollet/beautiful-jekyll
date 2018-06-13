@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New preprint on Facebook and loneliness.
+title:  New preprint!
 image: /img/facebook_fry.gif
   credit: giphy.com
 tags:
