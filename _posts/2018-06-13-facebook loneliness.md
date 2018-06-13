@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  New preprint on Facebook characteristics and loneliness.
+title:  New preprint on Facebook and loneliness.
 image: /img/facebook_fry.gif
   credit: giphy.com
 tags:
