@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  New preprint!
-image: /img/facebook_fry.gif
+title:  New preprint on Facebook!
+image: /img/facebook_mark.gif
   credit: giphy.com
 tags:
   - research
