@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  New preprint on Facebook!
+title:  New preprint on Facebook and loneliness!
 image: /img/fb-animal-gif.gif
 tags:
-  - research
-  - loneliness
+  - Research
+  - Loneliness
   - exciting-stuff
   - Facebook
 published: true
