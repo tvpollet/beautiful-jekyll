@@ -5,9 +5,11 @@ subtitle: multum in parvo
 published: true
 ---
 
-Here I provide a list of courses I have taught.
+Here I provide a list of courses I have taught and am teaching.
 
 ## Courses Taught
+
+- [Research on Human Nature](https://tvpollet.github.io/PY0552/) (lecturer, BSc. Psychology, 2018-...).
 
 - [Advanced Quantitative Research Methods](https://tvpollet.github.io/PY0782/) (lecturer, Research Masters. in Psychology, 2017-...).
 

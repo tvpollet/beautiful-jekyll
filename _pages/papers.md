@@ -9,6 +9,17 @@ published: true
 
 Click the number for the corresponding paper to download a copy (it will open in a new window), if available. You will need adobe acrobat reader to read these papers. These papers are for reference only i.e. personal, educational, non-commercial use (also see the disclaimer). 
 
+## **Preprints.**
+
+*Cite at your own risk*
+
+* Brown, R. M., Roberts, S. G. B., & **Pollet, T. V.**  (2018, June 12). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
+
+* **Pollet, T.V.**, & Saxton, T. (2018, April 1). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. _OSF Preprints_ [https://doi.org/10.17605/OSF.IO/7H24P](https://doi.org/10.17605/OSF.IO/7H24P)
+
+* **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L. S., & Wu, J. (2018, February 16). Do red objects enhance sexual attractiveness? No evidence from two large replications and an extension. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/3BFWH](https://doi.org/10.17605/OSF.IO/3BFWH)
+
+
 ## **2018/Accepted/in Press**
 
 [91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
