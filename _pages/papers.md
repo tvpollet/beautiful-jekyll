@@ -11,7 +11,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **Preprints.**
 
-*Cite at your own risk*
+*Cite at your own risk, feedback welcome*
+
+*  **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (2018, June 25th). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELS-A). _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/EYKNZ](https://doi.org/10.17605/OSF.IO/EYKNZ)
 
 * Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2018, June 12). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
 
