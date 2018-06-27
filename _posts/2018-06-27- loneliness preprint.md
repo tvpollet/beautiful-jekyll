@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  New preprint on measurement equivalence and loneliness!
-image: /img/loneliness.gif
+image: /img/lonely.gif
 tags:
   - Research
   - Loneliness
