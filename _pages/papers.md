@@ -108,7 +108,7 @@ doi:10.1007/s40806-016-0048-6 .
 
 [55.](http://journal.frontiersin.org/article/10.3389/fpsyg.2014.00375/full) **Pollet, T.V.** & Riegman, B.R. (2014), Opponent left-handedness does not affect fight outcomes for Ultimate Fighting Championship hall of famers. _Frontiers in Psychology, 5,_ 375.
 
-[54.](https://peerj.com/articles/287/) Hill, J.M., **Pollet, T.V.** & Nettle, D. (2014), Disorder affects judgements about a neighbourhood: _Police presence does not. PeerJ, 2,_ e287.
+[54.](https://peerj.com/articles/287/) Hill, J.M., **Pollet, T.V.** & Nettle, D. (2014), Disorder affects judgements about a neighbourhood: Police presence does not. _PeerJ, 2,_ e287.
 
 [53.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMxNGRjNjllMDZjYTg5NWE) Hill, J.M., Jobling, R., **Pollet, T.V.** & Nettle, D. (2014), Social capital across urban neighborhoods: A comparison of self-report and observational data. _Evolutionary Behavioral Sciences, 8,_ 59-69.
 
@@ -192,11 +192,11 @@ doi:10.1007/s40806-016-0048-6 .
 
 ## **2009**
 
-[17.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjI4OGFlYjZkMjJiMjk5OQ) Buunk, A.P., **Pollet, T.V.,** Klavina, L., Figueredo, A.J. & Dijkstra, P. (2009), Height is curvilinearly related to women’s life history strategies. _Evolutionary Psychology, 7,_ 545-559. open access
+[17.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjI4OGFlYjZkMjJiMjk5OQ) Buunk, A.P., **Pollet, T.V.,** Klavina, L., Figueredo, A.J. & Dijkstra, P. (2009), Height is curvilinearly related to women’s life history strategies. _Evolutionary Psychology, 7,_ 545-559.
 
 [16.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcxZTcxYjRjYmFkZmIxNDM) **Pollet, T.V.,** Fawcett, T.W., Buunk, A.P. & Nettle, D. (2009), Sex ratio biasing towards daughters among lower-ranking co-wives in Rwanda. _Biology letters, 5,_ 765–768.
 
-[15.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMwOTg1ZTA4M2IzMzAwODA) **Pollet, T.V.** & Nettle, D. (2009), Dead or alive? Knowledge about a sibling’s death varies by genetic relatedness in a Modern society. _Evolutionary Psychology, 7,_ 57-65. open access 
+[15.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMwOTg1ZTA4M2IzMzAwODA) **Pollet, T.V.** & Nettle, D. (2009), Dead or alive? Knowledge about a sibling’s death varies by genetic relatedness in a Modern society. _Evolutionary Psychology, 7,_ 57-65. 
 
 [14.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjYwMzIzODQxZGM2YTFlZjI) **Pollet, T.V.** & Nettle, D. (2009), Birth order and family relationships in adult life: Firstborns report better sibling relationships than laterborns. _Journal of Social and Personal Relationships, 26,_ 1029-1046.
 
