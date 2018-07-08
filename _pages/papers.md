@@ -24,7 +24,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2018/Accepted/in Press**
 
-92. Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, s. (accepted). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders*
+[92.]() Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, s. (accepted). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders*
 
 [91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
 
