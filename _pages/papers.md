@@ -24,13 +24,13 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2018/Accepted/in Press**
 
-[92.]() Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, s. (accepted). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders*
+[92.]() Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, S. (accepted). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders*
 
 [91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
 
 [90.](https://doi.org/10.1016/j.ssresearch.2018.04.004) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (in press). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research*  [https://doi.org/10.1016/j.ssresearch.2018.04.004](https://doi.org/10.1016/j.ssresearch.2018.04.004)
 
-[89.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press), What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
+[89.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press), What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [https://doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
 
 [88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L.,  Oostrom, J.K. & **Pollet, T.V.,**  (2018), No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioral Neuroscience, 12,* 30.
 
