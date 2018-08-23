@@ -13,6 +13,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
+
 *  **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (2018, June 25th). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELS-A). _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/EYKNZ](https://doi.org/10.17605/OSF.IO/EYKNZ)
 
 * Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2018, June 12). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
