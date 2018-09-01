@@ -50,17 +50,17 @@ I assume that you have *some* basic knowledge on statistical concepts. There is 
 ## Lectures.
 The academic calendar is in your programme handbook. We will work through 11 lectures in 12 weeks, notice that there will be an academic development week with no lecture after week 5. Depending on timing the content of this schedule might shift a bit.
 
-1. 19/9. Introduction. R Studio and R environment. Basics of Markdown. 
-2. 26/9. Data visualisation. (+ basic tests)
-3. 3/10. Basic ANOVA + Extensions (ANCOVA / MANOVA) 
-4. 10/10. Correlation and multiple regression. Logistic Regression.
-5. 17/10. Moderation analyses. 
-6. 31/10. Path analysis and 'Basic Mediation' (Sobel test / 'Preacher & Hayes method'). 
-7. 7/11. Exploratory Factor Analysis.
-8. 14/11. Confirmatory Factor Analysis CFA I
-9. 21/11. Confirmatory Factor Analysis II and SEM. Mediation via SEM.
-10. 28/11. Multilevel models I
-11. 5/12. Multilevel models II
+1. 2/10. Introduction. R Studio and R environment. Basics of Markdown. 
+2. 9/10. Data visualisation. (+ basic tests)
+3. 16/10. Basic ANOVA + Extensions (ANCOVA / MANOVA) 
+4. 23/10. Correlation and multiple regression. Logistic Regression.
+5. 30/10. Moderation analyses. 
+6. 13/11. Path analysis and 'Basic Mediation' (Sobel test / 'Preacher & Hayes method'). 
+7. 20/11. Exploratory Factor Analysis.
+8. 27/11. Confirmatory Factor Analysis CFA I
+9. 4/12. Confirmatory Factor Analysis II and SEM. Mediation via SEM.
+10. 11/12. Multilevel models I
+11. 18/12. Multilevel models II
 
 The handouts for every course lecture will be available via the electronic learning portal. There is no need to take extensive notes, as all the key information will be on the sheets.
 
