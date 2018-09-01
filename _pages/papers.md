@@ -13,6 +13,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq]([https://doi.org/10.31234/osf.io/3zvhq)
+
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
 *  **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (2018, June 25th). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELS-A). _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/EYKNZ](https://doi.org/10.17605/OSF.IO/EYKNZ)
