@@ -24,7 +24,7 @@ In accessing the author's web pages, you agree that any downloading of content i
 
 Every effort is made to obtain (and trace) the copyright of content on this web page (or in this presentation), if for some reason you believe a part of this website contains copyrighted material, contact me and if so it will be removed as soon as possible (definitely within 30 working days). The author accepts no liability for copyright violations, and the subsequent damages, losses arising out of it, without prior explicit notification in writing  for prompt removal of the copyrighted material. All legal issues concerning copyrighted material shall be dealt with by Dutch law. Please bear in mind that the majority of content is used for educational purposes and the advancement of research and science. As such a fair use policy is implied.
 
-These terms shall be governed by and interpreted in accordance with the laws of  the Netherlands. All judicial issues are subject to Dutch law, no other (national, international) court will deal with legal issues arising from this website or presentations (prezis(c)). (So any judicial claim, should be submitted to a  Dutch court).
+These terms shall be governed by and interpreted in accordance with the laws of the Netherlands. All judicial issues are subject to Dutch law, no other (national, international) court will deal with legal issues arising from this website or presentations (prezis(c)). (So any judicial claim, should be submitted to a  Dutch court).
 
 No rights can be deducted from the information (granted as well as submitted) on this website or the email correspondence.
 
