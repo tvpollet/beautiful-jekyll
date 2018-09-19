@@ -570,7 +570,7 @@ boot.ci(results, type="bca")
 * Do the same as shown but now do it for delay in arrival.
 
 ## Exercise. 
-- Install and load the 'car' package. load the professorial 'Salaries' dataset.
+- Install and load the 'carData' package. load the professorial 'Salaries' dataset.
  
 - This dataset has 397 cases and 6 variables. ??Salaries. Have a look (perhaps use ??skimr)
  
