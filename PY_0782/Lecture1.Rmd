@@ -37,7 +37,7 @@ knitr::include_graphics("http://s2.quickmeme.com/img/74/74e004eeea3edb4c231d0976
 
 ## Housekeeping {.build} 
 ```{r, out.width = "300px", echo=FALSE}
-knitr::include_graphics("http://cdn.meme.am/instances/42056161/housekeeping.jpg")
+knitr::include_graphics("https://memegenerator.net/img/instances/46122897/prepare-yourself-housekeeping-is-coming.jpg")
 ```
 
  Bring your laptop if you want to. **ONLY** class relevant stuff.
