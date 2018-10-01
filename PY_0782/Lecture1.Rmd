@@ -481,7 +481,7 @@ write_sav(coffee_data, 'coffee_data.sav')
 
  Open your datafiles with Excel and SPSS.
 
- Find our more about write_spss function.
+ Find out more about write_spss function.
 
 ## Read in data. {.build}
  If it is in the same folder. I have reloaded the 'haven' package.
@@ -491,7 +491,7 @@ coffee_data_the_return<-read_sav('coffee_data.sav')
 ### use the same notation as with setwd to get the path
 ```
  Even from (public) weblinks. Here in .dat format. head() shows you the first lines.
-```{r}
+```{r message=F, warning=F}
 require(data.table)
 mydat <- fread('http://www.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat')
 head(mydat)
@@ -500,7 +500,7 @@ head(mydat)
 ##Some basic data analyses / manipulations. {.build} 
  This follows Whickham & Grolemund (2017).
 
- [library](https://yihui.name/en/2014/07/library-vs-require/) (instead of require - require tries to load library). I'll alternate.
+ [library](https://yihui.name/en/2014/07/library-vs-require/) (instead of require - require tries to load library). I'll switch.
 
 ```{r}
 library(nycflights13)
@@ -604,7 +604,7 @@ sqrt(3) ^ 2 == 3
 1/98 * 98 == 1
 ```
 ```{r, out.width = "175px", echo=FALSE}
-knitr::include_graphics("https://cdn.meme.am/instances/61123698/floating-point-cat-approves.jpg") 
+knitr::include_graphics("floating_cat.jpg") 
 ```
 
 ##Solution: near()
@@ -641,7 +641,7 @@ LL
 ```
 
 ```{r, out.width = "150px", echo=FALSE}
-knitr::include_graphics("https://cdn.meme.am/instances/68199295/hey-girl-nothing-is-more-important-than-your-confidence-interval.jpg")
+knitr::include_graphics("CI.jpg")
 ```
 
 ##Five number summary.
