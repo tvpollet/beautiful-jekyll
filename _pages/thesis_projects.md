@@ -115,11 +115,11 @@ Also look at [this video](https://www.youtube.com/watch?v=3pzCa4Whv74){:target="
 
 If you are unlucky enough to have to run a logistic regression, then we often want [information criteria](https://en.wikipedia.org/wiki/Model_selection#Criteria){:target="_blank"} and/or [likelihood ratio tests](https://en.wikipedia.org/wiki/Likelihood-ratio_test){:target="_blank"}. I had to find out how to get those. It turns out that the binomial logistic regression module in SPSS does not provide this, but the multinomial logistic regression module does (see [this](http://www-01.ibm.com/support/docview.wss?uid=swg21478171){:target="_blank"}.
 
-## Writing.
+# Writing.
 
 ![Image Bojack](https://media.giphy.com/media/CQDF0q4pffDW0/giphy.gif){: .center-image }
 
-### Scientific writing.
+## Scientific writing.
 I will list some resources on how to become a better writer. To be honest, I am a terrible writer and thus not the best placed to offer you advice. The best advice is to write often and rewrite. In the beginning do not waste a lot of time on formatting, save that for the end. Set yourself targets (e.g., 200-500 words for a day) and once you have a terrible first draft, flesh it out. Especially at the start of your project force yourself to write chunks often and then rewrite.
 
 Some further tips:
@@ -132,7 +132,7 @@ Some further tips:
 
 If you are struggling with writing and starting your essay/thesis also consider [booking a session](https://cragside.northumbria.ac.uk/Everyone/skillsplus/database_uploads/55389339.pdf?){:target="_blank"} in the Northumbria University library.
 
-### Reporting statistics.
+## Reporting statistics.
 APA style is the standard for your report, for most statistics standardised formats exist. Go back to your statistics notes. Still confused, look at these resources:
 
 * [Reporting Statistics in APA Format](https://production.wordpress.uconn.edu/writingcenterwp1/wp-content/uploads/sites/593/2014/06/Reporting_Statistics1.pdf){:target="_blank"}, University of Connecticut.
@@ -141,10 +141,10 @@ APA style is the standard for your report, for most statistics standardised form
 
 As always google is your friend, and you are not the first one wondering how to write up your results in APA style.
 
-### Software.
+## Software.
 I have also moved away from MS word and towards writing first draft in [Markdown](https://guides.github.com/features/mastering-markdown/){:target="_blank"}, I am still oscillating between [RStudio](www.rstudio.com){:target="_blank"}, [Macdown](https://macdown.uranusjr.com/){:target="_blank"} and [Atom](http://atom.io){:target="_blank"}. I also have looked at [Scrivener](https://www.literatureandlatte.com/scrivener/overview){:target="_blank"} but that's perhaps more suitable for much longer pieces. If I ever find the optimal solution I will let you know.
 
-### References.
+## References.
 
 Use referencing software! Do not waste your time on editing references manually. This is error prone and takes up a lot of your time - which you could spend writing! No excuse not to use one!
 
