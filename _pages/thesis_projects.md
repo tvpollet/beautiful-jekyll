@@ -6,6 +6,12 @@ type: info
 header_text: Thesis projects
 ---
 
+# Contents
+
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+
 {:toc}
 
 # Thesis.
