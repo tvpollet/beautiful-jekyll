@@ -12,7 +12,7 @@ header_text: Thesis projects
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-# Thesis.
+# Thesis, Introduction.
 
 Hurray! You have embarked on a thesis journey with me. On this page I will provide some links and tips. This is still in progress, all feedback welcome.
 Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics), [SPSS](./#some-tips-for-spss), and [writing](./#writing). I even explain how you can get a [meeting](#./help-I-need-a-meeting).
