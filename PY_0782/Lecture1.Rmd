@@ -48,7 +48,7 @@ knitr::include_graphics("https://imageserve.babycenter.com/4/000/366/LDQDRyAQRh8
  
  Attendance. / Be punctual. / Be engaged.
  
- Questions on assignments. Exercise after each assignment.
+ Exercise after each lecture. Keep up!
  
  Appointment via: thomas.pollet@northumbria.ac.uk
 
@@ -471,7 +471,7 @@ write.csv(coffee_data, file= 'coffee_data.csv', row.names=FALSE)
 ```
 
  SPSS (install 'haven' first!) , note the **different** notation!
-```{r}
+```{r warning=F, message=F}
 require(haven)
 write_sav(coffee_data, 'coffee_data.sav')
 ```
@@ -502,8 +502,10 @@ head(mydat)
 
  [library](https://yihui.name/en/2014/07/library-vs-require/) (instead of require - require tries to load library). I'll switch.
 
-```{r}
+```{r warning=F, message=F}
 library(nycflights13)
+```
+```{r}
 library(tidyverse)
 ```
 
