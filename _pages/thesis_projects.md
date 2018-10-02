@@ -6,6 +6,8 @@ type: info
 header_text: Thesis projects
 ---
 
+{:toc}
+
 # Thesis.
 
 Hurray! You have embarked on a thesis journey with me. On this page I will provide some links and tips. This is still in progress, all feedback welcome.
@@ -82,7 +84,7 @@ And if you want a free alternative to SPSS, why not use [JASP](www.jasp-stats.or
 
 ## Graph and table misery.
 
-As discussed in my [post](https://tvpollet.github.io/2018-02-19-SPSS/){:target="_blank"}, I often see terribly formatted graphs (and actually I have been [guilty](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcxZTcxYjRjYmFkZmIxNDM){:target="_blank"} of myself. There thus are no longer any excuses for terribly formatted figures and tables.
+As discussed in my [post](https://tvpollet.github.io/2018-02-19-SPSS/){:target="_blank"}, I often see terribly formatted graphs (and actually I have been [guilty](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcxZTcxYjRjYmFkZmIxNDM){:target="_blank"} of myself). There thus are no longer any excuses for terribly formatted figures and tables.
 
 ## Recoding variables.
 
