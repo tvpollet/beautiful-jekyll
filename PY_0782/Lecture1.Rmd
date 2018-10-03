@@ -705,7 +705,7 @@ skim(flights)
 
  Do the same for United Airlines (UA) and compare the two. Do their confidence intervals overlap?
 
- Calculate the mode for the delay in arrival for at JFK airport.
+ Calculate the mode for the delay in arrival from JFK airport (origin).
 
  save a dataset as .sav with only departing flights from JFK airport.
 --> submit via elearning portal.
