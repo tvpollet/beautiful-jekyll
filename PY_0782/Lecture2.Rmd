@@ -147,7 +147,7 @@ summarise(by_carrier, delay = mean(dep_delay, na.rm = TRUE))
 
 ##Try it yourself.
 * calculate 'gain' which is arr_delay - dep_delay.
-* calculate 'airtime_hours' which is airtime (in mins.) divide by the number of minutes in an hour. 
+* calculate 'airtime_hours' which is airtime (in mins.) divided by the number of minutes in an hour. 
 * now calculate 'gain per hour'. (gain/airtime_hours)
 * standardize 'gain per hour'.
 * use group_by to calculate the means of gain per hour by carrier.
@@ -336,7 +336,7 @@ plot_dl+geom_histogram(binwidth=40)
 ```
 
 ## Settle on 5?{.build .smaller}
-```{r}{r, fig.height=1.8, fig.width=3, tidy.opts=list(width.cutoff=35)}
+```{r, fig.height=1.8, fig.width=3, tidy.opts=list(width.cutoff=35)}
 plot_dl<-plot_dl+geom_histogram(binwidth=5, colour = "black", fill = "white")
 plot_jetblue<-plot_jetblue + geom_histogram(binwidth=5, colour = "black", fill = "white")
 plot_dl
@@ -436,7 +436,7 @@ violinplot
 
 ## Add some 'oomph'.
 ```{r,fig.height=4.5, fig.width=8,tidy=T, tidy.opts=list(width.cutoff=55)}
-violinplot + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_few(14)
+violinplot + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_stata(14)
 ```
 
 ## Can you describe the graph?
@@ -451,7 +451,7 @@ violinplot_data$carrier_rec<-as_factor(violinplot_data$carrier)
 ordered_levels<-c("Jet Blue", "Delta Airlines")
 violinplot_data<- mutate(violinplot_data, carrier_rec = factor(carrier_rec, levels = ordered_levels))
 ### violinplot_2
-violinplot_2<-ggplot(violinplot_data, aes(x = carrier_rec, y = dep_delay)) + geom_violin() + geom_boxplot(width = 0.2)  + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_few(14)
+violinplot_2<-ggplot(violinplot_data, aes(x = carrier_rec, y = dep_delay)) + geom_violin() + geom_boxplot(width = 0.2)  + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_stata(14)
 violinplot_2
 ```
 
@@ -485,7 +485,7 @@ sd(jfk_jetblue$dep_delay_no_miss)
 
 ## Wilcoxon-Mann-Whitney U. 
 *  Other alternatives exist (e.g., Mood's median test)
-*  Wilcoxon-Mann-Whitney U is common [alternative](http://vassarstats.net/textbook/ch11a.html) to _t_test. (Sometimes, just called Mann-Whitney U).
+*  Wilcoxon-Mann-Whitney U is common [alternative](http://vassarstats.net/textbook/ch11a.html) to _t_-test. (Sometimes, just called Mann-Whitney U).
 ```{r}
 wilcox.test(dep_delay~carrier, data=violinplot_data)
 ```
@@ -525,7 +525,7 @@ median(jfk_jetblue$dep_delay_no_miss)
 ```{r,tidy=T, tidy.opts=list(width.cutoff=45)}
 ### Bootstrap 95% CI for t-test
 library(boot)
-#@@ function to obtain p.values from t.test from the data 
+### function to obtain p.values from t.test from the data 
 p_value <- function(data, indices) {
   data_boot <- data[indices,] # allows boot to select sample 
   T_test_boot <- t.test(dep_delay~carrier, data=data_boot)
@@ -538,7 +538,7 @@ p_value <- function(data, indices) {
 ```{r,tidy=T, tidy.opts=list(width.cutoff=55)}
 ### Bootstrapping is truly random.
 ### We need a 'seed' to make it replicable.
-set.seed(2017)
+set.seed(2018)
 ### R is number of samples we want to draw?
 ### we store it in results.
 results <- boot(data=violinplot_data, statistic=p_value,R=10000)
