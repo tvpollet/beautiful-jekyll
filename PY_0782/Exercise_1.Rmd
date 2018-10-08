@@ -85,7 +85,7 @@ LL_united
 
 ### Conclusion: Delta vs. United.
 
-The 95%CI's do not overlap. United [3.22 to 3.89] is significantly slower in terms of arrival time than Delta [1.24 to 2.04].
+The 95%CI's do not overlap. United [3.22 to 3.89] is significantly slower in terms of arrival time than Delta [1.25 to 2.04].
 
 ### JFK airport
 
