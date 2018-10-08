@@ -160,11 +160,11 @@ The 95% bootstrapped confidence interval for _p_ ranges from <.0001 to .2872. (B
 
 ```{r}
 wilcox.test(monthly_salary~gender, data=salaries)
-gender_group_med<- salaries %>% group_by(gender) %>% summarise(SD_monthly=median(monthly_salary))
+gender_group_med<- salaries %>% group_by(gender) %>% summarise(median_monthly=median(monthly_salary))
 gender_group_med
 ```
 
-A Wilcoxon-Mann-Whitney U test showed that men (_Median_=12004) earned significantly more than women did (_Median_=11527) _W_=5182.5, _p_= .008.
+A Wilcoxon-Mann-Whitney U test showed that men (_Median_=12005) earned significantly more than women did (_Median_=11528) _W_=5182.5, _p_= .008.
 
 But note that the medians are actually not significantly different, if you use a Mood's median test! (They are testing different things, medians vs. ranks.). So depending on how you look at the data, you might draw different conclusions here! Again, bear in mind that one would try and do multiple robustness checks to find out if any conclusion holds up. For example, by controlling for potential third variables. Have a think about what those could be.
 

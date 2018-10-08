@@ -39,7 +39,7 @@ delta<-filter(flights, carrier=="DL")
 
 ```{r}
 #remove the missings
-# chose to work in same dataset. (for safety reasons you coula make a new one!)
+# chose to work in same dataset. (for safety reasons you could make a new one!)
 delta<-filter(delta, arr_delay!='NA')
 mean(delta$arr_delay)
 # store it
