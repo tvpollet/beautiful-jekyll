@@ -71,7 +71,7 @@ All in one go
 require(dplyr)
 united<-filter(flights, carrier=="UA")
 united<-filter(united, arr_delay!='NA')
-mean(delta$arr_delay)
+mean(united$arr_delay)
 # store it
 mean_united<-mean(united$arr_delay)
 se_united<-sd(united$arr_delay)/sqrt(length(united$arr_delay))
