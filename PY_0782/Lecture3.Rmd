@@ -438,7 +438,7 @@ knitr::include_graphics("https://media.giphy.com/media/12mlYz930XO2HK/giphy.gif"
 
 ## WRS2 package {.build .smaller}
 
-The t1way function computes a one-way ANOVA for the medians. Homoscedasticity assumption not required.
+The t1way function computes a one-way ANOVA for the trimmed means. Homoscedasticity assumption not required.
 
 lincoln() for the posthoc tests.
 
