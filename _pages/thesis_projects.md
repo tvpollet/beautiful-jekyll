@@ -48,7 +48,7 @@ Have a look [here](http://georgiasouthern.libguides.com/c.php?g=653428&p=4585485
 
 ## Creating a project.
 
-Have a look [here](http://help.osf.io/m/projects){:target="_blank"}.
+Have a look [here](http://help.osf.io/m/projects){:target="_blank"}. Ensure that the location it is hosted is **Europe** rather than U.S., if not we will have to amend the consent form, so that participants are aware.
 
 ## Setting up a registration.
 
