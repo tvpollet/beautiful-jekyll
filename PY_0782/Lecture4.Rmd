@@ -63,7 +63,7 @@ linearity (Think back of [Anscombe's quartet](https://www.r-bloggers.com/using-a
 
 ## Population versus sample. {.build}
 
-Note that if you have sampled the entire population
+Note that if you have sampled the entire population, then there is no probability!
 
 Particular pet peeve of [mine](https://www.frontiersin.org/articles/10.3389/fpsyg.2013.00734/full).
 
@@ -107,11 +107,15 @@ knitr::include_graphics("https://media.giphy.com/media/CQDF0q4pffDW0/giphy.gif")
 
 ## Make a pretty chart. {.build .smaller}
 
-```{r, warning=F, message=F, tidy.opts=list(width.cutoff=12), tidy=T, fig.align="center",fig.height=3, fig.width=8}
+```{r, warning=F, message=F, tidy.opts=list(width.cutoff=2), tidy=T, fig.align="center",fig.height=3, fig.width=8, size = "small"}
 require(ggplot2) # note geom_jitter
 require(ggthemes)
 require(RColorBrewer)
-ggplot(data = iris,aes(Sepal.Width, Sepal.Length, color=Species)) + geom_jitter() + facet_grid(. ~ Species) + geom_smooth(method='lm') + scale_colour_brewer(palette = "Dark2") + labs(x="Sepal Width", y="Sepal Length", title="Sepals ...") + theme_tufte(12) 
+gg<-ggplot(data = iris,aes(Sepal.Width, Sepal.Length, color=Species)) + geom_jitter()
+gg<- gg + facet_grid(. ~ Species) + geom_smooth(method='lm') 
+gg<- gg + scale_colour_brewer(palette = "Dark2")
+gg <- gg + labs(x="Sepal Width", y="Sepal Length", title="Sepals") + theme_tufte(12) 
+gg
 ```
 
 
@@ -124,9 +128,9 @@ cor_table<-dplyr::select(iris,-Species)
 apa.cor.table(cor_table, filename = "correlations-iris.doc")
 ```
 
-## ggcorrplot.
+## ggcorrplot. {.smaller}
 
-```{r, warning=F, message=F, tidy.opts=list(width.cutoff=12), tidy=T, fig.align="center",fig.height=3.5, fig.width=8}
+```{r, warning=F, message=F, tidy.opts=list(width.cutoff=20), tidy=T, fig.align="center",fig.height=3.5, fig.width=8}
 # ggcorrplot, you can then further tweak this, as it is a ggplot.
 require(ggcorrplot)
 cormatrix<-cor(cor_table)
@@ -143,8 +147,8 @@ For further info. see the tutorial referenced at the end by Willems.
 This is based on Fox (2015) and Fox (2002)
 
 ```{r}
-library(car)
-prestige<-car::Prestige
+library(carData)
+prestige<-carData::Prestige
 ```
 
 ## What is it about?
@@ -285,6 +289,8 @@ dwtest(model_education) #Durbin-Watson test.
 
 ## Box test.
 
+Also note that there is one other alternative typically used in econometrics (Breusch-Godfroy). Check [here](https://stats.stackexchange.com/questions/148004/testing-for-autocorrelation-ljung-box-versus-breusch-godfrey).
+
 ```{r}
 Box.test(residuals(model_education), type="Ljung-Box") #Box test
 ```
@@ -355,7 +361,7 @@ summary(centered_model)
 
 ## from B to Beta...{.smaller .build}
 
-Remember scale() - $\beta$'s are nothing more than standardized B's! (but beware scale() takes matrices as input).
+Remember scale() - $\beta$'s are nothing more than standardized B's! (but beware scale() takes matrices as input - look at _z_-score functions).
 
 Interpreted in shifts of standard deviations. A $\beta$ of 1 implies that a shift of 1SD in X leads to a shift of 1SD in Y.
 
@@ -367,7 +373,7 @@ summary(model_education_stand)
 
 ## Alternative. QuantPsyc package.
 
-Note be wary with interaction terms! (center them beforehand - values might not be correct from QuantPsyc). Alternative package lm.beta.
+Note be wary with interaction terms! (center them beforehand - values might not be correct from QuantPsyc). Alternative function: lm.beta.
 
 ```{r, warning=F, message=F}
 require(QuantPsyc)
@@ -381,11 +387,11 @@ Again note that you can do this for _any_ statistic.
 ```{r}
 # Bootstrap 95% CI for B coefficient.
 library(boot)
-# function to obtain p.values from F-test from the data
+# function which does bootstrapping.
 coeff_B <- function(data, indices) {
 data_boot <- data[indices, ] # allows boot to select sample
 B_boot <- lm(prestige_cent ~ education_cent + women_cent, data = data_boot)
-return(B_boot$coeff[2]) # education in position 2 
+return(B_boot$coeff[2]) # education in position 2 / alter for different variables.
 }
 # bootstrapping with 10000 replications
 set.seed(666)
