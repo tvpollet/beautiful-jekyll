@@ -13,8 +13,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2018, September 4). Do red objects enhance sexual attractiveness? No evidence from two large replications. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/3BFWH](https://doi.org/10.17605/OSF.IO/3BFWH)
-
 * Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq]([https://doi.org/10.31234/osf.io/3zvhq)
 
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
@@ -25,8 +23,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * **Pollet, T.V.**, & Saxton, T.K. (2018, April 1). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. _OSF Preprints_ [https://doi.org/10.17605/OSF.IO/7H24P](https://doi.org/10.17605/OSF.IO/7H24P)
 
-
 ## **2018/Accepted/in Press**
+
+[94.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (in press). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays*
 
 [93.](https://www.journals.elsevier.com/personality-and-individual-differences/recent-articles) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (accepted). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences*
 
