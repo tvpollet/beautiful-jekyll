@@ -23,7 +23,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2018/Accepted/in Press**
 
-[95](https://doi.org/10.17605/OSF.IO/EYKNZ) **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (Accepted). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELSA). _Interpersona_
+[95.](https://doi.org/10.17605/OSF.IO/EYKNZ) **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (Accepted). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELSA). _Interpersona_
 
 [94.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (in press). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays*
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Preprint on measurement equivalence and loneliness accepted for Interpersona!
+title:  Preprint on measurement equivalence and loneliness accepted!
 image: /img/celebration.gif
 tags:
   - Research
