@@ -17,17 +17,17 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
-*  **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (2018, June 25th). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELS-A). _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/EYKNZ](https://doi.org/10.17605/OSF.IO/EYKNZ)
-
 * Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2018, June 12). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
 
 * **Pollet, T.V.**, & Saxton, T.K. (2018, April 1). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. _OSF Preprints_ [https://doi.org/10.17605/OSF.IO/7H24P](https://doi.org/10.17605/OSF.IO/7H24P)
 
 ## **2018/Accepted/in Press**
 
+[95](https://doi.org/10.17605/OSF.IO/EYKNZ) **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (Accepted). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELSA). _Interpersona_
+
 [94.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (in press). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays*
 
-[93.](https://www.journals.elsevier.com/personality-and-individual-differences/recent-articles) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (accepted). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences*
+[93.](https://www.sciencedirect.com/science/article/pii/S0191886918304355) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (accepted). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences*
 
 [92.](http://tvpollet.github.io/pdfs/Morina_et_al_2018.pdf) Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, S. (2018). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders, 239,* 328-338.
 
