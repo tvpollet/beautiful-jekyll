@@ -83,7 +83,7 @@ In essence you can think of factor analysis as OLS regression, which means simil
 
 **Sample size**: >200 , although some advocate 5-10 per variable but see [this](http://people.musc.edu/~elg26/teaching/psstats1.2006/maccallumetal.pdf) on rules of thumb.
 
-**Multivariate normality**: Though not necessary required for exploratory factor analysis, useful to check. 
+**Multivariate normality**: Though not necessarily required for exploratory factor analysis, useful to check. 
 
 **Linear**: the proposed relationships are linear. 
 
