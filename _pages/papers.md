@@ -23,17 +23,19 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2018/Accepted/in Press**
 
-[95.](https://doi.org/10.17605/OSF.IO/EYKNZ) **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (Accepted). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELSA). _Interpersona_
+[96.](https://www.sciencedirect.com/science/article/pii/S0028393218307607) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2018). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia._ https://doi.org/10.1016/j.neuropsychologia.2018.11.015
 
-[94.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (in press). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays*
+[95.](https://doi.org/10.17605/OSF.IO/EYKNZ) **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (in press). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELSA). _Interpersona_
+
+[94.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (in press). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays* [preprint here](https://psyarxiv.com/3bfwh/)
 
 [93.](https://www.sciencedirect.com/science/article/pii/S0191886918304355) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (accepted). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences*
 
 [92.](http://tvpollet.github.io/pdfs/Morina_et_al_2018.pdf) Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, S. (2018). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders, 239,* 328-338.
 
-[91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1).*  1-4.
+[91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
 
-[90.](https://doi.org/10.1016/j.ssresearch.2018.04.004) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (in press). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research*  [https://doi.org/10.1016/j.ssresearch.2018.04.004](https://doi.org/10.1016/j.ssresearch.2018.04.004)
+[90.](http://tvpollet.github.io/pdfs/Tulin_et_al_2018.pdf) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (in press). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research, 74*, 161-175.
 
 [89.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [https://doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
 
