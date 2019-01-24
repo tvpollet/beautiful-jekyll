@@ -13,7 +13,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq]([https://doi.org/10.31234/osf.io/3zvhq)
+* Simanko, V., Rimmer, B., & **Pollet, T.V.** (2019, January 21). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _PsyArxiv_ [https://doi.org/10.31234/osf.io/h2b3w](https://doi.org/10.31234/osf.io/h2b3w)
+
+* Boothroyd, L.G., **Pollet, T.V.**, Evans, E.H., Yi, Q., & Tovée, M.J. (2018, September 7). Adaptation-like effects in body weight attractiveness are not simply norm based. _PsyArxiv_ [https://doi.org/10.31234/osf.io/gsnkf](https://doi.org/10.31234/osf.io/gsnkf)
+
+* Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq](https://doi.org/10.31234/osf.io/3zvhq)
 
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
@@ -21,25 +25,27 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * **Pollet, T.V.**, & Saxton, T.K. (2018, April 1). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. _OSF Preprints_ [https://doi.org/10.17605/OSF.IO/7H24P](https://doi.org/10.17605/OSF.IO/7H24P)
 
-## **2018/Accepted/in Press**
+## **2019/Accepted/in Press**
 
-[96.](https://www.sciencedirect.com/science/article/pii/S0028393218307607) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2018). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia._ https://doi.org/10.1016/j.neuropsychologia.2018.11.015
+[96.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2018). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays* [preprint here](https://psyarxiv.com/3bfwh/)
 
-[95.](https://doi.org/10.17605/OSF.IO/EYKNZ) **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (in press). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELSA). _Interpersona_
+[95.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [https://doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
 
-[94.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (in press). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays* [preprint here](https://psyarxiv.com/3bfwh/)
+[94.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019.pdf) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia, 122, 38-50_ 
 
-[93.](https://www.sciencedirect.com/science/article/pii/S0191886918304355) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (accepted). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences*
+[93.](http://tvpollet.github.io/pdfs/Martin_et_al_2019.pdf) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (2019). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences, 137,* 12-16
 
-[92.](http://tvpollet.github.io/pdfs/Morina_et_al_2018.pdf) Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, S. (2018). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders, 239,* 328-338.
+## **2018**
 
-[91.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
+[92.](https://interpersona.psychopen.eu/article/view/316) **Pollet, T.V.**, Saxton, T.K. & Mitchell, M. (2018). Measurement equivalence between men and women in the abbreviated social and emotional loneliness scale for adults (SELSA). *Interpersona, 12,* 283-292. 
 
-[90.](http://tvpollet.github.io/pdfs/Tulin_et_al_2018.pdf) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (in press). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research, 74*, 161-175.
+[91.](http://tvpollet.github.io/pdfs/Morina_et_al_2018.pdf) Morina, N., Stam, K., **Pollet, T.V.**, & Priebe, S. (2018). Prevalence of depression and posttraumatic stress disorder in adult civilian survivors of war who stay in war-afflicted regions. A systematic review and meta-analysis of epidemiological studies. *Journal of Affective Disorders, 239,* 328-338.
 
-[89.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [https://doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
+[90.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
 
-[88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L.,  Oostrom, J.K. & **Pollet, T.V.,**  (2018). No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioral Neuroscience, 12,* 30.
+[89.](http://tvpollet.github.io/pdfs/Tulin_et_al_2018.pdf) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (2018). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research, 74*, 161-175.
+
+[88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L., Oostrom, J.K. & **Pollet, T.V.,**  (2018). No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioral Neuroscience, 12,* 30.
 
 ## **2017**
 
