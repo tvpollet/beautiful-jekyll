@@ -260,7 +260,7 @@ knitr::include_graphics("https://media.giphy.com/media/CqWedF7qGZZ5u/giphy.gif")
  - Relevant education
 
 .footnote[
-[1] Tsai et al. (2010)
+[1] Tsai et al. (2011)
 
 ]
 ---
