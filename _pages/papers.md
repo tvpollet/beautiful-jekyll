@@ -23,15 +23,17 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2018, June 12). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
 
-* **Pollet, T.V.**, & Saxton, T.K. (2018, April 1). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. _OSF Preprints_ [https://doi.org/10.17605/OSF.IO/7H24P](https://doi.org/10.17605/OSF.IO/7H24P)
-
 ## **2019/Accepted/in Press**
 
-[96.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2018). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays* [preprint here](https://psyarxiv.com/3bfwh/)
+[98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press) The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
+
+[97.](https://doi.org/10.17605/OSF.IO/7H24P) **Pollet, T.V.**, & Saxton, T.K. (provisionally accepted). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* 
+
+[96.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2019). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays, 56,* 23-29. [preprint here](https://psyarxiv.com/3bfwh/)
 
 [95.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [https://doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
 
-[94.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019.pdf) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia, 122, 38-50_ 
+[94.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019.pdf) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia, 122,_ 38-50. 
 
 [93.](http://tvpollet.github.io/pdfs/Martin_et_al_2019.pdf) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (2019). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences, 137,* 12-16
 
