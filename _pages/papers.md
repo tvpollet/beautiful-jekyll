@@ -13,7 +13,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* Simanko, V., Rimmer, B., & **Pollet, T.V.** (2019, January 21). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _PsyArxiv_ [https://doi.org/10.31234/osf.io/h2b3w](https://doi.org/10.31234/osf.io/h2b3w)
+* Simanko, V., Rimmer, B., & **Pollet, T.V.** (2019, March 4th). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _PsyArxiv_ [https://doi.org/10.31234/osf.io/h2b3w](https://doi.org/10.31234/osf.io/h2b3w)
 
 * Boothroyd, L.G., **Pollet, T.V.**, Evans, E.H., Yi, Q., & Tovée, M.J. (2018, September 7). Adaptation-like effects in body weight attractiveness are not simply norm based. _PsyArxiv_ [https://doi.org/10.31234/osf.io/gsnkf](https://doi.org/10.31234/osf.io/gsnkf)
 
@@ -25,9 +25,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2019/Accepted/in Press**
 
-[98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press) The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
+[99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2018.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
 
-[97.](https://doi.org/10.17605/OSF.IO/7H24P) **Pollet, T.V.**, & Saxton, T.K. (provisionally accepted). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* 
+[98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
+
+[97.](https://doi.org/10.17605/OSF.IO/7H24P) **Pollet, T.V.**, & Saxton, T.K. (accepted). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* 
 
 [96.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2019). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays, 56,* 23-29. [preprint here](https://psyarxiv.com/3bfwh/)
 
