@@ -13,6 +13,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* **Pollet, T.V.** & Saxton, T.K. (2019, March 29th). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
+
 * Simanko, V., Rimmer, B., & **Pollet, T.V.** (2019, March 4th). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _PsyArxiv_ [https://doi.org/10.31234/osf.io/h2b3w](https://doi.org/10.31234/osf.io/h2b3w)
 
 * Boothroyd, L.G., **Pollet, T.V.**, Evans, E.H., Yi, Q., & Tovée, M.J. (2018, September 7). Adaptation-like effects in body weight attractiveness are not simply norm based. _PsyArxiv_ [https://doi.org/10.31234/osf.io/gsnkf](https://doi.org/10.31234/osf.io/gsnkf)
@@ -25,11 +27,13 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2019/Accepted/in Press**
 
+[100.](https://osf.io/rb3wd/wiki/home/) Knapen, J.E.P, van Vugt, M. & **Pollet, T.V.** (accepted). When Better Seems Bigger: Perceived Performance of Adult Professional Football Players Is Positively Associated With Perceptions of Their Body Size. *Evolutionary Psychology*
+
 [99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2018.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
 
 [98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
 
-[97.](https://doi.org/10.17605/OSF.IO/7H24P) **Pollet, T.V.**, & Saxton, T.K. (accepted). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* 
+[97.](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2) **Pollet, T.V.**, & Saxton, T.K. (2019). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* [https://link.springer.com/article/10.1007%2Fs40806-019-00192-2](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2)
 
 [96.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2019). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays, 56,* 23-29. [preprint here](https://psyarxiv.com/3bfwh/)
 
