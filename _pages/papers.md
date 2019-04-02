@@ -31,7 +31,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2018.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
 
-[98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
+[98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
 
 [97.](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2) **Pollet, T.V.**, & Saxton, T.K. (2019). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* [https://link.springer.com/article/10.1007%2Fs40806-019-00192-2](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2)
 
@@ -51,7 +51,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [90.](http://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65/220) O'Dowd, E. & **Pollet, T.V.** (2018). Gender Differences in Use of a Pedestrian Crossing: An Observational Study in Newcastle upon Tyne. *Letters on Evolutionary Behavioral Science, 9(1),*  1-4.
 
-[89.](http://tvpollet.github.io/pdfs/Tulin_et_al_2018.pdf) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (2018). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research, 74*, 161-175.
+[89.](http://tvpollet.github.io/pdfs/Tulin_et_al_2018.pdf) Tulin, M., **Pollet, T.V.**, & Lehmann-Willenbrock, N. (2018). Perceived group cohesion versus actual social structure: A study using social network analysis of egocentric Facebook networks. *Social Science Research, 74,* 161-175.
 
 [88.](https://www.frontiersin.org/articles/10.3389/fnbeh.2018.00030/abstract) Ronay, R., van der Meij, L., Oostrom, J.K. & **Pollet, T.V.,**  (2018). No Evidence for a Relationship Between Hair Testosterone Concentrations and 2D:4D ratio or Risk Taking.  *Frontiers in Behavioral Neuroscience, 12,* 30.
 
