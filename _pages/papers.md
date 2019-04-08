@@ -29,7 +29,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [100.](https://osf.io/rb3wd/wiki/home/) Knapen, J.E.P, van Vugt, M. & **Pollet, T.V.** (accepted). When Better Seems Bigger: Perceived Performance of Adult Professional Football Players Is Positively Associated With Perceptions of Their Body Size. *Evolutionary Psychology*
 
-[99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2018.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
+[99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2019.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
 
 [98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
 
