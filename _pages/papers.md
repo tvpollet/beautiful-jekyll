@@ -29,11 +29,13 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2019/Accepted/in Press**
 
+[101.](http://ishe.org/wp-content/uploads/2019/04/HE_2019_34_17-25.pdf) Saxton, T.K., Hart, S., Desai, L., & **Pollet, T.V.** (2019). Can people detect ideological stance from facial photographs? _Human Ethology, 34,_ 17–25.
+
 [100.](https://journals.sagepub.com/doi/10.1177/1474704919841914) Knapen, J.E.P, **Pollet, T.V.**, van Vugt, M. (2019). When Better Seems Bigger: Perceived Performance of Adult Professional Football Players Is Positively Associated With Perceptions of Their Body Size. *Evolutionary Psychology, 17,* [https://doi.org/10.1177/1474704919841914](https://doi.org/10.1177/1474704919841914)
 
 [99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2019.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
 
-[98.](http://nrl.northumbria.ac.uk/37951/) Irvine, K.R., McCarty, K., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
+[98.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019_body_image.pdf) Irvine, K.R., McCarty, K., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
 
 [97.](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2) **Pollet, T.V.**, & Saxton, T.K. (2019). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* [https://link.springer.com/article/10.1007%2Fs40806-019-00192-2](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2)
 
