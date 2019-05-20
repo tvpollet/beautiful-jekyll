@@ -35,7 +35,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2019.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
 
-[98.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019_body_image.pdf) Irvine, K.R., McCarty, K., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (in press). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image* 
+[98.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019_body_image.pdf) Irvine, K.R., McCarty, K., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image, 29,* 31-46. 
 
 [97.](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2) **Pollet, T.V.**, & Saxton, T.K. (2019). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* [https://link.springer.com/article/10.1007%2Fs40806-019-00192-2](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2)
 
@@ -45,7 +45,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [94.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019.pdf) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia, 122,_ 38-50. 
 
-[93.](http://tvpollet.github.io/pdfs/Martin_et_al_2019.pdf) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (2019). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences, 137,* 12-16
+[93.](http://tvpollet.github.io/pdfs/Martin_et_al_2019.pdf) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (2019). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences, 137,* 12-16.
 
 ## **2018**
 
