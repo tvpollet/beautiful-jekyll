@@ -13,7 +13,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* Sillence, E., Saxton, T. K., & **Pollet, T.V.** (2019, June 26). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
+* Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2019, June 26). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
 * Finister, C., **Pollet, T.V.**, & Neave, N. (2019, April 30th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
 
