@@ -13,6 +13,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Sillence, E., Saxton, T., & **Pollet, T.V.** (2019, June 26). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
+
 * Finister, C., **Pollet, T.V.**, & Neave, N. (2019, April 30th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
 
 * **Pollet, T.V.** & Saxton, T.K. (2019, March 29th). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
@@ -29,9 +31,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2019/Accepted/in Press**
 
+[102.](https://researchportal.northumbria.ac.uk/en/publications/mean-trait-and-on-stage-personality-of-stand-up-comedians(f6a0600d-1734-4e59-8b0b-f1705a99d747).html) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin_
+
 [101.](http://ishe.org/wp-content/uploads/2019/04/HE_2019_34_17-25.pdf) Saxton, T.K., Hart, S., Desai, L., & **Pollet, T.V.** (2019). Can people detect ideological stance from facial photographs? _Human Ethology, 34,_ 17–25.
 
-[100.](https://journals.sagepub.com/doi/10.1177/1474704919841914) Knapen, J.E.P, **Pollet, T.V.**, van Vugt, M. (2019). When Better Seems Bigger: Perceived Performance of Adult Professional Football Players Is Positively Associated With Perceptions of Their Body Size. *Evolutionary Psychology, 17,* [https://doi.org/10.1177/1474704919841914](https://doi.org/10.1177/1474704919841914)
+[100.](https://journals.sagepub.com/doi/10.1177/1474704919841914) Knapen, J.E.P, **Pollet, T.V.**, & van Vugt, M. (2019). When Better Seems Bigger: Perceived Performance of Adult Professional Football Players Is Positively Associated With Perceptions of Their Body Size. *Evolutionary Psychology, 17,* [https://doi.org/10.1177/1474704919841914](https://doi.org/10.1177/1474704919841914)
 
 [99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2019.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10. 
 
@@ -41,7 +45,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [96.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2019). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays, 56,* 23-29. [preprint here](https://psyarxiv.com/3bfwh/)
 
-[95.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (in press). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences.* [https://doi.org/10.1016/j.paid.2018.03.024](https://doi.org/10.1016/j.paid.2018.03.024)
+[95.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (2019). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences, 146* 217-225. 
 
 [94.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019.pdf) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia, 122,_ 38-50. 
 
