@@ -13,9 +13,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* Sillence, E., Saxton, T., & **Pollet, T.V.** (2019, June 26). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
+* Sillence, E., Saxton, T. K., & **Pollet, T.V.** (2019, June 26). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
 * Finister, C., **Pollet, T.V.**, & Neave, N. (2019, April 30th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
+
+* Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2019, April 11). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _PsyArxiv_ [https://doi.org/10.31234/osf.io/s7ta8](https://doi.org/10.31234/osf.io/s7ta8)
 
 * **Pollet, T.V.** & Saxton, T.K. (2019, March 29th). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
 
