@@ -9,9 +9,11 @@ Here I provide a list of courses I have taught and am teaching.
 
 ## Courses Taught
 
+- [Advanced Quantitative and Qualitative Research Methods](https://tvpollet.github.io/PY0794/) (lecturer/coordinator, Research Masters. in Psychology, 2019-...).
+
 - [Research on Human Nature](https://tvpollet.github.io/PY0552/) (lecturer, BSc. Psychology, 2018-...).
 
-- [Advanced Quantitative Research Methods](https://tvpollet.github.io/PY0782/) (lecturer, Research Masters. in Psychology, 2017-...).
+- [Advanced Quantitative Research Methods](https://tvpollet.github.io/PY0782/) (lecturer, Research Masters. in Psychology, 2017-2019).
 
 - Intergroup relations (contributor, MSc. Psychology, 2016-2017)
 
@@ -41,9 +43,9 @@ Here I provide a list of courses I have taught and am teaching.
 
 - Research practical in Psychology (contributor, BSc. Psychology, year 2; 2009-2011).
 
-- Theses (BSc. (>30 completed) and Ma. (>15  completed), 2008-current)).
+- Theses (BSc. (>40 completed) and Ma. (>15  completed), 2008-current)).
 
 - Honours student projects and Traineeships.
 
-- Miscellaneous guest lectures for courses at all levels on statistical methods, leadership, behavioural biology, interpersonal communication.  You can find some sample lectures [here](https://prezi.com/user/tvpollet/).
+- Miscellaneous guest lectures for courses at all levels on statistical methods, leadership, behavioural biology, aggression, interpersonal communication.  You can find some sample lectures [here](https://prezi.com/user/tvpollet/).
 
