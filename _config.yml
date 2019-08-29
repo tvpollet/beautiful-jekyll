@@ -41,7 +41,7 @@ navbar-links:
     - Open Science Framework: "https://osf.io/v6cn3/"
   Teaching:
     - Courses taught: "courses_taught"
-    - PY0782: "PY0782"
+    - PY0794: "PY0794"
     - PY0552: "PY0552"
     - Thesis Projects: "thesis_projects"
     - Calendar: "calendar"
@@ -231,5 +231,4 @@ gems:
   - jekyll-twitter-plugin
 
 
-# Beautiful Jekyll / HUGE THANKS to Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+# Beautiful Jekyll / HUGE THANKS to Dean Attali who provided this template.
