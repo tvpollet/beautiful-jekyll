@@ -13,11 +13,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2019, June 26). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
+* **Pollet, T.V.** & Saxton, T.K. (2019, July 18th). Jealousy as a Function of Rival Characteristics: Two large replication studies and meta-analyses support gender differences in reactions to rival attractiveness but not dominance.. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
+
+* Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2019, June 26th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
 * Finister, C., **Pollet, T.V.**, & Neave, N. (2019, April 30th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
-
-* **Pollet, T.V.** & Saxton, T.K. (2019, March 29th). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
 
 * Simanko, V., Rimmer, B., & **Pollet, T.V.** (2019, March 4th). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _PsyArxiv_ [https://doi.org/10.31234/osf.io/h2b3w](https://doi.org/10.31234/osf.io/h2b3w)
 
@@ -31,7 +31,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2019/Accepted/in Press**
 
-[103.](https://doi.org/10.31234/osf.io/s7ta8) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (accepted). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology_ [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
+[103.](https://doi.org/10.31234/osf.io/s7ta8) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (in press). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology_ [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
 
 [102.](https://researchportal.northumbria.ac.uk/en/publications/mean-trait-and-on-stage-personality-of-stand-up-comedians(f6a0600d-1734-4e59-8b0b-f1705a99d747).html) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin_
 
