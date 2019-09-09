@@ -46,6 +46,7 @@ navbar-links:
     - Thesis Projects: "thesis_projects"
     - Calendar: "calendar"
     - Open Science Framework: "https://osf.io/v6cn3/"
+    - Meta-Analysis workshop: "Meta-analysis_course"
   Disclaimer: "disclaimer"
 
 # Image to show in the navigation bar - image must be a square (width = height)
