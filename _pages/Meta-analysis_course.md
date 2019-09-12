@@ -21,13 +21,13 @@ This short course is aimed at postgraduate level. You should have a basic unders
 
 ## Outcomes.
 
-In this short course, I'll walk you through all the steps involved in carrying out a meta-analysis. 
+In this short course, I'll walk you through all the steps involved in 'carrying out a meta-analysis' in R. 
 
 By the end of this course, you should be able to understand published meta-analyses and conduct your own full-blown meta-analysis in R. We'll do our very best to give you the tools to become an expert, but I have no illusion(s) that you'll be an expert after just 6 short sessions. So, it's more of a 'crash course' - I recommend you read the cited sources and if in doubt ask the help of a statistician and/or consult [stats.stackexchange](https://stats.stackexchange.com/)
 
 In more detail, in this course, we'll cover what a systematic review vs. a meta-analysis is. We'll then do some baby-steps in R. In the next session, I review common effect size families, such as Pearson _r_ or Cohen's _d_. In the third session, we'll discuss how we can synthesise those effect sizes and the differences between a fixed and random effect meta-analysis. Up until now, we have assumed that everything is hunky-dory, but one key issue which could affect _all_ meta-analyses is publication bias. In session 4, we define the problem and discuss some tests which have been suggested to allow us to detect potential publication bias (and their limitations). In session 5, we explore how we might make sense of observed heterogeneity in meta-analysis via subgroup analysis and/or meta-regression. In the final session (session 6), we will cover advanced topics in meta-analysis, such as multilevel meta-analysis, a very basic structural equation modelling approach and (frequentist) network meta-analysis.
 
-In the interest of time, there are some topics/issues which I will not cover (e.g., Bayesian meta-analyses, complex SEM, more advanced network meta-analyses, phylogenetic meta-analyses) but I can point you in the relevant directions should you need these techniques. Similarly, it should be noted that meta-analyses do have their limitations, in the interest of time, while I touch upon these, I do not discuss these at length but read more [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1060723/pdf/jepicomh00215-0003.pdf), [here](http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S019724569700024X) . The value of meta-analyses versus registered replications has also been discussed (see [here](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01365/full)).
+In the interest of time, there are some topics/issues which I will not cover (e.g., Bayesian meta-analyses, complex SEM, more advanced network meta-analyses, phylogenetic meta-analyses) but I can point you in the relevant directions should you need these techniques. Similarly, it should be noted that meta-analyses do have their limitations, in the interest of time, while I touch upon these, I do not discuss these at great length but read more [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1060723/pdf/jepicomh00215-0003.pdf), [here](http://sci-hub.tw/https://www.sciencedirect.com/science/article/pii/S019724569700024X) . The value of meta-analyses versus registered replications has also been discussed (see [here](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01365/full)).
 
 ## Sessions.
 
@@ -52,21 +52,20 @@ Slides were made with the amazing [xaringan](https://github.com/yihui/xaringan) 
 
 ## Exercises.
 
-**To be added.** 
+**To be added for 1,3,4,5** 
 
-These are the solutions, no peeking (ahum).
+These are the exercise and the solutions, no peeking (ahum).
 
-1. [Exercise 1]() and [.rmd]()
+1. [Exercise 1 questions](), [solution](), and [.rmd]()
 
-2. [Exercise 2]() and [.rmd]()
+2. [Exercise 2 questions](https://tvpollet.github.io/Meta-analysis_2/Exercise_2_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_2/Exercise_2.html), and [.rmd](https://github.com/tvpollet/Meta-analysis_2Ò/blob/master/Exercise_2.rmd)
 
-3. [Exercise 3]() and [.rmd]()
+3. [Exercise 3 questions](), [solution](), and [.rmd]()
 
-4. [Exercise 4]() and [.rmd]()
+4. [Exercise 4 questions](), [solution](), and [.rmd]()
 
-5. [Exercise 5]() and [.rmd]()
+5. [Exercise 5 questions](), and [.rmd]()
 
-6. [Exercise 6]() and [.rmd]()
 
 ## GoSoapbox.
 
