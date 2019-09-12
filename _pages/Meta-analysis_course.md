@@ -7,7 +7,7 @@ published: true
 
 ## General info.
 
-The course runs for the first time at an HBES funded workshop in Natal (Brazil) in Sept. 2019. I'll aim to make all my materials available via this website. The sources are listed at the end of each lecture as well as embedded. (Please also note the [disclaimer](/disclaimer) below and on each of the slides). 
+The course runs for the first time at an HBES funded workshop at Universidade Federal do Rio Grande do Norte in Natal (Brazil) in Sept. 2019. I'll aim to make all my materials available via this website. The sources are listed at the end of each lecture as well as embedded. (Please also note the [disclaimer](/disclaimer) below and on each of the slides). 
 
 This course relies heavily on various tutorials and books, in no particular order, a tutorial by [Harrer on doing meta-analysis](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/), the [book by Borenstein et al. (2009)](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470743386) the [R book by Schwarzer](https://www.springer.com/gp/book/9783319214153), [the book by Chen & Peace on applied meta-analysis in R](https://www.crcpress.com/Applied-Meta-Analysis-with-R/Chen-Peace/p/book/9781466505995), the [book by Mike Cheung on MetaSEM](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118957813), [the metafor package page](metafor-project.org/doku.php), [slides by B. Wiernik](https://wiernik.org/wp-content/uploads/2015/04/Wiernik-2015-Meta-analysis-Workshop.pdf), [the handbook of Meta-analysis in Ecology and Evolution by Koricheva and colleagues](https://press.princeton.edu/titles/10045.html), and the workshop materials of [Weiss & Daikeler (2017)](https://www.gesis.org/en/services/events/gesis-training/training-archiv/summer-school/2017/week-3/c9-meta-analysis-in-survey-methodology) shared by my colleague. Please see the full citations (and/or hyperlinks) in the course materials.
 
@@ -31,7 +31,7 @@ In the interest of time, there are some topics/issues which I will not cover (e.
 
 ## Sessions.
 
-Note that you might require files to run .rmd, so please see the corresponding GitHub site.
+Note that you might require some additional files to run .rmd, so please see the corresponding GitHub site.
 
 Use the arrows to navigate the slides and press F for full screen in your browser. More shortcuts [here](https://github.com/hakimel/reveal.js/wiki/Keyboard-Shortcuts?)
 
