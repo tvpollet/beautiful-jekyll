@@ -56,11 +56,11 @@ Slides were made with the amazing [xaringan](https://github.com/yihui/xaringan) 
 
 These are the exercises and the solutions, no peeking (ahum).
 
-1. [Exercise 1 questions](https://tvpollet.github.io/Meta-analysis_1/Exercise_1_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_1/Exercise_1.html), and [.rmd](https://github.com/tvpollet/Meta-analysis_1/blob/master/Exercise_1.rmd)
+1. [Exercise 1 questions](https://tvpollet.github.io/Meta-analysis_1/Exercise_1_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_1/Exercise_1.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_1/master/Exercise_1.Rmd)
 
-2. [Exercise 2 questions](https://tvpollet.github.io/Meta-analysis_2/Exercise_2_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_2/Exercise_2.html), and [.rmd](https://github.com/tvpollet/Meta-analysis_2/blob/master/Exercise_2.rmd)
+2. [Exercise 2 questions](https://tvpollet.github.io/Meta-analysis_2/Exercise_2_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_2/Exercise_2.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_2/master/Exercise_2.Rmd)
 
-3. [Exercise 3 questions](https://tvpollet.github.io/Meta-analysis_3/Exercise_3_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_3/Exercise_3.html), and [.rmd](https://github.com/tvpollet/Meta-analysis_3/blob/master/Exercise_3.rmd)
+3. [Exercise 3 questions](https://tvpollet.github.io/Meta-analysis_3/Exercise_3_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_3/Exercise_3.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_3/master/Exercise_3.Rmd)
 
 4. [Exercise 4 questions](), [solution](), and [.rmd]()
 
