@@ -52,15 +52,15 @@ Slides were made with the amazing [xaringan](https://github.com/yihui/xaringan) 
 
 ## Exercises.
 
-**To be added for 3,4,5** 
+**To be added for exercise 4,5 (currently no working links).** 
 
-These are the exercise and the solutions, no peeking (ahum).
+These are the exercises and the solutions, no peeking (ahum).
 
 1. [Exercise 1 questions](https://tvpollet.github.io/Meta-analysis_1/Exercise_1_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_1/Exercise_1.html), and [.rmd](https://github.com/tvpollet/Meta-analysis_1/blob/master/Exercise_1.rmd)
 
 2. [Exercise 2 questions](https://tvpollet.github.io/Meta-analysis_2/Exercise_2_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_2/Exercise_2.html), and [.rmd](https://github.com/tvpollet/Meta-analysis_2/blob/master/Exercise_2.rmd)
 
-3. [Exercise 3 questions](), [solution](), and [.rmd]()
+3. [Exercise 3 questions](https://tvpollet.github.io/Meta-analysis_3/Exercise_3_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_3/Exercise_3.html), and [.rmd](https://github.com/tvpollet/Meta-analysis_3/blob/master/Exercise_3.rmd)
 
 4. [Exercise 4 questions](), [solution](), and [.rmd]()
 
