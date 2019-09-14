@@ -62,7 +62,7 @@ These are the exercises and the solutions, no peeking (ahum).
 
 3. [Exercise 3 questions](https://tvpollet.github.io/Meta-analysis_3/Exercise_3_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_3/Exercise_3.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_3/master/Exercise_3.Rmd)
 
-4. [Exercise 4 questions](), [solution](), and [.rmd]()
+4. [Exercise 4 questions](https://tvpollet.github.io/Meta-analysis_4/Exercise_4_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_4/Exercise_4.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_4/master/Exercise_4.Rmd)
 
 5. [Exercise 5 questions](), [solution](), and [.rmd]()
 
