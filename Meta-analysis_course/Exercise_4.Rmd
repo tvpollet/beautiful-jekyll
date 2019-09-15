@@ -13,12 +13,11 @@ output:
 Using the `dat.raudenbush1985` from week 3. Rerun the random-effects meta-analysis with REML estimation. 
 
 * Make a funnel plot with study labels. What do you make of it?
-* Make a funnel plot wiht inverse variance on the y-axis.
+* Make a funnel plot with inverse variance on the y-axis.
 * Perform Egger's test for funnel plot asymmetry.
 * Perform Begg & Mazumdar's test for funnel plot asymmetry. Based on _both_ Egger's test and this test what do you conclude.
 * Make a contour-enhanced funnel plot. What does it reveal?
 * Make a radial plot.
-* Perform Orwin's failsafe N test, to check how many studies would be needed to reduce the estimate of the standardized mean difference to .01.
 * **Bonus** perform and interpret a _p_ uniform analysis. For the purpose of this analysis treat the treatment effect `yi` in this dataset, as a Cohen's _d_.
 
 
@@ -105,7 +104,7 @@ metabias(model_reml2,method.bias = "rank")
 
 This procedure would have added 3 studies, which would have reduced the effect dramatically. The estimated effect drops from .084 to .028, so its estimate is around 1/3 of the original.
 
-Note that there is a broad discussion on trim & fill procedure, though in our particular case, one would draw the same conclusion: after one adjusts for publication bias, there is even less evidence for a 'pygmalion' effect in this set.
+Note that there is a broad discussion on trim & fill procedure, though in our particular case, one would draw the same conclusion: after one adjusts for publication bias, there is even less evidence for a 'Pygmalion' effect in this set.
 
 ```{r}
 trimfill(model_reml2)
@@ -137,7 +136,7 @@ The effect wasn't significant to begin with. So, in order to reduce its signific
 
 ## p-uniform
 
-This is not optimal, but it looks like for our purpose we'll have to convert our treatment effect (`yi` or `Te`) to  a metric which we can feed to _p_-unifrom. If you were to have the _M_ and _SD_ for each condition, you could use those. However, in this case, they are not reported in our dataset. From the materials we read that the effect sizes are standard mean differences ('SMD'), though it has not been noted as to whether these are Cohen's _d_ or not. For our purpose we will treat them as Cohen's _d_ . So we are going to have to do some data-wrangling
+This is not optimal, but it looks like for our purpose we'll have to convert our treatment effect (`yi` or `Te`) to  a metric which we can feed to _p_-uniform. If you were to have the _M_ and _SD_ for each condition, you could use those. However, in this case, they are not reported in our dataset. From the materials we read that the effect sizes are standard mean differences ('SMD'), though it has not been noted as to whether these are Cohen's _d_ or not. For our purpose we will treat them as Cohen's _d_ . So we are going to have to do some data-wrangling
 
 
 Remember:

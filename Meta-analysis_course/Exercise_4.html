@@ -365,7 +365,7 @@ summary {
 
 <h1 class="title toc-ignore">Solution Session 4</h1>
 <h4 class="author">Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)</h4>
-<h4 class="date">2019-09-14 | <a href="https://tvpollet.github.io/disclaimer">disclaimer</a></h4>
+<h4 class="date">2019-09-15 | <a href="https://tvpollet.github.io/disclaimer">disclaimer</a></h4>
 
 </div>
 
@@ -395,12 +395,11 @@ summary {
 <p>Using the <code>dat.raudenbush1985</code> from week 3. Rerun the random-effects meta-analysis with REML estimation.</p>
 <ul>
 <li>Make a funnel plot with study labels. What do you make of it?</li>
-<li>Make a funnel plot wiht inverse variance on the y-axis.</li>
+<li>Make a funnel plot with inverse variance on the y-axis.</li>
 <li>Perform Egger’s test for funnel plot asymmetry.</li>
 <li>Perform Begg &amp; Mazumdar’s test for funnel plot asymmetry. Based on <em>both</em> Egger’s test and this test what do you conclude.</li>
 <li>Make a contour-enhanced funnel plot. What does it reveal?</li>
 <li>Make a radial plot.</li>
-<li>Perform Orwin’s failsafe N test, to check how many studies would be needed to reduce the estimate of the standardized mean difference to .01.</li>
 <li><strong>Bonus</strong> perform and interpret a <em>p</em> uniform analysis. For the purpose of this analysis treat the treatment effect <code>yi</code> in this dataset, as a Cohen’s <em>d</em>.</li>
 </ul>
 </div>
@@ -452,12 +451,12 @@ head(Data)</code></pre>
 <pre class="r"><code>Data$year_b &lt;- paste0(&quot;(&quot;, format(unlist(Data[,3])),&quot;)&quot;)</code></pre>
 <p>Then we combine as done in <a href="https://stackoverflow.com/questions/18115550/combine-two-or-more-columns-in-a-dataframe-into-a-new-column-with-a-new-name">here</a>. Here I have opted for a ‘<a href="https://www.tidyverse.org/">tidyverse</a>’ solution.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ─────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ── Attaching packages ──────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
 <pre><code>## ✔ ggplot2 3.2.0     ✔ readr   1.3.1
 ## ✔ tibble  2.1.3     ✔ purrr   0.3.2
 ## ✔ tidyr   0.8.3     ✔ stringr 1.4.0
 ## ✔ ggplot2 3.2.0     ✔ forcats 0.4.0</code></pre>
-<pre><code>## ── Conflicts ────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+<pre><code>## ── Conflicts ─────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
 ## ✖ tidyr::expand() masks Matrix::expand()
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()</code></pre>
@@ -549,7 +548,7 @@ model_reml2</code></pre>
 <div id="duval-tweedies-trim-fill-procedure." class="section level2">
 <h2>Duval &amp; Tweedie’s trim &amp; fill procedure.</h2>
 <p>This procedure would have added 3 studies, which would have reduced the effect dramatically. The estimated effect drops from .084 to .028, so its estimate is around 1/3 of the original.</p>
-<p>Note that there is a broad discussion on trim &amp; fill procedure, though in our particular case, one would draw the same conclusion: after one adjusts for publication bias, there is even less evidence for a ‘pygmalion’ effect in this set.</p>
+<p>Note that there is a broad discussion on trim &amp; fill procedure, though in our particular case, one would draw the same conclusion: after one adjusts for publication bias, there is even less evidence for a ‘Pygmalion’ effect in this set.</p>
 <pre class="r"><code>trimfill(model_reml2)</code></pre>
 <pre><code>##                                       SMD             95%-CI %W(random)
 ## Rosenthal et al. (1974)            0.0300 [-0.2148;  0.2748]        5.9
@@ -614,7 +613,7 @@ legend(1.25, 0.10,
 </div>
 <div id="p-uniform" class="section level2">
 <h2>p-uniform</h2>
-<p>This is not optimal, but it looks like for our purpose we’ll have to convert our treatment effect (<code>yi</code> or <code>Te</code>) to a metric which we can feed to <em>p</em>-unifrom. If you were to have the <em>M</em> and <em>SD</em> for each condition, you could use those. However, in this case, they are not reported in our dataset. From the materials we read that the effect sizes are standard mean differences (‘SMD’), though it has not been noted as to whether these are Cohen’s <em>d</em> or not. For our purpose we will treat them as Cohen’s <em>d</em> . So we are going to have to do some data-wrangling</p>
+<p>This is not optimal, but it looks like for our purpose we’ll have to convert our treatment effect (<code>yi</code> or <code>Te</code>) to a metric which we can feed to <em>p</em>-uniform. If you were to have the <em>M</em> and <em>SD</em> for each condition, you could use those. However, in this case, they are not reported in our dataset. From the materials we read that the effect sizes are standard mean differences (‘SMD’), though it has not been noted as to whether these are Cohen’s <em>d</em> or not. For our purpose we will treat them as Cohen’s <em>d</em> . So we are going to have to do some data-wrangling</p>
 <p>Remember: <span class="math display">\[r=\frac{d}{\sqrt{d^2+A}}\]</span> and A is our correction factor.</p>
 <p><span class="math display">\[A= \frac{(n_1+n_2)^2}{n_1n_2}\]</span></p>
 <div id="correction-factor-a" class="section level3">
