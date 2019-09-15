@@ -1,0 +1,24 @@
+---
+title: "Solution Session 4"
+author: "Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)"
+date: '`r format(Sys.Date())` | [disclaimer](https://tvpollet.github.io/disclaimer)'
+output:
+  html_document
+---
+
+## Questions.
+
+
+Using the `dat.raudenbush1985` from week 3. Rerun the random-effects meta-analysis with REML estimation. 
+
+* Make a funnel plot with study labels. What do you make of it?
+* Make a funnel plot wiht inverse variance on the y-axis.
+* Perform Egger's test for funnel plot asymmetry.
+* Perform Begg & Mazumdar's test for funnel plot asymmetry. Based on _both_ Egger's test and this test what do you conclude.
+* Make a contour-enhanced funnel plot. What does it reveal?
+* Make a radial plot.
+* Perform Orwin's failsafe N test, to check how many studies would be needed to reduce the estimate of the standardized mean difference to .01.
+* **Bonus** perform and interpret a _p_ uniform analysis. For the purpose of this analysis treat the treatment effect `yi` in this dataset, as a Cohen's _d_.
+
+
+
