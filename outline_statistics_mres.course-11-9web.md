@@ -105,7 +105,7 @@ I have compiled a (non-definitive) [reading list](http://readinglists.northumbri
 Books and other stuff:
 
 * [Discovering statistics using R](https://www.amazon.co.uk/Discovering-Statistics-Using-Andy-Field/dp/1446200469/ref=pd_sim_14_4_encoding=UTF8&psc=1&refRID=BRQMKXVJG3PHH5A25EGP) by Andy Field and colleagues. 
-* The [R book] (https://www.amazon.co.uk/R-Book-Michael-J-Crawley/dp/0470973927/ref=pd_lpo_sbs_14_t_0/258-2803588-6373509?_encoding=UTF8&psc=1&refRID=KCEM39AAC20RQ3GHMTET) by Michael Crawley.
+* The [R book](https://www.amazon.co.uk/R-Book-Michael-J-Crawley/dp/0470973927/ref=pd_lpo_sbs_14_t_0/258-2803588-6373509?_encoding=UTF8&psc=1&refRID=KCEM39AAC20RQ3GHMTET) by Michael Crawley.
 * Amazing **free** books online (e.g., [R for data science](http://r4ds.had.co.nz/))
 * [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) from RStudio. Frame those above your bed.
 * [www.stats.stackexchange.com](www.stats.stackexchange.com)
