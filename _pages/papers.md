@@ -13,7 +13,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* **Pollet, T.V.** & Saxton, T.K. (2019, July 18th). Jealousy as a Function of Rival Characteristics: Two large replication studies and meta-analyses support gender differences in reactions to rival attractiveness but not dominance.. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
+* **Pollet, T.V.** & Saxton, T.K. (2019, July 18th). Jealousy as a Function of Rival Characteristics: Two large replication studies and meta-analyses support gender differences in reactions to rival attractiveness but not dominance. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
 
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2019, June 26th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
@@ -33,7 +33,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [103.](https://doi.org/10.31234/osf.io/s7ta8) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (in press). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology_ [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
 
-[102.](https://researchportal.northumbria.ac.uk/en/publications/mean-trait-and-on-stage-personality-of-stand-up-comedians(f6a0600d-1734-4e59-8b0b-f1705a99d747).html) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin_
+[102.](https://researchportal.northumbria.ac.uk/en/publications/mean-trait-and-on-stage-personality-of-stand-up-comedians(f6a0600d-1734-4e59-8b0b-f1705a99d747).html) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. (in press). Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin_
 
 [101.](http://ishe.org/wp-content/uploads/2019/04/HE_2019_34_17-25.pdf) Saxton, T.K., Hart, S., Desai, L., & **Pollet, T.V.** (2019). Can people detect ideological stance from facial photographs? _Human Ethology, 34,_ 17–25.
 
