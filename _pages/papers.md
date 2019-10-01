@@ -13,6 +13,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2019, Sept. 28th). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
+
 * **Pollet, T.V.** & Saxton, T.K. (2019, July 18th). Jealousy as a Function of Rival Characteristics: Two large replication studies and meta-analyses support gender differences in reactions to rival attractiveness but not dominance. _PsyArxiv_ [https://doi.org/10.31234/osf.io/28yvp](https://doi.org/10.31234/osf.io/28yvp)
 
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2019, June 26th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
@@ -26,8 +28,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 * Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq](https://doi.org/10.31234/osf.io/3zvhq)
 
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
-
-* Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2018, June 12). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
 
 ## **2019/Accepted/in Press**
 
