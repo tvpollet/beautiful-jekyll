@@ -5,6 +5,10 @@ subtitle:  a minore ad maius
 published: true
 ---
 
+**Contents**
+* TOC
+{:toc}
+
 ## General info.
 
 The course runs for the first time at an [HBES](www.hbes.com) funded workshop at [Universidade Federal do Rio Grande do Norte in Natal (Brazil)](https://www.lechufrn.com/) in Sept. 2019. 
