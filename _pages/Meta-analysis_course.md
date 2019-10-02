@@ -5,9 +5,7 @@ subtitle:  a minore ad maius
 published: true
 ---
 
-**Contents**
-* TOC
-{:toc}
+{% include toc.html html=content %}
 
 ## General info.
 
