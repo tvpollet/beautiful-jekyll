@@ -5,6 +5,13 @@ subtitle: a list of papers
 published: true
 ---
 
+# Contents
+
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
 # **Research papers** 
 
 Click the number for the corresponding paper to download a copy (it will open in a new window), if available. You will need adobe acrobat reader to read these papers. These papers are for reference only i.e. personal, educational, non-commercial use (also see the disclaimer). 
