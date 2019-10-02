@@ -66,11 +66,11 @@ These are the exercises and the solutions, no peeking (ahum).
 
 4. [Exercise 4 questions](https://tvpollet.github.io/Meta-analysis_course/Exercise_4_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_course/Exercise_4.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_4/master/Exercise_4.Rmd)
 
-5. [Exercise 5 questions](), [solution](), and [.rmd]()
+5. [Exercise 5 questions](https://tvpollet.github.io/Meta-analysis_5/Exercise_5_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_5/Exercise_5.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_5/master/Exercise_5.Rmd)
 
 ## GoSoapbox.
 
-For the interactive bits: [https://app.gosoapbox.com/](https://app.gosoapbox.com/) , the code is 257-883-396
+For the interactive bits: [https://app.gosoapbox.com/](https://app.gosoapbox.com/), the code is 257-883-396
 
 ## Youtube channel.
 Occasional screencasts of my lectures can be found [here](https://www.youtube.com/channel/UCWXTuZsVGQzQTUJPkEjo0YQ/featured?view_as=subscriber).  I'll aim to make screencasts for recurrent questions by students.
@@ -87,7 +87,7 @@ Please see the end of each slides. My colleagues have provided generous input to
 
 **To be added.** 
 
-See the slides.
+See the slides for all sources used.
 
 
 ##### [Disclaimer](https://tvpollet.github.io/disclaimer/)
