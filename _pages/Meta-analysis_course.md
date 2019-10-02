@@ -54,9 +54,7 @@ Slides were made with the amazing [xaringan](https://github.com/yihui/xaringan) 
 
 ## Exercises.
 
-**To be added for exercise 5 (currently no working links).** 
-
-These are the exercises and the solutions, no peeking (ahum).
+These are the exercises and the solutions, no peeking (ahum). There currently is no exercise for session 6, but I recommend you do some reading instead - it is pretty advanced stuff!
 
 1. [Exercise 1 questions](https://tvpollet.github.io/Meta-analysis_1/Exercise_1_questions.html), [solution](https://tvpollet.github.io/Meta-analysis_1/Exercise_1.html), and [.rmd](https://raw.githubusercontent.com/tvpollet/Meta-analysis_1/master/Exercise_1.Rmd)
 
