@@ -5,6 +5,12 @@ subtitle:  Advanced Quantitative Research Methods manual
 published: true
 ---
 
+# Contents
+
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ## Minute Course description.
 Statistics can be frightening but you really should not worry for this course. This course is built around applying techniques rather than deriving the mathematical rationale behind each technique. By the end of this course you will understand the key assumptions to commonly applied methods in psychology. You will also be able to run those techniques and interpret the outputs of those techniques in R. This course will also lay the foundation for your work on programming experiments as well as you thesis. This course is, however, not a programming course or a maths course, so no need to panic! More information can be found on the elearning portal. Note that this course previously went by PY0782, so don't be surprised if you see that module code pop up. This course is one component of PY0794. The 2nd component, Qualitative Research methods runs in semester 2 and will have its own manual.
