@@ -365,7 +365,7 @@ summary {
 
 <h1 class="title toc-ignore">Solution Lecture 2</h1>
 <h4 class="author">Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)</h4>
-<h4 class="date">2019-10-03 | <a href="http://sites.google.com/site/thomasvpollet/disclaimer">disclaimer</a></h4>
+<h4 class="date">2019-10-09 | <a href="http://sites.google.com/site/thomasvpollet/disclaimer">disclaimer</a></h4>
 
 </div>
 
@@ -403,7 +403,7 @@ require(skimr)</code></pre>
 ##  n obs: 397 
 ##  n variables: 6 
 ## 
-## ── Variable type:factor ─────────────────────────────────────────────
+## ── Variable type:factor ────────────────────────────────────────────────────────────────────
 ##    variable missing complete   n n_unique
 ##  discipline       0      397 397        2
 ##        rank       0      397 397        3
@@ -413,7 +413,7 @@ require(skimr)</code></pre>
 ##  Pro: 266, Ass: 67, Ass: 64, NA: 0   FALSE
 ##           Mal: 358, Fem: 39, NA: 0   FALSE
 ## 
-## ── Variable type:integer ────────────────────────────────────────────
+## ── Variable type:integer ───────────────────────────────────────────────────────────────────
 ##       variable missing complete   n      mean       sd    p0   p25    p50
 ##         salary       0      397 397 113706.46 30289.04 57800 91000 107300
 ##    yrs.service       0      397 397     17.61    13.01     0     7     16
@@ -552,7 +552,7 @@ gender_group_sd</code></pre>
 ##   &lt;fct&gt;       &lt;dbl&gt;
 ## 1 Female      2884.
 ## 2 Male        3382.</code></pre>
-<p>An independent-samples <em>t</em>-test was used to compare the (mean) monthly salaries between men and women. There was a significant difference with men (<em>M</em> = $12787, <em>SD</em> = 3381.88) earning on average more than women do (<em>M</em> = $11222, <em>SD</em>= 2883.57), <em>t</em>(50.12)= 3.16, <em>p</em>=.003.</p>
+<p>An independent-samples <em>t</em>-test was used to compare the (mean) monthly salaries between men and women. There was a significant difference with men (<em>M</em> = $12788, <em>SD</em> = 3381.88) earning on average more than women do (<em>M</em> = $11222, <em>SD</em>= 2883.57), <em>t</em>(50.12)= 3.16, <em>p</em>=.003.</p>
 <p>But: bear in mind the outliers, and also some other things (e.g., taking into account rank/yrs since Ph.D.?)</p>
 </div>
 <div id="bootstrap-it." class="section level3">
@@ -601,7 +601,7 @@ plot(results)</code></pre>
 ## Level       BCa          
 ## 90%   ( 0.0000,  0.1949 )  
 ## Calculations and Intervals on Original Scale</code></pre>
-<p>The 95% bootstrapped confidence interval for <em>p</em> ranges from &lt;.0001 to .2872. (But note if you had picked a smaller CI, 90%CI, it would be a narrower range, duh :) - still quite a broad range)</p>
+<p>The 95% bootstrapped confidence interval for <em>p</em> ranges from &lt;.0001 to .3548. (But note if you had picked a smaller CI, 90%CI, it would be a narrower range, duh :) - still quite a broad range)</p>
 </div>
 <div id="median-test" class="section level3">
 <h3>Median test</h3>
@@ -644,7 +644,7 @@ mlv(male_data$monthly_salary,  method='mfv')</code></pre>
 <pre class="r"><code>female_data&lt;-filter(salaries, gender=='Female')
 mlv(female_data$monthly_salary,  method='mfv')</code></pre>
 <pre><code>## [1] 8055.556 8611.111</code></pre>
-<p>The modal monthly income for men was $9222 for women it was $8333.</p>
+<p>The modal monthly income for men was $9222 for women it was $8333. (Note that these are the averages of the two numbers reported).</p>
 </div>
 <div id="ci" class="section level3">
 <h3>95%CI</h3>

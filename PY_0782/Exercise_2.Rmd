@@ -127,7 +127,7 @@ gender_group_sd<- salaries %>% group_by(gender) %>% summarise(SD_monthly=sd(mont
 gender_group_sd
 ```
 
-An independent-samples _t_-test was used to compare the (mean) monthly salaries between men and women. There was a significant difference with men (_M_ = \$12787, _SD_ = 3381.88) earning on average more than women do (_M_ = \$11222, _SD_= 2883.57), _t_(50.12)= 3.16, _p_=.003.
+An independent-samples _t_-test was used to compare the (mean) monthly salaries between men and women. There was a significant difference with men (_M_ = \$12788, _SD_ = 3381.88) earning on average more than women do (_M_ = \$11222, _SD_= 2883.57), _t_(50.12)= 3.16, _p_=.003.
 
 But: bear in mind the outliers, and also some other things (e.g., taking into account rank/yrs since Ph.D.?)
 
@@ -154,7 +154,7 @@ boot.ci(results, conf=.90, type="bca")
 
 ```
 
-The 95% bootstrapped confidence interval for _p_ ranges from <.0001 to .2872. (But note if you had picked a smaller CI, 90%CI, it would be a narrower range, duh :) - still quite a broad range)
+The 95% bootstrapped confidence interval for _p_ ranges from <.0001 to .3548. (But note if you had picked a smaller CI, 90%CI, it would be a narrower range, duh :) - still quite a broad range)
 
 ### Median test
 
@@ -186,7 +186,7 @@ female_data<-filter(salaries, gender=='Female')
 mlv(female_data$monthly_salary,  method='mfv')
 
 ```
-The modal monthly income for men was \$9222 for women it was \$8333.
+The modal monthly income for men was \$9222 for women it was \$8333. (Note that these are the averages of the two numbers reported).
 
 ### 95%CI 
 
