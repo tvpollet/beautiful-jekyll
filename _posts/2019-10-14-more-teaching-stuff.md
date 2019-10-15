@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Teaching: Developing your research project and Open Science.
+title: Teaching - Developing your research project and Open Science.
 image: /img/teaching.gif
 tags:
   - Teaching
