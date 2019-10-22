@@ -180,7 +180,7 @@ gg &lt;- gg + labs(x="Sepal Width", y="Sepal Length", title="Sepals") + theme_tu
 gg
 ```
 
-&lt;img src="Lecture4_xaringan_files/figure-html/unnamed-chunk-7-1.png" width="300px" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture4-xaringan_files/figure-html/unnamed-chunk-7-1.png" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Correlation matrix
@@ -231,7 +231,7 @@ cormatrix&lt;-cor(cor_table)
 ggcorrplot(cormatrix, hc.order = TRUE, type = "lower", lab = TRUE) 
 ```
 
-&lt;img src="Lecture4_xaringan_files/figure-html/unnamed-chunk-9-1.png" width="300px" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture4-xaringan_files/figure-html/unnamed-chunk-9-1.png" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Other packages exist.
@@ -376,7 +376,7 @@ plot_edu&lt;- plot_edu + scale_y_continuous(limits=c(0,100),breaks = pretty_brea
 plot_edu
 ```
 
-&lt;img src="Lecture4_xaringan_files/figure-html/unnamed-chunk-15-1.png" width="400px" /&gt;
+&lt;img src="Lecture4-xaringan_files/figure-html/unnamed-chunk-15-1.png" width="400px" /&gt;
 
 ---
 ## plot() 
@@ -392,7 +392,7 @@ More [here](http://data.library.virginia.edu/diagnostic-plots/).
 plot(model_education, which = 1)
 ```
 
-![](Lecture4_xaringan_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+![](Lecture4-xaringan_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
 
 ---
 ## Q-Q plot.
@@ -401,7 +401,7 @@ plot(model_education, which = 1)
 plot(model_education, which = 2)
 ```
 
-![](Lecture4_xaringan_files/figure-html/unnamed-chunk-17-1.png)&lt;!-- --&gt;
+![](Lecture4-xaringan_files/figure-html/unnamed-chunk-17-1.png)&lt;!-- --&gt;
 
 ---
 ## Scale location plot.
@@ -411,7 +411,7 @@ plot(model_education, which = 2)
 plot(model_education, which = 3)
 ```
 
-![](Lecture4_xaringan_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+![](Lecture4-xaringan_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
 
 ---
 ## Outliers
@@ -421,7 +421,7 @@ plot(model_education, which = 3)
 plot(model_education, which = 4)
 ```
 
-![](Lecture4_xaringan_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
+![](Lecture4-xaringan_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
 
 ---
 ## Can't we just use scatter plots?
@@ -749,7 +749,8 @@ results_coeff_B
 
 
 ```r
-# get 95% confidence interval 
+# get 95% confidence interval
+set.seed(1234)
 boot.ci(results_coeff_B, type="bca")
 ```
 
@@ -766,7 +767,7 @@ boot.ci(results_coeff_B, type="bca")
 ## Calculations and Intervals on Original Scale
 ```
 
-The 95% BCA confidence interval (with 10,000 bootstraps) for the (centered) coefficient of education is [4.85, 5.97].
+The 95% BCA confidence interval (with 10,000 bootstraps) for the (centered) coefficient of education is [4.86, 5.99].
 
 ---
 ## Logistic Regression.
@@ -1199,7 +1200,7 @@ require(vcd)
 mosaicplot1&lt;-mosaic(~ diabetes + nulligravada + obese, zero_size = 0, data=pima_data, gp = gpar(fill = fill_colours, col = 0), legend=F, labeling = labeling_values)
 ```
 
-&lt;img src="Lecture4_xaringan_files/figure-html/opts_chunk$set(out.width=12)-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture4-xaringan_files/figure-html/opts_chunk$set(out.width=12)-1.png" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Exercise. 

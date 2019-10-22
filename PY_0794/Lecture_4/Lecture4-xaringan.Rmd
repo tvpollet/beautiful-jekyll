@@ -474,11 +474,12 @@ results_coeff_B
 ## 95% BCa (bias-corrected accelerated) confidence interval.
 
 ```{r}
-# get 95% confidence interval 
+# get 95% confidence interval
+set.seed(1234)
 boot.ci(results_coeff_B, type="bca")
 ```
 
-The 95% BCA confidence interval (with 10,000 bootstraps) for the (centered) coefficient of education is [4.85, 5.97].
+The 95% BCA confidence interval (with 10,000 bootstraps) for the (centered) coefficient of education is [4.86, 5.99].
 
 ---
 ## Logistic Regression.
