@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 4: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-10-18 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2019-10-22 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -170,19 +170,17 @@ The Pearson correlation between sepal length and sepal width was not statistical
 
 
 ```r
-require(ggplot2)  # note geom_jitter
+require(ggplot2) # note geom_jitter
 require(ggthemes)
 require(RColorBrewer)
-gg &lt;- ggplot(data = iris, aes(Sepal.Width, Sepal.Length, color = Species)) + 
-    geom_jitter()
-gg &lt;- gg + facet_grid(. ~ Species) + geom_smooth(method = "lm")
-gg &lt;- gg + scale_colour_brewer(palette = "Dark2")
-gg &lt;- gg + labs(x = "Sepal Width", y = "Sepal Length", title = "Sepals") + 
-    theme_tufte(12)
+gg&lt;-ggplot(data = iris,aes(Sepal.Width, Sepal.Length, color=Species)) + geom_jitter()
+gg&lt;- gg + facet_grid(. ~ Species) + geom_smooth(method='lm') 
+gg&lt;- gg + scale_colour_brewer(palette = "Dark2")
+gg &lt;- gg + labs(x="Sepal Width", y="Sepal Length", title="Sepals") + theme_tufte(12) 
 gg
 ```
 
-&lt;img src="Lecture4-xaringan_files/figure-html/unnamed-chunk-7-1.png" width="300px" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture4_xaringan_files/figure-html/unnamed-chunk-7-1.png" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Correlation matrix
@@ -227,18 +225,13 @@ apa.cor.table(cor_table, filename = "correlations-iris.doc")
 
 
 ```r
-# ggcorrplot, you can
-# then further tweak
-# this, as it is a
-# ggplot.
+# ggcorrplot, you can then further tweak this, as it is a ggplot.
 require(ggcorrplot)
-cormatrix &lt;- cor(cor_table)
-ggcorrplot(cormatrix, 
-    hc.order = TRUE, 
-    type = "lower", lab = TRUE)
+cormatrix&lt;-cor(cor_table)
+ggcorrplot(cormatrix, hc.order = TRUE, type = "lower", lab = TRUE) 
 ```
 
-&lt;img src="Lecture4-xaringan_files/figure-html/unnamed-chunk-9-1.png" width="300px" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture4_xaringan_files/figure-html/unnamed-chunk-9-1.png" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Other packages exist.
@@ -370,11 +363,9 @@ Good idea to plot before you start.
 ```r
 require(ggplot2)
 require(scales)
-require(ggthemes)
-plot_edu &lt;- ggplot(prestige, aes(education, prestige)) + geom_jitter()
-plot_edu &lt;- plot_edu + scale_y_continuous(limits = c(0, 100), breaks = pretty_breaks(6)) + 
-    scale_x_continuous(limits = c(6, 18), breaks = pretty_breaks(6)) + ylab("Prestige") + 
-    xlab("Education") + geom_smooth(method = "loess") + theme_tufte(12)
+require(ggthemes) 
+plot_edu&lt;-ggplot(prestige, aes(education,prestige)) + geom_jitter() 
+plot_edu&lt;- plot_edu + scale_y_continuous(limits=c(0,100),breaks = pretty_breaks(6)) + scale_x_continuous(limits=c(6,18), breaks = pretty_breaks(6)) + ylab("Prestige") + xlab("Education") + geom_smooth(method='loess') + theme_tufte(12)
 ```
 
 ---
@@ -385,7 +376,7 @@ plot_edu &lt;- plot_edu + scale_y_continuous(limits = c(0, 100), breaks = pretty
 plot_edu
 ```
 
-&lt;img src="Lecture4-xaringan_files/figure-html/unnamed-chunk-15-1.png" width="400px" /&gt;
+&lt;img src="Lecture4_xaringan_files/figure-html/unnamed-chunk-15-1.png" width="400px" /&gt;
 
 ---
 ## plot() 
@@ -401,7 +392,7 @@ More [here](http://data.library.virginia.edu/diagnostic-plots/).
 plot(model_education, which = 1)
 ```
 
-![](Lecture4-xaringan_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+![](Lecture4_xaringan_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
 
 ---
 ## Q-Q plot.
@@ -410,7 +401,7 @@ plot(model_education, which = 1)
 plot(model_education, which = 2)
 ```
 
-![](Lecture4-xaringan_files/figure-html/unnamed-chunk-17-1.png)&lt;!-- --&gt;
+![](Lecture4_xaringan_files/figure-html/unnamed-chunk-17-1.png)&lt;!-- --&gt;
 
 ---
 ## Scale location plot.
@@ -420,7 +411,7 @@ plot(model_education, which = 2)
 plot(model_education, which = 3)
 ```
 
-![](Lecture4-xaringan_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+![](Lecture4_xaringan_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
 
 ---
 ## Outliers
@@ -430,7 +421,7 @@ plot(model_education, which = 3)
 plot(model_education, which = 4)
 ```
 
-![](Lecture4-xaringan_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
+![](Lecture4_xaringan_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
 
 ---
 ## Can't we just use scatter plots?
@@ -550,9 +541,7 @@ summary(lm_education_women)
 
 ```r
 require(stargazer)
-stargazer(model_education, lm_education_women, dep.var.labels = c("Prestige"), 
-    covariate.labels = c("Education (years)", "Women (%)"), style = "demography", 
-    out = "hierarchical.htm", header = F)
+stargazer(model_education,lm_education_women,  dep.var.labels=c("Prestige"),covariate.labels=c("Education (years)","Women (%)"), style="demography", out="hierarchical.htm", header=F)
 ```
 
 ```
@@ -595,14 +584,9 @@ Centering (week 2). We can use our model to make predictions... .
 
 ```r
 require(dplyr)
-# use :: just in
-# case of
-# conflicts.
-prestige &lt;- dplyr::mutate(prestige, women_cent = women - mean(women), 
-    education_cent = education - mean(education), prestige_cent = prestige - 
-        mean(prestige))
-centered_model &lt;- lm(prestige_cent ~ education_cent + women_cent, 
-    data = prestige)
+# use :: just in case of conflicts.
+prestige&lt;-dplyr::mutate(prestige, women_cent= women-mean(women), education_cent= education-mean(education), prestige_cent= prestige-mean(prestige))
+centered_model&lt;-lm(prestige_cent~education_cent+women_cent, data=prestige)
 ```
 
 ---
@@ -756,8 +740,8 @@ results_coeff_B
 ## 
 ## 
 ## Bootstrap Statistics :
-##     original      bias    std. error
-## t1* 5.427796 0.003518518    0.288098
+##     original       bias    std. error
+## t1* 5.427796 -0.002099921   0.2891988
 ```
 
 ---
@@ -778,11 +762,11 @@ boot.ci(results_coeff_B, type="bca")
 ## 
 ## Intervals : 
 ## Level       BCa          
-## 95%   ( 4.854,  5.972 )  
+## 95%   ( 4.860,  5.994 )  
 ## Calculations and Intervals on Original Scale
 ```
 
-The 95% BCA confidence interval (with 10,000 bootstraps) for the (centered) coefficient of education is [4.86, 5.99].
+The 95% BCA confidence interval (with 10,000 bootstraps) for the (centered) coefficient of education is [4.85, 5.97].
 
 ---
 ## Logistic Regression.
@@ -848,11 +832,11 @@ skim(pima_data)
 ##  n obs: 768 
 ##  n variables: 9 
 ## 
-## ── Variable type:factor ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+## ── Variable type:factor ───────────────────────────────
 ##  variable missing complete   n n_unique                top_counts ordered
 ##  diabetes       0      768 768        2 neg: 500, pos: 268, NA: 0   FALSE
 ## 
-## ── Variable type:numeric ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+## ── Variable type:numeric ──────────────────────────────
 ##  variable missing complete   n   mean     sd     p0   p25    p50    p75
 ##       age       0      768 768  33.24  11.76 21     24     29     41   
 ##   glucose       5      763 768 121.69  30.54 44     99    117    141   
@@ -1033,8 +1017,10 @@ or_glm(pima_data, incr= list(mass= 5), log1)
 ```
 
 ```
-##   predictor oddsratio CI_low (2.5 %) CI_high (97.5 %) increment
-## 1      mass     1.669          1.479            1.894         5
+## # A tibble: 1 x 5
+##   predictor oddsratio `CI_low (2.5)` `CI_high (97.5)` increment
+##   &lt;chr&gt;         &lt;dbl&gt;          &lt;dbl&gt;            &lt;dbl&gt; &lt;chr&gt;    
+## 1 mass           1.67           1.48             1.89 5
 ```
 
 ```r
@@ -1042,9 +1028,11 @@ or_glm(pima_data, incr= list(mass= 5, age=1), log2)
 ```
 
 ```
-##   predictor oddsratio CI_low (2.5 %) CI_high (97.5 %) increment
-## 1      mass     1.714          1.512            1.955         5
-## 2       age     1.047          1.033            1.061         1
+## # A tibble: 2 x 5
+##   predictor oddsratio `CI_low (2.5)` `CI_high (97.5)` increment
+##   &lt;chr&gt;         &lt;dbl&gt;          &lt;dbl&gt;            &lt;dbl&gt; &lt;chr&gt;    
+## 1 mass           1.71           1.51             1.96 5        
+## 2 age            1.05           1.03             1.06 1
 ```
 
 ---
@@ -1163,9 +1151,7 @@ We can get a nice table with Odds Ratios and summaries. Or look into broom() and
 
 ```r
 require(stargazer)
-stargazer(log1, log2, covariate.labels = c("BMI", "Age"), omit = c("Constant"), 
-    apply.coef = exp, t.auto = F, p.auto = F, report = "vc*", style = "asr", 
-    out = "logistic.htm", header = FALSE)
+stargazer(log1,log2, covariate.labels=c("BMI","Age"), omit=c("Constant"), apply.coef=exp, t.auto=F, p.auto=F, report = "vc*", style="asr", out="logistic.htm", header=FALSE)
 ```
 
 ---
@@ -1195,11 +1181,9 @@ First make some categorical variables.
 
 
 ```r
-require(dplyr)  # make some categorical variables
-pima_data &lt;- pima_data %&gt;% mutate(obese = cut(mass, breaks = c(-Inf, 30, Inf), 
-    labels = c("No", "Yes")))
-pima_data &lt;- pima_data %&gt;% mutate(nulligravada = cut(pregnant, breaks = c(-Inf, 
-    0.99, Inf), labels = c("never pregnant", "ever pregnant")))
+require(dplyr) # make some categorical variables
+pima_data&lt;- pima_data %&gt;% mutate(obese=cut(mass, breaks=c(-Inf, 30, Inf), labels=c("No","Yes")))
+pima_data&lt;- pima_data %&gt;% mutate(nulligravada=cut(pregnant, breaks=c(-Inf, 0.99, Inf), labels=c("never pregnant","ever pregnant")))
 ```
 
 ---
@@ -1209,14 +1193,13 @@ pima_data &lt;- pima_data %&gt;% mutate(nulligravada = cut(pregnant, breaks = c(
 ```r
 require(RColorBrewer)
 # pick some colours.
-colours &lt;- c(color = brewer.pal(2, "Set3"))
-fill_colours &lt;- rep(colours, each = 4)  # 4 quadrants to fill
+colours&lt;-c(color = brewer.pal(2, "Set3"))
+fill_colours&lt;-rep(colours, each=4) # 4 quadrants to fill
 require(vcd)
-mosaicplot1 &lt;- mosaic(~diabetes + nulligravada + obese, zero_size = 0, data = pima_data, 
-    gp = gpar(fill = fill_colours, col = 0), legend = F, labeling = labeling_values)
+mosaicplot1&lt;-mosaic(~ diabetes + nulligravada + obese, zero_size = 0, data=pima_data, gp = gpar(fill = fill_colours, col = 0), legend=F, labeling = labeling_values)
 ```
 
-&lt;img src="Lecture4-xaringan_files/figure-html/opts_chunk$set(out.width=12)-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture4_xaringan_files/figure-html/opts_chunk$set(out.width=12)-1.png" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Exercise. 
