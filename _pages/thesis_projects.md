@@ -44,7 +44,7 @@ In time I will post more example projects, but here are already some examples to
 
 ## How to set up your account.
 
-Have a look [here](http://georgiasouthern.libguides.com/c.php?g=653428&p=4585485){:target="_blank"}.
+You can sign up [here](http://osf.io){:target="_blank"}. Have a look [here](https://help.osf.io/hc/en-us/articles/360019929673-Create-an-OSF-Account){:target="_blank"} or [here](http://georgiasouthern.libguides.com/c.php?g=653428&p=4585485){:target="_blank"} if you get stuck.
 
 ## Creating a project.
 
