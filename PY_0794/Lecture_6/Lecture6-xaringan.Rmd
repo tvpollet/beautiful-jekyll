@@ -106,7 +106,7 @@ knitr::include_graphics("https://media.giphy.com/media/Oo6GWyiWEDgtO/giphy.gif")
 require(DiagrammeR)
 mermaid(" graph LR
 	        A(Age)-->F(Fertility)
-	        A-->O(Cistic ovarian <br> disease)
+	        A-->O(Cystic ovarian <br> disease)
 	        A-->R(Retained <br> placenta)
 	        R-->O
 	        R-->M(Metritis)
@@ -123,7 +123,7 @@ mermaid(" graph LR
 require(DiagrammeR)
 mermaid(" graph LR
 	        A(Age)-->F(Fertility)
-	        A-->O(Cistic ovarian <br> disease)
+	        A-->O(Cystic ovarian <br> disease)
 	        A-->R(Retained <br> placenta)
 	        R-->O
 	        R-->M(Metritis)
@@ -143,7 +143,7 @@ grViz("
 	  A [label = 'Age']
 	  R [label = 'Retained\n Placenta']
 	  M [label = 'Metritis']
-	  O [label = 'Cistic ovarian\n disease']
+	  O [label = 'Cystic ovarian\n disease']
 	  F [label = 'Fertility']
 	  # Edges
 	  edge [color = black, arrowhead = vee]
@@ -172,7 +172,7 @@ grViz("
 	  A [label = 'Age']
 	  R [label = 'Retained\n Placenta']
 	  M [label = 'Metritis']
-	  O [label = 'Cistic ovarian\n disease']
+	  O [label = 'Cystic ovarian\n disease']
 	  F [label = 'Fertility']
 	  
 	  # Edges

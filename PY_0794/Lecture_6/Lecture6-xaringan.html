@@ -23,7 +23,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 6: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-11-04 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2019-11-11 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -40,6 +40,8 @@ class: center, middle, inverse, title-slide
  Diagrams
  
  Mediation: Many ways of reaching the same goal... .
+
+&lt;img src="https://media.giphy.com/media/YOAS9D27FLCQznt1tR/giphy.gif" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Assignment
@@ -58,6 +60,8 @@ After today you should be able to complete the following sections for Assignment
 Any of you ever conducted a mediation test?
 
 What scenarios would a mediation test be useful?
+
+&lt;img src="https://media.giphy.com/media/fVyPPH3Mm8eBb2gsht/giphy.gif" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Mediation.
@@ -86,9 +90,15 @@ No 'loops' are allowed... .
 
 What do you think?
 
+--
+
 Hidden confounders. 
 
+--
+
 Choice of arrows. 
+
+--
 
 Experimental manipulations.
 
@@ -97,7 +107,7 @@ Experimental manipulations.
 
 Alternative to Powerpoint.
 
-&lt;img src="https://media.giphy.com/media/Oo6GWyiWEDgtO/giphy.gif" width="300px" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://media.giphy.com/media/Oo6GWyiWEDgtO/giphy.gif" width="500px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Diagrammer.
@@ -106,7 +116,7 @@ Alternative to Powerpoint.
 require(DiagrammeR)
 mermaid(" graph LR
 	        A(Age)--&gt;F(Fertility)
-	        A--&gt;O(Cistic ovarian &lt;br&gt; disease)
+	        A--&gt;O(Cystic ovarian &lt;br&gt; disease)
 	        A--&gt;R(Retained &lt;br&gt; placenta)
 	        R--&gt;O
 	        R--&gt;M(Metritis)
@@ -119,8 +129,8 @@ mermaid(" graph LR
 ---
 ## Plot
 
-<div id="htmlwidget-0fa4b002faef8581976d" style="width:504px;height:504px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0fa4b002faef8581976d">{"x":{"diagram":" graph LR\n\t        A(Age)-->F(Fertility)\n\t        A-->O(Cistic ovarian <br> disease)\n\t        A-->R(Retained <br> placenta)\n\t        R-->O\n\t        R-->M(Metritis)\n\t        M-->O\n\t        O-->F\n\t        M-->F\n\t        "},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-de2f9b1ad1b00e1a9d4e" style="width:504px;height:504px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-de2f9b1ad1b00e1a9d4e">{"x":{"diagram":" graph LR\n\t        A(Age)-->F(Fertility)\n\t        A-->O(Cystic ovarian <br> disease)\n\t        A-->R(Retained <br> placenta)\n\t        R-->O\n\t        R-->M(Metritis)\n\t        M-->O\n\t        O-->F\n\t        M-->F\n\t        "},"evals":[],"jsHooks":[]}</script>
 
 ---
 ## More beautiful...
@@ -133,7 +143,7 @@ grViz("
 	  A [label = 'Age']
 	  R [label = 'Retained\n Placenta']
 	  M [label = 'Metritis']
-	  O [label = 'Cistic ovarian\n disease']
+	  O [label = 'Cystic ovarian\n disease']
 	  F [label = 'Fertility']
 	  # Edges
 	  edge [color = black, arrowhead = vee]
@@ -153,8 +163,8 @@ grViz("
 ---
 ## Look at the shiny-shiny.
 
-<div id="htmlwidget-e7ef06234c7d1023f1ac" style="width:504px;height:504px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e7ef06234c7d1023f1ac">{"x":{"diagram":"\n\tdigraph causal {\n\t\n\t  # Nodes\n\t  node [shape = plaintext]\n\t  A [label = \"Age\"]\n\t  R [label = \"Retained\n Placenta\"]\n\t  M [label = \"Metritis\"]\n\t  O [label = \"Cistic ovarian\n disease\"]\n\t  F [label = \"Fertility\"]\n\t  \n\t  # Edges\n\t  edge [color = black,\n\t        arrowhead = vee]\n\t  rankdir = LR\n\t  A->F\n\t  A->O\n\t  A->R\n\t  R->O\n\t  R->M\n\t  M->O\n\t  O->F\n\t  M->F\n\t  \n\t  # Graph\n\t  graph [overlap = true, fontsize = 10]\n\t}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-4a452e74f7fb8a9f94cc" style="width:504px;height:504px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4a452e74f7fb8a9f94cc">{"x":{"diagram":"\n\tdigraph causal {\n\t\n\t  # Nodes\n\t  node [shape = plaintext]\n\t  A [label = \"Age\"]\n\t  R [label = \"Retained\n Placenta\"]\n\t  M [label = \"Metritis\"]\n\t  O [label = \"Cystic ovarian\n disease\"]\n\t  F [label = \"Fertility\"]\n\t  \n\t  # Edges\n\t  edge [color = black,\n\t        arrowhead = vee]\n\t  rankdir = LR\n\t  A->F\n\t  A->O\n\t  A->R\n\t  R->O\n\t  R->M\n\t  M->O\n\t  O->F\n\t  M->F\n\t  \n\t  # Graph\n\t  graph [overlap = true, fontsize = 10]\n\t}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 ---
 ## Check Diagrammer tutorial
@@ -169,6 +179,9 @@ Back to mediation ... .
 Differing views: Some argue that mediation is only useful when you **experimentally** manipulate the mediator. 
 
 Also beware of sequencing! If you propose something to be a mediator then ideally it should be measured **after** your IV. If you propose complex chains A--&gt;B--&gt;C--&gt;D, then you need to consider the temporal order of A,B,C,D. 
+
+&lt;img src="
+https://media.giphy.com/media/QHCXq5IsZ4bFS/giphy.gif" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Dataset.
@@ -242,6 +255,8 @@ According to Baron &amp; Kenny (1986) if this step is not significant then there
 However, according to other scholars one could still move forward, if there is a solid theoretical rationale for the relationship between X and Y. Check [this](https://pdfs.semanticscholar.org/e930/616bee242ec451b76f9998d81778042ad449.pdf).
 
 Basically, it is possible that suppression is happening and the mediator is suppressing the relationship between X and Y.
+
+&lt;img src="https://media.giphy.com/media/2vkUwFvCnTEtupTsqu/giphy.gif" width="300px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Step 2.
@@ -343,6 +358,8 @@ Download your dataset from  [here](https://stats.idre.ucla.edu/wp-content/upload
 
 Conduct a causal steps mediation analysis, with 'math' as independent variable, 'read' as mediator and 'science' as outcome variable.
 
+&lt;img src="https://media.giphy.com/media/jo7xZ9T1fAgwg/giphy.gif" width="300px" style="display: block; margin: auto;" /&gt;
+
 ---
 ## Testing significance of the mediation.
 
@@ -350,7 +367,7 @@ Many ways to assess if the mediation is significant.
 
 Older models use [Sobel test](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.452.5935&amp;rep=rep1&amp;type=pdf). The Sobel test is also known as the 'product' moment approach. (Multiplication of paths). You can read also more [here](https://umassmed.edu/uploadedFiles/QHS/MacKinnonetal%20PM2002.pdf). There are also alternatives (Goodman / Aroian test).
 
-Recommendation is bootstrapping methods. One method is Preacher &amp; Hayes (2004)
+Recommendation is bootstrapping methods. One method is Preacher &amp; Hayes (2004),... .
 
 ---
 ## Sobel test
@@ -420,7 +437,7 @@ sink()
 ## Total effect(c) of  X  on  Y  =  0.34   S.E. =  0.1  t  =  3.56  df=  98   with p =  0.00057
 ## Direct effect (c') of  X  on  Y  removing  M  =  0.03   S.E. =  0.09  t  =  0.36  df=  97   with p =  0.72
 ## Indirect effect (ab) of  X  on  Y  through  M   =  0.3 
-## Mean bootstrapped indirect effect =  0.3  with standard error =  0.06  Lower CI =  0.2    Upper CI =  0.42
+## Mean bootstrapped indirect effect =  0.3  with standard error =  0.06  Lower CI =  0.19    Upper CI =  0.43
 ## R = 0.61 R2 = 0.37   F = 28.85 on 2 and 97 DF   p-value:  1.47e-10 
 ## 
 ##  To see the longer output, specify short = FALSE in the print statement or ask for the summary
@@ -433,7 +450,7 @@ Click [here](https://tvpollet.github.io/PY_0782/mediation.txt)
 
 Sample write up:
 
-A mediation model with 10,000 bootstraps indicated that the indirect path was significant, `\(\beta\)`= .3, SE = .06, 95% CI [.1, .43].
+A mediation model with 10,000 bootstraps indicated that the indirect path was significant, `\(\beta\)`= .3, SE = .06, 95% CI [.19, .43].
 
 You could add the package which produced this.
 
@@ -517,7 +534,7 @@ The mediation analysis showed a significant average causal mediation effect (ACM
 plot(med.out) 
 ```
 
-![](Lecture6-xaringan_files/figure-html/unnamed-chunk-22-1.png)&lt;!-- --&gt;
+![](Lecture6-xaringan_files/figure-html/unnamed-chunk-27-1.png)&lt;!-- --&gt;
 
 ---
 ## Sensitivity analysis
@@ -538,9 +555,9 @@ Simply put, the sensitivity parameter corresponds to the correlation between err
 
 It is assumed to be 0.
 
-This parameter is denoted by `\(\rho\)`\. 
+This parameter is denoted by `\(\rho\)`. 
 
-Under sequential ignorability, `\(\rho\)`\ is equal to zero and thus the magnitude of this correlation coefficient represents the departure from the ignorability assumption (about the mediator).
+Under sequential ignorability, `\(\rho\)` is equal to zero and thus the magnitude of this correlation coefficient represents the departure from the ignorability assumption (about the mediator).
 
 ---
 ## How to test it?
@@ -584,6 +601,8 @@ summary(sensitivity_analysis)
 Many models could fit, no evaluation in terms of absolute fit. Perhaps, a model with several main effects also fits the data well. We will return to this when we discuss SEM.
 
 When fitting multiple mediators, those will be averaged! So, there could be a scenario where one is important but another one is not.
+
+&lt;img src="https://media.giphy.com/media/l4q819XpZi0SyAfXW/giphy.gif" width="400px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Exercise
