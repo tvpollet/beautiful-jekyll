@@ -483,7 +483,7 @@ stargazer(tab.1, summary=F, type="html", dep.var.labels = c("$\\chi^2$",	"df",	"
 ---
 ## Sample write up.
 
-The best fitting model based on both AIC and BIC was one with metric invariance (respectively 7484 and 7707). In terms of RMSEA the model with metric invariance and that with strong invariance scored lowest. CFI favoured the configural model (0.923) but the difference with the metric invariance model was small (<.001). While the metric invariance model is not an adequate fit (.093) in terms of RMSEA, it is in CFI (.92). Both the $\Delta$CFI and $\Delta$RMSEA suggested that there was no loss in fit moving from a configural model to a metric invariance model (all <.002).
+The best fitting model based on both AIC and BIC was one with metric invariance (respectively 7480.6 and 7680.6). In terms of RMSEA the model with metric invariance and that with configural invariance scored lowest. CFI favoured the configural model (0.923) but the difference with the metric invariance model was small (<.001). While the metric invariance model is not an adequate fit (.093) in terms of RMSEA, it is in CFI (.92). Both the $\Delta$CFI and $\Delta$RMSEA suggested that there was no loss in fit moving from a configural model to a metric invariance model (all <.002).
 
 In conclusion: Metric Invariance in this case: "the meaning is the same across both groups".
 
