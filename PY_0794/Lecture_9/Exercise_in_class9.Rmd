@@ -26,12 +26,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ### 1.
 
 ```{r}
-setwd("~/Dropbox/Teaching_MRes_Northumbria/Lecture9")
+
 library(datasets)
 cars<-datasets::mtcars
 library(dplyr)
 grouped<-group_by(cars, gear)
-table<-summarise(grouped, Mean=mean(hp), Sd=sd(hp))
+table<-summarise(grouped, Mean=mean(hp), Sd=sd(hp)) %>% mutate_all(funs(round(., 3)))
 require(stargazer)
 stargazer(table, summary=F, type="html", out= "horsepower.html", header=F)
 ```
@@ -62,7 +62,7 @@ my_cars_slice = my_cars %>% slice(10:35)
 
 ### 5. 
 
-```{r}
+```{r}  
 my_cars_sample <- my_cars %>% sample_frac(size = 0.5, replace = FALSE)
 ```
 
