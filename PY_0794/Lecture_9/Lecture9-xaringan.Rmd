@@ -258,7 +258,7 @@ Load the mtcars dataset.
 ---
 ## Solution.
 
-When you are done you can evaluate your results [here](https://tvpollet.github.io/PY_0794/Lecture9/Exercise_in_class9.html).
+When you are done you can evaluate your results [here](https://tvpollet.github.io/PY_0794/Lecture_9/Exercise_in_class9.html).
 
 ---
 ## Back to SEM.
