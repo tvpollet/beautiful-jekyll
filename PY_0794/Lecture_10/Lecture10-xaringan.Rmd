@@ -403,7 +403,7 @@ plotSimulatedResiduals(simulationOutput = simulationOutput)
 
 We can also obtain a formal test.
 
-```{r}
+```{r, fig.height=4, fig.width=8}
 testUniformity(simulationOutput = simulationOutput)
 ```
 
@@ -412,7 +412,7 @@ testUniformity(simulationOutput = simulationOutput)
 
 Check our residuals. No real funnel. Homogeneity OK.
 
-```{r}
+```{r, fig.height=4, fig.width=8}
 plot(fixed_pred)
 ```
 
