@@ -35,9 +35,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2020/Accepted/in Press**
 
-[105.](https://doi.org/10.31234/osf.io/28yvp) * **Pollet, T.V.** & Saxton, T.K. (accepted). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _Personality and Social Psychology Bulletin_
+[105.](https://doi.org/10.31234/osf.io/28yvp) **Pollet, T.V.** & Saxton, T.K. (in press). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _Personality and Social Psychology Bulletin_
 
-[104.](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4) McCarrick, D.J., Brewer, G., Lyons, M., **Pollet, T.V.**, & Neave, N. (2020). Referee height influences decision making in British football leagues. _BMC Psychology, 8_  4.
+[104.](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4) McCarrick, D.J., Brewer, G., Lyons, M., **Pollet, T.V.**, & Neave, N. (2020). Referee height influences decision making in British football leagues. _BMC Psychology, 8_ 4.
 
 [103.](https://doi.org/10.31234/osf.io/s7ta8) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (accepted). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology_ [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
 
