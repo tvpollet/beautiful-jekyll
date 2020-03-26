@@ -19,7 +19,7 @@ Hopefully, these are of use, please [contact me](mailto:thomas.pollet) if there 
 
 # Secondary data sources.
 
-![Image data](https://media.giphy.com/media/zEU2uwmialC4U/giphy.gif) {: .center-image }
+![Image data](https://media.giphy.com/media/zEU2uwmialC4U/giphy.gif){: .center-image }
 
 Note that for some, there will be restrictions. If you  are a student, you might need a letter from supervisor or analysis plan, before being able to access some of these data. Make sure that you read the terms of use and cite the data source. Many of these will also have technical manuals and codebooks, do familiarise yourself with those! It is important to consider how you will be handling weighing of samples, missing data, non-response and comparability across datasets.
 
