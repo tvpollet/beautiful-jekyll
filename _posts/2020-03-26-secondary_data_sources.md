@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Secondary Data Resources.
+title:  Secondary Data.
 image: /img/data.gif
   credit: giphy.com
 tags:
