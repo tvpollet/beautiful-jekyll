@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Secondary Data.
-image: /img/data.gif
+image: /img/data_sleep.gif
   credit: giphy.com
 tags:
   - teaching
