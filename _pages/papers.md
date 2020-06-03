@@ -35,6 +35,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2020/Accepted/in Press**
 
+[107.](https://researchportal.northumbria.ac.uk/en/publications/experienced-demand-does-not-affect-subsequent-sleep-and-the-cortisol-awakening-response(eaa93d81-673a-474f-8c55-db5dfd957bac).html) Elder, G., Wetherell, M., Barclay, N., Ellis, J., & **Pollet, T.V.** (in press). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep._
+
 [106.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825.
 
 [105.](http://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf) **Pollet, T.V.** & Saxton, T.K. (in press). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _Personality and Social Psychology Bulletin_
@@ -99,7 +101,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [80.]( http://journals.sagepub.com/doi/full/10.1177/1474704916673841) Peperkoorn, L.S., Roberts, S.C. & **Pollet, T.V.** (2016), Revisiting the Red Effect on Attractiveness and Sexual Receptivity: No Effect of the Color Red on Human Mate Preferences. _Evolutionary Psychology, 14,_  [doi:10.1177/1474704916673841](https://doi.org/10.1177/1474704916673841)
 
-[79.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjRjYWIzZTNiN2RmMzNjZTc) Morina, N., Koerssen, R. & **Pollet, T.V.** (2016 Interventions for children and adolescents with posttraumatic stress disorder: a meta-analysis of comparative outcome studies. _Clinical Psychology Review, 47,_ 41-54.
+[79.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjRjYWIzZTNiN2RmMzNjZTc) Morina, N., Koerssen, R. & **Pollet, T.V.** (2016). Interventions for children and adolescents with posttraumatic stress disorder: a meta-analysis of comparative outcome studies. _Clinical Psychology Review, 47,_ 41-54.
 
 [78.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjM5MDliNGJjYzRmNGNmZDY) Molho, C., Roberts, S.G.B., de Vries, R.E. & **Pollet, T.V.**  (2016). The Six Dimensions of Personality (HEXACO) and their Association with Network Layer Size and Emotional Closeness to Network Members. _Personality and Individual Differences, 99,_ 144-148.
 
