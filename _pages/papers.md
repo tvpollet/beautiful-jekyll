@@ -63,7 +63,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [95.](http://tvpollet.github.io/pdfs/Manesi_et_al_2018.pdf) Manesi, Z., Van Lange, P.A.M., Van Doesum, N.J., & **Pollet, T.V.** (2019). What are the most powerful predictors of charitable giving to victims of typhoon Haiyan: Prosocial traits, socio-demographic variables, or eye cues? *Personality and Individual Differences, 146,* 217-225.
 
-[94.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019.pdf) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.** Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia, 122,_ 38-50.
+[94.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019.pdf) Irvine, K.R., McCarty, K., McKenzie, K.J., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). Distorted body image influences body schema in individuals with negative bodily attitudes. _Neuropsychologia, 122,_ 38-50.
 
 [93.](http://tvpollet.github.io/pdfs/Martin_et_al_2019.pdf) Martin, R., Metcalfe, D., **Pollet, T.V.**, McCarty, K., & McKenzie, K. (2019). A preliminary investigation into the relationship between empathy, autistic like traits and emotion recognition. *Personality and Individual Differences, 137,* 12-16
 
