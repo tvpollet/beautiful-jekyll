@@ -160,7 +160,7 @@ If you are using RStudio, it is [easy to cite](https://www.r-bloggers.com/writin
 
 # Secondary Data.
 
-Perhaps inspired by COVID-19 - I decided to list some resources for (student) projects relying on secondary data analysis. You can find these resources [here]((https://tvpollet.github.io/secondary_data_sources){:target="_blank"}.).
+Perhaps inspired by COVID-19 - I decided to list some resources for (student) projects relying on secondary data analysis. You can find these resources [here](https://tvpollet.github.io/secondary_data_sources){:target="_blank"}.
 
 There is a wealth of available data, so you might do something more interesting by looking at these data - instead of setting up your own study.
 
