@@ -49,7 +49,7 @@ These are in a semi-random order, with no real preference, let alone logic.
 
 ## Education
 
-- [Programme for International Student Assessment (PISA) data](https://www.oecd.org/pisa/data/).The PISA database contains data on individual students, school principals and parents as collected by OECD.
+- [Programme for International Student Assessment (PISA) data](https://www.oecd.org/pisa/data/). The PISA database contains data on individual students, school principals and parents as collected by OECD.
 - [TIMSS and PIRLS data](https://timssandpirls.bc.edu/) - Data on mathematics, science, and reading skills.
 - [Education data from U.S. government](https://www.data.gov/education/) - >490 datasets from the U.S.
 - [National centre for Education statistics](https://nces.ed.gov/datatools/) - This site has a data explorer.
@@ -86,7 +86,7 @@ More data can be found [here](https://lionbridge.ai/datasets/16-best-crime-datas
 - [Google Data for research](https://research.google/tools/datasets/) - Big data(!)
 - [Data and code behind fivethirtyeight.com](https://github.com/fivethirtyeight/data) - lots of datasets which make up analyses at fiverthirtyeight.com
 - [Spotify](https://research.spotify.com/datasets) - including a million song playlist dataset... .
-- [Starcraft Data](https://arxiv.org/abs/1708.02139) - Data on Starcraft Broodwar.
+- [Starcraft Data](https://arxiv.org/abs/1708.02139) - Data on Starcraft Broodwars.
 - [Kaggle.com](https://www.kaggle.com/datasets) - Datasets for machine learning
 - [Crime databases for machine learning](https://lionbridge.ai/datasets/16-best-crime-datasets-for-machine-learning/)
 

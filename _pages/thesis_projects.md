@@ -115,7 +115,13 @@ Also look at [this video](https://www.youtube.com/watch?v=3pzCa4Whv74){:target="
 
 ### Logistic regression.
 
-If you are unlucky enough to have to run a logistic regression, then we often want [information criteria](https://en.wikipedia.org/wiki/Model_selection#Criteria){:target="_blank"} and/or [likelihood ratio tests](https://en.wikipedia.org/wiki/Likelihood-ratio_test){:target="_blank"}. I had to find out how to get those. It turns out that the binomial logistic regression module in SPSS does not provide this, but the multinomial logistic regression module does (see [this](http://www-01.ibm.com/support/docview.wss?uid=swg21478171){:target="_blank"}.
+If you are unlucky enough to have to run a logistic regression, then we often want [information criteria](https://en.wikipedia.org/wiki/Model_selection#Criteria){:target="_blank"} and/or [likelihood ratio tests](https://en.wikipedia.org/wiki/Likelihood-ratio_test){:target="_blank"}. I had to find out how to get those. It turns out that the binomial logistic regression module in SPSS does not provide this, but the multinomial logistic regression module does (see [this](http://www-01.ibm.com/support/docview.wss?uid=swg21478171){:target="_blank"}).
+
+### Mediation.
+
+I have strong reservations against some of these procedures, that's for a separate rant. It's possible that you have to do a mediation, however, as for example, the paper you tried to replicate did one.
+
+There are multiple resources available online on how to do a mediation analyses. For example check out [this video](https://www.youtube.com/watch?v=-S8HCg4WX9c){:target="_blank"} and also [this video](https://www.youtube.com/watch?v=ByuUyLtoTt8){:target="_blank"}. Here is another [example in .pdf](http://www.socialchangelab.net/uploads/9/8/7/7/98771854/nloxton_mediationbootstrapping.pdf){:target="_blank"} using the 'Sobel Macro' in SPSS.
 
 # Writing.
 
