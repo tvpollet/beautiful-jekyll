@@ -158,6 +158,12 @@ Northumbria university offers [Endnote](https://onsizzle.com/i/does-referencing-
 
 If you are using RStudio, it is [easy to cite](https://www.r-bloggers.com/writing-manuscripts-in-rstudio-easy-citations/){:target="_blank"} or have a look at [papaja](https://github.com/crsh/papaja){:target="_blank"}.
 
+# Secondary Data.
+
+Perhaps inspired by COVID-19 - I decided to list some resources for (student) projects relying on secondary data analysis. You can find these resources [here]((https://tvpollet.github.io/secondary_data_sources){:target="_blank"}.).
+
+There is a wealth of available data, so you might do something more interesting by looking at these data - instead of setting up your own study.
+
 # Key resources used for this page.
 
 This is an incomplete list. More to be linked in the future. All the sources are also linked in text.
