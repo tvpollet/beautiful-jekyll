@@ -13,11 +13,13 @@ published: true
 
 # **Research papers**
 
-Click the number for the corresponding paper to download a copy (it will open in a new window), if available. You will need adobe acrobat reader to read these papers. These papers are for reference only i.e. personal, educational, non-commercial use (also see the [disclaimer](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4)).
+Click the number for the corresponding paper to download a copy (it will open in a new window), if available. You will need adobe acrobat reader to read these papers. These papers are for reference only i.e. personal, educational, non-commercial use (also see the [disclaimer](https://tvpollet.github.io/disclaimer/).
 
 ## **Preprints.**
 
 *Cite at your own risk, feedback welcome*
+
+* **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2020, June 17). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
 
 * Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2020, May 8). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _PsyArxiv_ [https://doi.org/10.31234/osf.io/gw8dh](https://doi.org/10.31234/osf.io/gw8dh)
 
@@ -43,7 +45,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [104.](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4) McCarrick, D.J., Brewer, G., Lyons, M., **Pollet, T.V.**, & Neave, N. (2020). Referee height influences decision making in British football leagues. _BMC Psychology, 8,_ 4.
 
-[103.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology_ [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
+[103.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology_.  [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
 
 [102.](http://tvpollet.github.io/pdfs/Irwing_et_al_2020_PSPB.pdf) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. (2020). Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin_
 
