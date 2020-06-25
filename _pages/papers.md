@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Lloyd, A., Brown, G., & **Pollet, T.V.** (2020, June 18). A meta-analysis of the reliability of the Sexual Self-Esteem Inventory for Women (SSEI-W) measure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/swzm6](https://doi.org/10.31234/osf.io/swzm6)
+
 * **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2020, June 17). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
 
 * Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2020, May 8). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _PsyArxiv_ [https://doi.org/10.31234/osf.io/gw8dh](https://doi.org/10.31234/osf.io/gw8dh)
