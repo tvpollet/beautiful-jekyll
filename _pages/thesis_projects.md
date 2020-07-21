@@ -14,7 +14,7 @@ header_text: Thesis projects
 
 # Thesis, Introduction.
 
-Hurray! You have embarked on a thesis journey with me. On this page I will provide some links and tips. This is still in progress, all feedback welcome.
+Hurray! You have embarked on a thesis journey with me. On this page I will provide some links and tips. This is still in progress, all feedback welcome. Do also alert me to dead links, which I will fix.
 Specifically, I cover the [Open Science Framework](./#open-science-framework), [Qualtrics](./#some-tips-for-qualtrics), [SPSS](./#some-tips-for-spss), and [writing](./#writing). I even explain how you can get a [meeting](#./help-I-need-a-meeting).
 
 # Help, I need a meeting.
@@ -22,14 +22,14 @@ Specifically, I cover the [Open Science Framework](./#open-science-framework), [
 ![Image help](https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif){: .center-image }
 
 
-You can find my availability [here](https://tvpollet.github.io/calendar){:target="_blank"}. Before the meeting make sure you have uploaded all the relevant documents to the [OSF](./#open-science-framework). Please do so around two working days, beforehand. That will give me time to review your documents.
+You can find my availability [here](https://tvpollet.github.io/calendar){:target="_blank"}. Before the meeting make sure you have uploaded all the relevant documents to the [OSF](./#open-science-framework). Please do so around **two working days**, beforehand. That will give me time to review your documents. I might reply outside of office hours but I do not expect you to.
 
 Some other tips for our meetings:
 
-* **Do you even need a meeting?** Before booking a meeting, ask yourself whether you have exhausted all the possible options of fixing an issue yourself. In some cases, it is sufficient to upload a document to OSF, with some specific highlights of what you want me to look at. Ask yourself: What have you done to fix the problem? This is typically what I will also ask. If you are stuck with a particular problem (e.g., how to run  a certain type of analysis in SPSS), detail what you have done to resolve that problem (e.g., I have looked at chapter X in book Y and while their analysis is similar, I still struggle with Z). Bring with you the materials you have looked at. List specific obstacles. For example: _'I don't know if I have run this analysis correctly'_ is not a very clear obstacle.  Whereas, _this statistical assumption seems violated but I am uncertain as to whether that invalidates my conclusion._ is a much more specific obstacle.
+* **Do you even need a meeting?** Before booking a meeting, ask yourself whether you have exhausted all the possible options of fixing an issue yourself. In some cases, it is sufficient to upload a document to OSF, with some specific highlights of what you want me to look at. Ask yourself: What have you done to fix the problem? This is typically what I will also ask during our meeting. If you are stuck with a particular problem (e.g., how to run  a certain type of analysis in SPSS), detail what you have done to resolve that problem (e.g., I have looked at chapter X in book Y and while their analysis is similar, I still struggle with Z). Bring with you the materials you have looked at. List specific obstacles. For example: _'I don't know if I have run this analysis correctly'_ is not a very clear obstacle. Whereas, _this statistical assumption seems violated but I am uncertain as to whether that invalidates my conclusion._ is a much more specific obstacle.
 * **Prepare your meeting.** Make sure you have a list of things you want to discuss. You are in charge of your project and as I am handling many projects simultaneously, it is your job to keep oversight of your project.
 * **Make notes / summarise.**  Often at the end of the meeting I will tell you what should be your target goals for the next one, make sure you write those down and remember those.
-* **Expectations for statistical analysis**. Some students expect that I will analyse their data for them, read all of their output, or run their code. As these are (typically) assessed components, I will not do so. With some exceptions, all the techniques you will employ are techniques covered in your previous courses. If it is something out of the ordinary,  such as Ordinal Logistic Regression ([Ba dum Tss](https://www.urbandictionary.com/define.php?term=ba%20dum%20tss){:target="_blank"}), I will point you to a resource. I can always look at your data together with you but you'd be running the analysis and point out specific problems. In short, you will still have to run your own analysis. Alternatively, if that does not work for you, I will show how a technique works with a different dataset or a mock dataset.
+* **Expectations for statistical analysis**. Some students expect that I will analyse their data for them, read all of their output, or run their code. As these are (typically) assessed components, I will not do so. With some exceptions, all the techniques you will employ are techniques covered in your previous courses. If it is something out of the ordinary, such as Ordinal Logistic Regression ([Ba dum Tss](https://www.urbandictionary.com/define.php?term=ba%20dum%20tss){:target="_blank"}), I will point you to a resource. I can always look at your data together with you but you would be running the analysis and point out specific problems. In short, you will still have to run your own analysis. Alternatively, if that does not work for you, I will show how a novel technique works with a different dataset or a mock dataset. For techniques which are part of your degree programme (e.g., correlations), I expect you to run your own analysis.
 
 
 # Open Science Framework.
@@ -38,9 +38,13 @@ Some other tips for our meetings:
 
 If you choose to complete your thesis with me, we will use the Open Science Framework. [Many reasons](https://osf.io/edhym/){:target="_blank"} exist for using the open science framework but one reason is that we have a record of what we did. It also avoids the issue of having lots of files labelled 'proposal' and finding out which one is the final one. Some further background on why we should use the OSF can be found [here](https://psyarxiv.com/rtygm){:target="_blank"}.
 
-In time I will post more example projects, but here are already some examples to look at. All my OSF projects are [here](https://osf.io/v6cn3/){:target="_blank"}.
+In time, I will post more example projects, but here are already some examples to look at. Some of these projects have been reworked into papers and have been published(!). All my OSF projects are [here](https://osf.io/v6cn3/){:target="_blank"}.
 
-* Lotte Groeneboom & Joanne Costello's [Thesis Project](https://osf.io/sdjxm/){:target="_blank"} on 'Red laptops'. Check the [draft paper](https://psyarxiv.com/3bfwh/){:target="_blank"} also.
+* Lotte Groeneboom & Joanne Costello's [Masters Thesis Project](https://osf.io/sdjxm/){:target="_blank"} on 'Red laptops'. Check the [draft paper](https://psyarxiv.com/3bfwh/){:target="_blank"} also. This was published in [Displays](https://doi.org/10.1016/j.displa.2018.10.008){:target="_blank"}.
+* Eryn O'Dowd's [Bachelor thesis project](https://osf.io/vn4fu/){:target="_blank"} on gender differences in everyday risk taking. This was published in [Letters on Evolutionary Behavioral Science](https://lebs.hbesj.org/index.php/lebs/article/view/lebs.2018.65){:target="_blank"}
+* Sarah Dawson's [Bachelor thesis project](https://osf.io/uyw9e/){:target="_blank"} on fat talk. Check the [draft paper](https://psyarxiv.com/3bfwh/){:target="_blank"} here.
+* Alaric Lloyd's [Bachelor thesis project](https://osf.io/54q6w/){:target="_blank"} on sexual self-esteem. Check the [draft paper](https://psyarxiv.com/swzm6/){:target="_blank"} here.
+
 
 ## How to set up your account.
 
@@ -64,7 +68,7 @@ At the end of the project we might want to make it public. Information on how to
 
 Qualtrics has an extensive [help file](https://www.qualtrics.com/support/){:target="_blank"} for your projects. I list some tutorials, tips, and tricks here.  
 
-**IMPORTANT**: Do not setup or use a Qualtrics trial account, set up your own account as discussed [here](https://tvpollet.github.io/pdfs/Qualtrics_Self_Enrol_Procedure.pdf){:target="_blank"}
+**IMPORTANT**: **Do not setup or use a Qualtrics trial account**, set up your own account as discussed [here](https://tvpollet.github.io/pdfs/Qualtrics_Self_Enrol_Procedure.pdf){:target="_blank"}
 
 ## Qualtrics: Tutorials
 If you have never worked with Qualtrics, set aside some time.
@@ -77,10 +81,23 @@ If you have never made a Qualtrics survey, have a look at [this video](https://w
 Before starting check out these [writing mistakes](https://www.qualtrics.com/blog/writing-survey-questions/){:target="_blank"} when making your survey.
 
 * Unless there are reasons not to **force participants to respond**. If you want to still have the option for sensitive questions that participants are able to skip it, add “Prefer Not to Answer” as an option. [Here](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/validation/){:target="_blank"} you can see how to do that. Also look at [this video](https://www.youtube.com/watch?v=a6ZwKGBm1bQ){:target="_blank"}.
-* **Avoid open questions** for questions like age, nationality, etc. You would end up having to do a lot of post-hoc recoding otherwise. For example, some participants will put in '30', while others will put in '30 years'. Have a long think, does that question really have to be open and how will you deal with the variety of responses which you will inevitably get.
+* **Avoid open questions** for questions like age, nationality, etc. You would end up having to do a lot of post-hoc recoding otherwise. For example, some participants will put in '30', while others will put in '30 years'. Have a long think, does that question really have to be open and how will you deal with the variety of responses which you will inevitably get? In most cases, you do not want an open question but sensible categories and perhaps a single free text option which captures any remaining option.
 * **Use page breaks.** Make sure participants do not have to scroll endlessly. Use [page breaks](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/add-page-break/){:target="_blank"}. Check [this video](https://www.youtube.com/watch?v=PibtvW9mFP8){:target="_blank"}
 * **Randomization**. [Randomize your questions](https://www.qualtrics.com/support/survey-platform/survey-module/block-options/question-randomization/). [Check this video](https://www.youtube.com/watch?v=45F3pliI8HY){:target="_blank"}. Note that it might disrupt your page breaks. When in doubt make separate blocks.
 * **Access**. When you are making your survey, I will require full access to it. [Here](https://www.qualtrics.com/support/survey-platform/my-projects/sharing-a-project/){:target="_blank"} you find explained how to share it. Make sure I have full rights!
+
+# How many participants should I get? - Power Analysis.
+
+## How many participants? Original study
+
+In most cases, you will want to conduct a prospective power analysis to determine. Ideally, in your ethics application, you will also provide a rationale for the sample size and a power analysis is an excellent way to provide. Unfortunately, SPSS is not really geared up to easily do the power analyses for most designs you will come across. For your project, I recommend you would use G\*Power, which is freely available [here](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower.html){:target="_blank"}. If you make use of the programme, you should cite it - [this is the paper to cite](https://link.springer.com/article/10.3758/BF03193146){:target="_blank"}. This page also has information on how to install this software and do some basic power analyses.
+
+There is a detailed guide for various designs [here](https://osf.io/zqphw/){:target="_blank"}. This guide also explains why we do power analysis in the first place. There might be occassions where your design is different, such as a multilevel design (see [here](https://jakewestfall.shinyapps.io/crossedpower/){:target="_blank"}), in that case please do discuss this with me.
+
+## How many participants? Replication study
+
+If you are running a replication project, we follow the recommendation by [Simonsohn (2015)](https://doi.org/10.1177/0956797614567341){:target="_blank"} and we will take 2.5 times the original study's sample size.
+
 
 # Some tips for SPSS.
 
@@ -97,7 +114,7 @@ As discussed in my [post](https://tvpollet.github.io/2018-02-19-SPSS/){:target="
 Have a look [here](https://libguides.library.kent.edu/SPSS/RecodeVariables){:target="_blank"}.
 
 ## Recoding missing with value.
-If you did not manage to put a 'force' choice in Qualtrics, you'll end up with the rare missings. Often you'll want to replace a few missing cases with the means. have a look [here](http://www.unige.ch/ses/sococ/cl/spss/trans/recodem.html){:target="_blank"}.
+If you did not manage to put a 'force' choice in Qualtrics, you will end up with the rare missings. Often you'll want to replace a few missing cases with the means. have a look [here](http://www.unige.ch/ses/sococ/cl/spss/trans/recodem.html){:target="_blank"}.
 
 ## Missings.
 Have a look [here](https://www.spss-tutorials.com/spss-missing-values-tutorial/). Note that summing across missings will create problems, look at [this](https://www.spss-tutorials.com/spss-sum-cautionary-note/).
@@ -141,7 +158,7 @@ Some further tips:
 If you are struggling with writing and starting your essay/thesis also consider [booking a session](https://cragside.northumbria.ac.uk/Everyone/skillsplus/database_uploads/55389339.pdf?){:target="_blank"} in the Northumbria University library.
 
 ## Reporting statistics.
-APA style is the standard for your report, for most statistics standardised formats exist. Go back to your statistics notes. Still confused, look at these resources:
+APA style is the standard for your report, for most statistics: standardised formats exist. Go back to your statistics notes. Still confused, look at these resources:
 
 * [Reporting Statistics in APA Format](https://production.wordpress.uconn.edu/writingcenterwp1/wp-content/uploads/sites/593/2014/06/Reporting_Statistics1.pdf){:target="_blank"}, University of Connecticut.
 * [Abbreviations / APA style](http://users.sussex.ac.uk/~grahamh/RM1web/APA%20format%20for%20statistical%20notation%20and%20other%20things.pdf){:target="_blank"}
@@ -150,17 +167,17 @@ APA style is the standard for your report, for most statistics standardised form
 As always google is your friend, and you are not the first one wondering how to write up your results in APA style.
 
 ## Software.
-I have also moved away from MS word and towards writing first draft in [Markdown](https://guides.github.com/features/mastering-markdown/){:target="_blank"}, I am still oscillating between [RStudio](www.rstudio.com){:target="_blank"}, [Macdown](https://macdown.uranusjr.com/){:target="_blank"} and [Atom](http://atom.io){:target="_blank"}. I also have looked at [Scrivener](https://www.literatureandlatte.com/scrivener/overview){:target="_blank"} but that's perhaps more suitable for much longer pieces. If I ever find the optimal solution I will let you know.
+I have also moved away from MS word and towards writing first draft in [Markdown](https://guides.github.com/features/mastering-markdown/){:target="_blank"}, I am still oscillating between [RStudio](www.rstudio.com){:target="_blank"}, [Macdown](https://macdown.uranusjr.com/){:target="_blank"} and [Atom](http://atom.io){:target="_blank"}. I also have looked at [Scrivener](https://www.literatureandlatte.com/scrivener/overview){:target="_blank"} but that is perhaps more suitable for much longer pieces. If I ever find the optimal solution I will let you know.
 
 ## References.
 
 Use referencing software! Do not waste your time on editing references manually. This is error prone and takes up a lot of your time - which you could spend writing! No excuse not to use one!
 
-Northumbria university offers [Endnote](https://onsizzle.com/i/does-referencing-without-endnote-2107536){:target="_blank"}. But spend some time looking into [mendeley](www.mendeley.com){:target="_blank"} or [zotero](www.zotero.org){:target="_blank"}. [Papers](https://www.readcube.com/papers/){:target="_blank"}, although it comes at a cost after a 30 day trial, is also worth having a look at.
+Northumbria university offers [Endnote](https://onsizzle.com/i/does-referencing-without-endnote-2107536){:target="_blank"}. But do spend some time looking into [mendeley](www.mendeley.com){:target="_blank"} or [zotero](www.zotero.org){:target="_blank"}. [Papers](https://www.readcube.com/papers/){:target="_blank"}, although it comes at a cost after a 30 day trial, is also worth having a look at.
 
 * Mendeley has [great video resources](https://www.mendeley.com/guides/videos){:target="_blank"}, explaining how it works and how to use the MS word plugin.
-* Zotero also has [great documentation](https://www.zotero.org/support/quick_start_guide){:target="_blank"}.
-* For Endnote you can book a session in [the library](https://cragside.northumbria.ac.uk/Everyone/skillsplus/database_uploads/55389339.pdf?){:target="_blank"}.
+* Zotero also has [great documentation](https://www.zotero.org/support/quick_start_guide){:target="_blank"}. Plus it is open source an not owned by [Elsevier](https://www.theguardian.com/science/political-science/2018/jun/29/elsevier-are-corrupting-open-science-in-europe){:target="_blank"}.
+* For Endnote you can book a session in [the library](https://cragside.northumbria.ac.uk/Everyone/skillsplus/database_uploads/55389339.pdf?){:target="_blank"} and [here](https://libguides.ncl.ac.uk/endnote/help){:target="_blank"} are some resources from Newcastle University.
 
 If you are using RStudio, it is [easy to cite](https://www.r-bloggers.com/writing-manuscripts-in-rstudio-easy-citations/){:target="_blank"} or have a look at [papaja](https://github.com/crsh/papaja){:target="_blank"}.
 
