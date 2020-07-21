@@ -39,6 +39,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2020/Accepted/in Press**
 
+[108.](https://doi.org/10.31234/osf.io/nmg4h) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (accepted). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology_ [preprint here](https://doi.org/10.31234/osf.io/nmg4h)
+
 [107.](https://researchportal.northumbria.ac.uk/en/publications/experienced-demand-does-not-affect-subsequent-sleep-and-the-cortisol-awakening-response(eaa93d81-673a-474f-8c55-db5dfd957bac).html) Elder, G., Wetherell, M., Barclay, N., Ellis, J., & **Pollet, T.V.** (in press). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep._
 
 [106.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825.
@@ -47,9 +49,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [104.](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4) McCarrick, D.J., Brewer, G., Lyons, M., **Pollet, T.V.**, & Neave, N. (2020). Referee height influences decision making in British football leagues. _BMC Psychology, 8,_ 4.
 
-[103.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology_.  [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
+[103.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology,111,_ 492-507. [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
 
-[102.](http://tvpollet.github.io/pdfs/Irwing_et_al_2020_PSPB.pdf) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. (2020). Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin_
+[102.](http://tvpollet.github.io/pdfs/Irwing_et_al_2020_PSPB.pdf) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. (2020). Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin, 46(4),_ 590-602.
 
 ## **2019**
 
@@ -61,7 +63,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [98.](http://tvpollet.github.io/pdfs/Irvine_et_al_2019_body_image.pdf) Irvine, K.R., McCarty, K., **Pollet, T.V.**, Cornelissen, K.K., Tovée, M.J., & Cornelissen, P.L. (2019). The visual cues that drive the self-assessment of body size: dissociation between fixation patterns and the key areas of the body for accurate judgement. *Body Image, 29,* 31-46.
 
-[97.](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2) **Pollet, T.V.**, & Saxton, T.K. (2019). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science* [https://link.springer.com/article/10.1007%2Fs40806-019-00192-2](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2)
+[97.](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2) **Pollet, T.V.**, & Saxton, T.K. (2019). How diverse are the samples used in the journals ‘Evolution & Human Behavior’ and ‘Evolutionary Psychology’?. *Evolutionary Psychological Science, 5,* 357–368. [open access](https://link.springer.com/article/10.1007%2Fs40806-019-00192-2)
 
 [96.](https://doi.org/10.17605/OSF.IO/3BFWH) **Pollet, T.V.**, Costello, J., Groeneboom, L., Peperkoorn, L.S., & Wu, J. (2019). Do red objects enhance sexual attractiveness? No evidence from two large replications. *Displays, 56,* 23-29. [preprint here](https://psyarxiv.com/3bfwh/)
 
