@@ -39,11 +39,13 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2020/Accepted/in Press**
 
-[108.](https://doi.org/10.31234/osf.io/nmg4h) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (accepted). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology_ [preprint here](https://doi.org/10.31234/osf.io/nmg4h)
+[109.](https://www.collabra.org/) Haigh, M., Birch, H. A. & **Pollet, T. V. (2020)**. Does ?Scientists believe?? imply ?All scientists believe...?? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology_
+
+[108.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020.pdf) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (accepted). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology_ [preprint here](https://doi.org/10.31234/osf.io/nmg4h)
 
 [107.](https://researchportal.northumbria.ac.uk/en/publications/experienced-demand-does-not-affect-subsequent-sleep-and-the-cortisol-awakening-response(eaa93d81-673a-474f-8c55-db5dfd957bac).html) Elder, G., Wetherell, M., Barclay, N., Ellis, J., & **Pollet, T.V.** (in press). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep._
 
-[106.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825.
+[106.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825. 
 
 [105.](http://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf) **Pollet, T.V.** & Saxton, T.K. (in press). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _Personality and Social Psychology Bulletin_
 
