@@ -43,7 +43,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [108.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020.pdf) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (2020). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology_ [preprint here](https://doi.org/10.31234/osf.io/nmg4h)
 
-[107.](https://researchportal.northumbria.ac.uk/en/publications/experienced-demand-does-not-affect-subsequent-sleep-and-the-cortisol-awakening-response(eaa93d81-673a-474f-8c55-db5dfd957bac).html) Elder, G., Wetherell, M., Barclay, N., Ellis, J., & **Pollet, T.V.** (in press). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep._
+[107.](http://tvpollet.github.io/pdfs/Elder_et_al_2020.pdf) Elder, G.J., Wetherell, M.A., **Pollet, T.V.**, Barclay, N.L., & Ellis, J.G. (2020). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep, 12,_ 537-543.
 
 [106.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825. 
 
