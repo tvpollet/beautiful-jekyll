@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Cheyne, T., Smith, M. A., & **Pollet, T.V.** (2020, July 30). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
+
 * Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2020, July 27th). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _PsyArxiv_ [https://doi.org/10.31234/osf.io/gw8dh](https://doi.org/10.31234/osf.io/gw8dh)
 
 * Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2020, July 27th). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
