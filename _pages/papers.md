@@ -19,9 +19,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* Cheyne, T., Smith, M. A., & **Pollet, T.V.** (2020, July 30). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
-
-* Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2020, July 27th). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _PsyArxiv_ [https://doi.org/10.31234/osf.io/gw8dh](https://doi.org/10.31234/osf.io/gw8dh)
+* Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2020, July 30). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
 
 * Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2020, July 27th). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
 
@@ -40,6 +38,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
 ## **2020/Accepted/in Press**
+
+[110.](https://doi.org/10.31234/osf.io/gw8dh) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
 
 [109.](https://www.collabra.org/) Haigh, M., Birch, H. A. & **Pollet, T. V.** (accepted). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology_
 
