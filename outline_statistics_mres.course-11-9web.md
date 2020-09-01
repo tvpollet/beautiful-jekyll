@@ -53,17 +53,17 @@ I assume that you have *some* basic knowledge on statistical concepts. There is 
 ## Lectures.
 The academic calendar is in your programme handbook. For the Quant. Part of the module in semester 1, we will work through 11 lectures in 12 weeks, notice that there will be an academic development week with no lecture after week 5. Depending on timing the content of this schedule might shift a bit.
 
-1. 1/10. Introduction. R Studio and R environment. Basics of Markdown. 
-2. 8/10. Data visualisation. (+ basic tests)
-3. 15/10. Basic ANOVA + Extensions (ANCOVA / MANOVA) 
-4. 22/10. Correlation and multiple regression. Logistic Regression.
-5. 29/10. Moderation analyses. 
-6. 12/11. Path analysis and 'Basic Mediation' (Sobel test / 'Preacher & Hayes method'). 
-7. 19/11. Exploratory Factor Analysis.
-8. 26/11. Confirmatory Factor Analysis CFA I
-9. 3/12. Confirmatory Factor Analysis II and SEM. Mediation via SEM.
-10. 10/12. Multilevel models I
-11. 17/12. Multilevel models II
+1. 29/9. Introduction. R Studio and R environment. Basics of Markdown. 
+2. 6/10. Data visualisation. (+ basic tests)
+3. 13/10. Basic ANOVA + Extensions (ANCOVA / MANOVA) 
+4. 20/10. Correlation and multiple regression. Logistic Regression.
+5. 27/10. Moderation analyses. 
+6. 10/11. Path analysis and 'Basic Mediation' (Sobel test / 'Preacher & Hayes method'). 
+7. 17/11. Exploratory Factor Analysis.
+8. 24/11. Confirmatory Factor Analysis CFA I
+9. 1/12. Confirmatory Factor Analysis II and SEM. Mediation via SEM.
+10. 8/12. Multilevel models I
+11. 15/12. Multilevel models II
 
 The handouts for every course lecture will be available via the electronic learning portal. There is no need to take extensive notes, as all the key information will be on the sheets.
 
@@ -81,13 +81,13 @@ Inevitably, there are things which I cannot cover (but which are very interestin
 * Item response theory.
 * Machine learning / Data mining.
 * Graph theory / Directed acyclic graphs / Social network analysis.
-* Meta-analysis but see [here](https://tvpollet.github.io/Meta-analysis_course)
+* Meta-analysis but see [here](https://tvpollet.github.io/Meta-analysis_course).
 
-Similarly, I will not cover other software packages (e.g., MLWin, Gephi, [JASP](https://jasp-stats.org/)) but again feel free to ask me about those.
+Similarly, I will not cover other software packages (e.g., AMOS, MLWin, Gephi, [JASP](https://jasp-stats.org/)) but again feel free to ask me about those.
 
 ## Bring your PC / Macbook to class!
 * Rstudio is available on the PCs but you will benefit if you have it on your on machine!  I would encourage you to install this **before** the first class.
-* Install [RStudio desktop](https://www.rstudio.com/products/rstudio/download/) and [R](https://cran.r-project.org/). More detailed [How to](http://web.cs.ucla.edu/~gulzar/rstudio/) and/or step 1 and 2 from [here](https://swirlstats.com/students.html)
+* Install [RStudio desktop](https://www.rstudio.com/products/rstudio/download/) and [R](https://cran.r-project.org/). More detailed [How to]([How to guide](https://rstudio-education.github.io/hopr/starting.html)) and/or step 1 and 2 from [here](https://swirlstats.com/students.html)
 * I expect you to turn off email, messaging, etc. and **only** be engaged with classroom materials. (#no9gag)
 
 ## Contact.
@@ -132,6 +132,8 @@ You can view some videos on youtube on R, including by [yours truly](https://www
 * Edward Tufte
 * Jenny Bryan
 * Mara Averick
+* Danielle Navarro
+* Julia Silge
 
 
 
