@@ -32,7 +32,7 @@ I will still review some basic concepts of statistics and tests  but I am counti
 
 * Rstudio is available on the PCs but you will benefit if you have it on your on machine!  I would encourage you to install this **before** the first class.
 
-* Install R and RStudio. Both are freely available software tools. Find R for your operating system (Windows, Mac (OSX),Linux): [here](https://cran.r-project.org/){:target="_blank"}. More detailed [how to guide](https://rstudio-education.github.io/hopr/starting.html){:target="_blank"} and/or step 1 and 2 from [here](https://swirlstats.com/students.html){:target="_blank"}. This contains youtube videos.
+* Install R and RStudio. Both are freely available software tools. Find R for your operating system (Windows, Mac (OSX),Linux): [here](https://cran.r-project.org/){:target="_blank"}. More detailed [how to guide](https://rstudio-education.github.io/hopr/starting.html){:target="_blank"} and/or step 1 and 2 from [here](https://swirlstats.com/students.html){:target="_blank"}. This contains youtube videos. Or check the [not-so-scary-guide to R](https://the-not-so-scary-guide-to-r.com/guides.html){:target="_blank"}.
 
 * A [screencast](https://youtu.be/rlhUid3REFE) with a first look at the working environment in RStudio.
 
@@ -45,6 +45,8 @@ The course manual can be found [here](/outline_statistics_mres.course-11-9web){:
 Here are some other resources to already get you going.
 
 * check the [PY0794 page](/PY0794){:target="_blank"}
+
+* The [not-so-scary-guide to R](https://the-not-so-scary-guide-to-r.com/guides.html){:target="_blank"}.
 
 * Give [swirl](https://swirlstats.com/) a go!
 
