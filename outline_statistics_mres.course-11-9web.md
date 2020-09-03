@@ -50,6 +50,10 @@ In addition, you will learn:
 ## Prerequisites.
 I assume that you have *some* basic knowledge on statistical concepts. There is no need to have but it would be really helpful if you revisit your undergraduate statistics notes. I will assume very little prior knowledge take it slow but you should be familiar with some basic mathematical and statistical concepts (e.g., what is a mean, standard deviation, what is a *p* value, what is a _t_-test, what is a logarithm, what is an exponential function, if you do not know any of these concepts, re-read your undergraduate or A-level notes on statistics/maths.).
 
+## Induction.
+
+You can find materials relating to induction [here](/induction_PY0794).
+
 ## Lectures.
 The academic calendar is in your programme handbook. For the Quant. Part of the module in semester 1, we will work through 11 lectures in 12 weeks, notice that there will be an academic development week with no lecture after week 5. Depending on timing the content of this schedule might shift a bit.
 
