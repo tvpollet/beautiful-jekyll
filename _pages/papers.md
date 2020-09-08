@@ -61,7 +61,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [101.](http://ishe.org/wp-content/uploads/2019/04/HE_2019_34_17-25.pdf) Saxton, T.K., Hart, S., Desai, L., & **Pollet, T.V.** (2019). Can people detect ideological stance from facial photographs? _Human Ethology, 34,_ 17–25.
 
-[100.](https://journals.sagepub.com/doi/10.1177/1474704919841914) Knapen, J.E.P, **Pollet, T.V.**, van Vugt, M. (2019). When Better Seems Bigger: Perceived Performance of Adult Professional Football Players Is Positively Associated With Perceptions of Their Body Size. *Evolutionary Psychology, 17,* [https://doi.org/10.1177/1474704919841914](https://doi.org/10.1177/1474704919841914)
+[100.](https://journals.sagepub.com/doi/10.1177/1474704919841914) Knapen, J.E.P, **Pollet, T.V.**, & van Vugt, M. (2019). When Better Seems Bigger: Perceived Performance of Adult Professional Football Players Is Positively Associated With Perceptions of Their Body Size. *Evolutionary Psychology, 17,* [https://doi.org/10.1177/1474704919841914](https://doi.org/10.1177/1474704919841914)
 
 [99.](http://tvpollet.github.io/pdfs/Metcalfe_et_al_2019.pdf) Metcalfe, D., McKenzie, K., McCarty, K., & **Pollet, T.V.** (2019). Emotion recognition from body movement and gesture in children with Autism Spectrum Disorder is improved by situational cues. *Research in Developmental Disabilities, 86,* 1–10.
 
