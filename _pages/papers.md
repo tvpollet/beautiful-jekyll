@@ -49,11 +49,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [106.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825. 
 
-[105.](http://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf) **Pollet, T.V.** & Saxton, T.K. (in press). Jealousy as a Function of Rival Characteristics: Little support for sex-specific mechanisms across two large replication studies. _Personality and Social Psychology Bulletin_
+[105.](http://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf) **Pollet, T.V.** & Saxton, T.K. (in press). Jealousy as a Function of Rival Characteristics: Two Large Replication Studies and Meta-Analyses Support Gender Differences in Reactions to Rival Attractiveness But Not Dominance. _Personality and Social Psychology Bulletin_
 
 [104.](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4) McCarrick, D.J., Brewer, G., Lyons, M., **Pollet, T.V.**, & Neave, N. (2020). Referee height influences decision making in British football leagues. _BMC Psychology, 8,_ 4.
 
-[103.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology,111,_ 492-507. [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
+[103.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology, 111,_ 492-507. [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
 
 [102.](http://tvpollet.github.io/pdfs/Irwing_et_al_2020_PSPB.pdf) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. (2020). Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin, 46(4),_ 590-602.
 
