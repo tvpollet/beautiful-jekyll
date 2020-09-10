@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Finister, C., **Pollet, T.V.**, & Neave, N. (2020, September 10th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
+
 * Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2020, July 30). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
 
 * Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (2020, July 27th). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _PsyArxiv_ [https://doi.org/10.17605/OSF.IO/S2KYA](https://doi.org/10.17605/OSF.IO/S2KYA)
@@ -28,8 +30,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 * **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2020, June 17). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
 
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2019, June 26). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
-
-* Finister, C., **Pollet, T.V.**, & Neave, N. (2019, April 30th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
 
 * Boothroyd, L.G., **Pollet, T.V.**, Evans, E.H., Yi, Q., & Tovée, M.J. (2018, September 7). Adaptation-like effects in body weight attractiveness are not simply norm based. _PsyArxiv_ [https://doi.org/10.31234/osf.io/gsnkf](https://doi.org/10.31234/osf.io/gsnkf)
 
