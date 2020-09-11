@@ -38,7 +38,9 @@ I herewith, assert my copyright, my teaching is my intellectual property (see th
 
 ---
 
-On a lighter note: by visiting this site you concur that:    
+### On a lighter note... .
+
+By visiting this site you concur that:    
 - Belgian beer and chocolate are the best in the world
 - That Cobra is superior to G.I. Joe
 - Sega is better than Nintendo
