@@ -17,7 +17,7 @@ opts_chunk$set(tidy.opts=list(width.cutoff=60, out.width = '.6\\linewidth'),tidy
 
 ```
 
-## PY0782: Advanced Quantitative research methods.
+## PY0794: Advanced Quantitative research methods.
 Last week: All about visualization.
 
 Today: ANOVA 
@@ -169,7 +169,7 @@ Three groups (Asians (international), Asian Americans, European Americans), NEO 
 ```{r}
 setwd("~/Dropbox/Teaching_MRes_Northumbria/Lecture3")
 require(haven)
-data<-read_spss("Iwasaki_Personality_Data.sav")
+data<-read_spss("Iwasaki_Personality_Data.sav", user_na=T)
 ```
 
 ---
@@ -182,13 +182,16 @@ skim(data)
 
 ---
 ## Reduced set.
+
 2 missings. Remove this, find out the codings.
 
 ```{r}
 require(dplyr)
+require(labelled) # use this to turn into a factor
+data$GRP<-to_factor(data$GRP) #GRP is dbl+lbl
 # missings are Not a number.
-data_no_miss<-filter(data, GRP!='NaN')
-print_labels(data_no_miss$GRP)
+data_no_miss<-dplyr::filter(data, GRP!='NaN')
+levels(data_no_miss$GRP)
 ```
 
 ---
@@ -256,9 +259,9 @@ Not significant --> retain null hypothesis, not significantly different from nor
 --
 
 ```{r}
-data_eur<-filter(data_no_miss, GRP=='0')
-data_asian_i<-filter(data_no_miss, GRP=='1')
-data_asian_a<-filter(data_no_miss, GRP=='2')
+data_eur<-filter(data_no_miss, GRP=='European Americans')
+data_asian_i<-filter(data_no_miss, GRP=='Asian Internationals')
+data_asian_a<-filter(data_no_miss, GRP=='Asian Americans')
 # You would do this for all 3!
 shapiro.test(data_asian_a$O)
 ```
@@ -323,9 +326,8 @@ bartlett.test(O ~ GRP, data=data_no_miss)
 ```{r, warning=F, message=F}
 require(car) # package which does test
 require(dplyr)
-# need to make it a factor!
-data_no_miss$GRP_fact<-as_factor(data_no_miss$GRP)
-leveneTest(O ~ GRP_fact, data=data_no_miss)
+# It needs to be a factor but already is!
+leveneTest(O ~ GRP, data=data_no_miss)
 ```
 
 ---
@@ -363,7 +365,7 @@ knitr::include_graphics("https://miro.medium.com/max/1020/1*hxVvqttoCSkUT2_R1zA0
 Test the assumptions for an ANOVA with Extraversion (E) and group as independent variable.
 
 ```{r, fig.align="center", out.width = "500px", echo=FALSE}
-knitr::include_graphics("https://img.buzzfeed.com/buzzfeed-static/static/2014-03/enhanced/webdr07/24/11/anigif_enhanced-buzz-13497-1395676645-6.gif")
+knitr::include_graphics("https://media.giphy.com/media/3o6MbgJH2fc63n6v4I/giphy.gif")
 ```
 
 ---
@@ -379,7 +381,7 @@ Why this matters will become clearer when we discuss Types of Sums of Squares.
 Analysis of variance.
 
 ```{r}
-Anova1<-aov(O ~ GRP_fact, data=data_no_miss)
+Anova1<-aov(O ~ GRP, data=data_no_miss)
 summary(Anova1)
 ```
 
@@ -387,7 +389,7 @@ summary(Anova1)
 ## lm(): Linear model.
 
 ```{r}
-Anova2<-lm(O~ GRP_fact, data=data_no_miss)
+Anova2<-lm(O~ GRP, data=data_no_miss)
 summary(Anova2)
 ```
 
@@ -420,7 +422,7 @@ Best bet for replicating SPSS results!
 
 ```{r}
 require(ez)
-Ez_ANOVA1<-ezANOVA(data_no_miss, dv=O, wid=ID, between=GRP_fact, detailed=TRUE)
+Ez_ANOVA1<-ezANOVA(data_no_miss, dv=O, wid=ID, between=GRP, detailed=TRUE)
 ```
 
 ```{r opts_chunk$set(out.width = '.6\\linewidth')}
@@ -520,7 +522,7 @@ Alternative. This will also have Cohen's d effect size values.
 
 ```{r, tidy.opts=list(width.cutoff=50), tidy=T}
 require(apaTables)
-apa.d.table(iv=GRP_fact, dv=O, data=data_no_miss, filename="Table_1_APA_tukey.doc", show.conf.interval=T, landscape=T, table.number = 1)
+apa.d.table(iv=GRP, dv=O, data=data_no_miss, filename="Table_1_APA_tukey.doc", show.conf.interval=T, landscape=T, table.number = 1)
 ```
 
 ---
@@ -565,7 +567,7 @@ lincoln() for the posthoc tests.
 ```{r, warning=F, message=F}
 #WRS.
 require(WRS2)
-t1way(O ~ GRP_fact, data=data_no_miss)
+t1way(O ~ GRP, data=data_no_miss)
 ```
 
 ---
@@ -577,7 +579,7 @@ The t1waybt function computes a one-way ANOVA for the [_trimmed means_](http://d
 
 ```{r, warning=F, message=F}
 # Specify Between.
-t1waybt(O ~ GRP_fact, data=data_no_miss, nboot=10000)
+t1waybt(O ~ GRP, data=data_no_miss, nboot=10000)
 ```
 
 ---
@@ -589,7 +591,7 @@ Computes a one-way ANOVA for the medians. Homoscedasticity assumption not requir
 
 ```{r, warning=F, message=F}
 # WRS, ANOVA for Medians. (note iter=)
-med1way(O ~ GRP_fact, data=data_no_miss, iter=10000)
+med1way(O ~ GRP, data=data_no_miss, iter=10000)
 # analysis of Medians leads to same conclusion.
 ```
 
@@ -614,7 +616,7 @@ Read more [here](http://thomasleeper.com/Rcourse/Tutorials/permutationtests.html
 
 ```{r, warning=F, message=F}
 require(coin)
-independence_test(O ~ GRP_fact, data=data_no_miss)
+independence_test(O ~ GRP, data=data_no_miss)
 ```
 
 ---
@@ -646,7 +648,7 @@ The order in which you put in things matters!!
 
 ```{r}
 # Type I errors
-lm_ancova<-lm(O~E+GRP_fact, data=data_no_miss)
+lm_ancova<-lm(O~E+GRP, data=data_no_miss)
 anova(lm_ancova)
 ```
 
@@ -655,7 +657,7 @@ anova(lm_ancova)
 
 ```{r}
 # note that the order matters for the F-tests.
-lm_ancova2<-lm(O~GRP_fact+E, data=data_no_miss)
+lm_ancova2<-lm(O~GRP+E, data=data_no_miss)
 anova(lm_ancova2)
 ```
 
@@ -679,7 +681,7 @@ SPSS uses type III. So let's aim to emulate (even though that might not always b
 # Type III errors
 require(car)
 require(compute.es)
-Ancova<-lm(O~GRP_fact+E, contrasts=list(GRP_fact=contr.sum), data=data_no_miss)
+Ancova<-lm(O~GRP+E, contrasts=list(GRP_fact=contr.sum), data=data_no_miss)
 Anova(Ancova, type="III")
 ```
 
@@ -688,7 +690,7 @@ Anova(Ancova, type="III")
 
 ```{r}
 require(multcomp)
-posth=glht(Ancova, linfct=mcp(GRP_fact="Tukey"))  
+posth=glht(Ancova, linfct=mcp(GRP="Tukey"))  
 ```
 
 ---
@@ -736,7 +738,7 @@ Sensitive to sample size, if large small deviations will lead to significance.
 
 ```{r warning=F, message=FALSE}
 require(RVAideMemoire)
-multivariatenorm<-dplyr::select(data_no_miss, -GRP_fact, -GRP,-ID)
+multivariatenorm<-dplyr::select(data_no_miss, -GRP,-ID)
 mshapiro.test(multivariatenorm)
 ```
 
@@ -805,14 +807,14 @@ boxM(multivariatenorm, data_no_miss$GRP)
 ## MANOVA
 
 ```{r}
-Manovamodel <- manova(cbind(N,E,A,O,C) ~ GRP_fact, data = data_no_miss)
+Manovamodel <- manova(cbind(N,E,A,O,C) ~ GRP, data = data_no_miss)
 summary(Manovamodel)
 ```
 
 ---
 ## MANOVA
 
-Other measures exist but Pillai's Trace is typically most common. You can find out more about them [here](https://onlinecourses.science.psu.edu/stat505/node/163). Also about the **math** (also see references).
+Other measures exist but Pillai's Trace is typically most common. You can find out more about them [here](https://online.stat.psu.edu/stat505/lesson/8/8.3). Also about the **math** (also see references).
 
 ```{r, fig.align="center", out.width = "450px", echo=FALSE}
 knitr::include_graphics("https://i1.wp.com/68.media.tumblr.com/29f192c8081899ed1f037ef6003384d3/tumblr_os2spqdfC71r0msi2o1_1280.gif?zoom=2&w=605&ssl=1")
@@ -836,7 +838,7 @@ In conclusion the personality profiles differ between these 3 groups.
 ---
 ## Follow up tests
 
-Univariate ANOVA's / plot your data / [Discriminant analysis](http://geog.uoregon.edu/bartlein/courses/geog495/lec17.html).
+Univariate ANOVA's / plot your data / [Discriminant analysis](https://pjbartlein.github.io/GeogDataAnalysis/lec17.html).
 
 ---
 ## Exercise. 

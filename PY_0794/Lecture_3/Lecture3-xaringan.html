@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 3: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
@@ -11,14 +11,14 @@
 class: center, middle, inverse, title-slide
 
 # Lecture 3: PY 0794 - Advanced Quantitative Research Methods
-### 2019-10-10 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-09-23 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
 
 
 
-## PY0782: Advanced Quantitative research methods.
+## PY0794: Advanced Quantitative research methods.
 Last week: All about visualization.
 
 Today: ANOVA 
@@ -167,7 +167,7 @@ Three groups (Asians (international), Asian Americans, European Americans), NEO 
 ```r
 setwd("~/Dropbox/Teaching_MRes_Northumbria/Lecture3")
 require(haven)
-data&lt;-read_spss("Iwasaki_Personality_Data.sav")
+data &lt;- read_spss("Iwasaki_Personality_Data.sav", user_na = T)
 ```
 
 ---
@@ -179,51 +179,57 @@ require(skimr)
 skim(data)
 ```
 
-```
-## Skim summary statistics
-##  n obs: 205 
-##  n variables: 7 
-## 
-## ── Variable type:character ─────────────────────────────────────────────────────────────────
-##  variable missing complete   n min max empty n_unique
-##       GRP       2      203 205   1   1     0        3
-## 
-## ── Variable type:numeric ───────────────────────────────────────────────────────────────────
-##  variable missing complete   n   mean     sd p0   p25 p50   p75 p100
-##         A       0      205 205 113.75  20.61  0 103   115 127    192
-##         C       0      205 205 111.62  20.81  0  98   112 124    192
-##         E       0      205 205 116.53  22.09  0 103   117 130    192
-##        ID       2      203 205 369.98 256.78  1  51.5 527 577.5  628
-##         N       0      205 205  95.91  23.17  0  81    97 110    192
-##         O       0      205 205 116.22  20.57  0 104   115 127    192
-##      hist
-##  ▁▁▁▂▇▆▁▁
-##  ▁▁▁▃▇▆▁▁
-##  ▁▁▁▂▇▅▂▁
-##  ▇▁▁▁▁▁▅▇
-##  ▁▁▃▇▇▂▁▁
-##  ▁▁▁▂▇▆▁▁
-```
+
+Table: Data summary
+
+|                         |     |
+|:------------------------|:----|
+|Name                     |data |
+|Number of rows           |205  |
+|Number of columns        |7    |
+|_______________________  |     |
+|Column type frequency:   |     |
+|character                |1    |
+|numeric                  |6    |
+|________________________ |     |
+|Group variables          |None |
+
+
+**Variable type: character**
+
+|skim_variable | n_missing| complete_rate| min| max| empty| n_unique| whitespace|
+|:-------------|---------:|-------------:|---:|---:|-----:|--------:|----------:|
+|GRP           |         2|          0.99|   1|   1|     0|        3|          0|
+
+
+**Variable type: numeric**
+
+|skim_variable | n_missing| complete_rate|   mean|     sd| p0|   p25| p50|   p75| p100|hist  |
+|:-------------|---------:|-------------:|------:|------:|--:|-----:|---:|-----:|----:|:-----|
+|ID            |         2|          0.99| 369.98| 256.78|  1|  51.5| 527| 577.5|  628|▅▁▁▁▇ |
+|N             |         0|          1.00|  95.91|  23.17|  0|  81.0|  97| 110.0|  192|▁▂▇▂▁ |
+|E             |         0|          1.00| 116.53|  22.09|  0| 103.0| 117| 130.0|  192|▁▁▇▇▁ |
+|O             |         0|          1.00| 116.22|  20.57|  0| 104.0| 115| 127.0|  192|▁▁▇▇▁ |
+|A             |         0|          1.00| 113.75|  20.61|  0| 103.0| 115| 127.0|  192|▁▁▇▇▁ |
+|C             |         0|          1.00| 111.62|  20.81|  0|  98.0| 112| 124.0|  192|▁▁▇▆▁ |
 
 ---
 ## Reduced set.
+
 2 missings. Remove this, find out the codings.
 
 
 ```r
 require(dplyr)
+require(labelled)  # use this to turn into a factor
+data$GRP &lt;- to_factor(data$GRP)  #GRP is dbl+lbl
 # missings are Not a number.
-data_no_miss&lt;-filter(data, GRP!='NaN')
-print_labels(data_no_miss$GRP)
+data_no_miss &lt;- dplyr::filter(data, GRP != "NaN")
+levels(data_no_miss$GRP)
 ```
 
 ```
-## 
-## Labels:
-##  value                label
-##      0   European Americans
-##      1 Asian Internationals
-##      2      Asian Americans
+## [1] "European Americans"   "Asian Internationals" "Asian Americans"
 ```
 
 ---
@@ -254,9 +260,9 @@ Mostly people would look at the _overall_ plot, but ideally one would check plot
 
 ```r
 require(ggplot2)
-plot_hist &lt;- ggplot(data_no_miss, aes(x=O)) 
-plot_hist &lt;- plot_hist+ geom_histogram(colour = "black", fill = "white")
-plot_hist 
+plot_hist &lt;- ggplot(data_no_miss, aes(x = O))
+plot_hist &lt;- plot_hist + geom_histogram(colour = "black", fill = "white")
+plot_hist
 ```
 
 &lt;img src="Lecture3-xaringan_files/figure-html/opts_chunk$set(out.width=50)-1.png" style="display: block; margin: auto;" /&gt;
@@ -266,8 +272,9 @@ plot_hist
 
 
 ```r
-plot_hist_facet &lt;- ggplot(data_no_miss, aes(x=O)) 
-plot_hist_facet &lt;- plot_hist_facet+geom_histogram(colour = "black", fill = "white") 
+plot_hist_facet &lt;- ggplot(data_no_miss, aes(x = O))
+plot_hist_facet &lt;- plot_hist_facet + geom_histogram(colour = "black", 
+    fill = "white")
 plot_hist_facet + facet_wrap(~GRP)
 ```
 
@@ -294,9 +301,9 @@ Not significant --&gt; retain null hypothesis, not significantly different from 
 
 
 ```r
-data_eur&lt;-filter(data_no_miss, GRP=='0')
-data_asian_i&lt;-filter(data_no_miss, GRP=='1')
-data_asian_a&lt;-filter(data_no_miss, GRP=='2')
+data_eur &lt;- filter(data_no_miss, GRP == "European Americans")
+data_asian_i &lt;- filter(data_no_miss, GRP == "Asian Internationals")
+data_asian_a &lt;- filter(data_no_miss, GRP == "Asian Americans")
 # You would do this for all 3!
 shapiro.test(data_asian_a$O)
 ```
@@ -318,7 +325,7 @@ Beware K-S test: easily significant!
 
 
 ```r
-ks.test(data_asian_a$O, "pnorm") #pnorm --&gt; normal distribution
+ks.test(data_asian_a$O, "pnorm")  #pnorm --&gt; normal distribution
 ```
 
 ```
@@ -367,7 +374,7 @@ If significant could also point to deviation in normality as opposed to violatio
 
 
 ```r
-bartlett.test(O ~ GRP, data=data_no_miss)
+bartlett.test(O ~ GRP, data = data_no_miss)
 ```
 
 ```
@@ -385,11 +392,10 @@ bartlett.test(O ~ GRP, data=data_no_miss)
 
 
 ```r
-require(car) # package which does test
+require(car)  # package which does test
 require(dplyr)
-# need to make it a factor!
-data_no_miss$GRP_fact&lt;-as_factor(data_no_miss$GRP)
-leveneTest(O ~ GRP_fact, data=data_no_miss)
+# It needs to be a factor but already is!
+leveneTest(O ~ GRP, data = data_no_miss)
 ```
 
 ```
@@ -427,7 +433,7 @@ As an aside: you could mention, the platykurtosis in the Asian American group.
 
 Test the assumptions for an ANOVA with Extraversion (E) and group as independent variable.
 
-&lt;img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-03/enhanced/webdr07/24/11/anigif_enhanced-buzz-13497-1395676645-6.gif" width="500px" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://media.giphy.com/media/3o6MbgJH2fc63n6v4I/giphy.gif" width="500px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## ANOVA.
@@ -443,13 +449,13 @@ Analysis of variance.
 
 
 ```r
-Anova1&lt;-aov(O ~ GRP_fact, data=data_no_miss)
+Anova1 &lt;- aov(O ~ GRP, data = data_no_miss)
 summary(Anova1)
 ```
 
 ```
 ##              Df Sum Sq Mean Sq F value   Pr(&gt;F)    
-## GRP_fact      2   8774    4387   15.05 8.13e-07 ***
+## GRP           2   8774    4387   15.05 8.13e-07 ***
 ## Residuals   200  58284     291                     
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
@@ -460,24 +466,24 @@ summary(Anova1)
 
 
 ```r
-Anova2&lt;-lm(O~ GRP_fact, data=data_no_miss)
+Anova2 &lt;- lm(O ~ GRP, data = data_no_miss)
 summary(Anova2)
 ```
 
 ```
 ## 
 ## Call:
-## lm(formula = O ~ GRP_fact, data = data_no_miss)
+## lm(formula = O ~ GRP, data = data_no_miss)
 ## 
 ## Residuals:
 ##     Min      1Q  Median      3Q     Max 
 ## -41.400 -11.982  -0.982  11.828  41.600 
 ## 
 ## Coefficients:
-##                              Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)                   113.400      1.971  57.529  &lt; 2e-16 ***
-## GRP_factAsian Internationals   -2.039      2.817  -0.724     0.47    
-## GRP_factAsian Americans        13.582      3.015   4.505 1.13e-05 ***
+##                         Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)              113.400      1.971  57.529  &lt; 2e-16 ***
+## GRPAsian Internationals   -2.039      2.817  -0.724     0.47    
+## GRPAsian Americans        13.582      3.015   4.505 1.13e-05 ***
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ## 
@@ -503,7 +509,7 @@ anova(Anova2)
 ## 
 ## Response: O
 ##            Df Sum Sq Mean Sq F value    Pr(&gt;F)    
-## GRP_fact    2   8774  4387.0  15.054 8.126e-07 ***
+## GRP         2   8774  4387.0  15.054 8.126e-07 ***
 ## Residuals 200  58284   291.4                      
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
@@ -518,17 +524,17 @@ Don't worry about [AIC](https://en.wikipedia.org/wiki/Akaike_information_criteri
 
 
 ```r
-drop1(Anova2) # some additional info. ??drop1
+drop1(Anova2)  # some additional info. ??drop1
 ```
 
 ```
 ## Single term deletions
 ## 
 ## Model:
-## O ~ GRP_fact
-##          Df Sum of Sq   RSS    AIC
-## &lt;none&gt;                58284 1155.0
-## GRP_fact  2      8774 67058 1179.4
+## O ~ GRP
+##        Df Sum of Sq   RSS    AIC
+## &lt;none&gt;              58284 1155.0
+## GRP     2      8774 67058 1179.4
 ```
 
 ---
@@ -539,7 +545,8 @@ Best bet for replicating SPSS results!
 
 ```r
 require(ez)
-Ez_ANOVA1&lt;-ezANOVA(data_no_miss, dv=O, wid=ID, between=GRP_fact, detailed=TRUE)
+Ez_ANOVA1 &lt;- ezANOVA(data_no_miss, dv = O, wid = ID, between = GRP, 
+    detailed = TRUE)
 ```
 
 
@@ -549,8 +556,8 @@ Ez_ANOVA1
 
 ```
 ## $ANOVA
-##     Effect DFn DFd      SSn      SSd        F            p p&lt;.05       ges
-## 1 GRP_fact   2 200 8773.973 58283.59 15.05393 8.125554e-07     * 0.1308424
+##   Effect DFn DFd      SSn      SSd        F            p p&lt;.05       ges
+## 1    GRP   2 200 8773.973 58283.59 15.05393 8.125554e-07     * 0.1308424
 ## 
 ## $`Levene's Test for Homogeneity of Variance`
 ##   DFn DFd      SSn      SSd        F       p p&lt;.05
@@ -588,7 +595,7 @@ A one-way ANOVA showed a significant effect of cultural group on openness to exp
 
 ```r
 require(apaTables)
-apa.aov.table(Anova1, filename="APA_Anova_Table.doc", table.number = 1)
+apa.aov.table(Anova1, filename = "APA_Anova_Table.doc", table.number = 1)
 ```
 
 ```
@@ -601,7 +608,7 @@ apa.aov.table(Anova1, filename="APA_Anova_Table.doc", table.number = 1)
 ## 
 ##    Predictor        SS  df        MS       F    p partial_eta2
 ##  (Intercept) 964467.00   1 964467.00 3309.57 .000             
-##     GRP_fact   8773.97   2   4386.98   15.05 .000          .13
+##          GRP   8773.97   2   4386.98   15.05 .000          .13
 ##        Error  58283.59 200    291.42                          
 ##  CI_90_partial_eta2
 ##                    
@@ -623,7 +630,7 @@ apa.aov.table(Anova1, filename="APA_Anova_Table.doc", table.number = 1)
 
 
 ```r
-resultTukey&lt;-TukeyHSD(Anova1)
+resultTukey &lt;- TukeyHSD(Anova1)
 resultTukey
 ```
 
@@ -631,17 +638,13 @@ resultTukey
 ##   Tukey multiple comparisons of means
 ##     95% family-wise confidence level
 ## 
-## Fit: aov(formula = O ~ GRP_fact, data = data_no_miss)
+## Fit: aov(formula = O ~ GRP, data = data_no_miss)
 ## 
-## $GRP_fact
-##                                              diff       lwr       upr
-## Asian Internationals-European Americans -2.038889 -8.689634  4.611856
-## Asian Americans-European Americans      13.582143  6.463135 20.701151
-## Asian Americans-Asian Internationals    15.621032  8.438902 22.803161
-##                                             p adj
-## Asian Internationals-European Americans 0.7496332
-## Asian Americans-European Americans      0.0000335
-## Asian Americans-Asian Internationals    0.0000020
+## $GRP
+##                                              diff       lwr       upr     p adj
+## Asian Internationals-European Americans -2.038889 -8.689634  4.611856 0.7496332
+## Asian Americans-European Americans      13.582143  6.463135 20.701151 0.0000335
+## Asian Americans-Asian Internationals    15.621032  8.438902 22.803161 0.0000020
 ```
 ---
 ## Post-hoc tests: corrections.
@@ -671,10 +674,10 @@ Totally check out stargazer!
 ```r
 require(broom)
 require(stargazer)
-# Broom turns our result into a dataframe!
-# We can then 'tidy' it and make a report!
-tidy_resultTukey&lt;-tidy(resultTukey)
-stargazer(tidy_resultTukey, summary = F, type="html", out="Tukey.html")
+# Broom turns our result into a dataframe!  We can then
+# 'tidy' it and make a report!
+tidy_resultTukey &lt;- tidy(resultTukey)
+stargazer(tidy_resultTukey, summary = F, type = "html", out = "Tukey.html")
 ```
 
 ---
@@ -685,7 +688,9 @@ Alternative. This will also have Cohen's d effect size values.
 
 ```r
 require(apaTables)
-apa.d.table(iv=GRP_fact, dv=O, data=data_no_miss, filename="Table_1_APA_tukey.doc", show.conf.interval=T, landscape=T, table.number = 1)
+apa.d.table(iv = GRP, dv = O, data = data_no_miss, 
+    filename = "Table_1_APA_tukey.doc", show.conf.interval = T, 
+    landscape = T, table.number = 1)
 ```
 
 ```
@@ -751,21 +756,22 @@ lincoln() for the posthoc tests.
 
 
 ```r
-#WRS.
+# WRS.
 require(WRS2)
-t1way(O ~ GRP_fact, data=data_no_miss)
+t1way(O ~ GRP, data = data_no_miss)
 ```
 
 ```
 ## Call:
-## t1way(formula = O ~ GRP_fact, data = data_no_miss)
+## t1way(formula = O ~ GRP, data = data_no_miss)
 ## 
 ## Test statistic: F = 11.067 
 ## Degrees of freedom 1: 2 
 ## Degrees of freedom 2: 74.67 
 ## p-value: 6e-05 
 ## 
-## Explanatory measure of effect size: 0.43
+## Explanatory measure of effect size: 0.46 
+## Bootstrap CI: [0.3; 0.63]
 ```
 
 ---
@@ -778,19 +784,19 @@ The t1waybt function computes a one-way ANOVA for the [_trimmed means_](http://d
 
 ```r
 # Specify Between.
-t1waybt(O ~ GRP_fact, data=data_no_miss, nboot=10000)
+t1waybt(O ~ GRP, data = data_no_miss, nboot = 10000)
 ```
 
 ```
 ## Call:
-## t1waybt(formula = O ~ GRP_fact, data = data_no_miss, nboot = 10000)
+## t1waybt(formula = O ~ GRP, data = data_no_miss, nboot = 10000)
 ## 
 ## Effective number of bootstrap samples was 10000.
 ## 
 ## Test statistic: 11.067 
-## p-value: 1e-04 
-## Variance explained 0.191 
-## Effect size 0.437
+## p-value: 0 
+## Variance explained: 0.195 
+## Effect size: 0.441
 ```
 
 ---
@@ -803,12 +809,12 @@ Computes a one-way ANOVA for the medians. Homoscedasticity assumption not requir
 
 ```r
 # WRS, ANOVA for Medians. (note iter=)
-med1way(O ~ GRP_fact, data=data_no_miss, iter=10000)
+med1way(O ~ GRP, data = data_no_miss, iter = 10000)
 ```
 
 ```
 ## Call:
-## med1way(formula = O ~ GRP_fact, data = data_no_miss, iter = 10000)
+## med1way(formula = O ~ GRP, data = data_no_miss, iter = 10000)
 ## 
 ## Test statistic F: 6.6673 
 ## Critical value: 3.2621 
@@ -841,7 +847,7 @@ Read more [here](http://thomasleeper.com/Rcourse/Tutorials/permutationtests.html
 
 ```r
 require(coin)
-independence_test(O ~ GRP_fact, data=data_no_miss)
+independence_test(O ~ GRP, data = data_no_miss)
 ```
 
 ```
@@ -849,7 +855,7 @@ independence_test(O ~ GRP_fact, data=data_no_miss)
 ## 	Asymptotic General Independence Test
 ## 
 ## data:  O by
-## 	 GRP_fact (European Americans, Asian Internationals, Asian Americans)
+## 	 GRP (European Americans, Asian Internationals, Asian Americans)
 ## maxT = 5.0961, p-value = 8.742e-07
 ## alternative hypothesis: two.sided
 ```
@@ -884,7 +890,7 @@ The order in which you put in things matters!!
 
 ```r
 # Type I errors
-lm_ancova&lt;-lm(O~E+GRP_fact, data=data_no_miss)
+lm_ancova &lt;- lm(O ~ E + GRP, data = data_no_miss)
 anova(lm_ancova)
 ```
 
@@ -894,7 +900,7 @@ anova(lm_ancova)
 ## Response: O
 ##            Df Sum Sq Mean Sq F value    Pr(&gt;F)    
 ## E           1   8349  8348.9  34.339 1.894e-08 ***
-## GRP_fact    2  10325  5162.7  21.234 4.379e-09 ***
+## GRP         2  10325  5162.7  21.234 4.379e-09 ***
 ## Residuals 199  48383   243.1                      
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
@@ -906,7 +912,7 @@ anova(lm_ancova)
 
 ```r
 # note that the order matters for the F-tests.
-lm_ancova2&lt;-lm(O~GRP_fact+E, data=data_no_miss)
+lm_ancova2 &lt;- lm(O ~ GRP + E, data = data_no_miss)
 anova(lm_ancova2)
 ```
 
@@ -915,7 +921,7 @@ anova(lm_ancova2)
 ## 
 ## Response: O
 ##            Df Sum Sq Mean Sq F value    Pr(&gt;F)    
-## GRP_fact    2   8774  4387.0  18.044 6.289e-08 ***
+## GRP         2   8774  4387.0  18.044 6.289e-08 ***
 ## E           1   9900  9900.3  40.720 1.209e-09 ***
 ## Residuals 199  48383   243.1                      
 ## ---
@@ -943,8 +949,9 @@ SPSS uses type III. So let's aim to emulate (even though that might not always b
 # Type III errors
 require(car)
 require(compute.es)
-Ancova&lt;-lm(O~GRP_fact+E, contrasts=list(GRP_fact=contr.sum), data=data_no_miss)
-Anova(Ancova, type="III")
+Ancova &lt;- lm(O ~ GRP + E, contrasts = list(GRP_fact = contr.sum), 
+    data = data_no_miss)
+Anova(Ancova, type = "III")
 ```
 
 ```
@@ -952,8 +959,8 @@ Anova(Ancova, type="III")
 ## 
 ## Response: O
 ##             Sum Sq  Df F value    Pr(&gt;F)    
-## (Intercept)  25976   1 106.838 &lt; 2.2e-16 ***
-## GRP_fact     10325   2  21.234 4.379e-09 ***
+## (Intercept)  17222   1  70.835 7.554e-15 ***
+## GRP          10325   2  21.234 4.379e-09 ***
 ## E             9900   1  40.720 1.209e-09 ***
 ## Residuals    48383 199                      
 ## ---
@@ -966,7 +973,7 @@ Anova(Ancova, type="III")
 
 ```r
 require(multcomp)
-posth=glht(Ancova, linfct=mcp(GRP_fact="Tukey"))  
+posth = glht(Ancova, linfct = mcp(GRP = "Tukey"))
 ```
 
 ---
@@ -974,7 +981,7 @@ posth=glht(Ancova, linfct=mcp(GRP_fact="Tukey"))
 
 
 ```r
-summary(posth) ##shows the output in a nice format
+summary(posth)  ##shows the output in a nice format
 ```
 
 ```
@@ -984,7 +991,7 @@ summary(posth) ##shows the output in a nice format
 ## Multiple Comparisons of Means: Tukey Contrasts
 ## 
 ## 
-## Fit: lm(formula = O ~ GRP_fact + E, data = data_no_miss, contrasts = list(GRP_fact = contr.sum))
+## Fit: lm(formula = O ~ GRP + E, data = data_no_miss, contrasts = list(GRP_fact = contr.sum))
 ## 
 ## Linear Hypotheses:
 ##                                                Estimate Std. Error t value
@@ -1039,7 +1046,7 @@ Sensitive to sample size, if large small deviations will lead to significance.
 
 ```r
 require(RVAideMemoire)
-multivariatenorm&lt;-dplyr::select(data_no_miss, -GRP_fact, -GRP,-ID)
+multivariatenorm &lt;- dplyr::select(data_no_miss, -GRP, -ID)
 mshapiro.test(multivariatenorm)
 ```
 
@@ -1060,7 +1067,7 @@ A whole host of alternatives. More [here](http://dwoll.de/rexrepos/posts/normali
 
 
 ```r
-require(MVN) # Alternative method, one example
+require(MVN)  # Alternative method, one example
 mvn(multivariatenorm)
 ```
 
@@ -1159,7 +1166,7 @@ Very easily significant. Therefore, usually _p_=.001 as threshold. More [here](h
 
 
 ```r
-require(heplots) #alternative is 'biotools' package.
+require(heplots)  #alternative is 'biotools' package.
 boxM(multivariatenorm, data_no_miss$GRP)
 ```
 
@@ -1176,13 +1183,13 @@ boxM(multivariatenorm, data_no_miss$GRP)
 
 
 ```r
-Manovamodel &lt;- manova(cbind(N,E,A,O,C) ~ GRP_fact, data = data_no_miss)
+Manovamodel &lt;- manova(cbind(N, E, A, O, C) ~ GRP, data = data_no_miss)
 summary(Manovamodel)
 ```
 
 ```
 ##            Df  Pillai approx F num Df den Df    Pr(&gt;F)    
-## GRP_fact    2 0.41862    10.43     10    394 1.106e-15 ***
+## GRP         2 0.41862    10.43     10    394 1.106e-15 ***
 ## Residuals 200                                             
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
@@ -1191,7 +1198,7 @@ summary(Manovamodel)
 ---
 ## MANOVA
 
-Other measures exist but Pillai's Trace is typically most common. You can find out more about them [here](https://onlinecourses.science.psu.edu/stat505/node/163). Also about the **math** (also see references).
+Other measures exist but Pillai's Trace is typically most common. You can find out more about them [here](https://online.stat.psu.edu/stat505/lesson/8/8.3). Also about the **math** (also see references).
 
 &lt;img src="https://i1.wp.com/68.media.tumblr.com/29f192c8081899ed1f037ef6003384d3/tumblr_os2spqdfC71r0msi2o1_1280.gif?zoom=2&amp;w=605&amp;ssl=1" width="450px" style="display: block; margin: auto;" /&gt;
 
@@ -1213,7 +1220,7 @@ In conclusion the personality profiles differ between these 3 groups.
 ---
 ## Follow up tests
 
-Univariate ANOVA's / plot your data / [Discriminant analysis](http://geog.uoregon.edu/bartlein/courses/geog495/lec17.html).
+Univariate ANOVA's / plot your data / [Discriminant analysis](https://pjbartlein.github.io/GeogDataAnalysis/lec17.html).
 
 ---
 ## Exercise. 
@@ -1297,9 +1304,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -1308,7 +1331,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {
