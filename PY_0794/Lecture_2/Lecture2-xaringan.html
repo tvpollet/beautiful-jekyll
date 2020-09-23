@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 2: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 2: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-10-06 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-09-10 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -183,17 +183,16 @@ head(flights_red)
 
 ```
 ## # A tibble: 6 x 16
-##    Year Month   Day arr_time sched_arr_time arr_delay carrier flight
-##   &lt;int&gt; &lt;int&gt; &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt; &lt;chr&gt;    &lt;int&gt;
-## 1   517   515     2      830            819        11 UA        1545
-## 2   533   529     4      850            830        20 UA        1714
-## 3   542   540     2      923            850        33 AA        1141
-## 4   544   545    -1     1004           1022       -18 B6         725
-## 5   554   600    -6      812            837       -25 DL         461
-## 6   554   558    -4      740            728        12 UA        1696
-## # … with 8 more variables: tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;,
-## #   air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;,
-## #   time_hour &lt;dttm&gt;
+##    Year Month   Day arr_time sched_arr_time arr_delay carrier flight tailnum
+##   &lt;int&gt; &lt;int&gt; &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt; &lt;chr&gt;    &lt;int&gt; &lt;chr&gt;  
+## 1   517   515     2      830            819        11 UA        1545 N14228 
+## 2   533   529     4      850            830        20 UA        1714 N24211 
+## 3   542   540     2      923            850        33 AA        1141 N619AA 
+## 4   544   545    -1     1004           1022       -18 B6         725 N804JB 
+## 5   554   600    -6      812            837       -25 DL         461 N668DN 
+## 6   554   558    -4      740            728        12 UA        1696 N39463 
+## # … with 7 more variables: origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,
+## #   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;
 ```
 
 ---
@@ -271,6 +270,10 @@ summarise(flights, mean_speed = mean(speed, na.rm = TRUE))
 ```r
 by_carrier &lt;- group_by(flights, carrier)
 summarise(by_carrier, delay = mean(dep_delay, na.rm = TRUE))
+```
+
+```
+## `summarise()` ungrouping output (override with `.groups` argument)
 ```
 
 ```
@@ -387,7 +390,7 @@ ggplot(flights_jfk_new, aes(x=dep_delay, y=arr_delay)) + geom_point()
 ## Warning: Removed 2 rows containing missing values (geom_point).
 ```
 
-&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-15-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-15-1.png" width="165.6" style="display: block; margin: auto;" /&gt;
 
 ---
 ## What is that warning about?
@@ -414,7 +417,7 @@ graph_delays&lt;-ggplot(flights_jfk_new, aes(x=dep_delay_no_miss, y=arr_delay_no
 graph_delays + geom_point() 
 ```
 
-&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-17-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-17-1.png" width="288" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Colour by airline
@@ -430,7 +433,7 @@ graph_colour &lt;- ggplot(flights_jfk_new, aes(x=dep_delay_no_miss, y=arr_delay_
 graph_colour + geom_point()
 ```
 
-&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-18-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-18-1.png" width="270" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Flexibility.
@@ -442,7 +445,7 @@ graph_colour + geom_point()
 graph_delays + geom_count() 
 ```
 
-&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-19-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-19-1.png" width="252" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Let's try another one.
@@ -452,7 +455,7 @@ graph_delays + geom_count()
 graph_delays +  geom_count() + geom_smooth()
 ```
 
-&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-20-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-20-1.png" width="432" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Try it yourself.
@@ -557,7 +560,7 @@ plot_dl+geom_histogram(colour = "black", fill = "white")
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-25-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-25-1.png" width="360" /&gt;
 
 ---
 ## Binwidth?
@@ -569,13 +572,13 @@ plot_dl+geom_histogram(colour = "black", fill = "white")
 plot_dl+geom_histogram(binwidth=1)
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-26-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-26-1.png" width="144" /&gt;
 
 ```r
 plot_dl+geom_histogram(binwidth=40)
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-26-2.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-26-2.png" width="144" /&gt;
 
 ---
 ## Settle on 5?
@@ -587,13 +590,13 @@ plot_jetblue&lt;-plot_jetblue + geom_histogram(binwidth=5, colour = "black", fil
 plot_dl
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-27-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-27-1.png" width="216" /&gt;
 
 ```r
 plot_jetblue
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-27-2.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-27-2.png" width="216" /&gt;
 
 ---
 ## Change labels.
@@ -603,13 +606,13 @@ plot_jetblue
 plot_dl+ylab("Count") + xlab("Departure Delay - Delta")
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-28-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-28-1.png" width="158.4" /&gt;
 
 ```r
 plot_jetblue + ylab("Count") + xlab("Departure Delay - Jet Blue")
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-28-2.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-28-2.png" width="158.4" /&gt;
 
 ---
 ## Change the ticks / axes limits.
@@ -619,13 +622,13 @@ plot_jetblue + ylab("Count") + xlab("Departure Delay - Jet Blue")
 plot_dl + scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6))
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-29-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-29-1.png" width="216" /&gt;
 
 ```r
 plot_dl + scale_x_continuous(limits=c(-20,300),breaks = pretty_breaks(6)) 
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-29-2.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-29-2.png" width="216" /&gt;
 
 ---
 ## Intermediate formatting lost. 
@@ -645,18 +648,22 @@ plot_dl + scale_x_continuous(limits=c(-20,300),breaks = pretty_breaks(6))
 plot_dl+theme_gdocs(base_size = 14)
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-31-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-31-1.png" width="360" /&gt;
 
 ---
 ## All in one!
 
 
 ```r
-plot_dl&lt;-plot_dl+ geom_histogram(binwidth=5, colour = "black", fill = "white") + ylab("Count") + xlab("Departure Delay - Delta") + scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6)) + scale_x_continuous(limits=c(-15,250),breaks = pretty_breaks(6)) + theme_gdocs(base_size = 14)
+plot_dl &lt;- plot_dl + geom_histogram(binwidth = 5, colour = "black", 
+    fill = "white") + ylab("Count") + xlab("Departure Delay - Delta") + 
+    scale_y_continuous(limits = c(0, 50), breaks = pretty_breaks(6)) + 
+    scale_x_continuous(limits = c(-15, 250), breaks = pretty_breaks(6)) + 
+    theme_gdocs(base_size = 14)
 plot_dl
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-32-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-32-1.png" width="288" /&gt;
 
 ---
 ## Try it yourself.
@@ -669,18 +676,25 @@ plot_dl
 
 
 ```r
-plot_jetblue&lt;-plot_jetblue+ geom_histogram(binwidth=5, colour = "black", fill = "white") + ylab("Count") + xlab("Departure Delay - Jet Blue")+ scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6)) + scale_x_continuous(limits=c(-15,250),breaks = pretty_breaks(6)) + theme_gdocs(base_size = 14)
+plot_jetblue &lt;- plot_jetblue + geom_histogram(binwidth = 5, 
+    colour = "black", fill = "white") + 
+    ylab("Count") + xlab("Departure Delay - Jet Blue") + 
+    scale_y_continuous(limits = c(0, 
+        50), breaks = pretty_breaks(6)) + 
+    scale_x_continuous(limits = c(-15, 
+        250), breaks = pretty_breaks(6)) + 
+    theme_gdocs(base_size = 14)
 plot_jetblue
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-33-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-33-1.png" width="288" /&gt;
 
 ---
 ## Saving it. ggsave??
 
 
 ```r
-ggsave("plot_jetblue.pdf", width= 250, height=250, units="mm")
+ggsave("plot_jetblue.pdf", width = 250, height = 250, units = "mm")
 ```
 
 --
@@ -711,19 +725,20 @@ It will be saved in your working directory. (change that with path = ).
 
 ```r
 library(cowplot)
-plot_grid(plot_dl,plot_jetblue, labels=c('A', 'B'), label_size= 10, align="h")
+plot_grid(plot_dl, plot_jetblue, labels = c("A", "B"), label_size = 10, 
+    align = "h")
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-36-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-36-1.png" width="576" /&gt;
 
 ```r
-ggsave("plot_panelled.pdf", width= 250, height=250, units="mm")
+ggsave("plot_panelled.pdf", width = 250, height = 250, units = "mm")
 ```
 
 ---
 ## Interpretation.
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-37-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-37-1.png" width="576" /&gt;
 
 ---
 ## What is good/bad about this chart?
@@ -765,25 +780,28 @@ ggsave("plot_panelled.pdf", width= 250, height=250, units="mm")
 
 ```r
 ### combine them into a single dataframe.
-violinplot_data&lt;-rbind.data.frame(jfk_delta,jfk_jetblue)
+violinplot_data &lt;- rbind.data.frame(jfk_delta, jfk_jetblue)
 library(dplyr)
-violinplot_data&lt;- violinplot_data %&gt;% mutate(carrier= recode(carrier, B6= "Jet Blue", DL="Delta Airlines"))
+violinplot_data &lt;- violinplot_data %&gt;% mutate(carrier = recode(carrier, 
+    B6 = "Jet Blue", DL = "Delta Airlines"))
 ### make plot
-violinplot&lt;-ggplot(violinplot_data, aes(x = carrier, y = dep_delay)) + geom_violin() + geom_boxplot(width = 0.2) 
+violinplot &lt;- ggplot(violinplot_data, aes(x = carrier, 
+    y = dep_delay)) + geom_violin() + geom_boxplot(width = 0.2)
 violinplot
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-39-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-39-1.png" width="576" /&gt;
 
 ---
 ## Add some 'oomph'.
 
 
 ```r
-violinplot + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_stata(14)
+violinplot + xlab("Carrier") + ylab("Delay Departure (mins.)") + 
+    theme_stata(14)
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-40-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-40-1.png" width="576" /&gt;
 
 ---
 ## Can you describe the graph?
@@ -800,16 +818,20 @@ violinplot + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_stata(14)
 
 ```r
 ### recode.
-library(haven) # needed for as_factor
-violinplot_data$carrier_rec&lt;-as_factor(violinplot_data$carrier)
-ordered_levels&lt;-c("Jet Blue", "Delta Airlines")
-violinplot_data&lt;- mutate(violinplot_data, carrier_rec = factor(carrier_rec, levels = ordered_levels))
+library(haven)  # needed for as_factor
+violinplot_data$carrier_rec &lt;- as_factor(violinplot_data$carrier)
+ordered_levels &lt;- c("Jet Blue", "Delta Airlines")
+violinplot_data &lt;- mutate(violinplot_data, carrier_rec = factor(carrier_rec, 
+    levels = ordered_levels))
 ### violinplot_2
-violinplot_2&lt;-ggplot(violinplot_data, aes(x = carrier_rec, y = dep_delay)) + geom_violin() + geom_boxplot(width = 0.2)  + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_stata(14)
+violinplot_2 &lt;- ggplot(violinplot_data, aes(x = carrier_rec, 
+    y = dep_delay)) + geom_violin() + geom_boxplot(width = 0.2) + 
+    xlab("Carrier") + ylab("Delay Departure (mins.)") + 
+    theme_stata(14)
 violinplot_2
 ```
 
-![](Lecture2-xaringan_files/figure-html/unnamed-chunk-42-1.png)&lt;!-- --&gt;
+&lt;img src="Lecture2-xaringan_files/figure-html/unnamed-chunk-42-1.png" width="432" /&gt;
 
 ---
 ## _t_-test: Are there more delays with Delta than with Jet Blue?
@@ -975,12 +997,14 @@ We make a function with two arguments (data and indices). We will then feed our 
 ```r
 ### Bootstrap 95% CI for t-test
 library(boot)
-### function to obtain p.values from t.test from the data 
+### function to obtain p.values from t.test from
+### the data
 p_value &lt;- function(data, indices) {
-  data_boot &lt;- data[indices,] # allows boot to select sample 
-  T_test_boot &lt;- t.test(dep_delay~carrier, data=data_boot)
-  return(T_test_boot[[3]])  ### [[]] denotes the position in output - 3rd element
-} 
+    data_boot &lt;- data[indices, ]  # allows boot to select sample 
+    T_test_boot &lt;- t.test(dep_delay ~ carrier, 
+        data = data_boot)
+    return(T_test_boot[[3]])  ### [[]] denotes the position in output - 3rd element
+}
 ```
 
 ---
@@ -988,12 +1012,13 @@ p_value &lt;- function(data, indices) {
 
 
 ```r
-### Bootstrapping is truly random.
-### We need a 'seed' to make it replicable.
+### Bootstrapping is truly random.  We need a 'seed' to
+### make it replicable.
 set.seed(2019)
-### R is number of samples we want to draw?
-### we store it in results.
-results &lt;- boot(data=violinplot_data, statistic=p_value,R=10000)
+### R is number of samples we want to draw?  we store it
+### in results.
+results &lt;- boot(data = violinplot_data, statistic = p_value, 
+    R = 10000)
 ```
 
 ---
@@ -11017,160 +11042,139 @@ head(results)
 ## 
 ## $data
 ## # A tibble: 166 x 26
-##     year month   day dep_time sched_dep_time dep_delay arr_time
-##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;
-##  1  2013    12    25      612            615        -3      859
-##  2  2013    12    25      654            656        -2     1118
-##  3  2013    12    25      656            700        -4     1026
-##  4  2013    12    25      700            700         0     1017
-##  5  2013    12    25      708            700         8     1117
-##  6  2013    12    25      811            810         1     1027
-##  7  2013    12    25      820            820         0     1301
-##  8  2013    12    25      903            900         3     1215
-##  9  2013    12    25     1006            740       146     1253
-## 10  2013    12    25     1035           1030         5     1308
-## # … with 156 more rows, and 19 more variables: sched_arr_time &lt;int&gt;,
-## #   arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;,
-## #   origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,
-## #   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;, log_speed &lt;dbl&gt;,
-## #   speed_cent &lt;dbl&gt;, speed_stand[,1] &lt;dbl&gt;, dep_delay_no_miss &lt;dbl&gt;,
-## #   arr_delay_no_miss &lt;dbl&gt;, carrier_rec &lt;fct&gt;
+##     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+##  1  2013    12    25      612            615        -3      859            852
+##  2  2013    12    25      654            656        -2     1118           1139
+##  3  2013    12    25      656            700        -4     1026           1039
+##  4  2013    12    25      700            700         0     1017           1025
+##  5  2013    12    25      708            700         8     1117           1025
+##  6  2013    12    25      811            810         1     1027           1039
+##  7  2013    12    25      820            820         0     1301           1340
+##  8  2013    12    25      903            900         3     1215           1226
+##  9  2013    12    25     1006            740       146     1253           1053
+## 10  2013    12    25     1035           1030         5     1308           1310
+## # … with 156 more rows, and 18 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;,
+## #   flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;,
+## #   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, speed &lt;dbl&gt;,
+## #   log_speed &lt;dbl&gt;, speed_cent &lt;dbl&gt;, speed_stand[,1] &lt;dbl&gt;,
+## #   dep_delay_no_miss &lt;dbl&gt;, arr_delay_no_miss &lt;dbl&gt;, carrier_rec &lt;fct&gt;
 ## 
 ## $seed
-##   [1]       10403         624 -1529921617 -1075781084  -189469995
-##   [6]   262266258 -1703880725  1061082672 -1402866575  -129270914
-##  [11]   624249319  -900470532   822238669 -1149925846 -1693019741
-##  [16]  -400890232   566723305 -1319982698  -614175969   871979732
-##  [21] -1558282299 -1414639166 -1501539749   726372832   332148833
-##  [26]  1767418542 -2024176809  1907398572 -1714868035 -1907187622
-##  [31]  -894895597  -669632456  1658707161  1287249606 -1074957681
-##  [36]   847576964   889082037 -1435184654  1076324555  -928237168
-##  [41] -1436129199   262055390   911546567  -315755940   896909229
-##  [46] -1984739702 -1515291005   128644584  -934563127  -277127178
-##  [51]  1772180991   495898676 -1138532955  -776446430 -1416815813
-##  [56] -1516516032  1416600641  -460296946  -901838281   842463500
-##  [61]  -105444707  1304066234   791551731  1047797656   137364665
-##  [66]    57290022  1299649903   702663908  -836983147   670824018
-##  [71]  -963090005   789925104   367447089   241238078  1894668199
-##  [76]  -520705092  1476137357  1397438186 -1141974173  2060236104
-##  [81]  1885983401   924403286 -1373261601   252245396  1949903749
-##  [86]   612539010  2029016091  1624488096    42661921   268656494
-##  [91]  1576665367  -195556756   762565757   470319386  1652011987
-##  [96] -1580222728  -694674279 -1378112634   203696207 -1219540412
-## [101]   461892725  -548451662   603708043  1968312400   769335313
-## [106]  -114652514   985204359  1913001244 -1290972307  1649760074
-## [111]  1796188227   794305704 -2011569527   801397942 -1784054849
-## [116]  -272643340 -2066224795  1092945634   316800251 -1781836800
-## [121] -1693039615 -1773567538 -1774032905   443272140  1836551773
-## [126]  1230289274 -1078085453  -436142504   974005369  1504074214
-## [131] -1767068881   405108644 -1263001003   864472850  -360072341
-## [136] -1975876688   758866929 -1600961282  1433216359   414461564
-## [141]   488736077 -1930844246  1548281123  2133148680  -111943063
-## [146]  -854285546  -387664225  -754233260  -478701755  -793271486
-## [151]   429528539  1767546720 -1760985119  -302328786   584072919
-## [156] -1295368916 -1371916227 -1313398310 -1103614573  1524626872
-## [161]   445258841  1617049670  1674092047 -1245948668  1831159861
-## [166] -1816493198  1215958091  1218881296  1258264529 -1590481058
-## [171]  -557665209  -111609892   682665773   891299850  1423086083
-## [176]   806097768   705679945  1319246198  1284465023  -129792588
-## [181] -1047513819 -2007863390  -917463365  -329672000  1801235393
-## [186]  1504663182   257656247  2009816716 -1607216611 -1119372742
-## [191]  -249621901 -1136354024  -603716551  1739015846  -969932561
-## [196]   627827300  1413963285  2063755218   134532395  2003729008
-## [201] -1172325455  1671580094  1349628711  -464752324   607303949
-## [206]  1225840746   904179427  1944359624   -62541271  1074053078
-## [211]  1096907871  -893359340 -1936080123   688745474   -96626789
-## [216]   463488544 -1995978847  -402716434 -1013171049  -809029652
-## [221] -1344513027  1612612250   128608083   839316600  1584651289
-## [226]  1628275974  -325397553   680271812 -1248435211  1886813234
-## [231] -1889403381  -915800624 -1449930863   477664286 -2144198137
-## [236]  1441176220   438287085  1121171658   -55100477  -393821656
-## [241]  -840072695  2027198006   605226815  -505806732  -301186843
-## [246] -2147444638   546898043  -536436352  1560466305  1937894222
-## [251]    55206775  -854216372    95147485   441678586  -854447053
-## [256]  1342110680   -36592647 -1976765594  -507439441 -1401615068
-## [261]   411720149   120504466  -523657493  -579784400  1146344305
-## [266]  -867299714 -1615068953  1988064252  -789599027   679528746
-## [271] -1031653213 -1748328056  2029994473   480877718   761004575
-## [276]    15222228  -882921787  1715729602  1285216603   241478880
-## [281]  1346752353 -1563427410  -300025257   772727468 -2045100099
-## [286]  -134306982   680419603   369406776 -1844093991  1822265798
-## [291] -1940207217  -897668476  1083916213  -566020878 -1703694389
-## [296]  1046221968 -1319647407  1069201630  1019695047   443481436
-## [301]  -887451987 -1943008886 -1132616317  -142069528  1400041929
-## [306] -1692675338  1911844095   390282036  1175194789 -1058045662
-## [311]   712712763  1737648192  -943146175  -394182642    -3210953
-## [316]  1560986636  -778069603 -1858602054   492242419  -269477224
-## [321]  1865876409  -570990554 -1356862353  -939460636   759240085
-## [326] -1597253294  -157798229  1661118448   328706865   257332030
-## [331]  1091309223 -1039321412  1192779917 -1946584598  1004634723
-## [336]  -375951288   792760745 -1346160298  -493598753  1078124692
-## [341] -1148626299 -2128921214    41016091 -1738026080   612603681
-## [346] -2094157202   269842455  1885427052  1152639869   169313306
-## [351]  -895214893 -1248251400  1697553305    -2990458  -389513393
-## [356]   374601028   435411829    98610610  -881909365 -1371739312
-## [361] -1978958063 -1615225442  -230539897 -1716379620  1063330413
-## [366]  -772466102 -1377448125 -1143971928  1516249481  1647824822
-## [371]  1274254015 -1019267596  -984639387 -1545655838 -1195965445
-## [376]   968683264 -1016175871  2104317134  1386831607   711628492
-## [381]  -137421475   313867386  1806540723 -1428686504 -1074519175
-## [386]  1069976806 -1274248657  1389339300  2116784469  -795233774
-## [391] -1959755157  1860361904   799752945   561764350  -232661913
-## [396]  2041952636  1785517133 -1808078166 -1681748957   671809288
-## [401] -1630953111   101815830  1456098719   328219476   953599557
-## [406]   844318274  -847078181  -798377376   -41869599 -1378343122
-## [411]  1463989719  -109148116 -1083619523  -416733990  1470862483
-## [416]  2139386040  1199545177  1466690374  1738798351  1187774468
-## [421]   224409397  -804329870  1142182731  -540245488   460256977
-## [426] -1858780578  1046670151  -428866852   984839725 -1797068022
-## [431] -1431324413  1411337832  1114968393   988318838 -2016380801
-## [436]  -796004172   664200229  1099928226  1561109947  -851036736
-## [441]   666094273 -1224332914   161053879  -134927988   737829149
-## [446]  1334525242    30800243  1333172248  1070138169  1280997798
-## [451]   910612463  -408875676 -1224094443  -547861806 -1605200853
-## [456]   668063088  1615764145 -1216488258   817719847   272170044
-## [461]  -559085555   570760042 -1679469085  -773501496   123367721
-## [466]  -329993514  1069421407  -980396524  -553127419  -223604990
-## [471]   529342107 -1926602464 -1828821343   126835694 -1318734953
-## [476]  -333022484 -1980077315 -1611430502  -110834093 -1568247944
-## [481]  1757960985  1881815046   783100623  1453771460 -1499442443
-## [486]  -443687118  -433896181  1506466000   222441105   686663454
-## [491]  2129221895  -748116580  1087474157   364477386  1285251779
-## [496] -1623917272   728875273  1374554422 -1152704961  -370185356
-## [501]  -392040475  1925233506  1765541755  1492008064 -1940327807
-## [506]  -636764594  -228631945  1214938188  -505322275 -1199964678
-## [511]  -376433869  1821112024   -25844999  1618159206   999222703
-## [516]  -516605916  1134282965  -708336750  -138517013  1955564592
-## [521]   759280241  1176281470   983480295 -1202258180   127466445
-## [526]  -703067094 -1240866909   635853960  1756561641  -280195178
-## [531]   321886495  1627599060   165469637   -85616702   709976155
-## [536]  1701431264  1555787361   890458286  -868322985   723070380
-## [541]  -131641667    87467610 -1718630381   224341560 -1194796327
-## [546]   114115782   597958799    10769796   829697717 -1357015054
-## [551]  1398535883  1660415888  -951769519  1000524766  -778729785
-## [556]  -212072356 -1787077203  1429785738  -311899005  1003580392
-## [561]  -183095095 -1811397130  1008960511  2049156660  1144044453
-## [566]  -801987550  -284874437  -747306176  1226693185  -348253426
-## [571] -1699022793  1586138892  1296312477  2118221498  -325325581
-## [576]  1356338584  -877002055 -1731161306 -1985690769  1514939108
-## [581]  1335985301  2091367506   322172843   -69467408  -565933519
-## [586]    35137086   226870695  1691337148   149991309   288603370
-## [591]   602941795   583936840 -2104274775  1538862166   115269343
-## [596] -1331115116  -720008827  1136648322  -544251365 -1343754592
-## [601] -1837615583 -1692138130   361557783  1494655084   498070141
-## [606] -1481472230  -504593965  1859038456  -415163751 -1743449722
-## [611]  -330770865 -1081827260 -1180972427  1434325170  -310482805
-## [616]    34850384  1899486737  1578414238   338130055 -1727386852
-## [621]  1014034797   337698122 -1495796157 -2001429848  1059217545
-## [626] -1376304458
+##   [1]       10403         624 -1529921617 -1075781084  -189469995   262266258
+##   [7] -1703880725  1061082672 -1402866575  -129270914   624249319  -900470532
+##  [13]   822238669 -1149925846 -1693019741  -400890232   566723305 -1319982698
+##  [19]  -614175969   871979732 -1558282299 -1414639166 -1501539749   726372832
+##  [25]   332148833  1767418542 -2024176809  1907398572 -1714868035 -1907187622
+##  [31]  -894895597  -669632456  1658707161  1287249606 -1074957681   847576964
+##  [37]   889082037 -1435184654  1076324555  -928237168 -1436129199   262055390
+##  [43]   911546567  -315755940   896909229 -1984739702 -1515291005   128644584
+##  [49]  -934563127  -277127178  1772180991   495898676 -1138532955  -776446430
+##  [55] -1416815813 -1516516032  1416600641  -460296946  -901838281   842463500
+##  [61]  -105444707  1304066234   791551731  1047797656   137364665    57290022
+##  [67]  1299649903   702663908  -836983147   670824018  -963090005   789925104
+##  [73]   367447089   241238078  1894668199  -520705092  1476137357  1397438186
+##  [79] -1141974173  2060236104  1885983401   924403286 -1373261601   252245396
+##  [85]  1949903749   612539010  2029016091  1624488096    42661921   268656494
+##  [91]  1576665367  -195556756   762565757   470319386  1652011987 -1580222728
+##  [97]  -694674279 -1378112634   203696207 -1219540412   461892725  -548451662
+## [103]   603708043  1968312400   769335313  -114652514   985204359  1913001244
+## [109] -1290972307  1649760074  1796188227   794305704 -2011569527   801397942
+## [115] -1784054849  -272643340 -2066224795  1092945634   316800251 -1781836800
+## [121] -1693039615 -1773567538 -1774032905   443272140  1836551773  1230289274
+## [127] -1078085453  -436142504   974005369  1504074214 -1767068881   405108644
+## [133] -1263001003   864472850  -360072341 -1975876688   758866929 -1600961282
+## [139]  1433216359   414461564   488736077 -1930844246  1548281123  2133148680
+## [145]  -111943063  -854285546  -387664225  -754233260  -478701755  -793271486
+## [151]   429528539  1767546720 -1760985119  -302328786   584072919 -1295368916
+## [157] -1371916227 -1313398310 -1103614573  1524626872   445258841  1617049670
+## [163]  1674092047 -1245948668  1831159861 -1816493198  1215958091  1218881296
+## [169]  1258264529 -1590481058  -557665209  -111609892   682665773   891299850
+## [175]  1423086083   806097768   705679945  1319246198  1284465023  -129792588
+## [181] -1047513819 -2007863390  -917463365  -329672000  1801235393  1504663182
+## [187]   257656247  2009816716 -1607216611 -1119372742  -249621901 -1136354024
+## [193]  -603716551  1739015846  -969932561   627827300  1413963285  2063755218
+## [199]   134532395  2003729008 -1172325455  1671580094  1349628711  -464752324
+## [205]   607303949  1225840746   904179427  1944359624   -62541271  1074053078
+## [211]  1096907871  -893359340 -1936080123   688745474   -96626789   463488544
+## [217] -1995978847  -402716434 -1013171049  -809029652 -1344513027  1612612250
+## [223]   128608083   839316600  1584651289  1628275974  -325397553   680271812
+## [229] -1248435211  1886813234 -1889403381  -915800624 -1449930863   477664286
+## [235] -2144198137  1441176220   438287085  1121171658   -55100477  -393821656
+## [241]  -840072695  2027198006   605226815  -505806732  -301186843 -2147444638
+## [247]   546898043  -536436352  1560466305  1937894222    55206775  -854216372
+## [253]    95147485   441678586  -854447053  1342110680   -36592647 -1976765594
+## [259]  -507439441 -1401615068   411720149   120504466  -523657493  -579784400
+## [265]  1146344305  -867299714 -1615068953  1988064252  -789599027   679528746
+## [271] -1031653213 -1748328056  2029994473   480877718   761004575    15222228
+## [277]  -882921787  1715729602  1285216603   241478880  1346752353 -1563427410
+## [283]  -300025257   772727468 -2045100099  -134306982   680419603   369406776
+## [289] -1844093991  1822265798 -1940207217  -897668476  1083916213  -566020878
+## [295] -1703694389  1046221968 -1319647407  1069201630  1019695047   443481436
+## [301]  -887451987 -1943008886 -1132616317  -142069528  1400041929 -1692675338
+## [307]  1911844095   390282036  1175194789 -1058045662   712712763  1737648192
+## [313]  -943146175  -394182642    -3210953  1560986636  -778069603 -1858602054
+## [319]   492242419  -269477224  1865876409  -570990554 -1356862353  -939460636
+## [325]   759240085 -1597253294  -157798229  1661118448   328706865   257332030
+## [331]  1091309223 -1039321412  1192779917 -1946584598  1004634723  -375951288
+## [337]   792760745 -1346160298  -493598753  1078124692 -1148626299 -2128921214
+## [343]    41016091 -1738026080   612603681 -2094157202   269842455  1885427052
+## [349]  1152639869   169313306  -895214893 -1248251400  1697553305    -2990458
+## [355]  -389513393   374601028   435411829    98610610  -881909365 -1371739312
+## [361] -1978958063 -1615225442  -230539897 -1716379620  1063330413  -772466102
+## [367] -1377448125 -1143971928  1516249481  1647824822  1274254015 -1019267596
+## [373]  -984639387 -1545655838 -1195965445   968683264 -1016175871  2104317134
+## [379]  1386831607   711628492  -137421475   313867386  1806540723 -1428686504
+## [385] -1074519175  1069976806 -1274248657  1389339300  2116784469  -795233774
+## [391] -1959755157  1860361904   799752945   561764350  -232661913  2041952636
+## [397]  1785517133 -1808078166 -1681748957   671809288 -1630953111   101815830
+## [403]  1456098719   328219476   953599557   844318274  -847078181  -798377376
+## [409]   -41869599 -1378343122  1463989719  -109148116 -1083619523  -416733990
+## [415]  1470862483  2139386040  1199545177  1466690374  1738798351  1187774468
+## [421]   224409397  -804329870  1142182731  -540245488   460256977 -1858780578
+## [427]  1046670151  -428866852   984839725 -1797068022 -1431324413  1411337832
+## [433]  1114968393   988318838 -2016380801  -796004172   664200229  1099928226
+## [439]  1561109947  -851036736   666094273 -1224332914   161053879  -134927988
+## [445]   737829149  1334525242    30800243  1333172248  1070138169  1280997798
+## [451]   910612463  -408875676 -1224094443  -547861806 -1605200853   668063088
+## [457]  1615764145 -1216488258   817719847   272170044  -559085555   570760042
+## [463] -1679469085  -773501496   123367721  -329993514  1069421407  -980396524
+## [469]  -553127419  -223604990   529342107 -1926602464 -1828821343   126835694
+## [475] -1318734953  -333022484 -1980077315 -1611430502  -110834093 -1568247944
+## [481]  1757960985  1881815046   783100623  1453771460 -1499442443  -443687118
+## [487]  -433896181  1506466000   222441105   686663454  2129221895  -748116580
+## [493]  1087474157   364477386  1285251779 -1623917272   728875273  1374554422
+## [499] -1152704961  -370185356  -392040475  1925233506  1765541755  1492008064
+## [505] -1940327807  -636764594  -228631945  1214938188  -505322275 -1199964678
+## [511]  -376433869  1821112024   -25844999  1618159206   999222703  -516605916
+## [517]  1134282965  -708336750  -138517013  1955564592   759280241  1176281470
+## [523]   983480295 -1202258180   127466445  -703067094 -1240866909   635853960
+## [529]  1756561641  -280195178   321886495  1627599060   165469637   -85616702
+## [535]   709976155  1701431264  1555787361   890458286  -868322985   723070380
+## [541]  -131641667    87467610 -1718630381   224341560 -1194796327   114115782
+## [547]   597958799    10769796   829697717 -1357015054  1398535883  1660415888
+## [553]  -951769519  1000524766  -778729785  -212072356 -1787077203  1429785738
+## [559]  -311899005  1003580392  -183095095 -1811397130  1008960511  2049156660
+## [565]  1144044453  -801987550  -284874437  -747306176  1226693185  -348253426
+## [571] -1699022793  1586138892  1296312477  2118221498  -325325581  1356338584
+## [577]  -877002055 -1731161306 -1985690769  1514939108  1335985301  2091367506
+## [583]   322172843   -69467408  -565933519    35137086   226870695  1691337148
+## [589]   149991309   288603370   602941795   583936840 -2104274775  1538862166
+## [595]   115269343 -1331115116  -720008827  1136648322  -544251365 -1343754592
+## [601] -1837615583 -1692138130   361557783  1494655084   498070141 -1481472230
+## [607]  -504593965  1859038456  -415163751 -1743449722  -330770865 -1081827260
+## [613] -1180972427  1434325170  -310482805    34850384  1899486737  1578414238
+## [619]   338130055 -1727386852  1014034797   337698122 -1495796157 -2001429848
+## [625]  1059217545 -1376304458
 ## 
 ## $statistic
 ## function(data, indices) {
-##   data_boot &lt;- data[indices,] # allows boot to select sample 
-##   T_test_boot &lt;- t.test(dep_delay~carrier, data=data_boot)
-##   return(T_test_boot[[3]])  ### [[]] denotes the position in output - 3rd element
+##     data_boot &lt;- data[indices, ]  # allows boot to select sample 
+##     T_test_boot &lt;- t.test(dep_delay ~ carrier, 
+##         data = data_boot)
+##     return(T_test_boot[[3]])  ### [[]] denotes the position in output - 3rd element
 ## }
-## &lt;bytecode: 0x7ff367634320&gt;
+## &lt;bytecode: 0x7fc52eda57a8&gt;
 ```
 
 ---
@@ -11214,7 +11218,7 @@ boot.ci(results, type="bca")
 ---
 ## What would you write in your report?
 
-* The 95% Bias-Corrected Accelerated interval (using 10,000 bootstrap samples) for _p_ was [.006, .858].
+* The 95% Bias-Corrected Accelerated interval (using 10,000 bootstrap samples) for _p_ was [.006, .857].
 
 &lt;img src="https://media.giphy.com/media/yNs2a0jRkYxy6191B2/giphy.gif" width="400px" /&gt;
 
@@ -11309,9 +11313,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -11320,7 +11340,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {

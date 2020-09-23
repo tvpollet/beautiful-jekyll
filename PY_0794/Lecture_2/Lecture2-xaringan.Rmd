@@ -302,7 +302,7 @@ flights_jfk_new<-filter(flights, month == 12, day == 25, origin == 'JFK')
 
 * Scatter plot
 
-```{r, fig.align="center",fig.height=2.1, fig.width=2.3}
+```{r, fig.align="center",fig.height=2.1, fig.width=2.3, fig.retina = 3}
 ggplot(flights_jfk_new, aes(x=dep_delay, y=arr_delay)) + geom_point() 
 ```
 
@@ -324,7 +324,7 @@ flights_jfk_new <- flights_jfk_new %>%
 ---
 ## Plot again
 
-```{r, fig.align='center' ,fig.height=4, fig.width=4, tidy.opts=list(width.cutoff=5)}
+```{r, fig.align='center' ,fig.height=4, fig.width=4, fig.retina = 3, tidy.opts=list(width.cutoff=5)}
 graph_delays<-ggplot(flights_jfk_new, aes(x=dep_delay_no_miss, y=arr_delay_no_miss)) 
 graph_delays + geom_point() 
 ```
@@ -336,7 +336,7 @@ Recap: ggplot(your_data, aes(x=x_variable, y=y_variable)) + geom_point()
 
 Now let's colour it by carrier. 
 
-```{r, fig.align="center",fig.height=3.75, fig.width=3.75, tidy.opts=list(width.cutoff=5)}
+```{r, fig.align="center",fig.height=3.75, fig.width=3.75, fig.retina = 3, tidy.opts=list(width.cutoff=5)}
 graph_colour <- ggplot(flights_jfk_new, aes(x=dep_delay_no_miss, y=arr_delay_no_miss, 
                                              colour=carrier)) 
 graph_colour + geom_point()
@@ -347,14 +347,14 @@ graph_colour + geom_point()
 
 * The beauty of ggplot is that using a different “geom”-function will create a different graph:
 
-```{r, fig.align="center",fig.height=3.5, fig.width=3.5}
+```{r, fig.align="center",fig.height=3.5, fig.width=3.5, fig.retina = 3}
 graph_delays + geom_count() 
 ```
 
 ---
 ## Let's try another one.
 
-```{r, warning=F, message=F, fig.align="center",fig.height=4.5, fig.width=6}
+```{r, warning=F, message=F, fig.align="center",fig.height=4.5, fig.width=6, fig.retina = 3}
 graph_delays +  geom_count() + geom_smooth()
 ```
 
@@ -373,7 +373,7 @@ knitr::include_graphics("http://images.complex.com/complex/image/upload/c_limit,
 
 Example with Delta and United airlines.
 
-```{r, fig.height=3, fig.width=6, tidy.opts=list(width.cutoff=35)}
+```{r, fig.height=3, fig.width=6, tidy.opts=list(width.cutoff=35), fig.retina = 3}
 flights_jfk_new_2_airlines<-filter(flights_jfk_new, carrier== "DL" | carrier== "UA" )
 graph_beauty<-ggplot(flights_jfk_new_2_airlines, 
                      aes(x=dep_delay_no_miss, y=arr_delay_no_miss, 
@@ -390,7 +390,7 @@ graph_beauty<-ggplot(flights_jfk_new_2_airlines,
 ---
 ## Look at the pretty, pretty!
 
-```{r, out.width = "475px"}
+```{r, warning=F, message=F, out.width = "475px", fig.retina = 3}
 graph_beauty
 ```
 
@@ -446,7 +446,7 @@ write.csv(jfk_jetblue,row.names = F, file= 'jfk_jetblue.csv')
 ---
 ## Basics.
 
-```{r, fig.height=5, fig.width=5, fig.pos='center'}
+```{r, fig.height=5, fig.width=5, fig.pos='center', fig.retina = 3}
 plot_dl<-ggplot(jfk_delta, aes(dep_delay))
 plot_jetblue<-ggplot(jfk_jetblue, aes(dep_delay))
 ### Plot Delta.
@@ -458,7 +458,7 @@ plot_dl+geom_histogram(colour = "black", fill = "white")
 
 * Defaults used. Binwidth is [important](http://www.stat.cmu.edu/~rnugent/PCMI2016/papers/WandBinWidth.pdf). Not too large/small.
 
-```{r, fig.height=1.8, fig.width=2}
+```{r, fig.height=1.8, fig.width=2, fig.retina = 3}
 plot_dl+geom_histogram(binwidth=1)
 plot_dl+geom_histogram(binwidth=40)
 ```
@@ -466,7 +466,7 @@ plot_dl+geom_histogram(binwidth=40)
 ---
 ## Settle on 5?
 
-```{r, fig.height=1.8, fig.width=3, tidy.opts=list(width.cutoff=35)}
+```{r, fig.height=1.8, fig.width=3, tidy.opts=list(width.cutoff=35), fig.retina = 3}
 plot_dl<-plot_dl+geom_histogram(binwidth=5, colour = "black", fill = "white")
 plot_jetblue<-plot_jetblue + geom_histogram(binwidth=5, colour = "black", fill = "white")
 plot_dl
@@ -476,7 +476,7 @@ plot_jetblue
 ---
 ## Change labels.
 
-```{r, fig.height=1.8, fig.width=2.2}
+```{r, fig.height=1.8, fig.width=2.2, fig.retina = 3}
 plot_dl+ylab("Count") + xlab("Departure Delay - Delta")
 plot_jetblue + ylab("Count") + xlab("Departure Delay - Jet Blue")
 ```
@@ -484,7 +484,7 @@ plot_jetblue + ylab("Count") + xlab("Departure Delay - Jet Blue")
 ---
 ## Change the ticks / axes limits.
 
-```{r, warning=F, message=F, fig.height=1.9, fig.width=3, tidy.opts=list(width.cutoff=35)}
+```{r, warning=F, message=F, fig.height=1.9, fig.width=3, tidy.opts=list(width.cutoff=35), fig.retina = 3}
 plot_dl + scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6))
 plot_dl + scale_x_continuous(limits=c(-20,300),breaks = pretty_breaks(6)) 
 ```
@@ -494,7 +494,7 @@ plot_dl + scale_x_continuous(limits=c(-20,300),breaks = pretty_breaks(6))
 
 * In the end we will need ***all*** the commands in one go! Or we need to store intermediate graphs and update those!
 
-```{r, out.width = "500px", echo=FALSE, fig.pos='center'}
+```{r, out.width = "500px", echo=FALSE, fig.pos='center', }
 knitr::include_graphics("https://media.giphy.com/media/gKsJUddjnpPG0/giphy.gif")
 ```
 
@@ -504,14 +504,14 @@ knitr::include_graphics("https://media.giphy.com/media/gKsJUddjnpPG0/giphy.gif")
 * ggthemes. ??ggthemes for all options.
 * google doc theme. Base size = fonts.
 
-```{r, warning=F, message=F, fig.height=3.6, fig.width=5, fig.pos="center"}
+```{r, warning=F, message=F, fig.height=3.6, fig.width=5, fig.pos="center", fig.retina = 3}
 plot_dl+theme_gdocs(base_size = 14)
 ```
 
 ---
 ## All in one!
 
-```{r, warning=F, message=F, tidy=TRUE, fig.height=4, fig.width=4, tidy.opts=list(width.cutoff=12)}
+```{r, warning=F, message=F, tidy=TRUE, fig.height=4, fig.width=4, tidy.opts=list(width.cutoff=12), fig.retina = 3}
 plot_dl<-plot_dl+ geom_histogram(binwidth=5, colour = "black", fill = "white") + ylab("Count") + xlab("Departure Delay - Delta") + scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6)) + scale_x_continuous(limits=c(-15,250),breaks = pretty_breaks(6)) + theme_gdocs(base_size = 14)
 plot_dl
 ```
@@ -525,7 +525,7 @@ plot_dl
 
 * Solution
 
-```{r, tidy=TRUE, fig.height=3, fig.width=4, tidy.opts=list(width.cutoff=35), warning=F, message=F}
+```{r, tidy=TRUE, fig.height=3, fig.width=4, tidy.opts=list(width.cutoff=35), warning=F, message=F, fig.retina = 3}
 plot_jetblue<-plot_jetblue+ geom_histogram(binwidth=5, colour = "black", fill = "white") + ylab("Count") + xlab("Departure Delay - Jet Blue")+ scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6)) + scale_x_continuous(limits=c(-15,250),breaks = pretty_breaks(6)) + theme_gdocs(base_size = 14)
 plot_jetblue
 ```
@@ -560,12 +560,12 @@ It will be saved in your working directory. (change that with path = ).
 ---
 ## Combing multiple charts. plot_grid()
 
-```{r, echo=F, message=F, warning=F, tidy.opts=list(width.cutoff=55)}
+```{r, echo=F, message=F, warning=F, tidy.opts=list(width.cutoff=55), fig.retina = 3}
 plot_jetblue<-plot_jetblue+ geom_histogram(binwidth=5, colour = "black", fill = "white") +  ylab("Count") + xlab("Departure Delay - Jet Blue") + scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6)) + scale_x_continuous(limits=c(-15,250),breaks = pretty_breaks(6)) + theme_gdocs(base_size = 14)
 plot_dl<-plot_dl+ geom_histogram(binwidth=5, colour = "black", fill = "white") + ylab("Count") + xlab("Departure Delay - Delta") + scale_y_continuous(limits=c(0,50),breaks = pretty_breaks(6)) + scale_x_continuous(limits=c(-15,250),breaks = pretty_breaks(6)) + theme_gdocs(base_size = 14)
 ```
 
-```{r, tidy=TRUE, fig.height=4, fig.width=8, tidy.opts=list(width.cutoff=55), warning=F, message=F}
+```{r, tidy=TRUE, fig.height=4, fig.width=8, tidy.opts=list(width.cutoff=55), fig.retina = 3, warning=F, message=F}
 library(cowplot)
 plot_grid(plot_dl,plot_jetblue, labels=c('A', 'B'), label_size= 10, align="h")
 ggsave("plot_panelled.pdf", width= 250, height=250, units="mm")
@@ -574,7 +574,7 @@ ggsave("plot_panelled.pdf", width= 250, height=250, units="mm")
 ---
 ## Interpretation.
 
-```{r, tidy=TRUE, fig.height=5, fig.width=8, tidy.opts=list(width.cutoff=55), warning=F, message=F, echo=F}
+```{r, tidy=TRUE, fig.height=5, fig.width=8, tidy.opts=list(width.cutoff=55), warning=F, message=F, echo=F, fig.retina = 3}
 library(cowplot)
 plot_grid(plot_dl,plot_jetblue, labels=c('A', 'B'), label_size= 10, align="h")
 ggsave("plot_panelled.pdf", width= 250, height=250, units="mm")
@@ -619,7 +619,7 @@ knitr::include_graphics("https://media.giphy.com/media/x5JsFS1XtqCeA/giphy.gif")
 ---
 ## Basic violin plot.
 
-```{r,tidy=TRUE, fig.height=3.5, fig.width=8, tidy.opts=list(width.cutoff=50)}
+```{r,tidy=TRUE, fig.height=3.5, fig.width=8, tidy.opts=list(width.cutoff=50), fig.retina = 3}
 ### combine them into a single dataframe.
 violinplot_data<-rbind.data.frame(jfk_delta,jfk_jetblue)
 library(dplyr)
@@ -632,7 +632,7 @@ violinplot
 ---
 ## Add some 'oomph'.
 
-```{r,fig.height=4.5, fig.width=8,tidy=T, tidy.opts=list(width.cutoff=55)}
+```{r,fig.height=4.5, fig.width=8,tidy=T, tidy.opts=list(width.cutoff=55), fig.retina = 3}
 violinplot + xlab("Carrier")+ylab("Delay Departure (mins.)") + theme_stata(14)
 ```
 
@@ -650,7 +650,7 @@ knitr::include_graphics("https://media.giphy.com/media/bmcu39f2kh0WY/giphy.gif")
 
 * Suppose we want Jet Blue on the left for the X-axis.
 
-```{r,fig.height=2.1, fig.width=6,tidy=T, tidy.opts=list(width.cutoff=50)}
+```{r,fig.height=2.1, fig.width=6,tidy=T, tidy.opts=list(width.cutoff=50), fig.retina = 3}
 ### recode.
 library(haven) # needed for as_factor
 violinplot_data$carrier_rec<-as_factor(violinplot_data$carrier)
@@ -800,7 +800,7 @@ head(results)
 
 ---
 ## Plot Results.
-```{r, out.width = "450px"}
+```{r, out.width = "450px", fig.retina = 3}
 plot(results)
 ```
 
@@ -822,7 +822,7 @@ boot.ci(results, type="bca")
 ---
 ## What would you write in your report?
 
-* The 95% Bias-Corrected Accelerated interval (using 10,000 bootstrap samples) for _p_ was [.006, .858].
+* The 95% Bias-Corrected Accelerated interval (using 10,000 bootstrap samples) for _p_ was [.006, .857].
 
 ```{r, out.width = "400px", echo=FALSE}
 knitr::include_graphics("https://media.giphy.com/media/yNs2a0jRkYxy6191B2/giphy.gif")
