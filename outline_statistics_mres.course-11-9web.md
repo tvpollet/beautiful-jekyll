@@ -13,10 +13,10 @@ published: true
 {:toc}
 
 ## Minute Course description.
-Statistics can be frightening but you really should not worry for this course. This course is built around applying techniques rather than deriving the mathematical rationale behind each technique. By the end of this course you will understand the key assumptions to commonly applied methods in psychology. You will also be able to run those techniques and interpret the outputs of those techniques in R. This course will also lay the foundation for your work on programming experiments as well as you thesis. This course is, however, not a programming course or a maths course, so no need to panic! More information can be found on the elearning portal. Note that this course previously went by PY0782, so don't be surprised if you see that module code pop up. This course is one component of PY0794. The 2nd component, Qualitative Research methods runs in semester 2 and will have its own manual.
+Statistics can be frightening but you really should not worry for this course. This course is built around applying techniques rather than deriving the mathematical rationale behind each technique. By the end of this course you will understand the key assumptions to commonly applied methods in psychology. You will also be able to run those techniques and interpret the outputs of those techniques in R. This course will also lay the foundation for your work on programming experiments as well as you thesis. This course is, however, not a programming course or a maths course, so no need to panic! More information can be found on the elearning portal. Note that this course previously went by PY0782, so don't be surprised if you see that module code pop up. This course is one component of PY0794. The 2nd component, Qualitative Research methods runs in semester 2 and will have its own manual -  it is led by Dr. Kerry McKellar.
 
 ## Course Load.
-This course counts for 20 credits. 1 credit corresponds with around 10 hours learning time. Given that we have 2 contact hours, you should count to spend up to ***8*** hours each week working towards this course. This means that outside of the contact hours, you should count to be around _a day full-time_  engaged with this course.
+This section of the course counts for 20 credits. 1 credit corresponds with around 10 hours learning time. Given that we have 2 contact hours, you should count to spend up to ***8*** hours each week working towards this course. This means that outside of the contact hours, you should count to be around _a day full-time_  engaged with this course.
 
 ## Course objectives.
 There are four ***key*** course objectives. 
@@ -139,6 +139,16 @@ You can view some videos on youtube on R, including by [yours truly](https://www
 * Danielle Navarro
 * Julia Silge
 
+### Changes made in response to student feedback.
 
+I take on board relevant study feedback. Below I only list the most meaningful changes.
 
+#### 2020-2021
+* Supply of additional materials
+* two assistants now available for more sessions.
+* Revised and updated course content. Checked functionality on R 4.0+ 
 
+#### 2019-2020
+* Two assistants are available to aid with some exercises.
+* RStudio + R available in Library commons.
+* Revised and updated course content 
