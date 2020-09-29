@@ -2,7 +2,7 @@
 title: "Solution Lecture 1"
 output: html_document
 author: "Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)"
-date: '`r format(Sys.Date())` | [disclaimer](http://sites.google.com/site/thomasvpollet/disclaimer)'
+date: '`r format(Sys.Date())` | [disclaimer](https://tvpollet.github.io/disclaimer/)'
 ---
 
 ## R Markdown for Lecture 1 exercise.
@@ -20,7 +20,7 @@ date: '`r format(Sys.Date())` | [disclaimer](http://sites.google.com/site/thomas
  save a dataset as .sav with only departing flights from JFK airport.
 
 
-###Load the flights data.
+### Load the flights data.
 
 ```{r}
 setwd("~/Dropbox/Teaching_MRes_Northumbria/Lecture1")
@@ -89,7 +89,7 @@ The 95%CI's do not overlap. United [3.22 to 3.89] is significantly slower in ter
 
 ### JFK airport
 
-####Make a dataset.
+#### Make a dataset.
 
 ```{r}
 jfk<- filter(flights, origin=="JFK")
@@ -97,7 +97,7 @@ jfk<- filter(flights, origin=="JFK")
 jfk<- filter(jfk, arr_delay!='NA')
 ```
 
-####Calculate the mode.
+#### Calculate the mode.
 
 ```{r}
 library(modeest)
@@ -106,7 +106,7 @@ mlv(jfk$arr_delay,  method='mfv')
 
 The mode is  -13. The most common value in the dataset is thus 13 minutes early!
 
-####Write away the data.
+#### Write away the data.
 
 ```{r}
 require(haven)

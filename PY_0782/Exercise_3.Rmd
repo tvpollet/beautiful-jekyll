@@ -105,13 +105,13 @@ Ancova<-lm(monthly_salary~sex+yrs.since.phd, contrasts=list(sex=contr.sum), data
 Anova(Ancova, type="III")
 ```
 
-A one-way ANCOVA examined the effect of gender on monthly salary whilst controlling for the number of years since Ph.D. There was no statistically significant effect of gender, _F_(1,394)=2.86, _p_=.091. However, the effect of the covariate, years since Ph.D., was significant, _F_(1,394)=78.23, _p_<.0001.
+A one-way ANCOVA examined the effect of gender on monthly salary whilst controlling for the number of years since Ph.D. There was no statistically significant effect of gender, _F_(1,394)=2.86, _p_=.092. However, the effect of the covariate, years since Ph.D., was significant, _F_(1,394)=78.23, _p_<.0001.
 
 ## MANOVA
 
 ### Load the iris dataset / histograms.
 
-I have made an error in the instructions and had previously run everything with _width_ rather than _length_
+I previously have made an error in the instructions and had previously run everything with _width_ rather than _length_
 
 ```{r}
 require(datasets) # not super-necessary as datasets is part of base r
@@ -158,7 +158,7 @@ This seems generally fine for sepal width but perhaps some issues for petal widt
 
 ### Multivariate normality
 
-mardiaTest is deprecated. So now updated with 'mvn'
+mardiaTest is deprecated as a function(). So now updated with 'mvn'
 
 ```{r}
 require(dplyr)
@@ -286,13 +286,13 @@ EZ_ANOVA_Sepal_l
 require(ggplot2)
 require(ggthemes)
 require(cowplot)
-violinplot_l<-ggplot(iris, aes(x = Species, y = Sepal.Length)) + geom_violin() + geom_boxplot(width = 0.2) + ylab("Sepal lenth") + theme_economist_white(12)
+violinplot_l<-ggplot(iris, aes(x = Species, y = Sepal.Length)) + geom_violin() + geom_boxplot(width = 0.2) + ylab("Sepal length") + theme_economist_white(12)
 violinplot2_l<-ggplot(iris, aes(x = Species, y = Petal.Length)) + geom_violin() + geom_boxplot(width = 0.2) + ylab("Petal Length") + theme_economist_white(12)
 plot_grid(violinplot_l,violinplot2_l, labels=c('A', 'B'), label_size= 10, align="h")
 ggsave("violinplot_panelled_length.pdf", width= 250, height=250, units="mm")
 ```
  
-The graph shows that setosa has smaller petals and smaller sepals than other species. The difference is more pronounced in Petaks thgan in sepals. You could run follow up tests to examine the significance between species in terms of Sepals. 
+The graph shows that setosa has smaller petals and smaller sepals than other species. The difference is more pronounced in petals than in sepals. You could run follow up tests to examine the significance between species in terms of Sepals. 
  
 ### The END
 
