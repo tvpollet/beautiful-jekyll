@@ -202,7 +202,7 @@ type: Professional and managerial(prof), white collar(wc), blue collar(bc), or m
 
 Load the Prestige dataset
 
-Make a correlation matrix with all the continuous variables. (use filter from dplyr to remove strings)
+Make a correlation matrix with all the continuous variables. (use select from dplyr to remove strings)
 
 And: _either_ export a .docx _or_ make a correlation plot.
 
