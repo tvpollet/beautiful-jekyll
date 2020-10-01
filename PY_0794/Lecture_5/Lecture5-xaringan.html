@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 5: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 5: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-10-22 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-09-30 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -192,7 +192,7 @@ As above, but do not fit the three-way interaction, fit all two-way interactions
 
 If you are testing a higher order interaction, you need all the lower level effects. 
 
-So when testing a three-way interaction, you would include all two-way interactions and all main defects.
+So when testing a three-way interaction, you would include all two-way interactions and all main effects.
 
 ---
 ## Interaction Anova.
@@ -307,9 +307,11 @@ return_aov will return an ANOVA list from which we can then call objects
 
 ```r
 # make an ID variable
-ToothGrowth2$id&lt;- seq(1:60)
-require(ez) # even better bet to get SPSS like results.
-ez&lt;-ezANOVA(data=ToothGrowth2, dv=.(len), wid=.(id), between = .(supp, dose), return_aov=T, detailed=TRUE, type=3)
+ToothGrowth2$id &lt;- seq(1:60)
+require(ez)  # even better bet to get SPSS like results.
+ez &lt;- ezANOVA(data = ToothGrowth2, dv = .(len), wid = .(id), 
+    between = .(supp, dose), return_aov = T, detailed = TRUE, 
+    type = 3)
 ```
 
 ---
@@ -425,10 +427,12 @@ ggpubr makes ggplot2 even easier, and churns out some beautiful graphs.
 
 ```r
 require(ggpubr)
-plot_moderation &lt;- ggviolin(ToothGrowth2, x = "dose", y = "len",
-                color = "dose", palette =c("black", "darkblue", "darkred"),
-                add = c("jitter","boxplot"), shape = "dose") + labs(x="Condition", y= "Length", color="Dose", shape= "Dose")
-plot_moderation  + facet_wrap(~supp)
+plot_moderation &lt;- ggviolin(ToothGrowth2, x = "dose", 
+    y = "len", color = "dose", palette = c("black", 
+        "darkblue", "darkred"), add = c("jitter", "boxplot"), 
+    shape = "dose") + labs(x = "Condition", y = "Length", 
+    color = "Dose", shape = "Dose")
+plot_moderation + facet_wrap(~supp)
 ```
 
 &lt;img src="Lecture5-xaringan_files/figure-html/unnamed-chunk-20-1.png" style="display: block; margin: auto;" /&gt;
@@ -443,7 +447,9 @@ plot_moderation  + facet_wrap(~supp)
 
 ```r
 require(apaTables)
-apa.2way.table(supp, dose,  len, ToothGrowth2, filename = 'toothgrowth ANOVA', table.number = 1,show.conf.interval = T, show.marginal.means = T, landscape = TRUE)
+apa.2way.table(supp, dose, len, ToothGrowth2, filename = "toothgrowth ANOVA", 
+    table.number = 1, show.conf.interval = T, show.marginal.means = T, 
+    landscape = TRUE)
 ```
 
 ```
@@ -483,17 +489,21 @@ Note the singular.ok = T statement.
 
 
 ```r
-# Bootstrap CI for ANOVA 
+# Bootstrap CI for ANOVA
 library(boot)
-# function to obtain p.values from F-test from the data 
+# function to obtain p.values from F-test from the
+# data
 p_value_twowayaov &lt;- function(data, indices) {
-  data_boot &lt;- data[indices,] # allows boot to select sample 
-  ANOVAtwobytwo_boot&lt;-Anova(lm(len~supp*dose, data=data_boot), contrasts = c("contr.sum", "contr.poly"), type = 3, singular.ok = TRUE)
-  return(ANOVAtwobytwo_boot$`Pr(&gt;F)`[4])
-} 
-# bootstrapping with 1000 replications 
+    data_boot &lt;- data[indices, ]  # allows boot to select sample 
+    ANOVAtwobytwo_boot &lt;- Anova(lm(len ~ supp * dose, 
+        data = data_boot), contrasts = c("contr.sum", 
+        "contr.poly"), type = 3, singular.ok = TRUE)
+    return(ANOVAtwobytwo_boot$`Pr(&gt;F)`[4])
+}
+# bootstrapping with 1000 replications
 set.seed(1234)
-results_twowayaov &lt;- boot(data=ToothGrowth2,statistic=p_value_twowayaov,R=1000)
+results_twowayaov &lt;- boot(data = ToothGrowth2, statistic = p_value_twowayaov, 
+    R = 1000)
 ```
 
 ---
@@ -555,12 +565,12 @@ boot.ci(results_twowayaov, conf = 0.89, type="bca")
 ---
 ## tree 
 
-Three are ways to "automate" this search for interaction, and there are 'tree' based models which will uncover interactions.
+There are ways to "automate" this search for interaction, and there are 'tree' based models which will uncover interactions.
 
 
 ```r
 require(tree)
-tree&lt;-tree(len~., ToothGrowth)
+tree &lt;- tree(len ~ ., ToothGrowth)
 plot(tree)
 text(tree)
 ```
@@ -575,7 +585,7 @@ Read about ??party. Amazing package to find patterns in your data. (It does so i
 
 ```r
 require(party)
-ctree&lt;-ctree(len~., ToothGrowth) # opted for original dataframe
+ctree &lt;- ctree(len ~ ., ToothGrowth)  # opted for original dataframe
 ```
 
 Party= Recursive Partitioning of Variance. (underpinning it is permutation testing...)
@@ -742,7 +752,8 @@ state-anxiety (Z)? (Basic example - consider **centering** when you run it yours
 
 
 ```r
-require(psych)
+require(psychTools)
+epi.bfi&lt;-psychTools::epi.bfi
 interaction2&lt;-lm(bdi ~ stateanx*epiNeur, data=epi.bfi)
 summary(interaction2)
 ```
@@ -778,8 +789,8 @@ Usually we are interested in shifts of one SD.
 
 ```r
 library(rockchalk)
-plotCurves(interaction2, plotx="epiNeur",
-modx="stateanx", modxVals="std.dev.", interval='confidence')
+plotCurves(interaction2, plotx = "epiNeur", modx = "stateanx", 
+    modxVals = "std.dev.", interval = "confidence")
 ```
 
 &lt;img src="Lecture5-xaringan_files/figure-html/unnamed-chunk-38-1.png" style="display: block; margin: auto;" /&gt;
@@ -790,7 +801,8 @@ modx="stateanx", modxVals="std.dev.", interval='confidence')
 
 ```r
 require(interactions)
-sim_slopes(interaction2, pred = epiNeur, modx = stateanx, johnson_neyman = FALSE)
+sim_slopes(interaction2, pred = epiNeur, modx = stateanx, 
+    johnson_neyman = FALSE)
 ```
 
 ```
@@ -833,8 +845,8 @@ johnson_neyman(interaction2, pred = epiNeur, modx = stateanx)
 ```
 ## JOHNSON-NEYMAN INTERVAL 
 ## 
-## When stateanx is OUTSIDE the interval [-35.09, 22.25], the slope of
-## epiNeur is p &lt; .05.
+## When stateanx is OUTSIDE the interval [-35.09, 22.25], the slope of epiNeur
+## is p &lt; .05.
 ## 
 ## Note: The range of observed values of stateanx is [21.00, 79.00]
 ```
@@ -846,9 +858,10 @@ johnson_neyman(interaction2, pred = epiNeur, modx = stateanx)
 
 
 ```r
-require(sandwich) # Robust estimation.
+require(sandwich)  # Robust estimation.
 require(lmtest)
-sim_slopes(interaction2, pred = epiNeur, modx = stateanx, robust=T)
+sim_slopes(interaction2, pred = epiNeur, modx = stateanx, 
+    robust = T)
 ```
 
 ```
@@ -887,7 +900,8 @@ sim_slopes(interaction2, pred = epiNeur, modx = stateanx, robust=T)
 
 
 ```r
-interact_plot(interaction2, pred = "epiNeur", modx = "stateanx", interval = TRUE, int.width = 0.9)
+interact_plot(interaction2, pred = "epiNeur", modx = "stateanx", 
+    interval = TRUE, int.width = 0.9)
 ```
 
 &lt;img src="Lecture5-xaringan_files/figure-html/unnamed-chunk-43-1.png" style="display: block; margin: auto;" /&gt;
@@ -908,13 +922,26 @@ If you haven't conducted one, what would be a scenario where you would test one?
 
 
 ```r
-library(ez) 
-bilingual&lt;-read.delim("http://coltekin.net/cagri/R/data/bilingual.txt")
-rm_anov&lt;-ezANOVA(data=bilingual, dv=mlu, wid=.(subj), within=.(language, age), between=gender, type = 3) 
+library(ez)
+bilingual &lt;- read.delim("http://coltekin.net/cagri/R/data/bilingual.txt")
+rm_anov &lt;- ezANOVA(data = bilingual, dv = mlu, wid = .(subj), 
+    within = .(language, age), between = gender, type = 3)
 ```
 
 ```
 ## Warning: Converting "subj" to factor for ANOVA.
+```
+
+```
+## Warning: Converting "language" to factor for ANOVA.
+```
+
+```
+## Warning: Converting "age" to factor for ANOVA.
+```
+
+```
+## Warning: Converting "gender" to factor for ANOVA.
 ```
 
 ---
@@ -976,16 +1003,16 @@ rm_anov$`Sphericity Corrections`
 ```
 
 ```
-##                Effect       GGe        p[GG] p[GG]&lt;.05      HFe
-## 5                 age 0.9937540 5.378113e-06         * 1.116711
-## 6          gender:age 0.9937540 5.284531e-01           1.116711
-## 7        language:age 0.9906031 5.929377e-02           1.112534
-## 8 gender:language:age 0.9906031 2.540382e-01           1.112534
-##          p[HF] p[HF]&lt;.05
-## 5 5.072873e-06         *
-## 6 5.293489e-01          
-## 7 5.872916e-02          
-## 8 2.539516e-01
+##                Effect       GGe        p[GG] p[GG]&lt;.05      HFe        p[HF]
+## 5                 age 0.9937540 5.378113e-06         * 1.116711 5.072873e-06
+## 6          gender:age 0.9937540 5.284531e-01           1.116711 5.293489e-01
+## 7        language:age 0.9906031 5.929377e-02           1.112534 5.872916e-02
+## 8 gender:language:age 0.9906031 2.540382e-01           1.112534 2.539516e-01
+##   p[HF]&lt;.05
+## 5         *
+## 6          
+## 7          
+## 8
 ```
 
 ---
@@ -1068,9 +1095,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -1079,7 +1122,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {

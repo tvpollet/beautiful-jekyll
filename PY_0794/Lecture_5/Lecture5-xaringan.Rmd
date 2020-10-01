@@ -207,7 +207,7 @@ As above, but do not fit the three-way interaction, fit all two-way interactions
 
 If you are testing a higher order interaction, you need all the lower level effects. 
 
-So when testing a three-way interaction, you would include all two-way interactions and all main defects.
+So when testing a three-way interaction, you would include all two-way interactions and all main effects.
 
 ---
 ## Interaction Anova.
@@ -365,7 +365,7 @@ boot.ci(results_twowayaov, conf = 0.89, type="bca")
 ---
 ## tree 
 
-Three are ways to "automate" this search for interaction, and there are 'tree' based models which will uncover interactions.
+There are ways to "automate" this search for interaction, and there are 'tree' based models which will uncover interactions.
 
 ```{r, message=F, warning=F, tidy.opts=list(width.cutoff=50), tidy=T, fig.align="center",fig.height=3.3, fig.width=7}
 require(tree)
@@ -492,7 +492,8 @@ state-anxiety (Z)? (Basic example - consider **centering** when you run it yours
 ## Model
 
 ```{r, message=F, warning=F}
-require(psych)
+require(psychTools)
+epi.bfi<-psychTools::epi.bfi
 interaction2<-lm(bdi ~ stateanx*epiNeur, data=epi.bfi)
 summary(interaction2)
 ```
