@@ -129,7 +129,7 @@ Do you recall what these are? (look back to slides from week 3 if you do not rem
 
 Often you see these types of plots... .
 
-```{r, fig.align="center", out.width = "400px", echo=FALSE}
+```{r, fig.align="center", out.width = "500px", echo=FALSE}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/c/c1/Two-way_interaction_effect_example.png") # Jfdarmo, Wikimedia commons.
 ```
 
@@ -151,7 +151,7 @@ What other forms can interactions take?
 
 Two-way / Three-way.
 
-```{r, fig.align="center", out.width = "300px", echo=FALSE}
+```{r, fig.align="center", out.width = "500px", echo=FALSE}
 knitr::include_graphics("GSS_sealevel_interaction.png") # Ichiloe, Wikimedia commons. https://commons.wikimedia.org/wiki/File:GSS_sealevel_interaction.png
 ```
 
@@ -554,7 +554,7 @@ interact_plot(interaction2, pred = "epiNeur", modx = "stateanx", interval = TRUE
 ---
 ## RM-ANOVA: Talk to your neighbour. 
 
-Have you ever conducted a RM-ANOVA design with between-within? What were the within- and between-subject factors?
+Have you ever conducted a RM-ANOVA design with between-within factors? What were the within- and between-subject factors?
 
 Did it have an interaction? 
 
