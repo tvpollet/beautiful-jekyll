@@ -208,8 +208,7 @@ Differing views: Some argue that mediation is only useful when you **experimenta
 Also beware of sequencing! If you propose something to be a mediator then ideally it should be measured **after** your IV. If you propose complex chains A-->B-->C-->D, then you need to consider the temporal order of A,B,C,D. 
 
 ```{r, out.width = "300px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("
-https://media.giphy.com/media/QHCXq5IsZ4bFS/giphy.gif")
+knitr::include_graphics("https://media.giphy.com/media/QHCXq5IsZ4bFS/giphy.gif")
 ```
 
 ---
@@ -224,8 +223,8 @@ Y= happiness
 Proposed mediator (M): self-esteem.
 
 ```{r, tidy.opts=list(width.cutoff=10, size = "footnotesize"), tidy=T}
-# Long string.
-D<- read.csv('http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv')
+# Data can be loaded from here http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv
+D<- read.csv("mediationData.csv")
 Data_med<-D
 ```
 
@@ -348,7 +347,7 @@ Recommendation is bootstrapping methods. One method is Preacher & Hayes (2004),.
 ```{r, message=F, warning=F, tidy.opts=list(width.cutoff=20), tidy=T}
 require(bda)
 #reload (note that Rmarkdown is forgetful, so you might want to reload the data)
-Data_med<- read.csv('http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv')
+Data_med<- read.csv("mediationData.csv")
 mediation.test(Data_med$M,Data_med$X, Data_med$Y)
 ```
 
@@ -455,7 +454,7 @@ summary(med.out)
 ---
 ## Summary
 
-The mediation analysis showed a significant average causal mediation effect (ACME): 0.36, 95%CI [0.21, 0.52], but the average direct effect (ADE) was not significant .04, 95%CI [-0.20, 0.30].
+The mediation analysis showed a significant average causal mediation effect (ACME): 0.36, 95%CI [0.21, 0.53], but the average direct effect (ADE) was not significant .04, 95%CI [-0.20, 0.29].
 
 ---
 ## Plot

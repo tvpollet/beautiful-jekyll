@@ -65,7 +65,7 @@ cor.test(salaries$yrs.since.phd, salaries$monthly_salary, conf.level = .99)
 cor.test(salaries$yrs.since.phd, salaries$monthly_salary, method = 'spearman', conf.level = .99)
 ```
 
-**Sample write up**: Years since Ph.D. and monthly salary were positively and moderately related ($r_s$_= .47, _p_<.0001).
+**Sample write up**: Years since Ph.D. and monthly salary were positively and moderately related ($r_s_$= .476, _p_<.0001).
 
 ## hierarchical OLS regression.
 
@@ -83,7 +83,7 @@ summary(lm_2)
 summary(lm_3)
 ```
 
-Note that in the final model years since Ph.D. is no longer statistically significant. It is important to note that we have not yet looked into the assumptions or 
+Note that in the final model years since Ph.D. is no longer statistically significant. It is important to note that we have not yet looked into the assumptions or made graphs.
 
 ## Export the models.
 
@@ -111,7 +111,7 @@ Note that here we only checked the assumptions for the **final** model.
 plot(lm_3, which = 1)
 ```
 
-Plot 1: Not curvilinear but also not very nicely distributed. Not wholly linear as we would want it. The data shows clumping, likely as there are pay grades. There are no data between 11,000-13,000 USD and we linearly interpolate. That could be wrong - as in reality people move up in steps, something our model does not account for. While one would loose information, a solution could be to explore ordinal methods (incl. [tobit regression](https://stats.idre.ucla.edu/r/dae/tobit-models/)). These more advanced methods can handle censoring issues. There is a trade-off between keeping things 'simple'(- in reality most relationships are not wholly linear) and easily interpretable versus correctly describing the data (but also running the risk of overfitting). Within its remits we can still use our model, however - bearing in mind that it is a _linear_ representation of the relationships between variabls.
+Plot 1: Not curvilinear but also not very nicely distributed. Not wholly linear as we would want it. The data shows clumping, likely as there are pay grades. There are no data between 11,000-13,000 USD and we linearly interpolate. That could be wrong - as in reality people move up in steps, something our model does not account for. While one would loose information, a solution could be to explore ordinal methods (incl. [tobit regression](https://stats.idre.ucla.edu/r/dae/tobit-models/)). These more advanced methods can handle censoring issues. There is a trade-off between keeping things 'simple'(- in reality most relationships are not wholly linear) and easily interpretable versus correctly describing the data (but also running the risk of overfitting). Within its remits we can still use our model, however - bearing in mind that it is a _linear_ representation of the relationships between variables.
 
 ### Normality of residuals.
 
@@ -235,11 +235,11 @@ plot(results_coeff_B)
 boot.ci(results_coeff_B, type='bca')
 ```
 
-**Sample write up**: The 95% confidence interval for $\beta$ using 10,000 samples and bias-corrected accelerated bootstrapping is [.32, .52]. (If you had done a bootstrap of the Pearson correlation coefficient you should get similar values).
+**Sample write up**: The 95% confidence interval for $\beta$ using 10,000 samples and bias-corrected accelerated bootstrapping is [.31, .52]. (If you had done a bootstrap of the Pearson correlation coefficient you should get similar values).
 
 ## Model prediction.
 
-Best to center everything. No point in centering categorical variables, note that we are calculating a shift here based on the reference categories (_women_ and _asst profs._). A shift of 3 years is associated with around $31 less a month, all else being equal. Now that is not very impressive, and that's in part explained by the fact that academic rank does so much of the 'heavy lifting' and we are now looking at a shift away from the means (!). For a shift at the start of the career, you could use the initial model. A shift from asst. to associate professor implies another \$1556 a month (all else being equal). (For men add another \$571 a month (!))
+Best to center everything. No point in centering categorical variables, note that we are calculating a shift here based on the reference categories (_women_ and _asst profs._). A shift of 3 years is associated with around $31 less a month, all else being equal. Now that is not very impressive, and that's in part explained by the fact that academic rank does so much of the 'heavy lifting' and we are now looking at a shift away from the means (!). For a shift at the start of the career, you could use the initial model. A shift from asst. to associate professor implies another \$1557 a month (all else being equal). (For men add another \$572 a month (!))
 
 ```{r}
 require(dplyr)
@@ -260,9 +260,9 @@ data(GermanCredit)
 data_credit<-GermanCredit
 require(skimr)
 skim(data_credit)
-require(summarytools)
-summarytools::dfSummary(data_credit)
 ```
+
+You could also use the 'summarytools' package.
 
 ## Corrplot and Correlation matrix output.
 
@@ -309,7 +309,7 @@ stargazer(log1,log2,log3,log4,dep.var.labels=c("Credit status (reference= Good)"
 
 Note that a value <1 means that odds will become lower. For ease of interpretation one would take the inverse of the odds ratio.
 
-Here are the Pseudo-$R^2$ values.
+Here are the Pseudo- $R^2$ values.
 
 ```{r}
 require(rcompanion)
