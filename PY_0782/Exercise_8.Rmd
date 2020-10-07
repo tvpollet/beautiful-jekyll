@@ -219,7 +219,7 @@ semPaths(fit_CFA_groups, layout='circle',style = "lisrel",what="std", combineGro
 
 ## Measurement invariance table.
 
-The best fitting model based on both AIC and BIC was one with metric invariance (respectively 199471 and 200341). In terms of RMSEA the model with metric invariance and that with strong invariance scored lowest and was thus the best fit (.077). In absolute terms, CFI favoured either the configural or the metric invariance model (0.775). While the metric invariance model is not an adequate fit in terms of CFI(), it is in RMSEA (.077). Both the $\Delta$CFI and $\Delta$RMSEA suggested that there was no loss in fit moving from a configural model to a metric invariance model (all <.001).
+The best fitting model based on both AIC and BIC was one with metric invariance (respectively 199471 and 200341). In terms of RMSEA the model with metric invariance and that with strong invariance scored lowest and was thus the best fit (.077). In absolute terms, CFI favoured either the configural or the metric invariance model (0.775). While the metric invariance model is not an adequate fit in terms of CFI (0.775), it is in RMSEA (.077). Both the $\Delta$CFI and $\Delta$RMSEA suggested that there was no loss in fit moving from a configural model to a metric invariance model (all <.001).
 
 ```{r, warning=F, message=F}
 require(semTools)
