@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 8: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 8: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-11-26 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-10-07 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -317,7 +317,7 @@ summary(fit, fit.measures=TRUE)
 ```
 
 ```
-## lavaan 0.6-5 ended normally after 35 iterations
+## lavaan 0.6-7 ended normally after 35 iterations
 ## 
 ##   Estimator                                         ML
 ##   Optimization method                           NLMINB
@@ -364,9 +364,9 @@ summary(fit, fit.measures=TRUE)
 ## 
 ## Parameter Estimates:
 ## 
+##   Standard errors                             Standard
 ##   Information                                 Expected
 ##   Information saturated (h1) model          Structured
-##   Standard errors                             Standard
 ## 
 ## Latent Variables:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)
@@ -466,11 +466,14 @@ Make a plot of your three-factor model.
 ```r
 require(dplyr)
 require(stargazer)
-results_table&lt;-parameterEstimates(fit, standardized=TRUE) %&gt;% 
-filter(op == "=~") %&gt;% 
-dplyr::select('Latent Factor'=lhs, Indicator=rhs, B=est, SE=se, Z=z, 'p value'=pvalue, Beta=std.all)
-#export via stargazer. (Other options are ??xtable)
-stargazer(results_table, summary = FALSE,out= "results_table.html", header = F)
+results_table &lt;- parameterEstimates(fit, standardized = TRUE) %&gt;% 
+    filter(op == "=~") %&gt;% dplyr::select(`Latent Factor` = lhs, 
+    Indicator = rhs, B = est, SE = se, Z = z, `p value` = pvalue, 
+    Beta = std.all)
+# export via stargazer. (Other options are
+# ??xtable)
+stargazer(results_table, summary = FALSE, out = "results_table.html", 
+    header = F)
 ```
 
 ```
@@ -548,7 +551,7 @@ summary(fit_model_2, fit.measures=T)
 ```
 
 ```
-## lavaan 0.6-5 ended normally after 31 iterations
+## lavaan 0.6-7 ended normally after 31 iterations
 ## 
 ##   Estimator                                         ML
 ##   Optimization method                           NLMINB
@@ -595,9 +598,9 @@ summary(fit_model_2, fit.measures=T)
 ## 
 ## Parameter Estimates:
 ## 
+##   Standard errors                             Standard
 ##   Information                                 Expected
 ##   Information saturated (h1) model          Structured
-##   Standard errors                             Standard
 ## 
 ## Latent Variables:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)
@@ -773,7 +776,8 @@ semPaths(fit_CFA_group, layout='circle',style = "ram",what="std", combineGroups=
 
 ```r
 require(semTools)
-semTools::measurementInvariance(model=Group_model_1, data= Data, group="school")
+semTools::measurementInvariance(model = Group_model_1, 
+    data = Data, group = "school")
 ```
 
 ```
@@ -826,9 +830,13 @@ Stargazer won't change labels! See if you can figure out a solution :). it cost 
 ```r
 require(psytabs)
 require(stargazer)
-MI&lt;- measurementInvariance(model=Group_model_1, data= Data, group="school")
+MI &lt;- measurementInvariance(model = Group_model_1, data = Data, 
+    group = "school")
 tab.1 &lt;- measurementInvarianceTable(MI)
-stargazer(tab.1, summary=F, type="html", dep.var.labels = c("$\\chi^2$",	"df",	"$\\Delta$\\chi^2$", "df",	"p", "CFI",	"$\\Delta$CFI", "RMSEA", "$\\Delta$RMSEA", "BIC", "$\\Delta$BIC"), out= "Measurement invariance.html", header=F)
+stargazer(tab.1, summary = F, type = "html", dep.var.labels = c("$\\chi^2$", 
+    "df", "$\\Delta$\\chi^2$", "df", "p", "CFI", "$\\Delta$CFI", 
+    "RMSEA", "$\\Delta$RMSEA", "BIC", "$\\Delta$BIC"), out = "Measurement invariance.html", 
+    header = F)
 ```
 
 ---
@@ -921,9 +929,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -932,7 +956,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {

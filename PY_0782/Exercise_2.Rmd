@@ -2,7 +2,7 @@
 title: "Solution Lecture 2"
 output: html_document
 author: "Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)"
-date: '`r format(Sys.Date())` | [disclaimer](http://sites.google.com/site/thomasvpollet/disclaimer)'
+date: '`r format(Sys.Date())` | [disclaimer](http://tvpollet.github.io/disclaimer)'
 ---
 
 ```{r setup, include=FALSE}
