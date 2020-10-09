@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 9: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
     <meta name="author" content="Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
-    <script src="libs/viz-0.3/viz.js"></script>
+    <script src="libs/htmlwidgets-1.5.2/htmlwidgets.js"></script>
+    <script src="libs/viz-1.8.2/viz.js"></script>
     <link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
-    <script src="libs/grViz-binding-1.0.1/grViz.js"></script>
+    <script src="libs/grViz-binding-1.0.6.1/grViz.js"></script>
   </head>
   <body>
     <textarea id="source">
@@ -17,7 +17,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 9: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-12-03 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-10-08 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -62,7 +62,7 @@ Do you remember the methods you used?
 ---
 ## Dataset.
 
-Example, simulated data from [here](http://data.library.virginia.edu/introduction-to-mediation-analysis/)
+Example, simulated data from [here](http://data.library.virginia.edu/introduction-to-mediation-analysis/). Right click [here](http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv).
 
 X= grades
 
@@ -72,9 +72,10 @@ Proposed mediator (M): self-esteem.
 
 
 ```r
-# Long string.
-D&lt;- read.csv('http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv')
-Data_med&lt;-D
+# Long
+# string.
+D &lt;- read.csv("mediationData.csv")  # redundant
+Data_med &lt;- D
 ```
 
 ---
@@ -107,7 +108,7 @@ summary(fit_mediationSEM, standardized=TRUE, fit.measures=T)
 ```
 
 ```
-## lavaan 0.6-5 ended normally after 14 iterations
+## lavaan 0.6-7 ended normally after 14 iterations
 ## 
 ##   Estimator                                         ML
 ##   Optimization method                           NLMINB
@@ -160,21 +161,21 @@ summary(fit_mediationSEM, standardized=TRUE, fit.measures=T)
 ## Regressions:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)   Std.lv  Std.all
 ##   Y ~                                                                   
-##     X          (c)    0.040    0.131    0.302    0.763    0.040    0.034
+##     X          (c)    0.040    0.125    0.316    0.752    0.040    0.034
 ##   M ~                                                                   
-##     X          (a)    0.561    0.094    5.947    0.000    0.561    0.514
+##     X          (a)    0.561    0.095    5.895    0.000    0.561    0.514
 ##   Y ~                                                                   
-##     M          (b)    0.635    0.102    6.237    0.000    0.635    0.593
+##     M          (b)    0.635    0.104    6.118    0.000    0.635    0.593
 ## 
 ## Variances:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)   Std.lv  Std.all
-##    .Y                 2.581    0.328    7.872    0.000    2.581    0.627
-##    .M                 2.633    0.365    7.212    0.000    2.633    0.735
+##    .Y                 2.581    0.335    7.699    0.000    2.581    0.627
+##    .M                 2.633    0.356    7.405    0.000    2.633    0.735
 ## 
 ## Defined Parameters:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)   Std.lv  Std.all
-##     ab                0.357    0.077    4.644    0.000    0.357    0.305
-##     total             0.396    0.127    3.123    0.002    0.396    0.339
+##     ab                0.357    0.079    4.537    0.000    0.357    0.305
+##     total             0.396    0.124    3.207    0.001    0.396    0.339
 ```
 
 ```r
@@ -211,10 +212,10 @@ summary(med.out)
 ## Nonparametric Bootstrap Confidence Intervals with the Percentile Method
 ## 
 ##                Estimate 95% CI Lower 95% CI Upper p-value    
-## ACME             0.3565       0.2144         0.53  &lt;2e-16 ***
-## ADE              0.0396      -0.1966         0.30  0.7576    
-## Total Effect     0.3961       0.1605         0.64  0.0012 ** 
-## Prop. Mediated   0.9000       0.4875         2.03  0.0012 ** 
+## ACME             0.3565       0.2145         0.53  &lt;2e-16 ***
+## ADE              0.0396      -0.2027         0.29   0.748    
+## Total Effect     0.3961       0.1589         0.64   0.001 ***
+## Prop. Mediated   0.9000       0.4900         2.08   0.001 ***
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ## 
@@ -254,7 +255,7 @@ summary(fit_directSEM, standardized=TRUE, fit.measures=T)
 ```
 
 ```
-## lavaan 0.6-5 ended normally after 11 iterations
+## lavaan 0.6-7 ended normally after 11 iterations
 ## 
 ##   Estimator                                         ML
 ##   Optimization method                           NLMINB
@@ -307,12 +308,12 @@ summary(fit_directSEM, standardized=TRUE, fit.measures=T)
 ## Regressions:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)   Std.lv  Std.all
 ##   Y ~                                                                   
-##     X          (c)    0.040    0.124    0.320    0.749    0.040    0.034
-##     M          (b)    0.635    0.101    6.318    0.000    0.635    0.593
+##     X          (c)    0.040    0.123    0.322    0.747    0.040    0.034
+##     M          (b)    0.635    0.100    6.351    0.000    0.635    0.593
 ## 
 ## Variances:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)   Std.lv  Std.all
-##    .Y                 2.581    0.334    7.734    0.000    2.581    0.627
+##    .Y                 2.581    0.339    7.625    0.000    2.581    0.627
 ```
 
 ```r
@@ -347,11 +348,12 @@ LavaanPlot relies on diagrammer.
 
 ```r
 require(lavaanPlot)
-lavaanPlot(model = fit_mediationSEM, node_options = list(shape = "box", fontname = "Helvetica"), edge_options = list(color = "grey"))
+lavaanPlot(model = fit_mediationSEM, node_options = list(shape = "box", 
+    fontname = "Helvetica"), edge_options = list(color = "grey"))
 ```
 
-<div id="htmlwidget-b75e4379a7c351015ce8" style="width:576px;height:252px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b75e4379a7c351015ce8">{"x":{"diagram":" digraph plot { \n graph [ overlap = true, fontsize = 10 ] \n node [ shape = box, fontname = Helvetica ] \n node [shape = box] \n X; M; Y \n node [shape = oval] \n  \n \n edge [ color = grey ] \n X->Y X->M M->Y  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-1c54e0bb40e6620f2483" style="width:576px;height:252px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1c54e0bb40e6620f2483">{"x":{"diagram":" digraph plot { \n graph [ overlap = true, fontsize = 10 ] \n node [ shape = box, fontname = Helvetica ] \n node [shape = box] \n X; M; Y \n node [shape = oval] \n  \n \n edge [ color = grey ] \n X->Y X->M M->Y  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 ---
 ## But it is not the way we want.
@@ -361,12 +363,14 @@ You can further improve on this. Check diagrammer.
 
 ```r
 require(lavaanPlot)
-labels&lt;- list(X="independent", M="mediator", Y="dependent")
-lavaanPlot(model = fit_mediationSEM, graph_options = list(rankdir = "LR"), labels=labels, node_options = list(shape = "box", fontname = "Helvetica"), edge_options = list(color = "grey"))
+labels &lt;- list(X = "independent", M = "mediator", Y = "dependent")
+lavaanPlot(model = fit_mediationSEM, graph_options = list(rankdir = "LR"), 
+    labels = labels, node_options = list(shape = "box", fontname = "Helvetica"), 
+    edge_options = list(color = "grey"))
 ```
 
-<div id="htmlwidget-6337ce607abe42a832cd" style="width:576px;height:252px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6337ce607abe42a832cd">{"x":{"diagram":" digraph plot { \n graph [ rankdir = LR ] \n node [ shape = box, fontname = Helvetica ] \n node [shape = box] \n X; M; Y \n node [shape = oval] \n  \n X [label = \"independent\"]\nM [label = \"mediator\"]\nY [label = \"dependent\"] \n edge [ color = grey ] \n X->Y X->M M->Y  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-6aefb4331c6d85074c0a" style="width:576px;height:252px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6aefb4331c6d85074c0a">{"x":{"diagram":" digraph plot { \n graph [ rankdir = LR ] \n node [ shape = box, fontname = Helvetica ] \n node [shape = box] \n X; M; Y \n node [shape = oval] \n  \n X [label = \"independent\"]\nM [label = \"mediator\"]\nY [label = \"dependent\"] \n edge [ color = grey ] \n X->Y X->M M->Y  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 
 ---
 ## Make a plot with the estimates.
@@ -442,7 +446,7 @@ When you are done you can evaluate your results [here](https://tvpollet.github.i
 
 Thus far: pretty basic.
 
-We can build more complex models. Also note that SEM can be a useful alternative for multilevel models. (They are actually quite [similar](https://www.ncbi.nlm.nih.gov/pubmed/26777445)
+We can build more complex models. Also note that SEM can be a useful alternative for multilevel models. (They are actually quite [similar](https://www.ncbi.nlm.nih.gov/pubmed/26777445)).
 
 ---
 ## Back to SEM: Wheaton data.
@@ -530,7 +534,7 @@ summary(alienation, fit.measures=T)
 ```
 
 ```
-## lavaan 0.6-5 ended normally after 84 iterations
+## lavaan 0.6-7 ended normally after 84 iterations
 ## 
 ##   Estimator                                         ML
 ##   Optimization method                           NLMINB
@@ -577,9 +581,9 @@ summary(alienation, fit.measures=T)
 ## 
 ## Parameter Estimates:
 ## 
+##   Standard errors                             Standard
 ##   Information                                 Expected
 ##   Information saturated (h1) model          Structured
-##   Standard errors                             Standard
 ## 
 ## Latent Variables:
 ##                    Estimate  Std.Err  z-value  P(&gt;|z|)
@@ -727,9 +731,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -738,7 +758,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {

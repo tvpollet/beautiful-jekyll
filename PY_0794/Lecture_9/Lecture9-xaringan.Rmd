@@ -59,7 +59,7 @@ knitr::include_graphics("https://media.giphy.com/media/3o6ZtmNGebTwduYJH2/giphy.
 ---
 ## Dataset.
 
-Example, simulated data from [here](http://data.library.virginia.edu/introduction-to-mediation-analysis/)
+Example, simulated data from [here](http://data.library.virginia.edu/introduction-to-mediation-analysis/). Right click [here](http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv).
 
 X= grades
 
@@ -69,7 +69,7 @@ Proposed mediator (M): self-esteem.
 
 ```{r, tidy.opts=list(width.cutoff=10, size = "footnotesize"), tidy=T}
 # Long string.
-D<- read.csv('http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv')
+D<- read.csv('mediationData.csv') # redundant
 Data_med<-D
 ```
 
@@ -265,7 +265,7 @@ When you are done you can evaluate your results [here](https://tvpollet.github.i
 
 Thus far: pretty basic.
 
-We can build more complex models. Also note that SEM can be a useful alternative for multilevel models. (They are actually quite [similar](https://www.ncbi.nlm.nih.gov/pubmed/26777445)
+We can build more complex models. Also note that SEM can be a useful alternative for multilevel models. (They are actually quite [similar](https://www.ncbi.nlm.nih.gov/pubmed/26777445)).
 
 ---
 ## Back to SEM: Wheaton data.

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 10: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 10: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-12-07 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-10-09 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -102,20 +102,20 @@ Graphically:
 ---
 ## (Good) Reasons to opt for multilevel model.
 
-Good reasons from [here](http://www.bristol.ac.uk/cmm/learning/multilevel-models/what-why.html).
+Good reasons from [here](http://www.bristol.ac.uk/cmm/learning/multilevel-models/what-why.html):
 
-**Correct inferences**: Traditional multiple regression techniques treat the units of analysis as **independent** observations. If there is a hierarchical structure: standard errors of regression coefficients will (likely) be underestimated, leading to an overstatement of statistical significance. 
+"**Correct inferences**: Traditional multiple regression techniques treat the units of analysis as **independent** observations. If there is a hierarchical structure: standard errors of regression coefficients will (likely) be underestimated, leading to an overstatement of statistical significance. 
 
-**Substantive interest in group effects**: In many situations a key research question concerns the extent of grouping in individual outcomes, and the identification of ‘outlying’ groups. For example, in evaluations of school performance we might be interested in the ‘value-added’ school effects on pupil attainment. To achieve this: school-level residuals in a multilevel model adjusting for prior attainment.
+**Substantive interest in group effects**: In many situations a key research question concerns the extent of grouping in individual outcomes, and the identification of ‘outlying’ groups. For example, in evaluations of school performance we might be interested in the ‘value-added’ school effects on pupil attainment. To achieve this: school-level residuals in a multilevel model adjusting for prior attainment."
 
 ---
 ## Reasons to opt for multilevel models.
 
-**Estimating group effects simultaneously with the effects of group-level predictors**: An alternative way to allow for group effects: include dummy variables for groups in a traditional (ordinary least squares) regression model. Such a model is called an analysis of variance or fixed effects model. In many cases there will be predictors defined at the group level, e.g. type of school (mixed vs. single sex). In a fixed effects model, the effects of group-level predictors are confounded with the effects of the group dummies: it is not possible to separate out effects due to observed and unobserved group characteristics. In a multilevel (random effects) model, the effects of both types of variable can be estimated.
+"**Estimating group effects simultaneously with the effects of group-level predictors**: An alternative way to allow for group effects: include dummy variables for groups in a traditional (ordinary least squares) regression model. Such a model is called an analysis of variance or fixed effects model. In many cases there will be predictors defined at the group level, e.g. type of school (mixed vs. single sex). In a fixed effects model, the effects of group-level predictors are confounded with the effects of the group dummies: it is not possible to separate out effects due to observed and unobserved group characteristics. In a multilevel (random effects) model, the effects of both types of variable can be estimated."
 
 --
 
-**Inference to a population of groups**: In a multilevel model the groups in the sample are treated as a random sample from a population of groups. Using a fixed effects model, inferences cannot be made beyond the groups in the sample.
+"**Inference to a population of groups**: In a multilevel model the groups in the sample are treated as a random sample from a population of groups. Using a fixed effects model, inferences cannot be made beyond the groups in the sample."
 
 --
 
@@ -187,7 +187,7 @@ More info: Goldstein, H., Rasbash, J., et al. (1993). A multilevel analysis of s
 setwd("~/Dropbox/Teaching_MRes_Northumbria/Lecture10")
 library(mlmRev) # contains data
 library(lme4)
-data&lt;-mlmRev::Exam 
+Exam&lt;-mlmRev::Exam 
 null_model&lt;-lmer(normexam ~ 1 + (1 | school), data=Exam, REML=F)
 ```
 
@@ -333,12 +333,9 @@ anova(null_model, fixed_pred)
 ## Models:
 ## null_model: normexam ~ 1 + (1 | school)
 ## fixed_pred: normexam ~ standLRT + (1 | school)
-##            Df     AIC     BIC  logLik deviance  Chisq Chi Df Pr(&gt;Chisq)
-## null_model  3 11016.6 11035.6 -5505.3  11010.6                         
-## fixed_pred  4  9365.2  9390.5 -4678.6   9357.2 1653.4      1  &lt; 2.2e-16
-##               
-## null_model    
-## fixed_pred ***
+##            npar     AIC     BIC  logLik deviance  Chisq Df Pr(&gt;Chisq)    
+## null_model    3 11016.6 11035.6 -5505.3  11010.6                         
+## fixed_pred    4  9365.2  9390.5 -4678.6   9357.2 1653.4  1  &lt; 2.2e-16 ***
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
@@ -371,9 +368,9 @@ anova(null_reml,randomslope, refit=F) # Otherwise it uses ML.
 ## Models:
 ## null_reml: normexam ~ 1 + (1 | school)
 ## randomslope: normexam ~ 1 + (standLRT | school)
-##             Df   AIC     BIC  logLik deviance  Chisq Chi Df Pr(&gt;Chisq)    
-## null_reml    3 11021 11039.6 -5507.3    11015                             
-## randomslope  5  9490  9521.5 -4740.0     9480 1534.7      2  &lt; 2.2e-16 ***
+##             npar   AIC     BIC  logLik deviance  Chisq Df Pr(&gt;Chisq)    
+## null_reml      3 11021 11039.6 -5507.3    11015                         
+## randomslope    5  9490  9521.5 -4740.0     9480 1534.7  2  &lt; 2.2e-16 ***
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
@@ -395,20 +392,18 @@ summary(randomslope)
 ## 
 ## Scaled residuals: 
 ##     Min      1Q  Median      3Q     Max 
-## -3.8548 -0.6312  0.0424  0.6853  3.5189 
+## -3.8545 -0.6314  0.0424  0.6854  3.5188 
 ## 
 ## Random effects:
 ##  Groups   Name        Variance Std.Dev. Corr
-##  school   (Intercept) 0.2158   0.4645       
-##           standLRT    0.3195   0.5652   0.81
-##  Residual             0.5530   0.7436       
+##  school   (Intercept) 0.2153   0.4640       
+##           standLRT    0.3180   0.5639   0.81
+##  Residual             0.5531   0.7437       
 ## Number of obs: 4059, groups:  school, 65
 ## 
 ## Fixed effects:
 ##             Estimate Std. Error t value
-## (Intercept) -0.36776    0.03773  -9.746
-## convergence code: 0
-## Model failed to converge with max|grad| = 0.0632079 (tol = 0.002, component 1)
+## (Intercept) -0.36825    0.03769   -9.77
 ```
 
 ---
@@ -431,7 +426,7 @@ cAIC(randomslope)$caic
 ```
 
 ```
-## [1] 9233.58
+## [1] 9233.549
 ```
 
 ---
@@ -663,7 +658,7 @@ testUniformity(simulationOutput = simulationOutput)
 ## 	One-sample Kolmogorov-Smirnov test
 ## 
 ## data:  simulationOutput$scaledResiduals
-## D = 0.011423, p-value = 0.6646
+## D = 0.012513, p-value = 0.5486
 ## alternative hypothesis: two-sided
 ```
 
@@ -762,21 +757,28 @@ require(skimr)
 skim(boot_data)
 ```
 
-```
-## Skim summary statistics
-##  n obs: 100 
-##  n variables: 3 
-## 
-## ── Variable type:numeric ──────────────────────────────────────────────────────────────────
-##     variable missing complete   n   mean    sd    p0    p25     p50   p75
-##  (Intercept)       0      100 100 -0.006 0.034 -0.12 -0.026 -0.0036 0.016
-##       schavg       0      100 100  0.33  0.13   0.06  0.24   0.31   0.41 
-##     standLRT       0      100 100  0.55  0.019  0.49  0.54   0.55   0.56 
-##   p100     hist
-##  0.077 ▁▁▁▆▇▇▂▁
-##  0.66  ▃▅▇▇▇▆▃▁
-##  0.6   ▁▂▃▅▇▃▂▁
-```
+
+Table: Data summary
+
+|                         |          |
+|:------------------------|:---------|
+|Name                     |boot_data |
+|Number of rows           |100       |
+|Number of columns        |3         |
+|_______________________  |          |
+|Column type frequency:   |          |
+|numeric                  |3         |
+|________________________ |          |
+|Group variables          |None      |
+
+
+**Variable type: numeric**
+
+|skim_variable | n_missing| complete_rate|  mean|   sd|    p0|   p25|  p50|  p75| p100|hist  |
+|:-------------|---------:|-------------:|-----:|----:|-----:|-----:|----:|----:|----:|:-----|
+|(Intercept)   |         0|             1| -0.01| 0.03| -0.12| -0.03| 0.00| 0.02| 0.08|▁▂▇▇▂ |
+|standLRT      |         0|             1|  0.55| 0.02|  0.49|  0.54| 0.55| 0.56| 0.60|▁▃▇▅▁ |
+|schavg        |         0|             1|  0.33| 0.13|  0.06|  0.24| 0.31| 0.41| 0.66|▃▇▇▅▂ |
 
 ---
 ## Results (cont'd).
@@ -890,9 +892,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -901,7 +919,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {
