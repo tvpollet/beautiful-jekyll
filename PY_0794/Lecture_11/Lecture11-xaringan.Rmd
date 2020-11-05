@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Today: Multilevel: part II.
 
-I solved something for this lecture, remember those overflowing code bits, meet ['xaringan'](https://github.com/yihui/xaringan)
+As an aside all slides were made with ['xaringan'](https://github.com/yihui/xaringan)
 
 ---
 
@@ -189,7 +189,7 @@ knitr::include_graphics("https://media.giphy.com/media/3o6MbeLh1L6QLUAHZe/giphy.
 ## Repeated measures design.
 
 ```{r, out.width = "500px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("http://rpsychologist.com/img/r-reference-lmer/2lvl.png")
+knitr::include_graphics("https://rpsychologist.com/static/276d95ccfb68cf7e283fa0463dadab02/7c1cd/2lvl.png")
 ```
 
 ---
@@ -234,7 +234,7 @@ lmer(y ~ time * tx + ( 0 + time | subjects), data=data)
 Now imagine that we have therapists... .
 
 ```{r, out.width = "300px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("http://rpsychologist.com/img/r-reference-lmer/3lvl.png")
+knitr::include_graphics("https://rpsychologist.com/static/5f5294451b5fd3d2bb2fd2163c8ab772/699b7/3lvl.png")
 ```
 
 ```{r, eval=F}
@@ -249,7 +249,7 @@ In the previous example, a therapist could only offer either treatment or contro
 But often you'll have random allocation at the subject level.
 
 ```{r, out.width = "300px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("http://rpsychologist.com/img/r-reference-lmer/3lvl-crossed.png")
+knitr::include_graphics("https://rpsychologist.com/static/3bcfadd69212fb1d2795db3e1c27fce6/d0d8c/3lvl-crossed.png")
 ```
 
 
@@ -299,7 +299,7 @@ m <- glmer(remission ~ IL6 + CRP + CancerStage + LengthofStay + Experience +
 ---
 ## family: Other models... .
 
-Help! My data are not normal... . Pointers in Zuur et al. (2009).
+Help! My data are not normal... . Pointers in [Zuur et al. (2009)](https://www.springer.com/gp/book/9780387874579).
 
 * Count data --> Poisson, Negative Binomial, -- 'Excess of zeroes'.
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 11: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 11: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-12-15 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-10-12 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -29,7 +29,7 @@ class: center, middle, inverse, title-slide
 
 * Today: Multilevel: part II.
 
-I solved something for this lecture, remember those overflowing code bits, meet ['xaringan'](https://github.com/yihui/xaringan)
+As an aside all slides were made with ['xaringan'](https://github.com/yihui/xaringan)
 
 ---
 
@@ -63,6 +63,10 @@ multilevelplot&lt;-ggplot(subset,aes(standLRT, normexam)) + geom_jitter(alpha = 
 
 ```r
 plot(multilevelplot)
+```
+
+```
+## `geom_smooth()` using formula 'y ~ x'
 ```
 
 &lt;img src="Lecture11-xaringan_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
@@ -206,7 +210,7 @@ Use the 'Scottish schools' dataset and make those 3 graphs. (If you cannot load 
 ---
 ## Repeated measures design.
 
-&lt;img src="http://rpsychologist.com/img/r-reference-lmer/2lvl.png" width="500px" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://rpsychologist.com/static/276d95ccfb68cf7e283fa0463dadab02/7c1cd/2lvl.png" width="500px" style="display: block; margin: auto;" /&gt;
 
 ---
 ## Write some models.
@@ -250,7 +254,7 @@ lmer(y ~ time * tx + ( 0 + time | subjects), data=data)
 
 Now imagine that we have therapists... .
 
-&lt;img src="http://rpsychologist.com/img/r-reference-lmer/3lvl.png" width="300px" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://rpsychologist.com/static/5f5294451b5fd3d2bb2fd2163c8ab772/699b7/3lvl.png" width="300px" style="display: block; margin: auto;" /&gt;
 
 
 ```r
@@ -264,7 +268,7 @@ In the previous example, a therapist could only offer either treatment or contro
 
 But often you'll have random allocation at the subject level.
 
-&lt;img src="http://rpsychologist.com/img/r-reference-lmer/3lvl-crossed.png" width="300px" style="display: block; margin: auto;" /&gt;
+&lt;img src="https://rpsychologist.com/static/3bcfadd69212fb1d2795db3e1c27fce6/d0d8c/3lvl-crossed.png" width="300px" style="display: block; margin: auto;" /&gt;
 
 
 
@@ -317,7 +321,7 @@ m &lt;- glmer(remission ~ IL6 + CRP + CancerStage + LengthofStay + Experience +
 ---
 ## family: Other models... .
 
-Help! My data are not normal... . Pointers in Zuur et al. (2009).
+Help! My data are not normal... . Pointers in [Zuur et al. (2009)](https://www.springer.com/gp/book/9780387874579).
 
 * Count data --&gt; Poisson, Negative Binomial, -- 'Excess of zeroes'.
 
@@ -487,9 +491,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -498,7 +518,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {
