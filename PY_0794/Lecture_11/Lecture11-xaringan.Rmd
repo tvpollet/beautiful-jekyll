@@ -335,7 +335,11 @@ knitr::include_graphics("https://static-content.springer.com/image/art%3A10.1007
 
 --
 
-* [Using R for writing](https://rpubs.com/YaRrr/papaja_guide). 'Shiny': App. building.
+* [Using R for writing](https://rpubs.com/YaRrr/papaja_guide). 
+
+--
+
+* 'Shiny': App. building.
 
 ---
 ## Rcmdr
@@ -391,7 +395,7 @@ Feedback via Turnitin.
 
 You can post questions via blackboard (BB). Book an appointment with me for substantive issues if unresolved via BB ([check availability](https://tvpollet.github.io/calendar/)).
 
-Questions on assignment via discussion board. (Unavailable Dec. 18th to Jan. 6th). 
+Questions on assignment via discussion board. (Unavailable Dec. 17th to Jan. 8th). 
 
 Will not answer any questions post Jan 27th.
 
@@ -404,7 +408,7 @@ knitr::include_graphics("http://s2.quickmeme.com/img/57/572104c5c7a5a5df4a63e344
 
 No set exercise, other than that I want you to explore an R package and see what it does. Alternatively, work through a tutorial. (see some examples [here](http://personality-project.org/r/)). or [here](https://awesome-r.com/) 
 
-No inspiration then look through R-bloggers or datacamp.
+No inspiration then look through R-bloggers or datacamp. Or my tweets... .
 
 Look at the vignette, example code, and try it on some data. Write it up in a small notebook.
 
