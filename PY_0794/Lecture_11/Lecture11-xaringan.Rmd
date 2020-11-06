@@ -183,7 +183,7 @@ knitr::include_graphics("https://media.giphy.com/media/3o6MbeLh1L6QLUAHZe/giphy.
 * Let us look at those.
 
 --
-* Where subjects is each subject's id, tx represent treatment allocation and is coded 0 or 1, therapist is the refers to either clustering due to therapists, or for instance a participant's group in group therapies. Y is the outcome variable.
+* Where subjects is each subject's id, tx represent treatment allocation and is coded 0 or 1, therapist refers to either clustering due to therapists, or for instance a participant's group in group therapies. Y is the outcome variable.
 
 ---
 ## Repeated measures design.
