@@ -229,7 +229,7 @@ corplot
 ---
 ## Some further terms.
 
-See [here](https://web.stanford.edu/class/psych253/tutorials/FactorAnalysis.html)
+See [here](https://quantdev.ssri.psu.edu/tutorials/intro-basic-exploratory-factor-analysis)
 
 **Factor**: An underlying or latent construct causing the observed variables, to a greater or lesser extent. A factor is estimated by a linear combination of out observed variables. When the ‘best fitting’ factors are found, it should be remembered that these factors are not unique! It can be shown that _any_ rotation of the best-fitting factors is also best-fitting. ‘Interpretability’ is used to select the ‘best’ rotation among the equally ‘good’ rotations: To be useful, factors should be interpretable. Rotation of factors is used to improve the interpretability of factors. So once we have extracted the factors, we will rotate them.
 

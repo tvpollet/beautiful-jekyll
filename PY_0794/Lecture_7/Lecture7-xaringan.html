@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Lecture 7: PY 0794 - Advanced Quantitative Research Methods</title>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 7: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2019-11-06 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-10-05 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -181,72 +181,39 @@ mvn(f_data)
 ## 32 Shapiro-Wilk  easygon     0.9473  &lt;0.001      NO    
 ## 
 ## $Descriptives
-##           n     Mean  Std.Dev Median Min Max 25th 75th        Skew
-## distant 240 3.866667 1.794615      3   1   8 2.00    5  0.21660329
-## talkatv 240 5.883333 1.677732      6   2   9 5.00    7 -0.18189899
-## carelss 240 3.412500 1.811357      3   1   9 2.00    5  0.66867120
-## hardwrk 240 6.925000 1.370108      7   2   9 6.00    8 -0.80831996
-## anxious 240 5.129167 1.880305      5   1   9 4.00    7 -0.09210485
-## agreebl 240 6.629167 1.372162      7   1   9 6.00    8 -0.78725929
-## tense   240 4.616667 1.904337      5   1   9 3.00    6 -0.02518179
-## kind    240 6.970833 1.262255      7   2   9 6.00    8 -0.70373663
-## opposng 240 3.858333 1.599141      4   1   8 3.00    5  0.46913404
-## relaxed 240 5.475000 1.694009      5   1   9 4.00    7 -0.08833270
-## disorgn 240 4.083333 2.126082      4   1   9 2.00    6  0.16985907
-## outgoin 240 6.020833 1.809894      6   2   9 5.00    7 -0.34291775
-## approvn 240 5.858333 1.367867      6   2   9 5.00    7 -0.13555584
-## shy     240 4.558333 1.969626      5   1   9 3.00    6  0.06063502
-## discipl 240 6.308333 1.725011      7   1   9 5.00    7 -0.56730380
-## harsh   240 3.600000 1.683789      3   1   8 2.00    5  0.45079493
-## persevr 240 6.804167 1.405006      7   2   9 6.00    8 -0.62497986
-## friendl 240 7.250000 1.155304      7   2   9 7.00    8 -0.59175740
-## worryin 240 5.212500 2.108126      6   1   9 3.00    7 -0.07134918
-## respnsi 240 7.291667 1.395725      8   1   9 7.00    8 -1.21576315
-## contrar 240 3.770833 1.500900      4   1   8 3.00    5  0.22186635
-## sociabl 240 6.445833 1.567579      7   2   9 5.00    8 -0.64011468
-## lazy    240 4.179167 1.893941      4   1   9 3.00    5  0.20658153
-## coopera 240 6.695833 1.197619      7   3   9 6.00    7 -0.37705887
-## quiet   240 4.604167 1.880750      5   1   9 3.00    6  0.15018658
-## organiz 240 6.154167 1.963363      6   1   9 5.00    8 -0.45913660
-## criticl 240 5.170833 1.745282      5   1   9 4.00    6 -0.21890441
-## lax     240 4.083333 1.664713      4   1   9 3.00    5  0.41571022
-## laidbck 240 5.245833 1.790837      5   1   9 4.00    7 -0.13048078
-## withdrw 240 3.754167 1.769684      3   1   7 2.00    5  0.17034350
-## givinup 240 2.675000 1.553307      2   1   8 1.75    4  1.00112342
-## easygon 240 6.066667 1.601429      6   2   9 5.00    7 -0.41865452
-##             Kurtosis
-## distant -1.115187889
-## talkatv -0.748747155
-## carelss -0.309281507
-## hardwrk  0.614831474
-## anxious -0.771926581
-## agreebl  1.042140998
-## tense   -0.925252081
-## kind     0.767591124
-## opposng -0.293884606
-## relaxed -0.507015321
-## disorgn -1.065496081
-## outgoin -0.761161418
-## approvn -0.154427814
-## shy     -0.919119555
-## discipl  0.145322024
-## harsh   -0.736948487
-## persevr  0.642059811
-## friendl  1.210961241
-## worryin -1.139934280
-## respnsi  2.252882721
-## contrar -0.472970716
-## sociabl  0.061296675
-## lazy    -0.597716553
-## coopera  0.004767416
-## quiet   -0.728162291
-## organiz -0.438841538
-## criticl -0.556012334
-## lax     -0.088209525
-## laidbck -0.522778720
-## withdrw -1.142037389
-## givinup  0.564770534
-## easygon -0.324220228
+##           n     Mean  Std.Dev Median Min Max 25th 75th        Skew     Kurtosis
+## distant 240 3.866667 1.794615      3   1   8 2.00    5  0.21660329 -1.115187889
+## talkatv 240 5.883333 1.677732      6   2   9 5.00    7 -0.18189899 -0.748747155
+## carelss 240 3.412500 1.811357      3   1   9 2.00    5  0.66867120 -0.309281507
+## hardwrk 240 6.925000 1.370108      7   2   9 6.00    8 -0.80831996  0.614831474
+## anxious 240 5.129167 1.880305      5   1   9 4.00    7 -0.09210485 -0.771926581
+## agreebl 240 6.629167 1.372162      7   1   9 6.00    8 -0.78725929  1.042140998
+## tense   240 4.616667 1.904337      5   1   9 3.00    6 -0.02518179 -0.925252081
+## kind    240 6.970833 1.262255      7   2   9 6.00    8 -0.70373663  0.767591124
+## opposng 240 3.858333 1.599141      4   1   8 3.00    5  0.46913404 -0.293884606
+## relaxed 240 5.475000 1.694009      5   1   9 4.00    7 -0.08833270 -0.507015321
+## disorgn 240 4.083333 2.126082      4   1   9 2.00    6  0.16985907 -1.065496081
+## outgoin 240 6.020833 1.809894      6   2   9 5.00    7 -0.34291775 -0.761161418
+## approvn 240 5.858333 1.367867      6   2   9 5.00    7 -0.13555584 -0.154427814
+## shy     240 4.558333 1.969626      5   1   9 3.00    6  0.06063502 -0.919119555
+## discipl 240 6.308333 1.725011      7   1   9 5.00    7 -0.56730380  0.145322024
+## harsh   240 3.600000 1.683789      3   1   8 2.00    5  0.45079493 -0.736948487
+## persevr 240 6.804167 1.405006      7   2   9 6.00    8 -0.62497986  0.642059811
+## friendl 240 7.250000 1.155304      7   2   9 7.00    8 -0.59175740  1.210961241
+## worryin 240 5.212500 2.108126      6   1   9 3.00    7 -0.07134918 -1.139934280
+## respnsi 240 7.291667 1.395725      8   1   9 7.00    8 -1.21576315  2.252882721
+## contrar 240 3.770833 1.500900      4   1   8 3.00    5  0.22186635 -0.472970716
+## sociabl 240 6.445833 1.567579      7   2   9 5.00    8 -0.64011468  0.061296675
+## lazy    240 4.179167 1.893941      4   1   9 3.00    5  0.20658153 -0.597716553
+## coopera 240 6.695833 1.197619      7   3   9 6.00    7 -0.37705887  0.004767416
+## quiet   240 4.604167 1.880750      5   1   9 3.00    6  0.15018658 -0.728162291
+## organiz 240 6.154167 1.963363      6   1   9 5.00    8 -0.45913660 -0.438841538
+## criticl 240 5.170833 1.745282      5   1   9 4.00    6 -0.21890441 -0.556012334
+## lax     240 4.083333 1.664713      4   1   9 3.00    5  0.41571022 -0.088209525
+## laidbck 240 5.245833 1.790837      5   1   9 4.00    7 -0.13048078 -0.522778720
+## withdrw 240 3.754167 1.769684      3   1   7 2.00    5  0.17034350 -1.142037389
+## givinup 240 2.675000 1.553307      2   1   8 1.75    4  1.00112342  0.564770534
+## easygon 240 6.066667 1.601429      6   2   9 5.00    7 -0.41865452 -0.324220228
 ```
 
 ---
@@ -297,72 +264,39 @@ mvn(f_data)
 ## 32 Shapiro-Wilk  easygon     0.9473  &lt;0.001      NO    
 ## 
 ## $Descriptives
-##           n     Mean  Std.Dev Median Min Max 25th 75th        Skew
-## distant 240 3.866667 1.794615      3   1   8 2.00    5  0.21660329
-## talkatv 240 5.883333 1.677732      6   2   9 5.00    7 -0.18189899
-## carelss 240 3.412500 1.811357      3   1   9 2.00    5  0.66867120
-## hardwrk 240 6.925000 1.370108      7   2   9 6.00    8 -0.80831996
-## anxious 240 5.129167 1.880305      5   1   9 4.00    7 -0.09210485
-## agreebl 240 6.629167 1.372162      7   1   9 6.00    8 -0.78725929
-## tense   240 4.616667 1.904337      5   1   9 3.00    6 -0.02518179
-## kind    240 6.970833 1.262255      7   2   9 6.00    8 -0.70373663
-## opposng 240 3.858333 1.599141      4   1   8 3.00    5  0.46913404
-## relaxed 240 5.475000 1.694009      5   1   9 4.00    7 -0.08833270
-## disorgn 240 4.083333 2.126082      4   1   9 2.00    6  0.16985907
-## outgoin 240 6.020833 1.809894      6   2   9 5.00    7 -0.34291775
-## approvn 240 5.858333 1.367867      6   2   9 5.00    7 -0.13555584
-## shy     240 4.558333 1.969626      5   1   9 3.00    6  0.06063502
-## discipl 240 6.308333 1.725011      7   1   9 5.00    7 -0.56730380
-## harsh   240 3.600000 1.683789      3   1   8 2.00    5  0.45079493
-## persevr 240 6.804167 1.405006      7   2   9 6.00    8 -0.62497986
-## friendl 240 7.250000 1.155304      7   2   9 7.00    8 -0.59175740
-## worryin 240 5.212500 2.108126      6   1   9 3.00    7 -0.07134918
-## respnsi 240 7.291667 1.395725      8   1   9 7.00    8 -1.21576315
-## contrar 240 3.770833 1.500900      4   1   8 3.00    5  0.22186635
-## sociabl 240 6.445833 1.567579      7   2   9 5.00    8 -0.64011468
-## lazy    240 4.179167 1.893941      4   1   9 3.00    5  0.20658153
-## coopera 240 6.695833 1.197619      7   3   9 6.00    7 -0.37705887
-## quiet   240 4.604167 1.880750      5   1   9 3.00    6  0.15018658
-## organiz 240 6.154167 1.963363      6   1   9 5.00    8 -0.45913660
-## criticl 240 5.170833 1.745282      5   1   9 4.00    6 -0.21890441
-## lax     240 4.083333 1.664713      4   1   9 3.00    5  0.41571022
-## laidbck 240 5.245833 1.790837      5   1   9 4.00    7 -0.13048078
-## withdrw 240 3.754167 1.769684      3   1   7 2.00    5  0.17034350
-## givinup 240 2.675000 1.553307      2   1   8 1.75    4  1.00112342
-## easygon 240 6.066667 1.601429      6   2   9 5.00    7 -0.41865452
-##             Kurtosis
-## distant -1.115187889
-## talkatv -0.748747155
-## carelss -0.309281507
-## hardwrk  0.614831474
-## anxious -0.771926581
-## agreebl  1.042140998
-## tense   -0.925252081
-## kind     0.767591124
-## opposng -0.293884606
-## relaxed -0.507015321
-## disorgn -1.065496081
-## outgoin -0.761161418
-## approvn -0.154427814
-## shy     -0.919119555
-## discipl  0.145322024
-## harsh   -0.736948487
-## persevr  0.642059811
-## friendl  1.210961241
-## worryin -1.139934280
-## respnsi  2.252882721
-## contrar -0.472970716
-## sociabl  0.061296675
-## lazy    -0.597716553
-## coopera  0.004767416
-## quiet   -0.728162291
-## organiz -0.438841538
-## criticl -0.556012334
-## lax     -0.088209525
-## laidbck -0.522778720
-## withdrw -1.142037389
-## givinup  0.564770534
-## easygon -0.324220228
+##           n     Mean  Std.Dev Median Min Max 25th 75th        Skew     Kurtosis
+## distant 240 3.866667 1.794615      3   1   8 2.00    5  0.21660329 -1.115187889
+## talkatv 240 5.883333 1.677732      6   2   9 5.00    7 -0.18189899 -0.748747155
+## carelss 240 3.412500 1.811357      3   1   9 2.00    5  0.66867120 -0.309281507
+## hardwrk 240 6.925000 1.370108      7   2   9 6.00    8 -0.80831996  0.614831474
+## anxious 240 5.129167 1.880305      5   1   9 4.00    7 -0.09210485 -0.771926581
+## agreebl 240 6.629167 1.372162      7   1   9 6.00    8 -0.78725929  1.042140998
+## tense   240 4.616667 1.904337      5   1   9 3.00    6 -0.02518179 -0.925252081
+## kind    240 6.970833 1.262255      7   2   9 6.00    8 -0.70373663  0.767591124
+## opposng 240 3.858333 1.599141      4   1   8 3.00    5  0.46913404 -0.293884606
+## relaxed 240 5.475000 1.694009      5   1   9 4.00    7 -0.08833270 -0.507015321
+## disorgn 240 4.083333 2.126082      4   1   9 2.00    6  0.16985907 -1.065496081
+## outgoin 240 6.020833 1.809894      6   2   9 5.00    7 -0.34291775 -0.761161418
+## approvn 240 5.858333 1.367867      6   2   9 5.00    7 -0.13555584 -0.154427814
+## shy     240 4.558333 1.969626      5   1   9 3.00    6  0.06063502 -0.919119555
+## discipl 240 6.308333 1.725011      7   1   9 5.00    7 -0.56730380  0.145322024
+## harsh   240 3.600000 1.683789      3   1   8 2.00    5  0.45079493 -0.736948487
+## persevr 240 6.804167 1.405006      7   2   9 6.00    8 -0.62497986  0.642059811
+## friendl 240 7.250000 1.155304      7   2   9 7.00    8 -0.59175740  1.210961241
+## worryin 240 5.212500 2.108126      6   1   9 3.00    7 -0.07134918 -1.139934280
+## respnsi 240 7.291667 1.395725      8   1   9 7.00    8 -1.21576315  2.252882721
+## contrar 240 3.770833 1.500900      4   1   8 3.00    5  0.22186635 -0.472970716
+## sociabl 240 6.445833 1.567579      7   2   9 5.00    8 -0.64011468  0.061296675
+## lazy    240 4.179167 1.893941      4   1   9 3.00    5  0.20658153 -0.597716553
+## coopera 240 6.695833 1.197619      7   3   9 6.00    7 -0.37705887  0.004767416
+## quiet   240 4.604167 1.880750      5   1   9 3.00    6  0.15018658 -0.728162291
+## organiz 240 6.154167 1.963363      6   1   9 5.00    8 -0.45913660 -0.438841538
+## criticl 240 5.170833 1.745282      5   1   9 4.00    6 -0.21890441 -0.556012334
+## lax     240 4.083333 1.664713      4   1   9 3.00    5  0.41571022 -0.088209525
+## laidbck 240 5.245833 1.790837      5   1   9 4.00    7 -0.13048078 -0.522778720
+## withdrw 240 3.754167 1.769684      3   1   7 2.00    5  0.17034350 -1.142037389
+## givinup 240 2.675000 1.553307      2   1   8 1.75    4  1.00112342  0.564770534
+## easygon 240 6.066667 1.601429      6   2   9 5.00    7 -0.41865452 -0.324220228
 ```
 
 ---
@@ -418,14 +352,14 @@ KMO(f_data)
 ## Call: KMO(r = f_data)
 ## Overall MSA =  0.84
 ## MSA for each item = 
-## distant talkatv carelss hardwrk anxious agreebl   tense    kind opposng 
-##    0.88    0.86    0.82    0.87    0.82    0.73    0.84    0.81    0.79 
-## relaxed disorgn outgoin approvn     shy discipl   harsh persevr friendl 
-##    0.86    0.75    0.87    0.89    0.87    0.84    0.85    0.86    0.87 
-## worryin respnsi contrar sociabl    lazy coopera   quiet organiz criticl 
-##    0.81    0.86    0.83    0.90    0.89    0.83    0.87    0.78    0.87 
-##     lax laidbck withdrw givinup easygon 
-##    0.81    0.73    0.90    0.89    0.78
+## distant talkatv carelss hardwrk anxious agreebl   tense    kind opposng relaxed 
+##    0.88    0.86    0.82    0.87    0.82    0.73    0.84    0.81    0.79    0.86 
+## disorgn outgoin approvn     shy discipl   harsh persevr friendl worryin respnsi 
+##    0.75    0.87    0.89    0.87    0.84    0.85    0.86    0.87    0.81    0.86 
+## contrar sociabl    lazy coopera   quiet organiz criticl     lax laidbck withdrw 
+##    0.83    0.90    0.89    0.83    0.87    0.78    0.87    0.81    0.73    0.90 
+## givinup easygon 
+##    0.89    0.78
 ```
 
 ---
@@ -570,18 +504,18 @@ fa
 ## The total number of observations was  240  with Likelihood Chi Square =  409.11  with prob &lt;  5.9e-08 
 ## 
 ## Tucker Lewis Index of factoring reliability =  0.924
-## RMSEA index =  0.052  and the 90 % confidence intervals are  0.038 0.056
+## RMSEA index =  0.047  and the 90 % confidence intervals are  0.038 0.056
 ## BIC =  -1059.7
 ## Fit based upon off diagonal values = 0.99
 ## Measures of factor score adequacy             
-##                                                    MR1  MR2  MR4  MR8  MR6
-## Correlation of (regression) scores with factors   0.96 0.89 0.91 0.88 0.90
-## Multiple R square of scores with factors          0.92 0.79 0.83 0.77 0.82
-## Minimum correlation of possible factor scores     0.83 0.59 0.66 0.55 0.64
-##                                                    MR5  MR7  MR3
-## Correlation of (regression) scores with factors   0.88 0.89 0.73
-## Multiple R square of scores with factors          0.78 0.79 0.53
-## Minimum correlation of possible factor scores     0.56 0.58 0.06
+##                                                    MR1  MR2  MR4  MR8  MR6  MR5
+## Correlation of (regression) scores with factors   0.96 0.89 0.91 0.88 0.90 0.88
+## Multiple R square of scores with factors          0.92 0.79 0.83 0.77 0.82 0.78
+## Minimum correlation of possible factor scores     0.83 0.59 0.66 0.55 0.64 0.56
+##                                                    MR7  MR3
+## Correlation of (regression) scores with factors   0.89 0.73
+## Multiple R square of scores with factors          0.79 0.53
+## Minimum correlation of possible factor scores     0.58 0.06
 ```
 
 ```r
@@ -657,19 +591,19 @@ parallel
 ##  Eigen Values of 
 ## 
 ##  eigen values of factors
-##  [1]  6.52  3.66  2.35  1.53  1.02  0.38  0.14  0.02  0.01 -0.02 -0.09
-## [12] -0.16 -0.18 -0.21 -0.25 -0.28 -0.33 -0.34 -0.37 -0.39 -0.40 -0.43
-## [23] -0.45 -0.48 -0.49 -0.52 -0.55 -0.58 -0.60 -0.62 -0.67 -0.70
+##  [1]  6.52  3.66  2.35  1.53  1.02  0.38  0.14  0.02  0.01 -0.02 -0.09 -0.16
+## [13] -0.18 -0.21 -0.25 -0.28 -0.33 -0.34 -0.37 -0.39 -0.40 -0.43 -0.45 -0.48
+## [25] -0.49 -0.52 -0.55 -0.58 -0.60 -0.62 -0.67 -0.70
 ## 
 ##  eigen values of simulated factors
-##  [1]  0.82  0.65  0.58  0.52  0.47  0.41  0.37  0.32  0.27  0.23  0.19
-## [12]  0.16  0.12  0.07  0.04  0.00 -0.03 -0.07 -0.10 -0.13 -0.16 -0.20
-## [23] -0.23 -0.26 -0.29 -0.31 -0.35 -0.39 -0.42 -0.45 -0.49 -0.53
+##  [1]  0.84  0.67  0.59  0.52  0.46  0.41  0.36  0.32  0.27  0.23  0.19  0.15
+## [13]  0.11  0.08  0.04  0.00 -0.03 -0.07 -0.11 -0.13 -0.17 -0.19 -0.23 -0.26
+## [25] -0.29 -0.32 -0.36 -0.39 -0.41 -0.44 -0.48 -0.53
 ## 
 ##  eigen values of components 
-##  [1] 7.24 4.53 3.12 2.33 1.88 1.19 0.93 0.86 0.80 0.71 0.69 0.64 0.63 0.54
-## [15] 0.51 0.47 0.46 0.45 0.44 0.41 0.39 0.37 0.33 0.30 0.29 0.28 0.25 0.23
-## [29] 0.22 0.20 0.17 0.13
+##  [1] 7.24 4.53 3.12 2.33 1.88 1.19 0.93 0.86 0.80 0.71 0.69 0.64 0.63 0.54 0.51
+## [16] 0.47 0.46 0.45 0.44 0.41 0.39 0.37 0.33 0.30 0.29 0.28 0.25 0.23 0.22 0.20
+## [31] 0.17 0.13
 ## 
 ##  eigen values of simulated components
 ## [1] NA
@@ -734,24 +668,24 @@ VSS(f_data, rotate= "varimax", n.obs= 240)# shows plot
 ## Sample Size adjusted BIC achieves a minimum of  -210.21  with  8  factors
 ## 
 ## Statistics by number of factors 
-##   vss1 vss2   map dof chisq     prob sqresid  fit RMSEA   BIC SABIC
-## 1 0.52 0.00 0.045 464  2764 1.2e-322    47.7 0.52 0.149   221  1692
-## 2 0.60 0.72 0.033 433  1992 5.7e-198    27.5 0.72 0.127  -381   992
-## 3 0.61 0.78 0.024 403  1395 2.3e-109    17.9 0.82 0.106  -814   463
-## 4 0.61 0.80 0.018 374   967  3.9e-54    12.5 0.87 0.086 -1082   103
-## 5 0.62 0.81 0.015 346   711  2.2e-27     9.1 0.91 0.071 -1186   -89
-## 6 0.56 0.79 0.015 319   554  6.8e-15     7.7 0.92 0.060 -1194  -183
-## 7 0.54 0.77 0.016 293   467  3.9e-10     7.0 0.93 0.055 -1139  -210
-## 8 0.56 0.77 0.018 268   409  5.9e-08     6.3 0.94 0.052 -1060  -210
-##   complex eChisq  SRMR eCRMS  eBIC
-## 1     1.0   6450 0.165 0.170  3907
-## 2     1.3   3021 0.113 0.121   648
-## 3     1.4   1517 0.080 0.089  -691
-## 4     1.6    767 0.057 0.065 -1283
-## 5     1.5    355 0.039 0.046 -1541
-## 6     1.7    230 0.031 0.039 -1519
-## 7     1.8    176 0.027 0.035 -1430
-## 8     1.8    140 0.024 0.033 -1329
+##   vss1 vss2   map dof chisq     prob sqresid  fit RMSEA   BIC SABIC complex
+## 1 0.52 0.00 0.045 464  2764 1.2e-322    47.7 0.52 0.144   221  1692     1.0
+## 2 0.60 0.72 0.033 433  1992 5.7e-198    27.5 0.72 0.122  -381   992     1.3
+## 3 0.61 0.78 0.024 403  1395 2.3e-109    17.9 0.82 0.101  -814   463     1.4
+## 4 0.61 0.80 0.018 374   967  3.9e-54    12.5 0.87 0.081 -1082   103     1.6
+## 5 0.62 0.81 0.015 346   711  2.2e-27     9.1 0.91 0.066 -1186   -89     1.5
+## 6 0.56 0.79 0.015 319   554  6.8e-15     7.7 0.92 0.055 -1194  -183     1.7
+## 7 0.54 0.77 0.016 293   467  3.9e-10     7.0 0.93 0.050 -1139  -210     1.8
+## 8 0.56 0.77 0.018 268   409  5.9e-08     6.3 0.94 0.047 -1060  -210     1.8
+##   eChisq  SRMR eCRMS  eBIC
+## 1   6450 0.165 0.170  3907
+## 2   3021 0.113 0.121   648
+## 3   1517 0.080 0.089  -691
+## 4    767 0.057 0.065 -1283
+## 5    355 0.039 0.046 -1541
+## 6    230 0.031 0.039 -1519
+## 7    176 0.027 0.035 -1430
+## 8    140 0.024 0.033 -1329
 ```
 
 ---
@@ -832,7 +766,7 @@ fa_3
 ## The total number of observations was  240  with Likelihood Chi Square =  1394.7  with prob &lt;  2.3e-109 
 ## 
 ## Tucker Lewis Index of factoring reliability =  0.649
-## RMSEA index =  0.106  and the 90 % confidence intervals are  0.096 0.107
+## RMSEA index =  0.101  and the 90 % confidence intervals are  0.096 0.107
 ## BIC =  -814
 ## Fit based upon off diagonal values = 0.91
 ## Measures of factor score adequacy             
@@ -908,7 +842,7 @@ fa_5
 ## The total number of observations was  240  with Likelihood Chi Square =  710.66  with prob &lt;  2.2e-27 
 ## 
 ## Tucker Lewis Index of factoring reliability =  0.849
-## RMSEA index =  0.071  and the 90 % confidence intervals are  0.059 0.073
+## RMSEA index =  0.066  and the 90 % confidence intervals are  0.059 0.073
 ## BIC =  -1185.64
 ## Fit based upon off diagonal values = 0.98
 ## Measures of factor score adequacy             
@@ -1156,9 +1090,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -1167,7 +1117,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {
