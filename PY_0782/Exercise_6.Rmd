@@ -205,6 +205,62 @@ sensitivity_analysis2<-medsens(med.out2)
 summary(sensitivity_analysis2)
 ```
 
+## MBESS
+
+If mediation does not work, here is an alternative to achieve roughly the same thing.
+
+MBESS needs **complete** data. 
+
+```{r}
+Data_no_miss<-na.omit(Data)
+```
+
+Below does the calculation with PSE as a mediator.
+
+Note the warning points to the fact that there are 'extreme order statistics as endpoints'. This points to potential issues with outliers in the bootstrap.
+
+```{r}
+require(MBESS)
+set.seed(1234)
+MBESS_1<-MBESS::mediation(x = Data_no_miss$doors_front, mediator = Data_no_miss$PSE, dv = Data_no_miss$BMI, bootstrap = TRUE, which.boot = "BCa", B = 10000)
+MBESS_1
+```
+
+Using a 10,000 bootstraps via Bias-Corrected Acceleration, the MBESS mediation method (Preacher & Kelley 2011) showed a significant indirect effect: 0.136, 95%CI [0.07, 0.22]. 
+
+So, the indirect effect estimate ('ACME in mediate') is quite similar to the above (the confidence intervals differ somewhat due to differen methods of estimation). 
+You can derive the total effect as follows:
+
+```{r}
+# Indirect.Effect / Ratio.of.Indirect.to.Total.Effect
+0.13593392 / 0.87440417 
+```
+
+It does not print the average direct effect, like the Imai et al. method, when bootstrapping but you can still get an estimate (it is c.prime = .019). Note to the similarity to the estimate in the causal steps approach. These are unstandardised effects (hence the difference with the output from 'psych', for example). The 95% CI is not bootstrapped but is a normal approximation.
+
+```{r}
+MBESS_2<-MBESS::mediation(x = Data_no_miss$doors_front, mediator = Data_no_miss$PSE, dv = Data_no_miss$BMI)
+MBESS_2
+```
+
+
+## Robust Mediation.
+
+Here is yet another way to do a mediation, this time via the 'robmed' package. This method relaxes assumptions about normality which commonly apply to regression methods of mediation ([Alfons, Ates, and Groenen, 2018](https://hdl.handle.net/1765/109594)). This package also allows controlling for a variable via specifying covariate = . Check the manual.
+
+Using a 10,000 bootstraps via Bias-Corrected Acceleration, the robust mediation method (2011) showed a significant indirect effect: 0.11, 95%CI [0.04, 0.22]. 
+
+```{r}
+require(robmed)
+set.seed(1234)
+robmed <- test_mediation(Data,
+                       x = "doors_front",
+                       y = "BMI",
+                       m = "PSE", R=10000, type='bca')
+summary(robmed)
+```
+
+Do check the manual for further information.
 
 **THE END!**
 
