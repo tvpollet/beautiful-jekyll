@@ -139,7 +139,11 @@ Standardized indirect effects were computed for 10,000 bootstrapped samples, and
 
 ```{r}
 require(psych)
+set.seed(12345)
 mediate(BMI~doors_front+(PSE), std=T, data= Data, n.iter=10000)
+# below calls a longer output
+set.seed(12345)
+summary(mediate(BMI~doors_front+(PSE), std=T, data= Data, n.iter=10000), short=F)
 ```
 
 ## Both PSE and MOL.
@@ -248,7 +252,7 @@ MBESS_2
 
 Here is yet another way to do a mediation, this time via the 'robmed' package. This method relaxes assumptions about normality which commonly apply to regression methods of mediation ([Alfons, Ates, and Groenen, 2018](https://hdl.handle.net/1765/109594)). This package also allows controlling for a variable via specifying covariate = . Check the manual.
 
-Using a 10,000 bootstraps via Bias-Corrected Acceleration, the robust mediation method (2011) showed a significant indirect effect: 0.11, 95%CI [0.04, 0.22]. 
+Using a 10,000 bootstraps via Bias-Corrected Acceleration, the robust mediation method (2011) showed a significant indirect effect: 0.11, 95%CI [0.04, 0.22]. The output also reports the bootstrapped direct effect estimate (akin to c' or ADE) but not the 95% CI.
 
 ```{r}
 require(robmed)
