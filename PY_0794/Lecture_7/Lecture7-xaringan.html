@@ -6,6 +6,8 @@
     <meta name="author" content="Dr. Thomas Pollet, Northumbria University (thomas.pollet@northumbria.ac.uk)" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+    <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
   </head>
   <body>
     <textarea id="source">
@@ -13,7 +15,7 @@ class: center, middle, inverse, title-slide
 
 # Lecture 7: PY 0794 - Advanced Quantitative Research Methods
 ### Dr. Thomas Pollet, Northumbria University (<a href="mailto:thomas.pollet@northumbria.ac.uk" class="email">thomas.pollet@northumbria.ac.uk</a>)
-### 2020-10-05 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-11-17 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -110,7 +112,7 @@ More on assumptions [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3290828/
 ---
 ## Data
 
-Data are from [here](https://quantdev.ssri.psu.edu/sites/qdev/files/IntroBasicEFA_2017_1013.html). 240 participants providing self-ratings (1-9) on 32 variables.
+Data were from [here](https://quantdev.ssri.psu.edu/) but are now avalaible [here](https://tvpollet.github.io/PY_0794/Lecture_7/personality0.txt).  240 participants providing self-ratings (1-9) on 32 variables.
 
 
 ```r
@@ -412,7 +414,7 @@ corplot &lt;- ggcorrplot(cormatrix, hc.order = TRUE, type = "lower",
 ---
 ## Some further terms.
 
-See [here](https://web.stanford.edu/class/psych253/tutorials/FactorAnalysis.html)
+See [here](https://quantdev.ssri.psu.edu/tutorials/intro-basic-exploratory-factor-analysis)
 
 **Factor**: An underlying or latent construct causing the observed variables, to a greater or lesser extent. A factor is estimated by a linear combination of out observed variables. When the ‘best fitting’ factors are found, it should be remembered that these factors are not unique! It can be shown that _any_ rotation of the best-fitting factors is also best-fitting. ‘Interpretability’ is used to select the ‘best’ rotation among the equally ‘good’ rotations: To be useful, factors should be interpretable. Rotation of factors is used to improve the interpretability of factors. So once we have extracted the factors, we will rotate them.
 
@@ -596,9 +598,9 @@ parallel
 ## [25] -0.49 -0.52 -0.55 -0.58 -0.60 -0.62 -0.67 -0.70
 ## 
 ##  eigen values of simulated factors
-##  [1]  0.84  0.67  0.59  0.52  0.46  0.41  0.36  0.32  0.27  0.23  0.19  0.15
-## [13]  0.11  0.08  0.04  0.00 -0.03 -0.07 -0.11 -0.13 -0.17 -0.19 -0.23 -0.26
-## [25] -0.29 -0.32 -0.36 -0.39 -0.41 -0.44 -0.48 -0.53
+##  [1]  0.83  0.67  0.60  0.53  0.47  0.42  0.36  0.31  0.26  0.23  0.19  0.15
+## [13]  0.12  0.08  0.04  0.00 -0.03 -0.07 -0.09 -0.13 -0.16 -0.19 -0.22 -0.26
+## [25] -0.30 -0.33 -0.36 -0.39 -0.42 -0.46 -0.49 -0.54
 ## 
 ##  eigen values of components 
 ##  [1] 7.24 4.53 3.12 2.33 1.88 1.19 0.93 0.86 0.80 0.71 0.69 0.64 0.63 0.54 0.51

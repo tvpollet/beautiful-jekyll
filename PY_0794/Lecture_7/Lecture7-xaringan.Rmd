@@ -109,7 +109,7 @@ More on assumptions [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3290828/
 ---
 ## Data
 
-Data are from [here](https://quantdev.ssri.psu.edu/sites/qdev/files/IntroBasicEFA_2017_1013.html). 240 participants providing self-ratings (1-9) on 32 variables.
+Data were from [here](https://quantdev.ssri.psu.edu/) but are now avalaible [here](https://tvpollet.github.io/PY_0794/Lecture_7/personality0.txt).  240 participants providing self-ratings (1-9) on 32 variables.
 
 ```{r, message=F, warning=F, results='hide'}
 # Downloaded the data into my work directory.
