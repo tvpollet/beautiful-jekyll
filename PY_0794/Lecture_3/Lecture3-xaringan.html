@@ -5,13 +5,15 @@
     <meta charset="utf-8" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+    <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
 # Lecture 3: PY 0794 - Advanced Quantitative Research Methods
-### 2020-09-23 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
+### 2020-11-24 | <a href="http://tvpollet.github.io/disclaimer">disclaimer</a>
 
 ---
 
@@ -571,7 +573,7 @@ Effect size measure!
 
 --
 
-ges= Generalized Eta-Squared. `\(\eta^2_g\)` . There is also _partial_ `\(\eta^2\)`. Read more [here](https://egret.psychol.cam.ac.uk/statistics/local_copies_of_sources_Cardinal_and_Aitken_ANOVA/glm_effectsize.htm).
+ges= Generalized Eta-Squared. `\(\eta^2_g\)` . There is also _partial_ `\(\eta^2\)`. Read more [here](https://lbecker.uccs.edu/glm_effectsize).
 
 --
 
@@ -770,8 +772,8 @@ t1way(O ~ GRP, data = data_no_miss)
 ## Degrees of freedom 2: 74.67 
 ## p-value: 6e-05 
 ## 
-## Explanatory measure of effect size: 0.46 
-## Bootstrap CI: [0.3; 0.63]
+## Explanatory measure of effect size: 0.45 
+## Bootstrap CI: [0.21; 0.6]
 ```
 
 ---
@@ -795,8 +797,8 @@ t1waybt(O ~ GRP, data = data_no_miss, nboot = 10000)
 ## 
 ## Test statistic: 11.067 
 ## p-value: 0 
-## Variance explained: 0.195 
-## Effect size: 0.441
+## Variance explained: 0.192 
+## Effect size: 0.439
 ```
 
 ---

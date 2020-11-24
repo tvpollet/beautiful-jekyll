@@ -436,7 +436,7 @@ Effect size measure!
 
 --
 
-ges= Generalized Eta-Squared. $\eta^2_g$ . There is also _partial_ $\eta^2$. Read more [here](https://egret.psychol.cam.ac.uk/statistics/local_copies_of_sources_Cardinal_and_Aitken_ANOVA/glm_effectsize.htm).
+ges= Generalized Eta-Squared. $\eta^2_g$ . There is also _partial_ $\eta^2$. Read more [here](https://lbecker.uccs.edu/glm_effectsize).
 
 --
 
