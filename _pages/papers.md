@@ -41,7 +41,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2020/Accepted/in Press**
 
-[110.](https://doi.org/10.31234/osf.io/gw8dh) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
+[110.](Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
 
 [109.](https://www.collabra.org/) Haigh, M., Birch, H. A. & **Pollet, T. V.** (accepted). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology_
 
@@ -248,7 +248,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [19.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjM0NzgyOTFiNWU3MjBjOTY) **Pollet, T.V.** & Nettle, D. (2010). No evidence for the Generalized Trivers-Willard Hypothesis from rural Guatemalan and British data. _Journal of Evolutionary Psychology, 8,_ 74-97.
 
-[18.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcwNTllNDMwZGNlMTM4NDk) Herberich, E., Hot horn, T., Nettle, D. & **Pollet, T.V.** (2010). A re-evaluation of the model selection procedure in Pollet & Nettle (2009). _Evolution and Human Behavior, 31,_ 150-151.
+[18.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjcwNTllNDMwZGNlMTM4NDk) Herberich, E., Hothorn, T., Nettle, D. & **Pollet, T.V.** (2010). A re-evaluation of the model selection procedure in Pollet & Nettle (2009). _Evolution and Human Behavior, 31,_ 150-151.
 
 ## **2009**
 
