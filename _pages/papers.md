@@ -19,11 +19,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Finister, C., **Pollet, T.V.**, & Neave, N. (2020, December 18th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
+
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2020, November 12th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
 * Thompson, A., Smith, M.A., McNeill, A., & **Pollet, T.V.** (2020, September 30th). Friendships, loneliness and psychological well-being in older adults: A limit to the benefit of increasing the number friendships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/9p8g7](https://doi.org/10.31234/osf.io/9p8g7)
-
-* Finister, C., **Pollet, T.V.**, & Neave, N. (2020, September 10th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
 
 * Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2020, July 30th). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
 
@@ -43,9 +43,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [110.](Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
 
-[109.](https://www.collabra.org/) Haigh, M., Birch, H. A. & **Pollet, T. V.** (accepted). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology_
+[109.](https://online.ucpress.edu/collabra/article/6/1/17174/114340) Haigh, M., Birch, H. A. & **Pollet, T. V.** (2020). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology, 6,_ 17174.
 
-[108.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020.pdf) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (2020). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology_ [preprint here](https://doi.org/10.31234/osf.io/nmg4h)
+[108.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020.pdf) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (2020). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology, 126,_ 1048-1060.
 
 [107.](http://tvpollet.github.io/pdfs/Elder_et_al_2020.pdf) Elder, G.J., Wetherell, M.A., **Pollet, T.V.**, Barclay, N.L., & Ellis, J.G. (2020). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep, 12,_ 537-543.
 
@@ -102,7 +102,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [84.]( http://ishe.org/wp-content/uploads/2017/03/HEB_2017_32_1_53-59-1.pdf) **Pollet, T.V.** & Little, A.C. (2017). Baseline probabilities for two-alternative forced choice tasks when judging stimuli in Evolutionary Psychology: a methodological note. _Human Ethology Bulletin, 32,_ 53-59.
 
-[83.](http://www.sciencedirect.com/science/article/pii/S0003347217300362 ) McFarland, R., Murphy, D., Lusseau, D., Henzi, S.P., Parker, J.L., **Pollet, T.V.** & Barrett, L. (2017). The "strength of weak ties" among female baboons: fitness-related benefits of social bonds. _Animal Behaviour, 126,_ 101-106.
+[83.](http://www.sciencedirect.com/science/article/pii/S0003347217300362) McFarland, R., Murphy, D., Lusseau, D., Henzi, S.P., Parker, J.L., **Pollet, T.V.** & Barrett, L. (2017). The "strength of weak ties" among female baboons: fitness-related benefits of social bonds. _Animal Behaviour, 126,_ 101-106.
 
 [82.](http://onlinelibrary.wiley.com/doi/10.1002/ajhb.22917/abstract#) Stulp, G., Simons, M.J.P., Grasman, S. & **Pollet, T.V.** (2017). Assortative mating for human height: a meta-analysis. _American Journal of Human Biology, 29,_ e22917
 
@@ -113,9 +113,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [80.]( http://journals.sagepub.com/doi/full/10.1177/1474704916673841) Peperkoorn, L.S., Roberts, S.C. & **Pollet, T.V.** (2016), Revisiting the Red Effect on Attractiveness and Sexual Receptivity: No Effect of the Color Red on Human Mate Preferences. _Evolutionary Psychology, 14,_  [doi:10.1177/1474704916673841](https://doi.org/10.1177/1474704916673841)
 
-[79.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjRjYWIzZTNiN2RmMzNjZTc) Morina, N., Koerssen, R. & **Pollet, T.V.** (2016). Interventions for children and adolescents with posttraumatic stress disorder: a meta-analysis of comparative outcome studies. _Clinical Psychology Review, 47,_ 41-54.
+[79.](http://tvpollet.github.io/pdfs/Morina_et_al_2016.pdf) Morina, N., Koerssen, R. & **Pollet, T.V.** (2016). Interventions for children and adolescents with posttraumatic stress disorder: a meta-analysis of comparative outcome studies. _Clinical Psychology Review, 47,_ 41-54.
 
-[78.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjM5MDliNGJjYzRmNGNmZDY) Molho, C., Roberts, S.G.B., de Vries, R.E. & **Pollet, T.V.**  (2016). The Six Dimensions of Personality (HEXACO) and their Association with Network Layer Size and Emotional Closeness to Network Members. _Personality and Individual Differences, 99,_ 144-148.
+[78.](http://tvpollet.github.io/pdfs/Molho_et_al_2016.pdf) Molho, C., Roberts, S.G.B., de Vries, R.E. & **Pollet, T.V.**  (2016). The Six Dimensions of Personality (HEXACO) and their Association with Network Layer Size and Emotional Closeness to Network Members. _Personality and Individual Differences, 99,_ 144-148.
 
 [77.](https://www.researchgate.net/publication/300425911_Evolution_situational_affordances_and_the_HEXACO_model_of_personality) de Vries, R.E., Tybur, J.M., **Pollet, T.V.** & van Vugt, M. (2016). Evolution, Situational Affordances, and the HEXACO Model of Personality. _Evolution and Human Behavior. 37,_ 407-421.
 
@@ -126,7 +126,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [74.](http://www.sciencedirect.com/science/article/pii/S0747563216300097) Noë, N., Whitaker, R.M., Chorley, M.J. & **Pollet, T.V.** (2016). Birds of a Feather Locate Together? Foursquare Checkins and Personality Homophily. _Computers in Human Behavior, 58,_ 343-353.
 
-[73.](http://tvpollet.github.io/pdfs/tifferet2016.pdf) Tifferet, S., **Pollet, T.V.,** Bar, A & Efrati, H. (2016). Predicting Sibling Investment by Perceived Sibling Resemblance. _Evolutionary Behavioral Sciences.,10,_ 64-70.
+[73.](http://tvpollet.github.io/pdfs/Tifferet2016.pdf) Tifferet, S., **Pollet, T.V.,** Bar, A & Efrati, H. (2016). Predicting Sibling Investment by Perceived Sibling Resemblance. _Evolutionary Behavioral Sciences.,10,_ 64-70.
 
 ## **2015**
 
@@ -138,9 +138,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [69.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.01047/full)  Barrett, L., Stulp, G. & **Pollet, T.V.** (2015). Evolved Biocultural Beings (who Invented Computers). _Frontiers in Psychology, 6,_ 1047.
 
-[68.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjQ2Yzc5MmUxOTBkNzM4MjU) Kuppens, T. & **Pollet, T.V.** (2015). Gender Equality Probably Does Not Affect Performance at the Olympic Games: A Comment on Berdahl, Uhlmann, and Bai (2015). _Journal of Experimental Social Psychology, 61,_ 144-147.  [additional comments](https://drive.google.com/file/d/0B0LnnuCPhsQwWkV4ZFdJd3lLd0U/view) and [additional analyses](https://drive.google.com/file/d/0Bw-5pwTzGZ7ZT2g0YWg0Z1dDVUE/view?usp=sharing) + [R script](http://tvpollet.github.io/scripts/script_RF_medals.R)
+[68.](http://tvpollet.github.io/pdfs/Kuppens_Pollet_2015.pdf) Kuppens, T. & **Pollet, T.V.** (2015). Gender Equality Probably Does Not Affect Performance at the Olympic Games: A Comment on Berdahl, Uhlmann, and Bai (2015). _Journal of Experimental Social Psychology, 61,_ 144-147.  [additional comments](https://drive.google.com/file/d/0B0LnnuCPhsQwWkV4ZFdJd3lLd0U/view) and [additional analyses](https://drive.google.com/file/d/0Bw-5pwTzGZ7ZT2g0YWg0Z1dDVUE/view?usp=sharing) + [R script](http://tvpollet.github.io/scripts/script_RF_medals.R)
 
-[67.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjdlNDY2ZTViYmUxYmE3NTg) Conway, J.R.\*, Noë, N.\*, Stulp, G. & **Pollet, T.V.** (2015). Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. _Personal Relationships, 22,_ 666-678. (*Authors contributed equally)
+[67.](http://tvpollet.github.io/pdfs/Conway_et_al_2015.pdf) Conway, J.R.\*, Noë, N.\*, Stulp, G. & **Pollet, T.V.** (2015). Finding your Soulmate: Homosexual and heterosexual age preferences in online dating. _Personal Relationships, 22,_ 666-678. (*Authors contributed equally)
 
 [66.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00419/full) Stulp, G., **Pollet, T.V.** & Barrett, L. (2015).  The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. _Frontiers in Psychology, 6,_ 419.
 
