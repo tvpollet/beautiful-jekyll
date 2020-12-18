@@ -144,13 +144,13 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [66.](http://journal.frontiersin.org/article/10.3389/fpsyg.2015.00419/full) Stulp, G., **Pollet, T.V.** & Barrett, L. (2015).  The not-always-uniquely-predictive power of an evolutionary approach to understanding our not-so-computational nature. _Frontiers in Psychology, 6,_ 419.
 
-[65.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjZiYTlhZDg1YTZhNzU0OWY) **Pollet, T.V.,** Stulp, G., Henzi, S.P. & Barrett, L., (2015). Taking the aggravation out of data aggregation: a conceptual guide to dealing with statistical issues related to the pooling of individual-level observational data. _American Journal of Primatology, 77,_ 727-740.
+[65.](http://tvpollet.github.io/pdfs/Pollet_et_al_2015_American_Journal_of_Primatology.pdf) **Pollet, T.V.,** Stulp, G., Henzi, S.P. & Barrett, L., (2015). Taking the aggravation out of data aggregation: a conceptual guide to dealing with statistical issues related to the pooling of individual-level observational data. _American Journal of Primatology, 77,_ 727-740.
 
 [64.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117860) Stulp, G., Buunk, A.P., Verhulst, S. & **Pollet, T.V.** (2015). Height Is Positively Related to Interpersonal Dominance in Dyadic Interactions. _PLoS ONE, 10,_ e0117860.
 
-[63.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMyNGU5ZmExOGQ2MDc1Y2M) Van Toorenburg, M., Oostrom, J.K. & **Pollet, T.V.** (2015). What a Difference Your Email Makes: Effects of Informal E-mail Addresses in Online Résumé Screening. _Cyberpsychology, Behavior and Social Networking, 18,_ 135-140.
+[63.](http://tvpollet.github.io/pdfs/Van_Toorenburg_et_al_2015.pdf) Van Toorenburg, M., Oostrom, J.K. & **Pollet, T.V.** (2015). What a Difference Your Email Makes: Effects of Informal E-mail Addresses in Online Résumé Screening. _Cyberpsychology, Behavior and Social Networking, 18,_ 135-140.
 
-[62.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjQxMjBjZjZjN2Y5NjFjNjI) Van Prooijen, J-W., Krouwel, A.P.M. & **Pollet, T.V.** (2015). Political Extremism Predicts Belief in Conspiracy Theories. _Social Psychological and Personality Science, 6,_ 570-578.
+[62.](http://tvpollet.github.io/pdfs/Van_Prooijen_et_al_2015.pdf) Van Prooijen, J-W., Krouwel, A.P.M. & **Pollet, T.V.** (2015). Political Extremism Predicts Belief in Conspiracy Theories. _Social Psychological and Personality Science, 6,_ 570-578.
 
 ## **2014**
 
@@ -160,7 +160,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [59.](http://journal.frontiersin.org/article/10.3389/fpsyg.2014.00867/full) Barrett, L., **Pollet, T.V.** & Stulp, G. (2014). From computers to cultivation: reconceptualizing evolutionary psychology. _Frontiers in Psychology, 5,_ 867.
 
-[58.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMwMmI2ZjZmZDhlODY0ZDQ) Tybur, J.M., Frankenhuis, W.E., & **Pollet, T.V.** (2014). Behavioral immune system methods: Surveying the past to shape the future. _Evolutionary Behavioral Sciences, 8,_ 274-283.
+[58.](http://tvpollet.github.io/pdfs/Van_Prooijen_et_al_2015.pdf) Tybur, J.M., Frankenhuis, W.E., & **Pollet, T.V.** (2014). Behavioral immune system methods: Surveying the past to shape the future. _Evolutionary Behavioral Sciences, 8,_ 274-283.
 
 [57.](http://journal.frontiersin.org/article/10.3389/fpsyg.2014.00638/full) **Pollet, T.V.** (2014). A re-analysis of the relationship between “parasite stress” and authoritarianism. _Frontiers in Psychology, 5,_ 638.
 
