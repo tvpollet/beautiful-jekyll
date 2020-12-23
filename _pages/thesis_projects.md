@@ -92,7 +92,7 @@ Before starting check out these [writing mistakes](https://www.qualtrics.com/blo
 
 In most cases, you will want to conduct a prospective power analysis to determine your sample size. Ideally, in your ethics application, you will also provide a rationale for the sample size and a power analysis is an excellent way to provide such a rationale. Unfortunately, SPSS is not really geared up to easily do the power analyses for most designs you will come across. For your project, I therefore recommend you would use G\*Power, which is freely available [here](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower.html){:target="_blank"}. If you make use of the programme, you should cite it - [this is the paper to cite](https://link.springer.com/article/10.3758/BF03193146){:target="_blank"}. This page also has information on how to install this software and do some basic power analyses.
 
-There is a detailed guide on power analysis for various designs [here](https://osf.io/zqphw/){:target="_blank"}. This guide also explains why we do power analysis in the first place. You can also check out [this youtube tutorial explaining how to conduct a power analysis](https://youtu.be/5J4IKzDfT0w){:target="_blank"}. There might be occassions where your design is different to what is in the guide, such as a multilevel design (see [here](https://jakewestfall.shinyapps.io/crossedpower/){:target="_blank"}), in that case please do discuss this with me (or your supervisor).
+There is a detailed guide on power analysis for various designs [here](https://osf.io/zqphw/){:target="_blank"}. This guide also explains why we do power analysis in the first place. You can also check out [this youtube tutorial explaining how to conduct a power analysis](https://youtu.be/5J4IKzDfT0w){:target="_blank"}. There might be occasions where your design is different to what is in the guide, such as a multilevel design (see [here](https://jakewestfall.shinyapps.io/crossedpower/){:target="_blank"}), in that case please do discuss this with me (or your supervisor).
 
 ## How many participants? Replication study
 
@@ -114,7 +114,7 @@ As discussed in my [post](https://tvpollet.github.io/2018-02-19-SPSS/){:target="
 Have a look [here](https://libguides.library.kent.edu/SPSS/RecodeVariables){:target="_blank"}.
 
 ## Recoding missing with value.
-If you did not manage to put a 'force' choice in Qualtrics, you will end up with the rare missings. Often you'll want to replace a few missing cases with the means. have a look [here](http://www.unige.ch/ses/sococ/cl/spss/trans/recodem.html){:target="_blank"}.
+If you did not manage to put a 'force' choice in Qualtrics, you will end up with the rare missings. Often you'll want to replace a few missing cases with the means. Have a look [here](http://www.unige.ch/ses/sococ/cl/spss/trans/recodem.html){:target="_blank"}.
 
 ## Missings.
 Have a look [here](https://www.spss-tutorials.com/spss-missing-values-tutorial/). Note that summing across missings will create problems, look at [this](https://www.spss-tutorials.com/spss-sum-cautionary-note/).
@@ -154,6 +154,7 @@ Some further tips:
 * [Essay writing for psychology](https://www.simplypsychology.org/psychology-essay.html){:target="_blank"}
 * Harvard's [writing for psychology](https://writingproject.fas.harvard.edu/files/hwp/files/writing_for_psych_final_from_printer.pdf){:target="_blank"}
 * [Writing in Psychology](https://writingcenter.uconn.edu/writing-in-psychology-4/){:target="_blank"}, University of Connecticut.
+* [Writing like a scientist](https://psyarxiv.com/r4sfz){:target="_blank"}, by Tom Carpenter from Seattle Pacific University.
 
 If you are struggling with writing and starting your essay/thesis also consider [booking a session](https://cragside.northumbria.ac.uk/Everyone/skillsplus/database_uploads/55389339.pdf?){:target="_blank"} in the Northumbria University library.
 
@@ -173,7 +174,7 @@ I have also moved away from MS word and towards writing first draft in [Markdown
 
 Use referencing software! Do not waste your time on editing references manually. This is error prone and takes up a lot of your time - which you could spend writing! No excuse not to use one!
 
-Northumbria university offers [Endnote](https://onsizzle.com/i/does-referencing-without-endnote-2107536){:target="_blank"}. But do spend some time looking into [mendeley](www.mendeley.com){:target="_blank"} or [zotero](www.zotero.org){:target="_blank"}. [Papers](https://www.readcube.com/papers/){:target="_blank"}, although it comes at a cost after a 30 day trial, is also worth having a look at.
+Northumbria university offers [Endnote](https://onsizzle.com/i/does-referencing-without-endnote-2107536){:target="_blank"}. But do spend some time looking into [Mendeley](www.mendeley.com){:target="_blank"} or [zotero](www.zotero.org){:target="_blank"}. [Papers](https://www.readcube.com/papers/){:target="_blank"}, although it comes at a cost after a 30 day trial, is also worth having a look at.
 
 * Mendeley has [great video resources](https://www.mendeley.com/guides/videos){:target="_blank"}, explaining how it works and how to use the MS word plugin.
 * Zotero also has [great documentation](https://www.zotero.org/support/quick_start_guide){:target="_blank"}. Plus it is open source and not owned by [Elsevier](https://www.theguardian.com/science/political-science/2018/jun/29/elsevier-are-corrupting-open-science-in-europe){:target="_blank"}.
