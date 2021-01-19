@@ -41,7 +41,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2020/Accepted/in Press**
 
-[110.](Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
+[110.](http://tvpollet.github.io/pdfs/Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
 
 [109.](https://online.ucpress.edu/collabra/article/6/1/17174/114340) Haigh, M., Birch, H. A. & **Pollet, T. V.** (2020). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology, 6,_ 17174.
 
