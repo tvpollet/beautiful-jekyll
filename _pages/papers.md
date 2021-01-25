@@ -19,8 +19,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* Finister, C., **Pollet, T.V.**, & Neave, N. (2020, December 18th). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks. _PsyArxiv_ [https://doi.org/10.31234/osf.io/xt8ey](https://doi.org/10.31234/osf.io/xt8ey)
-
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2020, November 12th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
 * Thompson, A., Smith, M.A., McNeill, A., & **Pollet, T.V.** (2020, September 30th). Friendships, loneliness and psychological well-being in older adults: A limit to the benefit of increasing the number friendships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/9p8g7](https://doi.org/10.31234/osf.io/9p8g7)
@@ -39,9 +37,13 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
-## **2020/Accepted/in Press**
+## **2021/Accepted/in Press**
 
-[110.](http://tvpollet.github.io/pdfs/Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
+[111.](https://doi.org/10.31234/osf.io/xt8ey) Finister, C., **Pollet, T.V.**, & Neave, N. (accepted). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
+
+[110.](http://tvpollet.github.io/pdfs/Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2021). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences, 168, 110311_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
+
+## **2020**
 
 [109.](https://online.ucpress.edu/collabra/article/6/1/17174/114340) Haigh, M., Birch, H. A. & **Pollet, T. V.** (2020). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology, 6,_ 17174.
 
