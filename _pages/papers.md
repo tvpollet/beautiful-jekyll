@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Brown, G., Curtis, V., & **Pollet, T.V.** (2021, February 15). Gender, self-disclosure and emotional closeness in friendships: an egocentric social network study. _PsyArxiv_ [https://doi.org/10.31234/osf.io/wexn9](https://doi.org/10.31234/osf.io/wexn9)
+
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2020, November 12th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
 * Thompson, A., Smith, M.A., McNeill, A., & **Pollet, T.V.** (2020, September 30th). Friendships, loneliness and psychological well-being in older adults: A limit to the benefit of increasing the number friendships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/9p8g7](https://doi.org/10.31234/osf.io/9p8g7)
@@ -170,7 +172,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [55.](http://journal.frontiersin.org/article/10.3389/fpsyg.2014.00375/full) **Pollet, T.V.** & Riegman, B.R. (2014). Opponent left-handedness does not affect fight outcomes for Ultimate Fighting Championship hall of famers. _Frontiers in Psychology, 5,_ 375.
 
-[54.](https://peerj.com/articles/287/) Hill, J.M., **Pollet, T.V.** & Nettle, D. (2014). Disorder affects judgements about a neighbourhood: _Police presence does not. PeerJ, 2,_ e287.
+[54.](https://peerj.com/articles/287/) Hill, J.M., **Pollet, T.V.** & Nettle, D. (2014). Disorder affects judgements about a neighbourhood: Police presence does not. _PeerJ, 2,_ e287.
 
 [53.](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0aG9tYXN2cG9sbGV0fGd4OjMxNGRjNjllMDZjYTg5NWE) Hill, J.M., Jobling, R., **Pollet, T.V.** & Nettle, D. (2014). Social capital across urban neighborhoods: A comparison of self-report and observational data. _Evolutionary Behavioral Sciences, 8,_ 59-69.
 
