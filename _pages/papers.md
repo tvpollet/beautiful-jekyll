@@ -41,7 +41,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2021/Accepted/in Press**
 
-[112.](https://doi.org/10.17605/OSF.IO/S2KYA) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.**  (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology_ 
+[112.](https://doi.org/10.17605/OSF.IO/S2KYA) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology_ 
 
 [111.](https://doi.org/10.31234/osf.io/xt8ey) Finister, C., **Pollet, T.V.**, & Neave, N. (accepted). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
 
