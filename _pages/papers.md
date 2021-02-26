@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Szabelska, A., **Pollet, T.V.**, Dujols, O., Klein, R.A., & IJzerman, H. (2021, February 25). A Tutorial for Exploratory Research: An Eight-Step Approach. _PsyArxiv_ [https://doi.org/10.31234/osf.io/cy9mz](https://doi.org/10.31234/osf.io/cy9mz)
+
 * Brown, G., Curtis, V., & **Pollet, T.V.** (2021, February 15). Gender, self-disclosure and emotional closeness in friendships: an egocentric social network study. _PsyArxiv_ [https://doi.org/10.31234/osf.io/wexn9](https://doi.org/10.31234/osf.io/wexn9)
 
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2020, November 12th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
