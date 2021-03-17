@@ -54,7 +54,8 @@ The above exclusion list might have been depressing but there are so many excell
 
 I have provided some further divisions.
 
-## Replication projects. <a href="#header">back to top</a>
+## Replication projects. 
+<a href="#Contents">back to top</a>
 
 As you should by now know, psychology is facing a replication crisis (e.g., Ritchie, 2020). Therefore, we should aim to routinely replicate findings from the published literature (Zwaan et al., 2018).
 
