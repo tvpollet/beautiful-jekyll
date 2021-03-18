@@ -18,7 +18,7 @@ Hurray! You are thinking about doing your thesis project with me (at any level).
 
 I **strongly** prefer that you pick a topic within the set below. My experience is that preset topics tend to lead to higher marks. If you want to go off the beaten path and suggest your own project: I am a behavioural scientist with an interest in methodology. I work broadly on social relationships, so topics akin to social psychology, relationship research, evolutionary psychology, and personality psychology. I'll consider projects which you have developed / proposed in those areas, but there is no 'unlimited' choice. Some projects also simply cannot be done as part of your degree, due to legal, practical, ethical, or scientific reasons. With 'scientific' reasons I mean that what you have in mind might be so complex that it cannot be unpacked in a single project. (For example, what you have in mind is a complex mediation model, but it is unlikely that you are able to collect the data). My experience is that students also propose projects which tend to be unrealistic, so ask yourself whether your project is all that it is cracked up to be. If it is not, then why not opt for a replication study, for example. I do not weigh 'novelty' in my judgment of your thesis. I also provide a list of topics which I prefer not to supervise.
 
-# Embarrassment de choix
+# Embarrassment de choix (A wide range of topics to choose from)
 
 ![Overwhelming](https://media.giphy.com/media/enZOaAsSGlg7A5nka8/giphy.gif){: .center-image }
 
@@ -83,7 +83,7 @@ Crudely put there are two designs. In the example, above you focus on sampling i
 ## Meta-science
 <a href="#thesis-introduction">back to top</a>
 
-There are a range of projects to be conducted which deal with the methods used in different fields in psychology. The benefits of these types of projects is that in most cases the data are already there (or you have control over the data collection). 
+There are a range of projects to be conducted which deal with the methods used in different fields in psychology. The benefits of these types of projects are that in most cases the data are already there (or you have control over the data collection). 
 
 ### The 'Prometheus effect' in psychology: Are effect sizes exaggerated?
 
@@ -132,7 +132,7 @@ In this project, you will code the sample sizes used in theses in psychology, as
 ## Meta-analysis of validated scales.
 <a href="#thesis-introduction">back to top</a>
 
-Often in psychology we use a developed scale but then this scale gets applied to other populations. For example, we might develop a scale on condom use with a student sample, but then this measure gets used with, for example sex workers. Measurement can be very problematic in such cases. The purpose of this project to examine how reliable measures are and whether their reliability varies across contexts.
+Often in psychology we use a developed scale but then this scale gets applied to other populations. For example, we might develop a scale on condom use with a student sample, but then this measure gets used with, for example sex workers. Measurement can be very problematic in such cases. The purpose of this project to examine how reliable measures are and whether the reliability varies across contexts.
 
 For this project you will need to use the free software [JASP](www.jasp.org){:target="_blank"} and you'll need to learn a bit about meta-analysis (but it is not that hard!).
 
