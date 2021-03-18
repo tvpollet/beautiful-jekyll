@@ -217,5 +217,5 @@ Ritchie, S. (2020). _Science fictions: Exposing fraud, bias, negligence and hype
 Zwaan, R. A., Etz, A., Lucas, R. E., & Donnellan, M. B. (2018). Making replication mainstream. _Behavioral and Brain Sciences, 41,_ e120. [https://doi.org/10.1017/S0140525X17001972](https://doi.org/10.1017/S0140525X17001972)
 
 
-
+<a href="#thesis-introduction">back to top</a>
 
