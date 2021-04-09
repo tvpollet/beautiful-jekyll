@@ -16,7 +16,7 @@ header_text: Thesis Topics
 
 Hurray! You are thinking about doing your thesis project with me (at any level). On this page I will provide some topics which I would (prefer to) supervise. It also has some further information on the projects. This is still in progress, all feedback welcome. Do also alert me to dead links, which I will fix. Information on the thesis supervision itself can be found [here](https://tvpollet.github.io/thesis_projects){:target="_blank"}.
 
-I **strongly** prefer that you pick a topic within the set below. My experience is that preset topics tend to lead to higher marks. If you want to go off the beaten path and suggest your own project: I am a behavioural scientist with an interest in methodology. I work broadly on social relationships, so topics akin to social psychology, relationship research, evolutionary psychology, and personality psychology. I'll consider projects which you have developed / proposed in those areas, but there is no 'unlimited' choice. Some projects also simply cannot be done as part of your degree, due to legal, practical, ethical, or scientific reasons. With 'scientific' reasons I mean that what you have in mind might be so complex that it cannot be unpacked in a single project. (For example, what you have in mind is a complex mediation model, but it is unlikely that you are able to collect the data). My experience is that students also propose projects which tend to be unrealistic, so ask yourself whether your project is all that it is cracked up to be. If it is not, then why not opt for a replication study, for example. I do not weigh 'novelty' in my judgment of your thesis. I also provide a list of topics which I prefer not to supervise.
+I **strongly** prefer that you pick a topic within the set below. My experience is that preset topics tend to lead to higher marks. If you want to go off the beaten path and suggest your own project: I am a behavioural scientist with an interest in methodology. I work broadly on social relationships, so topics akin to social psychology, relationship research, evolutionary psychology, and personality psychology fall within my interests. I'll consider projects which you have developed / proposed in those areas, but there is no 'unlimited' choice. Some projects also simply cannot be done as part of your degree, due to legal, practical, ethical, or scientific reasons. With 'scientific' reasons I mean that what you have in mind might be so complex that it cannot be unpacked in a single project. (For example, what you have in mind is a complex mediation model, but it is unlikely that you are able to collect the data to test such a model). My experience is that students also propose projects which tend to be unrealistic, so ask yourself whether your project is all that it is cracked up to be. If it is not, then why not opt for a replication study, for example. I do not weigh 'novelty' in my judgment of your thesis or whether your findings are 'significant' or not. I also provide a list of topics which I prefer not to supervise, to help guide you.
 
 # Embarrassment de choix (A wide range of topics to choose from)
 
@@ -125,14 +125,14 @@ The [Pioneer fund](https://en.wikipedia.org/wiki/Pioneer_Fund){:target="_blank"}
 
 Intelligence is thought to be an individual level construct. Yet, some researchers have argued that we can calculate an estimate of intelligence for a country ?!. Unsurprisingly, this is very controversial. In this project, you will examine for which types of research 'national intelligence' has been used and what its statistical relationship is with other constructs (e.g., GDP per capita).
 
-### What is the typical sample size used in undergraduate/masters projects at our University?
+### What is the typical sample size used in undergraduate/masters psychology projects at our University?
 
 In this project, you will code the sample sizes used in theses in psychology, as well as the method used. It is important as this will allow us to examine whether student projects have sufficient [statistical power](https://en.wikipedia.org/wiki/Power_of_a_test){:target="_blank"} 
 
 ## Meta-analysis of validated scales.
 <a href="#thesis-introduction">back to top</a>
 
-Often in psychology we use a developed scale but then this scale gets applied to other populations. For example, we might develop a scale on condom use with a student sample, but then this measure gets used with, for example sex workers. Measurement can be very problematic in such cases. The purpose of this project to examine how reliable measures are and whether the reliability varies across contexts.
+Often in psychology we use a developed scale but then this scale gets applied to other populations. For example, we might develop a scale on condom use with a student sample, but then this measure gets used with, for example, sex workers. Measurement can be very problematic in such cases. The purpose of this project to examine how reliable measures are and whether the reliability varies across contexts.
 
 For this project you will need to use the free software [JASP](www.jasp.org){:target="_blank"} and you'll need to learn a bit about meta-analysis (but it is not that hard!).
 
@@ -173,15 +173,21 @@ Here is a similar example project.
 Here is a paper we wrote:
 * Cobey, K.D.\*, Stulp, G.\*, Laan, F., Buunk, A.P. & **Pollet, T.V.** (2013). Sex differences in risk taking behavior among Dutch cyclists. _Evolutionary Psychology, 11,_ 350-364. (*Authors contributed equally), [access .pdf here](http://journals.sagepub.com/doi/pdf/10.1177/147470491301100206)
 
+## Measuring student satisfaction.
+<a href="#thesis-introduction">back to top</a>
+
+The [National Student Survey](https://www.thestudentsurvey.com/){:target="_blank"} is a commonly used tool to measure student satisfaction. It is argued to consist of eight scales but it is unclear to which degree this measure has been rigorously validated. One aspect which has seemingly not been assessed is a test-retest correlation of the items. In this project, you will administer the survey twice and examine whether the NSS is temporally stable. Ideally, you would collect minimum 270+ responses in the first wave, in order to assess the factor structure. Therefore, this project might work well as a collaborative project involving more than one student (you are able to have separate research questions, e.g., differences between courses, or one project focussing on factor analysis and one on test-retest).
+
 # Projects which I prefer not to supervise.
 <a href="#thesis-introduction">back to top</a>
 
-There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of dislike but rather because there are others much better placed in our department to work with you on these topics. You can reach out to me if you want more information.
+There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of dislike, but rather because there are others much better placed in our department to work with you on these topics. You can reach out to me if you want more information.
 
 * Projects using a Qualitative methodology. I have no experience with Qualitative methods.
 * Projects involving eye tracking, reaction time measurement, EEG, NIRS, Body Scanning, Virtual reality. I have no experience with these methods I cannot supervise projects using these methods.
 * Projects involving 'special populations'. I do not have access to 'special populations', so I cannot supervise projects involving children, vulnerable adults, service users, people with (mental) health diagnoses, or whichever special population you have in mind. However, if you have strong ties with these communities, then perhaps projects on social networks are still viable.
 * Projects in Cognitive Psychology.
+* Projects in Consumer Psychology / Marketing (unless they deal with colour and/or are well thought out replication projects).
 * Projects in Positive Psychology.
 * Projects in Sport Psychology (unless they are dealing with social network analysis)
 * Projects in Organisational Psychology (unless they are dealing with social network analysis)
@@ -200,7 +206,7 @@ There could be exceptions to the rule but below you'll find a list of topics whi
 * Projects on human-animal relationships.
 * Projects on stress and mental health (unless they are dealing with social network analysis).
 * Projects on Instagram/Facebook/TikTok (unless they are dealing with social network analysis).
-* Projects on smoking, alcohol, drug consumption (unless they are dealing with social network analysis).
+* Projects on addiction, smoking, alcohol, drug consumption (unless they are dealing with social network analysis).
 * Projects on social identity, ethnicity, and/or intergroup behaviour -- unless these are related to social network analysis.
 * Projects on sexual orientation, gender identity, masculinity/femininity, 2D:4D ratios (unless these are related to social network analysis).
 
