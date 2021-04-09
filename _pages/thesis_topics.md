@@ -173,7 +173,7 @@ Here is a similar example project.
 Here is a paper we wrote:
 * Cobey, K.D.\*, Stulp, G.\*, Laan, F., Buunk, A.P. & **Pollet, T.V.** (2013). Sex differences in risk taking behavior among Dutch cyclists. _Evolutionary Psychology, 11,_ 350-364. (*Authors contributed equally), [access .pdf here](http://journals.sagepub.com/doi/pdf/10.1177/147470491301100206)
 
-# Projects which I prefer not supervise.
+# Projects which I prefer not to supervise.
 <a href="#thesis-introduction">back to top</a>
 
 There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of dislike but rather because there are others much better placed in our department to work with you on these topics. You can reach out to me if you want more information.
