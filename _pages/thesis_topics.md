@@ -68,19 +68,19 @@ I am looking for projects expanding this work (for example, looking at other ind
 
 Read more here:
 
-* Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2021). Extraversion is associated with advice network size, but not network density or emotional closeness to network members. _Personality and Individual Differences, 168,_ 110311. [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x){:target="_blank"}
+* Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2021). Extraversion is associated with advice network size, but not network density or emotional closeness to network members. _Personality and Individual Differences, 168,_ 110311. [read paper here](https://tvpollet.github.io/pdfs/Malcolm_et_al_2021.pdf){:target="_blank"}
 
 ### Network analysis of specific groups.
 
-The prerequisite is that you will need access to a specific interesting group (e.g., carers for adults with learning disabilities, refugees, army veterans, professional poker players, ... -- it can be any interesting group...). For example, you are part of this community or have very strong links to people in this community (due). You will typically need around 200 participants, if you'd want to make robust inferences. For example, you could map out the social support networks of people who are part of this group.
+The prerequisite is that you will need access to a specific interesting group (e.g., carers for adults with learning disabilities, refugees, army veterans, professional poker players, ... -- it can be _any_ interesting group...). For example, you are part of this community or have very strong links to people in this community. You will typically need around 200 participants, if you would want to make robust inferences. For example, you could map out the social support networks of people who are part of this group but also who these people are turning to for support (same gender, same interest, friends/colleagues/kin?).
 
 Here is an example borne out of a student project. This project looked at well-being and social support networks of people with Type I diabetes.
 
 * Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2020, July 30th). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x){:target="_blank"}
 
-Crudely put there are two designs. In the example, above you focus on sampling individuals. This is likely the 'easier option'. Alternatively, you can pick a group and try to map everybody in that group. For this design, the sample can be smaller but we might need/want multiple measurements and we need to carefully consider ethical issues. 
+Crudely put there are two designs. In the example above, you focus on sampling individuals (e.g., Individuals with a certain diagnosis, army personnel, mothers who breastfeed, etc). This is likely the 'easier option'. Alternatively, you can pick a group of interest (e.g., a support group for parents with disabled children, a church,... .) and try to map everybody in that group. For this design, the sample can be smaller but we might need/want multiple measurements and we need to carefully consider ethical issues. 
 
-## Meta-science
+## Meta-science: doing science on science... ?!
 <a href="#thesis-introduction">back to top</a>
 
 There are a range of projects to be conducted which deal with the methods used in different fields in psychology. The benefits of these types of projects are that in most cases the data are already there (or you have control over the data collection). 
@@ -129,7 +129,7 @@ Intelligence is thought to be an individual level construct. Yet, some researche
 
 In this project, you will code the sample sizes used in theses in psychology, as well as the method used. It is important as this will allow us to examine whether student projects have sufficient [statistical power](https://en.wikipedia.org/wiki/Power_of_a_test){:target="_blank"} 
 
-## Meta-analysis of validated scales.
+## Meta-analysis of validated scales: Are we measuring things consistently?
 <a href="#thesis-introduction">back to top</a>
 
 Often in psychology we use a developed scale but then this scale gets applied to other populations. For example, we might develop a scale on condom use with a student sample, but then this measure gets used with, for example, sex workers. Measurement can be very problematic in such cases. The purpose of this project to examine how reliable measures are and whether the reliability varies across contexts.
@@ -152,7 +152,7 @@ Some candidate measures to explore (others to be added soon).
 ## Guardian 'blind dates' database.
 <a href="#thesis-introduction">back to top</a>
 
-The Guardian news paper has a returning column in its weekend edition whereby [people go on a date](https://www.theguardian.com/lifeandstyle/series/blind-date){:target="_blank"}. 
+The Guardian news paper has a returning column in its weekend edition whereby [people go on a date](https://www.theguardian.com/lifeandstyle/series/blind-date){:target="_blank"}. We are compiling a database on these dates.
 
 In this project you will contribute to the database, and then you can use the database for your project. It allows you to answer questions on for example, whether men or women are more 'choosy'. Why do some people get high ratings and others low ratings?  Are homosexual dates more or less likely to find a match than heterosexual dates?
 
@@ -162,6 +162,7 @@ In this project you will contribute to the database, and then you can use the da
 You will examine the degree to which your fellow students understand basic concepts in statistics, and whether there are individual differences and how knowledge of statistics is related to performance on exams. This project can be run online. The most interesting project would include a longitudinal component (i.e. at start of semester versus at end of semester). It is therefore better suited as a master project.
 
 ## Traffic behaviour: Gender differences in risk taking.
+<a href="#thesis-introduction">back to top</a>
 
 In previous work, we have observed gender differences in every day risk taking in traffic. For example, all else being equal, male cyclists, for example, were less likely to use lights at night than female cyclists. In a student project, we found that male pedestrians were less likely to use a safe route when exiting the metro than female pedestrians.
 
