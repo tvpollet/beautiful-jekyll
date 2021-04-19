@@ -63,7 +63,7 @@ Due to the nature of the data collection, this project **cannot** be conducted o
 
 ### Individual differences in social networks
 
-Some individuals have a larger social network while others have a smaller one. Why is this the case?  One reason for this could be that this is due to differences in personality (see Malcolm et al., 2021). 
+Some individuals have a larger social network while others have a smaller one. Why is this the case?  One reason for this could be that this is due to differences in personality (see Malcolm et al., 2021).
 I am looking for projects expanding this work (for example, looking at other individual difference variables). This can be conducted online but you will likely need around 200+ cases to make this a very good project.
 
 Read more here:
@@ -78,12 +78,12 @@ Here is an example borne out of a student project. This project looked at well-b
 
 * Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2020, July 30th). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x){:target="_blank"}
 
-Crudely put there are two designs. In the example above, you focus on sampling individuals (e.g., Individuals with a certain diagnosis, army personnel, mothers who breastfeed, etc). This is likely the 'easier option'. Alternatively, you can pick a group of interest (e.g., a support group for parents with disabled children, a church,... .) and try to map everybody in that group. For this design, the sample can be smaller but we might need/want multiple measurements and we need to carefully consider ethical issues. 
+Crudely put there are two designs. In the example above, you focus on sampling individuals (e.g., Individuals with a certain diagnosis, army personnel, mothers who breastfeed, etc). This is likely the 'easier option'. Alternatively, you can pick a group of interest (e.g., a support group for parents with disabled children, a church,... .) and try to map everybody in that group. For this design, the sample can be smaller but we might need/want multiple measurements and we need to carefully consider ethical issues.
 
 ## Meta-science: doing science on science... ?!
 <a href="#thesis-introduction">back to top</a>
 
-There are a range of projects to be conducted which deal with the methods used in different fields in psychology. The benefits of these types of projects are that in most cases the data are already there (or you have control over the data collection). 
+There are a range of projects to be conducted which deal with the methods used in different fields in psychology. The benefits of these types of projects are that in most cases the data are already there (or you have control over the data collection).
 
 ### The 'Prometheus effect' in psychology: Are effect sizes exaggerated?
 
@@ -93,7 +93,7 @@ The first time an effect is published, its effect size tends to be exaggerated (
 
 A recurrent criticism of psychology is that our samples are largely non-representative (e.g., Arnett, 2008). In this project you will code articles from journals in cross-cultural psychology to find out which samples they use. I am open to including other journals or disciplines. Alternatively, you can explore standard textbooks to find out which cultures are covered in textbooks.
 
-This project works best if there is more than one student. 
+This project works best if there is more than one student.
 
 Here is a paper relating to this project:
 
@@ -111,7 +111,7 @@ You will have heard of the 2 x 2 design. But: were you aware that you likely nee
 
 ### Evolutionary psychology textbooks and use of animal examples.
 
-Evolutionary psychology often draws upon animal examples. In this exploratory project, you will index which species feature in Evolutionary Psychology textbooks. 
+Evolutionary psychology often draws upon animal examples. In this exploratory project, you will index which species feature in Evolutionary Psychology textbooks.
 
 ### Evolutionary psychology textbooks and use of anthropological examples.
 
@@ -127,9 +127,9 @@ Intelligence is thought to be an individual level construct. Yet, some researche
 
 ### What is the typical sample size used in undergraduate/masters psychology projects at our University?
 
-In this project, you will code the sample sizes used in theses in psychology, as well as the method used. It is important as this will allow us to examine whether student projects have sufficient [statistical power](https://en.wikipedia.org/wiki/Power_of_a_test){:target="_blank"} 
+In this project, you will code the sample sizes used in theses in psychology, as well as the method used. It is important as this will allow us to examine whether student projects have sufficient [statistical power](https://en.wikipedia.org/wiki/Power_of_a_test){:target="_blank"}
 
-## Meta-analysis of validated scales: Are we measuring things consistently?
+## Meta-analysis of validated scales: Are we measuring things consistently across different groups?
 <a href="#thesis-introduction">back to top</a>
 
 Often in psychology we use a developed scale but then this scale gets applied to other populations. For example, we might develop a scale on condom use with a student sample, but then this measure gets used with, for example, sex workers. Measurement can be very problematic in such cases. The purpose of this project to examine how reliable measures are and whether the reliability varies across contexts.
@@ -138,16 +138,17 @@ For this project you will need to use the free software [JASP](www.jasp.org){:ta
 
 * Alaric Lloyd's [Bachelor thesis project](https://osf.io/54q6w/){:target="_blank"} on sexual self-esteem. Check the [draft paper](https://psyarxiv.com/swzm6/){:target="_blank"} here.
 
-Some candidate measures to explore (others to be added soon).
+Some candidate measures to explore (others to be added soon). You might need to be on campus and logged in with the library to access these.
 
 * [Scales on fathering](https://journals.sagepub.com/doi/abs/10.1177/0013164403258453?casa_token=gCiu7Q3_bW4AAAAA:QmAzlX8Pbt85cwQaqAwaMMrrcAISdbdo-iPresjq9f0YK6QZiVAAksQncFMLC31rWJ_vfLnD4sy4){:target="_blank"}
 * [the brief HIV knowledge questionnaire](https://guilfordjournals.com/doi/abs/10.1521/aeap.14.2.172.23902){:target="_blank"}
+* [The Vaccine Hesitancy Scale](https://doi.org/10.1016/j.vaccine.2017.12.043){:target="_blank"}
 * [The preference for solitude scale](https://www.scu.edu/media/college-of-arts-and-sciences/psychology/documents/Burger-JRP-1995.pdf){:target="_blank"}
 * [the Interpersonal Sexual Objectification Scale](https://doi.org/10.1111/j.1471-6402.2007.00351.x){:target="_blank"}
-* [the Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"} 
+* [the Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"}
 
 [This handbook](https://www.taylorfrancis.com/books/handbook-sexuality-related-measures-robin-milhausen-john-sakaluk-terri-fisher-clive-davis-william-yarber/10.4324/9781315183169){:target="_blank"} might offer some ideas of measures to explore.
- 
+
 
 ## Guardian 'blind dates' database.
 <a href="#thesis-introduction">back to top</a>
@@ -226,4 +227,3 @@ Zwaan, R. A., Etz, A., Lucas, R. E., & Donnellan, M. B. (2018). Making replicati
 
 
 <a href="#thesis-introduction">back to top</a>
-
