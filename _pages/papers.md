@@ -41,31 +41,33 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2021/Accepted/in Press**
 
-[112.](https://doi.org/10.17605/OSF.IO/S2KYA) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology_ 
+[114.](https://doi.org/10.17605/OSF.IO/S2KYA) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology_
 
-[111.](https://doi.org/10.31234/osf.io/xt8ey) Finister, C., **Pollet, T.V.**, & Neave, N. (accepted). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
+[113.](https://doi.org/10.31234/osf.io/xt8ey) Finister, C., **Pollet, T.V.**, & Neave, N. (accepted). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
 
-[110.](http://tvpollet.github.io/pdfs/Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2021). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences, 168, 110311_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
+[112.](http://tvpollet.github.io/pdfs/Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2021). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences, 168, 110311_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
 
 ## **2020**
 
-[109.](https://online.ucpress.edu/collabra/article/6/1/17174/114340) Haigh, M., Birch, H. A. & **Pollet, T. V.** (2020). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology, 6,_ 17174.
+[111.](https://online.ucpress.edu/collabra/article/6/1/17174/114340) Haigh, M., Birch, H. A. & **Pollet, T. V.** (2020). Does 'Scientists believe'? imply 'All scientists believe...'? Individual differences in the interpretation of generic news headlines. _Collabra: Psychology, 6,_ 17174.
 
-[108.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020.pdf) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (2020). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology, 126,_ 1048-1060.
+[109.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020.pdf) Saxton, T.K., **Pollet, T.V.**, Panagakis, J., Round, E., Brown, S., & Lobmaier, J. (2020). Children aged 7 – 9 prefer cuteness in baby faces, and femininity in women’s faces. _Ethology, 126,_ 1048-1060.
 
-[107.](http://tvpollet.github.io/pdfs/Elder_et_al_2020.pdf) Elder, G.J., Wetherell, M.A., **Pollet, T.V.**, Barclay, N.L., & Ellis, J.G. (2020). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep, 12,_ 537-543.
+[108.](http://tvpollet.github.io/pdfs/Elder_et_al_2020.pdf) Elder, G.J., Wetherell, M.A., **Pollet, T.V.**, Barclay, N.L., & Ellis, J.G. (2020). Experienced demand does not affect subsequent sleep and the cortisol awakening response. _Nature and Science of Sleep, 12,_ 537-543.
 
-[106.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825. 
+[107.](https://www.cell.com/heliyon/fulltext/S2405-8440(20)30670-8) Simanko, V., Rimmer, B., & **Pollet, T.V.** (2020). No evidence that middleborns feel less close to family and closer to friends than other birth orders. _Heliyon, 6,_ e03825.
 
-[105.](http://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf) **Pollet, T.V.** & Saxton, T.K. (2020). Jealousy as a Function of Rival Characteristics: Two Large Replication Studies and Meta-Analyses Support Gender Differences in Reactions to Rival Attractiveness But Not Dominance. _Personality and Social Psychology Bulletin, 46(10),_ 1428-1443.
+[106.](http://tvpollet.github.io/pdfs/Pollet_Saxton_2020_PSPB.pdf) **Pollet, T.V.** & Saxton, T.K. (2020). Jealousy as a Function of Rival Characteristics: Two Large Replication Studies and Meta-Analyses Support Gender Differences in Reactions to Rival Attractiveness But Not Dominance. _Personality and Social Psychology Bulletin, 46(10),_ 1428-1443.
 
-[104.](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4) McCarrick, D.J., Brewer, G., Lyons, M., **Pollet, T.V.**, & Neave, N. (2020). Referee height influences decision making in British football leagues. _BMC Psychology, 8,_ 4.
+[105.](https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-020-0370-4) McCarrick, D.J., Brewer, G., Lyons, M., **Pollet, T.V.**, & Neave, N. (2020). Referee height influences decision making in British football leagues. _BMC Psychology, 8,_ 4.
 
-[103.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology, 111,_ 492-507. [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
+[104.](http://tvpollet.github.io/pdfs/Saxton_et_al_2020_BJP.pdf) Saxton, T.K., McCarty, K., Caizley, J., McCarrick, D., & **Pollet, T.V.** (2020). Hungry People Prefer Larger Bodies and Objects: The Importance of Testing Boundary Effects. _British Journal of Psychology, 111,_ 492-507. [preprint here](https://doi.org/10.31234/osf.io/s7ta8)
 
-[102.](http://tvpollet.github.io/pdfs/Irwing_et_al_2020_PSPB.pdf) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. (2020). Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin, 46(4),_ 590-602.
+[103.](http://tvpollet.github.io/pdfs/Irwing_et_al_2020_PSPB.pdf) Irwing, P., Cook, C., **Pollet, T.V.**, & Hughes, D. (2020). Comedians’ mean level and stage personalities: Evidence for goal-directed personality adaptation. _Personality and Social Psychology Bulletin, 46(4),_ 590-602.
 
 ## **2019**
+
+[102.](http://tvpollet.github.io/pdfs/Cornelissen_et_al_2019_PSPB.pdf) Cornelissen, K. K., Widdrington, H., McCarty, K., **Pollet, T.V.**, Tovée, M. J., & Cornelissen, P. L. (2019). Are attitudinal and perceptual body image the same or different? Evidence from high-level adaptation. _Body Image, 31,_ 35–47.
 
 [101.](http://ishe.org/wp-content/uploads/2019/04/HE_2019_34_17-25.pdf) Saxton, T.K., Hart, S., Desai, L., & **Pollet, T.V.** (2019). Can people detect ideological stance from facial photographs? _Human Ethology, 34,_ 17–25.
 
