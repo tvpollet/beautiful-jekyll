@@ -138,6 +138,8 @@ For this project you will need to use the free software [JASP](www.jasp.org){:ta
 
 * Alaric Lloyd's [Bachelor thesis project](https://osf.io/54q6w/){:target="_blank"} on sexual self-esteem. Check the [draft paper](https://psyarxiv.com/swzm6/){:target="_blank"} here.
 
+### Candidate scales to explore
+
 Some candidate measures to explore (others to be added soon). You might need to be on campus and logged in with the library to access these.
 
 * [Scales on fathering](https://journals.sagepub.com/doi/abs/10.1177/0013164403258453?casa_token=gCiu7Q3_bW4AAAAA:QmAzlX8Pbt85cwQaqAwaMMrrcAISdbdo-iPresjq9f0YK6QZiVAAksQncFMLC31rWJ_vfLnD4sy4){:target="_blank"}
@@ -147,7 +149,6 @@ Some candidate measures to explore (others to be added soon). You might need to 
 * [the Interpersonal Sexual Objectification Scale](https://doi.org/10.1111/j.1471-6402.2007.00351.x){:target="_blank"}
 * [Body and Appearance Self-Conscious Emotions Scale (BASES)](https://doi.org/10.1016/j.bodyim.2013.12.006){:target="_blank"}
 * [Weight- and Body-Related Shame and Guilt Scale (WEB–SG)](https://doi.org/10.1080/00223890701331856){:target="_blank"}
-* [
 * [the Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"}
 
 [This handbook](https://www.taylorfrancis.com/books/handbook-sexuality-related-measures-robin-milhausen-john-sakaluk-terri-fisher-clive-davis-william-yarber/10.4324/9781315183169){:target="_blank"} might offer some ideas of measures to explore.
