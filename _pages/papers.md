@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* **Pollet, T.V.**, & Shepherd, L. (2021, April 23rd). Subscales in the National Student Survey (NSS): Some considerations on their structure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/vb2k6](https://doi.org/10.31234/osf.io/vb2k6)
+
 * Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2021, April 22nd). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
 
 * Thompson, A., Smith, M.A., McNeill, A., & **Pollet, T.V.** (2021, April 21st). Friendships, loneliness and psychological well-being in older adults: A limit to the benefit of increasing the number friendships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/9p8g7](https://doi.org/10.31234/osf.io/9p8g7)
@@ -41,7 +43,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2021/Accepted/in Press**
 
-[114.](https://doi.org/10.17605/OSF.IO/S2KYA) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology_
+[114.](https://doi.org/10.5817/CP2021-2-6) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology: Journal of Psychosocial Research on Cyberspace, 15(2)_, article 6. [https://doi.org/10.5817/CP2021-2-6](https://doi.org/10.5817/CP2021-2-6)
 
 [113.](https://doi.org/10.31234/osf.io/xt8ey) Finister, C., **Pollet, T.V.**, & Neave, N. (accepted). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
 
