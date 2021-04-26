@@ -18,7 +18,7 @@ Hurray! You are thinking about doing your thesis project with me (at any level).
 
 I **strongly** prefer that you pick a topic within the set below. My experience is that preset topics tend to lead to higher marks. If you want to go off the beaten path and suggest your own project: I am a behavioural scientist with an interest in methodology. I work broadly on social relationships, so topics akin to social psychology, relationship research, evolutionary psychology, and personality psychology fall within my interests. I'll consider projects which you have developed / proposed in those areas, but there is no 'unlimited' choice. Some projects also simply cannot be done as part of your degree, due to legal, practical, ethical, or scientific reasons. With 'scientific' reasons I mean that what you have in mind might be so complex that it cannot be unpacked in a single project. (For example, what you have in mind is a complex mediation model, but it is unlikely that you are able to collect the data to test such a model). My experience is that students also propose projects which tend to be unrealistic, so ask yourself whether your project is all that it is cracked up to be. If it is not, then why not opt for a replication study, for example. I do not weigh 'novelty' in my judgment of your thesis or whether your findings are 'significant' or not. I also provide a list of topics which I prefer not to supervise, to help guide you.
 
-# Embarrassment de choix (A wide range of topics to choose from)
+# Embarras du choix (A wide range of topics to choose from)
 
 ![Overwhelming](https://media.giphy.com/media/enZOaAsSGlg7A5nka8/giphy.gif){: .center-image }
 
