@@ -13,11 +13,13 @@ published: true
 
 # **Research papers**
 
-Click the number for the corresponding paper to download a copy (it will open in a new window), if available. You will need adobe acrobat reader to read these papers. These papers are for reference only i.e. personal, educational, non-commercial use (also see the [disclaimer](https://tvpollet.github.io/disclaimer/).
+Click the number for the corresponding paper to download a copy (it will open in a new window), if available. You will need adobe acrobat reader or something similar to read these papers (in .pdf). These papers are for reference only i.e. personal, educational, non-commercial use (also see the [disclaimer](https://tvpollet.github.io/disclaimer/).
 
 ## **Preprints.**
 
 *Cite at your own risk, feedback welcome*
+
+* **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2021, April 30th). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
 
 * **Pollet, T.V.**, & Shepherd, L. (2021, April 23rd). Subscales in the National Student Survey (NSS): Some considerations on their structure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/vb2k6](https://doi.org/10.31234/osf.io/vb2k6)
 
@@ -33,8 +35,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * Lloyd, A., Brown, G., & **Pollet, T.V.** (2020, June 18th). A meta-analysis of the reliability of the Sexual Self-Esteem Inventory for Women (SSEI-W) measure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/swzm6](https://doi.org/10.31234/osf.io/swzm6)
 
-* **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2020, June 17th). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
-
 * Boothroyd, L.G., **Pollet, T.V.**, Evans, E.H., Yi, Q., & Tovée, M.J. (2018, September 7th). Adaptation-like effects in body weight attractiveness are not simply norm based. _PsyArxiv_ [https://doi.org/10.31234/osf.io/gsnkf](https://doi.org/10.31234/osf.io/gsnkf)
 
 * Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28th). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq](https://doi.org/10.31234/osf.io/3zvhq)
@@ -42,6 +42,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
 ## **2021/Accepted/in Press**
+
+[115.]()  Mohamed, S., Kramer, R.S.S, Thornborrow, T., **Pollet, T.V.**, Cornelissen, P.L., & Tovée, M.J. (accepted) 3D visualisation of psychometric judgements of the ideal male body. _Body Image_
 
 [114.](https://doi.org/10.5817/CP2021-2-6) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology: Journal of Psychosocial Research on Cyberspace, 15(2)_, article 6. [https://doi.org/10.5817/CP2021-2-6](https://doi.org/10.5817/CP2021-2-6)
 
@@ -69,7 +71,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2019**
 
-[102.](http://tvpollet.github.io/pdfs/Cornelissen_et_al_2019_PSPB.pdf) Cornelissen, K. K., Widdrington, H., McCarty, K., **Pollet, T.V.**, Tovée, M. J., & Cornelissen, P. L. (2019). Are attitudinal and perceptual body image the same or different? Evidence from high-level adaptation. _Body Image, 31,_ 35–47.
+[102.](http://tvpollet.github.io/pdfs/Cornelissen_et_al_2019_PSPB.pdf) Cornelissen, K.K., Widdrington, H., McCarty, K., **Pollet, T.V.**, Tovée, M.J., & Cornelissen, P.L. (2019). Are attitudinal and perceptual body image the same or different? Evidence from high-level adaptation. _Body Image, 31,_ 35–47.
 
 [101.](http://ishe.org/wp-content/uploads/2019/04/HE_2019_34_17-25.pdf) Saxton, T.K., Hart, S., Desai, L., & **Pollet, T.V.** (2019). Can people detect ideological stance from facial photographs? _Human Ethology, 34,_ 17–25.
 
