@@ -143,17 +143,18 @@ For this project you will need to use the free software [JASP](www.jasp.org){:ta
 Some candidate measures to explore (others to be added soon). You might need to be on campus and logged in with the library to access these.
 
 * [Scales on fathering](https://journals.sagepub.com/doi/abs/10.1177/0013164403258453?casa_token=gCiu7Q3_bW4AAAAA:QmAzlX8Pbt85cwQaqAwaMMrrcAISdbdo-iPresjq9f0YK6QZiVAAksQncFMLC31rWJ_vfLnD4sy4){:target="_blank"}
-* [the brief HIV knowledge questionnaire](https://guilfordjournals.com/doi/abs/10.1521/aeap.14.2.172.23902){:target="_blank"}
+* [The brief HIV knowledge questionnaire](https://guilfordjournals.com/doi/abs/10.1521/aeap.14.2.172.23902){:target="_blank"}
 * [The Vaccine Hesitancy Scale](https://doi.org/10.1016/j.vaccine.2017.12.043){:target="_blank"}
 * [The preference for solitude scale](https://www.scu.edu/media/college-of-arts-and-sciences/psychology/documents/Burger-JRP-1995.pdf){:target="_blank"}
-* [the Interpersonal Sexual Objectification Scale](https://doi.org/10.1111/j.1471-6402.2007.00351.x){:target="_blank"}
+* [The Interpersonal Sexual Objectification Scale](https://doi.org/10.1111/j.1471-6402.2007.00351.x){:target="_blank"}
 * [Body and Appearance Self-Conscious Emotions Scale (BASES)](https://doi.org/10.1016/j.bodyim.2013.12.006){:target="_blank"}
 * [Weight- and Body-Related Shame and Guilt Scale (WEB–SG)](https://doi.org/10.1080/00223890701331856){:target="_blank"}
-* [the Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"}
+* [The Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"}
 * [The Short Internalized Homonegativity Scale](https://doi.org/10.1177/0013164404264845){:target="_blank"}
+* [The Self-Talk Scale](https://doi.org/10.1080/00223890802484498){:target="_blank"}
 * [The Tinder Motives Scale](https://doi.org/10.1016/j.chb.2017.01.028){:target="_blank"}
 
-[This handbook](https://www.taylorfrancis.com/books/handbook-sexuality-related-measures-robin-milhausen-john-sakaluk-terri-fisher-clive-davis-william-yarber/10.4324/9781315183169){:target="_blank"} might offer some further ideas of measures to explore.
+[This handbook](https://www.taylorfrancis.com/books/handbook-sexuality-related-measures-robin-milhausen-john-sakaluk-terri-fisher-clive-davis-william-yarber/10.4324/9781315183169){:target="_blank"} might offer some further ideas of measures to explore in the context of sexuality.
 
 
 ## Guardian 'blind dates' database.
@@ -185,12 +186,12 @@ Here is a paper we wrote:
 ## Measuring student satisfaction.
 <a href="#thesis-introduction">back to top</a>
 
-The [National Student Survey](https://www.thestudentsurvey.com/){:target="_blank"} is a commonly used tool to measure student satisfaction. It is argued to consist of eight scales but it is unclear to which degree this measure has been rigorously validated. One aspect which has seemingly not been assessed is a test-retest correlation of the items. In this project, you will administer the survey twice and examine whether the NSS is temporally stable. Ideally, you would collect minimum 270+ responses in the first wave, in order to assess the factor structure. Therefore, this project might work well as a collaborative project involving more than one student (you are able to have separate research questions, e.g., differences between courses, or one project focussing on factor analysis and one on test-retest).
+The [National Student Survey](https://www.thestudentsurvey.com/){:target="_blank"} is a commonly used tool to measure student satisfaction. It is argued to consist of eight scales but it is unclear to which degree this measure has been rigorously validated. [Our research](https://psyarxiv.com/vb2k6/){:target="_blank"} suggests that these eight dimensions are not easily identified. Another aspect of reliability which has seemingly not been assessed is a test-retest correlation of the items. In this project, you will administer the survey twice and examine whether the NSS is temporally stable. Ideally, you would collect minimum 270+ responses in the first wave, in order to assess the factor structure. Therefore, this project might work well as a collaborative project involving more than one student (you are able to have separate research questions, e.g., differences between courses, or one project focussing on factor analysis and one on test-retest).
 
 # Projects which I prefer not to supervise.
 <a href="#thesis-introduction">back to top</a>
 
-There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of dislike, but rather because there are others much better placed in our department to work with you on these topics. You can reach out to me if you want more information.
+There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of dislike, but rather because there are others, much better placed, in our department to work with you on these topics. You can reach out to me if you want more information.
 
 * Projects using a Qualitative methodology. I have no experience with Qualitative methods.
 * Projects involving eye tracking, reaction time measurement, EEG, NIRS, Body Scanning, Virtual reality. I have no experience with these methods I cannot supervise projects using these methods.
