@@ -19,7 +19,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2021, April 30th). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
+* **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2021, May 4th). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
 
 * **Pollet, T.V.**, & Shepherd, L. (2021, April 23rd). Subscales in the National Student Survey (NSS): Some considerations on their structure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/vb2k6](https://doi.org/10.31234/osf.io/vb2k6)
 
@@ -43,7 +43,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2021/Accepted/in Press**
 
-[115.]()  Mohamed, S., Kramer, R.S.S, Thornborrow, T., **Pollet, T.V.**, Cornelissen, P.L., & Tovée, M.J. (accepted) 3D visualisation of psychometric judgements of the ideal male body. _Body Image_
+[115.]()  Mohamed, S., Kramer, R.S.S, Thornborrow, T., **Pollet, T.V.**, Cornelissen, P.L., & Tovée, M.J. (accepted). 3D visualisation of psychometric judgements of the ideal male body. _Body Image_
 
 [114.](https://doi.org/10.5817/CP2021-2-6) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology: Journal of Psychosocial Research on Cyberspace, 15(2)_, article 6. [https://doi.org/10.5817/CP2021-2-6](https://doi.org/10.5817/CP2021-2-6)
 
