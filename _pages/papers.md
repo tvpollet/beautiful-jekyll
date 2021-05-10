@@ -19,8 +19,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
-* **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2021, May 4th). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _PsyArxiv_ [https://doi.org/10.31234/osf.io/a6k2c](https://doi.org/10.31234/osf.io/a6k2c)
-
 * **Pollet, T.V.**, & Shepherd, L. (2021, April 23rd). Subscales in the National Student Survey (NSS): Some considerations on their structure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/vb2k6](https://doi.org/10.31234/osf.io/vb2k6)
 
 * Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2021, April 22nd). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
@@ -42,6 +40,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
 ## **2021/Accepted/in Press**
+
+[116.](https://doi.org/10.31234/osf.io/a6k2c)  **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (accepted). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _Body Image_ [Preprint here](https://doi.org/10.31234/osf.io/a6k2c)
 
 [115.]()  Mohamed, S., Kramer, R.S.S, Thornborrow, T., **Pollet, T.V.**, Cornelissen, P.L., & Tovée, M.J. (accepted). 3D visualisation of psychometric judgements of the ideal male body. _Body Image_
 
