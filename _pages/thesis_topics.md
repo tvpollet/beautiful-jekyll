@@ -152,6 +152,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 * [The Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"}
 * [The Short Internalized Homonegativity Scale](https://doi.org/10.1177/0013164404264845){:target="_blank"}
 * [The Self-Talk Scale](https://doi.org/10.1080/00223890802484498){:target="_blank"}
+* [The Covid19 phobia scale](https://doi.org/10.1016/j.paid.2020.110108){:target="_blank"}
 * [The Tinder Motives Scale](https://doi.org/10.1016/j.chb.2017.01.028){:target="_blank"}
 
 [This handbook](https://www.taylorfrancis.com/books/handbook-sexuality-related-measures-robin-milhausen-john-sakaluk-terri-fisher-clive-davis-william-yarber/10.4324/9781315183169){:target="_blank"} might offer some further ideas of measures to explore in the context of sexuality.
@@ -188,37 +189,44 @@ Here is a paper we wrote:
 
 The [National Student Survey](https://www.thestudentsurvey.com/){:target="_blank"} is a commonly used tool to measure student satisfaction. It is argued to consist of eight scales but it is unclear to which degree this measure has been rigorously validated. [Our research](https://psyarxiv.com/vb2k6/){:target="_blank"} suggests that these eight dimensions are not easily identified. Another aspect of reliability which has seemingly not been assessed is a test-retest correlation of the items. In this project, you will administer the survey twice and examine whether the NSS is temporally stable. Ideally, you would collect minimum 270+ responses in the first wave, in order to assess the factor structure. Therefore, this project might work well as a collaborative project involving more than one student (you are able to have separate research questions, e.g., differences between courses, or one project focussing on factor analysis and one on test-retest).
 
+## 'There are no funny women in standup comedy' - Random guy.
+<a href="#thesis-introduction">back to top</a>
+
+Together with [Clare Cook](https://www.northumbria.ac.uk/about-us/our-staff/c/clare-cook/){:target="_blank"}, I am conducting research on gendered perceptions of stand-up comedians. In this project, we will explore if female standup comedians are perceived as less funny than male standup comedians. We are also interested in finding out other stereotypes (e.g., are attractive women in comedy seen as less funny). There is also a possibility to look at perceptions of mental health in standup comedy.
+
+
 # Projects which I prefer not to supervise.
 <a href="#thesis-introduction">back to top</a>
 
 There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of dislike, but rather because there are others, much better placed, in our department to work with you on these topics. You can reach out to me if you want more information.
 
 * Projects using a Qualitative methodology. I have no experience with Qualitative methods.
-* Projects involving eye tracking, reaction time measurement, EEG, NIRS, Body Scanning, Virtual reality. I have no experience with these methods I cannot supervise projects using these methods.
+* Projects involving eye tracking, reaction time measurement, EEG, NIRS, Body Scanning, Virtual reality, hormone measurements. I have no experience with these methods I cannot supervise projects using these methods.
 * Projects involving 'special populations'. I do not have access to 'special populations', so I cannot supervise projects involving children, vulnerable adults, service users, people with (mental) health diagnoses, or whichever special population you have in mind. However, if you have strong ties with these communities, then perhaps projects on social networks are still viable.
 * Projects in Cognitive Psychology.
 * Projects in Consumer Psychology / Marketing (unless they deal with colour and/or are well thought out replication projects).
-* Projects in Positive Psychology.
+* Projects in Positive Psychology / Happiness studies.
 * Projects in Sport Psychology (unless they are dealing with social network analysis)
 * Projects in Organisational Psychology (unless they are dealing with social network analysis)
 * Projects in Parapsychology.
-* Projects in Forensic Psychology.
+* Projects in Forensic Psychology or on eye-witness testimony.
 * Projects on COVID19.
 * Projects on body image and the media.
 * Projects on nutrition, supplements, aromas.
 * Projects on the 'Dark Triad' of personality (Narcissism, Machiavellianism, Psychopathy).
 * Projects on attachment theory.
 * Projects on sleep.
-* Projects on attractiveness, face perception, etc.
+* Projects on attractiveness, face perception, etc. 
 * Projects on birth order (unless they would be replication style projects, especially relating to family relationships).
 * Projects on social media addiction.
-* Projects on aggression, rape, sexual violence.
+* Projects on aggression, violence, rape, sexual violence.
 * Projects on human-animal relationships.
 * Projects on stress and mental health (unless they are dealing with social network analysis).
 * Projects on Instagram/Facebook/TikTok (unless they are dealing with social network analysis).
 * Projects on addiction, smoking, alcohol, drug consumption (unless they are dealing with social network analysis).
 * Projects on social identity, ethnicity, and/or intergroup behaviour -- unless these are related to social network analysis.
 * Projects on sexual orientation, gender identity, masculinity/femininity, 2D:4D ratios (unless these are related to social network analysis).
+
 
 # References
 
