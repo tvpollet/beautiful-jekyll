@@ -152,6 +152,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 * [The Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"}
 * [The Short Internalized Homonegativity Scale](https://doi.org/10.1177/0013164404264845){:target="_blank"}
 * [The Self-Talk Scale](https://doi.org/10.1080/00223890802484498){:target="_blank"}
+* [The Tendency to Gossip Questionnaire](https://journals.sagepub.com/doi/abs/10.1177/0013164493053004010){:target="_blank"}
 * [The Covid19 phobia scale](https://doi.org/10.1016/j.paid.2020.110108){:target="_blank"}
 * [The Tinder Motives Scale](https://doi.org/10.1016/j.chb.2017.01.028){:target="_blank"}
 
