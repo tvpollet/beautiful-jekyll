@@ -144,6 +144,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 
 * [Scales on fathering](https://journals.sagepub.com/doi/abs/10.1177/0013164403258453?casa_token=gCiu7Q3_bW4AAAAA:QmAzlX8Pbt85cwQaqAwaMMrrcAISdbdo-iPresjq9f0YK6QZiVAAksQncFMLC31rWJ_vfLnD4sy4){:target="_blank"}
 * [The brief HIV knowledge questionnaire](https://guilfordjournals.com/doi/abs/10.1521/aeap.14.2.172.23902){:target="_blank"}
+* [The Internalized Homonegativity Inventory for gay men](https://doi.org/10.1300/J082v41n02_04){:target="_blank"}
 * [The Vaccine Hesitancy Scale](https://doi.org/10.1016/j.vaccine.2017.12.043){:target="_blank"}
 * [The preference for solitude scale](https://www.scu.edu/media/college-of-arts-and-sciences/psychology/documents/Burger-JRP-1995.pdf){:target="_blank"}
 * [The Interpersonal Sexual Objectification Scale](https://doi.org/10.1111/j.1471-6402.2007.00351.x){:target="_blank"}
@@ -153,6 +154,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 * [The Short Internalized Homonegativity Scale](https://doi.org/10.1177/0013164404264845){:target="_blank"}
 * [The Self-Talk Scale](https://doi.org/10.1080/00223890802484498){:target="_blank"}
 * [The Tendency to Gossip Questionnaire](https://journals.sagepub.com/doi/abs/10.1177/0013164493053004010){:target="_blank"}
+* [The Personal Sense of Power Scale](https://doi.org/10.1111/j.1467-6494.2011.00734.x){:target="_blank"}
 * [The Covid19 phobia scale](https://doi.org/10.1016/j.paid.2020.110108){:target="_blank"}
 * [The Tinder Motives Scale](https://doi.org/10.1016/j.chb.2017.01.028){:target="_blank"}
 
