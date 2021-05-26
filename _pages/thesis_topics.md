@@ -148,6 +148,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 * [The Vaccine Hesitancy Scale](https://doi.org/10.1016/j.vaccine.2017.12.043){:target="_blank"}
 * [The preference for solitude scale](https://www.scu.edu/media/college-of-arts-and-sciences/psychology/documents/Burger-JRP-1995.pdf){:target="_blank"}
 * [The Interpersonal Sexual Objectification Scale](https://doi.org/10.1111/j.1471-6402.2007.00351.x){:target="_blank"}
+* [The Psychological Need Satisfaction in Exercise Scale](https://www.researchgate.net/profile/Philip-Wilson-9/publication/253738018_The_Psychological_Need_Satisfaction_in_Exercise_Scale/links/54943c6e0cf2456f1c9d8651/The-Psychological-Need-Satisfaction-in-Exercise-Scale.pdf){:target="_blank"}
 * [Body and Appearance Self-Conscious Emotions Scale (BASES)](https://doi.org/10.1016/j.bodyim.2013.12.006){:target="_blank"}
 * [Weight- and Body-Related Shame and Guilt Scale (WEB–SG)](https://doi.org/10.1080/00223890701331856){:target="_blank"}
 * [The Intrasexual Competition Scale](https://www.researchgate.net/profile/Maryanne_Fisher/publication/247850197_Individual_differences_in_intrasexual_competition/links/55083bdf0cf27e990e09676a/Individual-differences-in-intrasexual-competition.pdf){:target="_blank"}
@@ -178,7 +179,7 @@ You will examine the degree to which your fellow students understand basic conce
 
 In previous work, we have observed gender differences in every day risk taking in traffic. For example, all else being equal, male cyclists, for example, were less likely to use lights at night than female cyclists. In a student project, we found that male pedestrians were less likely to use a safe route when exiting the metro than female pedestrians.
 
-I would welcome further work in this area. This work tends to be observational. In order to have a great thesis, you will require large samples or multiple studies, due to the simplicity of its design.
+I would welcome further work in this area. This work tends to be observational. In order to have a great thesis, you will require large samples and/or multiple studies, due to the simplicity of its design.
 
 Here is a similar example project.
 
