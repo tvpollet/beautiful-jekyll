@@ -41,7 +41,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2021/Accepted/in Press**
 
-[116.](https://doi.org/10.31234/osf.io/a6k2c)  **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (accepted). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _Body Image_ [Preprint here](https://doi.org/10.31234/osf.io/a6k2c)
+[116.](http://tvpollet.github.io/pdfs/Pollet_et_al_2021_Body_Image.pdf)  **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (accepted). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _Body Image, 38,_ 317-324.
 
 [115.](http://tvpollet.github.io/pdfs/Mohamed_et_al_2021.pdf)  Mohamed, S., Kramer, R.S.S, Thornborrow, T., **Pollet, T.V.**, Cornelissen, P.L., & Tovée, M.J. (2021). 3D visualisation of psychometric judgements of the ideal male body. _Body Image, 38,_ 295-305.
 
