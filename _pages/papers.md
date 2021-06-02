@@ -41,11 +41,11 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 ## **2021/Accepted/in Press**
 
-[116.](http://tvpollet.github.io/pdfs/Pollet_et_al_2021_Body_Image.pdf)  **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (accepted). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _Body Image, 38,_ 317-324.
+[116.](http://tvpollet.github.io/pdfs/Pollet_et_al_2021_Body_Image.pdf)  **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2021). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _Body Image, 38,_ 317-324.
 
 [115.](http://tvpollet.github.io/pdfs/Mohamed_et_al_2021.pdf)  Mohamed, S., Kramer, R.S.S, Thornborrow, T., **Pollet, T.V.**, Cornelissen, P.L., & Tovée, M.J. (2021). 3D visualisation of psychometric judgements of the ideal male body. _Body Image, 38,_ 295-305.
 
-[114.](https://doi.org/10.5817/CP2021-2-6) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (accepted). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology: Journal of Psychosocial Research on Cyberspace, 15(2)_, article 6. [https://doi.org/10.5817/CP2021-2-6](https://doi.org/10.5817/CP2021-2-6)
+[114.](https://doi.org/10.5817/CP2021-2-6) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (2021). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology: Journal of Psychosocial Research on Cyberspace, 15(2)_, article 6. [https://doi.org/10.5817/CP2021-2-6](https://doi.org/10.5817/CP2021-2-6)
 
 [113.](http://tvpollet.github.io/pdfs/Finister_et_al_2021) Finister, C., **Pollet, T.V.**, & Neave, N. (accepted). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
 
