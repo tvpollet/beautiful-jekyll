@@ -47,7 +47,7 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 [114.](https://doi.org/10.5817/CP2021-2-6) Brown, R.M., Roberts, S.G.B., & **Pollet, T.V.** (2021). Loneliness is negatively related to Facebook network size, but not related to Facebook network structure. _Cyberpsychology: Journal of Psychosocial Research on Cyberspace, 15(2)_, article 6. [https://doi.org/10.5817/CP2021-2-6](https://doi.org/10.5817/CP2021-2-6)
 
-[113.](http://tvpollet.github.io/pdfs/Finister_et_al_2021) Finister, C., **Pollet, T.V.**, & Neave, N. (accepted). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
+[113.](http://tvpollet.github.io/pdfs/Finister_et_al_2021.pdf) Finister, C., **Pollet, T.V.**, & Neave, N. (2021). An exploratory factor analysis of the Nerdy Personality Attributes Scale in a sample of self-identified nerds/geeks.  _The Social Science Journal_ [preprint here](https://doi.org/10.31234/osf.io/xt8ey)
 
 [112.](http://tvpollet.github.io/pdfs/Malcolm_et_al_2021.pdf) Malcolm, C., Saxton, T.K., McCarty, K., Roberts, S.G.B., & **Pollet, T.V.** (2021). Extraversion is associated with advice network size, but not network density or emotional closeness to network members.  _Personality and Individual Differences, 168, 110311_ [preprint here](https://doi.org/10.31234/osf.io/gw8dh)
 
