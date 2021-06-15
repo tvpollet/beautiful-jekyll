@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Thompson, A., & **Pollet, T.V.** (2021, June 15). An Exploratory Psychometric Network Analysis of Loneliness Scales in a Sample of Older Adults. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fauc4](https://doi.org/10.31234/osf.io/fauc4)
+
 * Brown, G., Curtis, V., & **Pollet, T.V.** (2021, May 10th). Gender, self-disclosure and emotional closeness in friendships: an egocentric social network study. _PsyArxiv_ [https://doi.org/10.31234/osf.io/wexn9](https://doi.org/10.31234/osf.io/wexn9)
 
 * **Pollet, T.V.**, & Shepherd, L. (2021, April 23rd). Subscales in the National Student Survey (NSS): Some considerations on their structure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/vb2k6](https://doi.org/10.31234/osf.io/vb2k6)
