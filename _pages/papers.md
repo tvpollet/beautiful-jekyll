@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* **Pollet, T.V.**, Thompson, A., Malcolm, C., McCarty, K., Saxton, T.K., & Roberts, S.G.B. (2021, June 17). Are we measuring loneliness in the same way in men and women in the general population and in the older population? Two studies of measurement equivalence. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fpmur](https://doi.org/10.31234/osf.io/fpmur)
+
 * Thompson, A., & **Pollet, T.V.** (2021, June 15). An Exploratory Psychometric Network Analysis of Loneliness Scales in a Sample of Older Adults. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fauc4](https://doi.org/10.31234/osf.io/fauc4)
 
 * Brown, G., Curtis, V., & **Pollet, T.V.** (2021, May 10th). Gender, self-disclosure and emotional closeness in friendships: an egocentric social network study. _PsyArxiv_ [https://doi.org/10.31234/osf.io/wexn9](https://doi.org/10.31234/osf.io/wexn9)
