@@ -156,6 +156,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 * [The Self-Talk Scale](https://doi.org/10.1080/00223890802484498){:target="_blank"}
 * [The Tendency to Gossip Questionnaire](https://journals.sagepub.com/doi/abs/10.1177/0013164493053004010){:target="_blank"}
 * [The Personal Sense of Power Scale](https://doi.org/10.1111/j.1467-6494.2011.00734.x){:target="_blank"}
+* [Pain attitudes and Stoicism/Cautiousness](https://academic.oup.com/psychsocgerontology/article/56/5/P279/634269){:target="_blank"}
 * [The Covid19 phobia scale](https://doi.org/10.1016/j.paid.2020.110108){:target="_blank"}
 * [The Tinder Motives Scale](https://doi.org/10.1016/j.chb.2017.01.028){:target="_blank"}
 

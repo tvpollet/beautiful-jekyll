@@ -27,8 +27,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * **Pollet, T.V.**, & Shepherd, L. (2021, April 23rd). Subscales in the National Student Survey (NSS): Some considerations on their structure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/vb2k6](https://doi.org/10.31234/osf.io/vb2k6)
 
-* Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2021, April 22nd). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fng7x](https://doi.org/10.31234/osf.io/fng7x)
-
 * Thompson, A., Smith, M.A., McNeill, A., & **Pollet, T.V.** (2021, April 21st). Friendships, loneliness and psychological well-being in older adults: A limit to the benefit of increasing the number friendships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/9p8g7](https://doi.org/10.31234/osf.io/9p8g7)
 
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2021, March 19th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
@@ -44,6 +42,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 * Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
 
 ## **2021/Accepted/in Press**
+
+[117.](https://doi.org/10.31234/osf.io/fng7x) Cheyne, T., Smith, M.A., & **Pollet, T.V.** (2021). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _Health Psychology and Behavioral Medicine_ 
 
 [116.](http://tvpollet.github.io/pdfs/Pollet_et_al_2021_Body_Image.pdf)  **Pollet, T.V.**, Dawson, S., Tovée, M.J., Cornelissen, P.L., & Cornelissen, K.K. (2021). Engagement with fat talk as a function of social comparison and body image concerns: Two replication studies support main effects but do not support an interaction effect. _Body Image, 38,_ 317-324.
 
