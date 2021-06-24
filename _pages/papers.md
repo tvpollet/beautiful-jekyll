@@ -39,9 +39,9 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28th). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq](https://doi.org/10.31234/osf.io/3zvhq)
 
-* Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (2018, August 6th). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/dv93s](https://doi.org/10.31234/osf.io/dv93s)
-
 ## **2021/Accepted/in Press**
+
+[118.](https://doi.org/10.31234/osf.io/dv93s) Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (accepted). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _Archives of Sexual Behavior_ 
 
 [117.](https://doi.org/10.31234/osf.io/fng7x) Cheyne, T., Smith, M.A., & **Pollet, T.V.** (accepted). Egocentric network characteristics of persons with Type 1 Diabetes and their relationships to perceived social support and well-being. _Health Psychology and Behavioral Medicine_ 
 
