@@ -21,8 +21,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 * Lloyd, A., Brown, G., & **Pollet, T.V.** (2021, June 28th). A meta-analysis of the reliability of the Sexual Self-Esteem Inventory for Women (SSEI-W) measure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/swzm6](https://doi.org/10.31234/osf.io/swzm6)
 
-* Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2021, June 25th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
-
 * **Pollet, T.V.**, Thompson, A., Malcolm, C., McCarty, K., Saxton, T.K., & Roberts, S.G.B. (2021, June 17). Are we measuring loneliness in the same way in men and women in the general population and in the older population? Two studies of measurement equivalence. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fpmur](https://doi.org/10.31234/osf.io/fpmur)
 
 * Thompson, A., & **Pollet, T.V.** (2021, June 15). An Exploratory Psychometric Network Analysis of Loneliness Scales in a Sample of Older Adults. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fauc4](https://doi.org/10.31234/osf.io/fauc4)
@@ -40,6 +38,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 * Brown, R., Roberts, S. G. B., & **Pollet, T.V.** (2018, August 28th). HEXACO personality factors and their associations with Facebook use and Facebook network characteristics. _PsyArxiv_ [https://doi.org/10.31234/osf.io/3zvhq](https://doi.org/10.31234/osf.io/3zvhq)
 
 ## **2021/Accepted/in Press**
+
+[119.](https://doi.org/10.31234/osf.io/bvgxy) Sillence, E., Saxton, T.K., & **Pollet, T.V.** (accepted). Facebook: Social Uses and Anxiety - A Replication Attempt. _Human Communication & Technology_
 
 [118.](https://doi.org/10.31234/osf.io/dv93s) Newman, A.V., **Pollet, T.V.**, McCarty, K., Neave, N. & Saxton, T.K. (accepted). Isn't it eyeronic? Little evidence for consistent eye colour choices across relationships. _Archives of Sexual Behavior_ 
 
