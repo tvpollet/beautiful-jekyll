@@ -144,6 +144,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 
 * [Scales on fathering](https://journals.sagepub.com/doi/abs/10.1177/0013164403258453?casa_token=gCiu7Q3_bW4AAAAA:QmAzlX8Pbt85cwQaqAwaMMrrcAISdbdo-iPresjq9f0YK6QZiVAAksQncFMLC31rWJ_vfLnD4sy4){:target="_blank"}
 * [The brief HIV knowledge questionnaire](https://guilfordjournals.com/doi/abs/10.1521/aeap.14.2.172.23902){:target="_blank"}
+* [The Liberal Feminist Attitude and Ideology Scale](https://link.springer.com/article/10.1007/BF01547807){:target="_blank"}
 * [The Internalized Homonegativity Inventory for gay men](https://doi.org/10.1300/J082v41n02_04){:target="_blank"}
 * [The Vaccine Hesitancy Scale](https://doi.org/10.1016/j.vaccine.2017.12.043){:target="_blank"}
 * [The preference for solitude scale](https://www.scu.edu/media/college-of-arts-and-sciences/psychology/documents/Burger-JRP-1995.pdf){:target="_blank"}
@@ -158,6 +159,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 * [The Personal Sense of Power Scale](https://doi.org/10.1111/j.1467-6494.2011.00734.x){:target="_blank"}
 * [Pain attitudes and Stoicism/Cautiousness](https://academic.oup.com/psychsocgerontology/article/56/5/P279/634269){:target="_blank"}
 * [The Covid19 phobia scale](https://doi.org/10.1016/j.paid.2020.110108){:target="_blank"}
+* [The Instagram Addiction Scale](https://akjournals.com/view/journals/2006/7/1/article-p158.xml){:target="_blank"}
 * [The Tinder Motives Scale](https://doi.org/10.1016/j.chb.2017.01.028){:target="_blank"}
 
 [This handbook](https://www.taylorfrancis.com/books/handbook-sexuality-related-measures-robin-milhausen-john-sakaluk-terri-fisher-clive-davis-william-yarber/10.4324/9781315183169){:target="_blank"} might offer some further ideas of measures to explore in the context of sexuality.
@@ -168,7 +170,7 @@ Some candidate measures to explore (others to be added soon). You might need to 
 
 The Guardian news paper has a returning column in its weekend edition whereby [people go on a date](https://www.theguardian.com/lifeandstyle/series/blind-date){:target="_blank"}. We are compiling a database on these dates.
 
-In this project you will contribute to the database, and then you can use the database for your project. It allows you to answer questions on for example, whether men or women are more 'choosy'. Why do some people get high ratings and others low ratings?  Are homosexual dates more or less likely to find a match than heterosexual dates?
+In this project you will contribute to the database, and then you can use the database for your project. It allows you to answer questions on for example, whether men or women are more 'choosy'. Why do some people get high ratings and others low ratings? Are homosexual dates more or less likely to find a match than heterosexual dates?
 
 ## Individual differences in Statistical knowledge.
 <a href="#thesis-introduction">back to top</a>
@@ -203,10 +205,10 @@ Together with [Clare Cook](https://www.northumbria.ac.uk/about-us/our-staff/c/cl
 # Projects which I prefer not to supervise.
 <a href="#thesis-introduction">back to top</a>
 
-There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of dislike, but rather because there are others, much better placed, in our department to work with you on these topics. You can reach out to me if you want more information.
+There could be exceptions to the rule but below you'll find a list of topics which I will for various reasons (prefer to) not supervise. Exceptions exist, for example, if you have an extremely good idea for a replication project. I also list some topics here, not because of some dislike, but rather because there are others, much better placed, in our department to work with you on these topics. You can reach out to me if you want more information.
 
 * Projects using a Qualitative methodology. I have no experience with Qualitative methods.
-* Projects involving eye tracking, reaction time measurement, EEG, NIRS, Body Scanning, Virtual reality, hormone measurements. I have no experience with these methods I cannot supervise projects using these methods.
+* Projects involving eye tracking, reaction time measurement, EEG, NIRS, Body Scanning, Virtual reality, hormone measurements. I have no experience with these methods and I feel I cannot adequately supervise projects using these methods.
 * Projects involving 'special populations'. I do not have access to 'special populations', so I cannot supervise projects involving children, vulnerable adults, service users, people with (mental) health diagnoses, or whichever special population you have in mind. However, if you have strong ties with these communities, then perhaps projects on social networks are still viable.
 * Projects in Cognitive Psychology.
 * Projects in Consumer Psychology / Marketing (unless they deal with colour and/or are well thought out replication projects).
@@ -215,7 +217,7 @@ There could be exceptions to the rule but below you'll find a list of topics whi
 * Projects in Organisational Psychology (unless they are dealing with social network analysis)
 * Projects in Parapsychology.
 * Projects in Forensic Psychology or on eye-witness testimony.
-* Projects on COVID19.
+* Projects on COVID19 (but see the example of meta-analysing the reliability of one of these scales).
 * Projects on body image and the media.
 * Projects on nutrition, supplements, aromas.
 * Projects on the 'Dark Triad' of personality (Narcissism, Machiavellianism, Psychopathy).
@@ -223,7 +225,7 @@ There could be exceptions to the rule but below you'll find a list of topics whi
 * Projects on sleep.
 * Projects on attractiveness, face perception, etc. 
 * Projects on birth order (unless they would be replication style projects, especially relating to family relationships).
-* Projects on social media addiction.
+* Projects on social media addiction (but see the example of meta-analysing the reliability of one of these scales).
 * Projects on aggression, violence, rape, sexual violence.
 * Projects on human-animal relationships.
 * Projects on stress and mental health (unless they are dealing with social network analysis).

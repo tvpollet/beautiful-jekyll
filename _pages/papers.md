@@ -19,6 +19,8 @@ Click the number for the corresponding paper to download a copy (it will open in
 
 *Cite at your own risk, feedback welcome*
 
+* Lloyd, A., Brown, G., & **Pollet, T.V.** (2021, June 28th). A meta-analysis of the reliability of the Sexual Self-Esteem Inventory for Women (SSEI-W) measure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/swzm6](https://doi.org/10.31234/osf.io/swzm6)
+
 * Sillence, E., Saxton, T.K., & **Pollet, T.V.** (2021, June 25th). Facebook: Social Uses and Anxiety - A Replication Attempt. _PsyArxiv_ [https://doi.org/10.31234/osf.io/bvgxy](https://doi.org/10.31234/osf.io/bvgxy)
 
 * **Pollet, T.V.**, Thompson, A., Malcolm, C., McCarty, K., Saxton, T.K., & Roberts, S.G.B. (2021, June 17). Are we measuring loneliness in the same way in men and women in the general population and in the older population? Two studies of measurement equivalence. _PsyArxiv_ [https://doi.org/10.31234/osf.io/fpmur](https://doi.org/10.31234/osf.io/fpmur)
@@ -32,8 +34,6 @@ Click the number for the corresponding paper to download a copy (it will open in
 * Thompson, A., Smith, M.A., McNeill, A., & **Pollet, T.V.** (2021, April 21st). Friendships, loneliness and psychological well-being in older adults: A limit to the benefit of increasing the number friendships. _PsyArxiv_ [https://doi.org/10.31234/osf.io/9p8g7](https://doi.org/10.31234/osf.io/9p8g7)
 
 * Szabelska, A., **Pollet, T.V.**, Dujols, O., Klein, R.A., & IJzerman, H. (2021, February 25). A Tutorial for Exploratory Research: An Eight-Step Approach. _PsyArxiv_ [https://doi.org/10.31234/osf.io/cy9mz](https://doi.org/10.31234/osf.io/cy9mz)
-
-* Lloyd, A., Brown, G., & **Pollet, T.V.** (2020, June 18th). A meta-analysis of the reliability of the Sexual Self-Esteem Inventory for Women (SSEI-W) measure. _PsyArxiv_ [https://doi.org/10.31234/osf.io/swzm6](https://doi.org/10.31234/osf.io/swzm6)
 
 * Boothroyd, L.G., **Pollet, T.V.**, Evans, E.H., Yi, Q., & Tovée, M.J. (2018, September 7th). Adaptation-like effects in body weight attractiveness are not simply norm based. _PsyArxiv_ [https://doi.org/10.31234/osf.io/gsnkf](https://doi.org/10.31234/osf.io/gsnkf)
 
