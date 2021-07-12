@@ -98,6 +98,9 @@ There is a detailed guide on power analysis for various designs [here](https://o
 
 If you are running a replication project, we follow the recommendation by [Simonsohn (2015)](https://doi.org/10.1177/0956797614567341){:target="_blank"} and we will take 2.5 times the original study's sample size. You can cite this paper in your ethics application to justify your sample size.
 
+# Experimental Design.
+
+Some of you will use experimental designs for your thesis, I would highly recommend using [this checklist](https://tomstafford.github.io/psy-checklist/){:target="_blank"}.
 
 # Some tips for SPSS.
 
